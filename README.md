@@ -11,6 +11,11 @@ This project would aim to develop and build a working orthotic prototype which c
  
 Strong Memorial Hospital would like their physical therapy staff to be able to use this product with their orthopedic patients during physical therapy sessions within the acute care setting. This will allow physical therapists to more accurately educate patients regarding their weight bearing status, improving patient compliance and decreasing risk of complications after injury.
 
+## Sponsers
+Strong Memorial Hospital<br/>
+Austin Crane<br/>
+Alyssa Reome<br/>
+
 ## Workers
 Braedon Williams, Bio-Medical Engineer, bpw3109@rit.edu<br/>
 Daniel Capra, Eletrical Engineer, dac3781@rit.edu<br/>
