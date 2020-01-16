@@ -12,11 +12,11 @@ This project would aim to develop and build a working orthotic prototype which c
 Strong Memorial Hospital would like their physical therapy staff to be able to use this product with their orthopedic patients during physical therapy sessions within the acute care setting. This will allow physical therapists to more accurately educate patients regarding their weight bearing status, improving patient compliance and decreasing risk of complications after injury.
 
 ## Workers
-Braedon Williams, Bio-Medical Engineer, bpw3109@rit.edu
-Daniel Capra, Eletrical Engineer, dac3781@rit.edu
-Kevin Jones, Industrial Systems Engineer, kmj2243@rit.edu
-Raphael Luo, Eletrical Engineer, jxl6725@rit.edu
-Ethan Tola, Computer Engineer, ext9285@rit.edu
+Braedon Williams, Bio-Medical Engineer, bpw3109@rit.edu<br/>
+Daniel Capra, Eletrical Engineer, dac3781@rit.edu<br/>
+Kevin Jones, Industrial Systems Engineer, kmj2243@rit.edu<br/>
+Raphael Luo, Eletrical Engineer, jxl6725@rit.edu<br/>
+Ethan Tola, Computer Engineer, ext9285@rit.edu<br/>
 
 ## Documentation
 Documentation for this project can be found on (Confluence)[https://wiki.rit.edu/display/P20016/Project+Overview]. This is a live wiki page that is under construction.
