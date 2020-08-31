@@ -1,0 +1,18 @@
+{
+  "dut": {
+    "port": "COM4",
+    "baud_rate": 9600,
+    "device_manufacturer": "arduino",
+    "chip_manufacturer": "avr",
+    "device_name": "nano",
+    "extras": {
+      "cpu": "atmega328old"
+    }
+  },
+  "test_suite": "nano_tests",
+  "tests": [
+    {
+      "name": "bluetooth"
+    }
+  ]
+}
