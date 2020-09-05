@@ -1,5 +1,5 @@
 {
-  "dut": {
+  "nano_dut": {
     "port": "COM4",
     "baud_rate": 9600,
     "device_manufacturer": "arduino",
@@ -9,7 +9,6 @@
       "cpu": "atmega328old"
     }
   },
-  "test_suite": "nano_tests",
   "tests": [
     {
       "name": "bluetooth"
