@@ -4,11 +4,10 @@
 AltSoftSerial BTserial;
 BluetoothTestCommon BTtester;
 
-char buffer[10] = { 0 };
-uint8_t i = 0;
-
 void setup()
 {
+	char buffer[10] = { 0 };
+	uint8_t i = 0;
 	// Setup serial connections
 	Serial.begin(9600);
 	while(!Serial);
