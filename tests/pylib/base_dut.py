@@ -23,6 +23,6 @@ class BaseDut(object):
             "Chip Manufacturer: " + self.chip_manufacturer,
             "Device Name: " + self.device_name,
             "Port: " + self.port,
-            "Baud Rate: " + self.baud_rate,
+            "Baud Rate: " + str(self.baud_rate),
             "Extras: " + str(self.extras),
         ])
