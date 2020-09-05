@@ -1,12 +1,10 @@
 #include "BluetoothTestCommon.h"
 
-char EXIST[2] = "OK";
-
 BluetoothTestCommon::BluetoothTestCommon() {}
 
 uint8_t BluetoothTestCommon::bt_check_exist(char* buffer) {
-    for (int i = 0; i < sizeof(EXIST); i++) {
-        if (buffer[i] != EXIST[i]) return FAILURE;
+    for (int i = 0; i < sizeof(BluetoothTestCommon::EXIST); i++) {
+        if (buffer[i] != BluetoothTestCommon::EXIST[i]) return FAILURE;
     }
     return SUCCESS;
 }

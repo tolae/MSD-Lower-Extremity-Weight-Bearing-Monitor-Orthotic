@@ -10,6 +10,8 @@ class BluetoothTestCommon
         BluetoothTestCommon();
         uint8_t bt_check_exist(char* buffer);
         uint8_t bt_check_connect(char* buffer); 
+    private:
+        static const char EXIST[2] = "OK";
 };
 
 #endif
