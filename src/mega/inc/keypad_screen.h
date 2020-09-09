@@ -1,19 +1,20 @@
 #ifndef KEYPAD_SCREEN_H
 #define KEYPAD_SCREEN_H
 
+#include <GuiLibrary.h>
 #include "screen.h"
 
 class KeypadScreen : Screen
 {
     public:
-        Screen();
+        KeypadScreen();
 
         void load(void *);
         void *unload();
         void update();
     
     private:
-        GuiLabel *string_val;
+        GuiLabel *str_val_lbl;
         GuiButton *button0;
         GuiButton *button1;
         GuiButton *button2;
@@ -26,10 +27,6 @@ class KeypadScreen : Screen
         GuiButton *button9;
         GuiButton *button_bksp;
         GuiButton *button_save;
-
-        const char *input;
-        char output[4] = {0};
-        int counter = 0;
 };
 
 #endif

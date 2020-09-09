@@ -32,6 +32,37 @@
         "reveal": "always",
         "panel": "new"
       }
+    },
+    {
+      "label": "Compile to Arduino Mega 2560 Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile --fqbn arduino:avr:mega:cpu=atmega2560 ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Upload to Arduino Mega 2560 Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe upload -p ${input:port} --fqbn arduino:avr:mega:cpu=atmega2560 ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Compile & Upload to Arduino Mega 2560 Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:mega:cpu=atmega2560 ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
     }
   ],
   "inputs": [

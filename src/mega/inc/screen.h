@@ -4,7 +4,7 @@
 class Screen
 {
     public:
-        virtual Screen() = 0;
+        Screen();
 
         virtual void load(void *) = 0;
         virtual void * unload() = 0;

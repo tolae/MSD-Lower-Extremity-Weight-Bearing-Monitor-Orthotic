@@ -34,9 +34,8 @@
 
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <SPI.h>
-#include "Adafruit_HX8357.h"
-#include "TouchScreen.h"
-#include "GuiLibrary.h"
+#include <Adafruit_HX8357.h>
+#include <TouchScreen.h>
 #include "inc/screen_manager.h"
 #include "inc/keypad_screen.h"
 
@@ -54,7 +53,7 @@ TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 Gui gui(&tft, &ts, 0, 0, tft.height(), tft.width());
 
 GuiMultiLineTextBox* textbox = new GuiMultiLineTextBox(150, 0, 100, 200);
-KeypadScreen keypad_screen = new KeypadScreen();
+KeypadScreen* keypad_screen = new KeypadScreen();
 
 void setup(void) {
  // while (!Serial);     // used for leonardo debugging
@@ -68,7 +67,7 @@ void setup(void) {
   gui.setRotation(270);
 
   // build some widgets
-  keypad_screen.load();
+  keypad_screen->load("000");
 
   return;  
 }
@@ -79,6 +78,6 @@ void loop()
   // this has to be called to keep the system up to date
   gui.update();
 
-  keypad_screen.update();
+  keypad_screen->update();
   return;
 }

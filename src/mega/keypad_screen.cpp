@@ -1,12 +1,17 @@
 #include <Arduino.h>
+#include "inc/mega.h"
 #include "inc/keypad_screen.h"
 
-uint8_t callback_function(void *a, GuiElement *element, uint8_t event);
+const char *input;
+char str_val_lbl_text[4] = "000";
+int str_val_lbl_text_ctr = 0;
+
+uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event);
 
 KeypadScreen::KeypadScreen()
 {
-    string_val = new GuiLabel(60, 0, 360, 60, "000");
-    string_val->textAlignH = TEXT_H_ALIGN_RIGHT;
+    str_val_lbl = new GuiLabel(60, 0, 360, 60, str_val_lbl_text);
+    str_val_lbl->textAlignH = TEXT_H_ALIGN_RIGHT;
     button7 = new GuiButton(60, 80, 120, 60, "7"); //(x,y,width,height,text)
     button8 = new GuiButton(180, 80, 120, 60, "8");
     button9 = new GuiButton(300, 80, 120, 60, "9");
@@ -21,24 +26,26 @@ KeypadScreen::KeypadScreen()
     button_bksp = new GuiButton(300, 260, 120, 60, "<-");
 
     // hook up the callback function defined above to the button so we can track clicks
-    button7->connectCallback(callback_function);
-    button8->connectCallback(callback_function);
-    button9->connectCallback(callback_function);
-    button4->connectCallback(callback_function);
-    button5->connectCallback(callback_function);
-    button6->connectCallback(callback_function);
-    button1->connectCallback(callback_function);
-    button2->connectCallback(callback_function);
-    button3->connectCallback(callback_function);
-    button_save->connectCallback(callback_function);
-    button0->connectCallback(callback_function);
-    button_bksp->connectCallback(callback_function);
+    button7->connectCallback(btn_callback_function);
+    button8->connectCallback(btn_callback_function);
+    button9->connectCallback(btn_callback_function);
+    button4->connectCallback(btn_callback_function);
+    button5->connectCallback(btn_callback_function);
+    button6->connectCallback(btn_callback_function);
+    button1->connectCallback(btn_callback_function);
+    button2->connectCallback(btn_callback_function);
+    button3->connectCallback(btn_callback_function);
+    button_save->connectCallback(btn_callback_function);
+    button0->connectCallback(btn_callback_function);
+    button_bksp->connectCallback(btn_callback_function);
 }
 
 void KeypadScreen::load(void * params)
 {
+    strcpy(str_val_lbl_text, (const char *)params);
+    str_val_lbl->text(str_val_lbl_text);
     // finally add the widgt to the page
-    gui.addChild(string_val);
+    gui.addChild(str_val_lbl);
     gui.addChild(button7);
     gui.addChild(button8);
     gui.addChild(button9);
@@ -57,7 +64,7 @@ void KeypadScreen::load(void * params)
 
 void * KeypadScreen::unload()
 {
-    return (void *)output;
+    return (void *)str_val_lbl->text();
 }
 
 void KeypadScreen::update()
@@ -66,35 +73,35 @@ void KeypadScreen::update()
 }
 
 // This will be called when the button is pressed or released
-uint8_t callback_function(void *a, GuiElement *element, uint8_t event) {
+uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
   if (event == GUI_EVENT_PRESS)
   {
     
   }
   else if (event == GUI_EVENT_RELEASE)
   {
-    if (counter <= 3)
+    if (str_val_lbl_text_ctr <= 3)
     {
       input = ((GuiButton*)element)->text();
       if (input == "<-") {
-        if (counter <= 0)
+        if (str_val_lbl_text_ctr <= 0)
         {
-          counter = 0;
+          str_val_lbl_text_ctr = 0;
         }
         else
         {
-          output[--counter] = '\0';
+          str_val_lbl_text[--str_val_lbl_text_ctr] = '\0';
         }
       }
       else
       {
-        if (counter < 3)
+        if (str_val_lbl_text_ctr < 3)
         {
-          output[counter++] = input[0];
+          str_val_lbl_text[str_val_lbl_text_ctr++] = input[0];
         }
       }
-      Serial.println(output);
-      ((GuiLabel*)string_val)->text(output);
+      Serial.println(str_val_lbl_text);
+      // str_val_lbl->draw();
     }
   }
   return 0;
