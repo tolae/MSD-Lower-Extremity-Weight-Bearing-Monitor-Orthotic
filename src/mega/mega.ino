@@ -67,7 +67,7 @@ void setup(void) {
   gui.setRotation(270);
 
   // build some widgets
-  keypad_screen->load("000");
+  keypad_screen->load("0");
 
   return;  
 }

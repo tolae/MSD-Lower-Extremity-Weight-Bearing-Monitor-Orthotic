@@ -2,8 +2,9 @@
 #include "inc/mega.h"
 #include "inc/keypad_screen.h"
 
+extern KeypadScreen* keypad_screen;
 const char *input;
-char str_val_lbl_text[4] = "000";
+char str_val_lbl_text[4] = "\0\0\0";
 int str_val_lbl_text_ctr = 0;
 
 uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event);
@@ -40,7 +41,7 @@ KeypadScreen::KeypadScreen()
     button_bksp->connectCallback(btn_callback_function);
 }
 
-void KeypadScreen::load(void * params)
+void KeypadScreen::load(const void * params)
 {
     strcpy(str_val_lbl_text, (const char *)params);
     str_val_lbl->text(str_val_lbl_text);
@@ -69,6 +70,7 @@ void * KeypadScreen::unload()
 
 void KeypadScreen::update()
 {
+    // str_val_lbl->draw();
     return; // Nothing to do
 }
 
@@ -87,10 +89,14 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
         if (str_val_lbl_text_ctr <= 0)
         {
           str_val_lbl_text_ctr = 0;
+          return 0;
         }
         else
         {
           str_val_lbl_text[--str_val_lbl_text_ctr] = '\0';
+          if(str_val_lbl_text_ctr <= 0){
+            str_val_lbl_text[str_val_lbl_text_ctr] = '0';
+          }
         }
       }
       else
@@ -101,7 +107,7 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
         }
       }
       Serial.println(str_val_lbl_text);
-      // str_val_lbl->draw();
+      keypad_screen->str_val_lbl->draw();
     }
   }
   return 0;

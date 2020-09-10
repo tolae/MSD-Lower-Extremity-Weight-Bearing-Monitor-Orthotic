@@ -9,11 +9,10 @@ class KeypadScreen : Screen
     public:
         KeypadScreen();
 
-        void load(void *);
+        void load(const void *);
         void *unload();
         void update();
-    
-    private:
+
         GuiLabel *str_val_lbl;
         GuiButton *button0;
         GuiButton *button1;
