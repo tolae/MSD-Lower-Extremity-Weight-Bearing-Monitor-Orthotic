@@ -13,6 +13,7 @@ KeypadScreen::KeypadScreen()
 {
     str_val_lbl = new GuiLabel(60, 0, 360, 60, str_val_lbl_text);
     str_val_lbl->textAlignH = TEXT_H_ALIGN_RIGHT;
+    str_val_lbl->fontSize(6);
     button7 = new GuiButton(60, 80, 120, 60, "7"); //(x,y,width,height,text)
     button8 = new GuiButton(180, 80, 120, 60, "8");
     button9 = new GuiButton(300, 80, 120, 60, "9");
@@ -98,6 +99,9 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
             str_val_lbl_text[str_val_lbl_text_ctr] = '0';
           }
         }
+      }
+      else if((str_val_lbl_text_ctr <=0) & (input == "0")){
+        return 0;
       }
       else
       {
