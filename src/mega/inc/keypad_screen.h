@@ -4,10 +4,10 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
-class KeypadScreen : Screen
+class KeypadScreen : public Screen
 {
     public:
-        KeypadScreen();
+        KeypadScreen(int16_t x, int16_t y, int16_t width, int16_t height);
 
         void load(const void *);
         void *unload();

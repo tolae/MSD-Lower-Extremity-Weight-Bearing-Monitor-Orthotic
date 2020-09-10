@@ -53,7 +53,7 @@ TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 Gui gui(&tft, &ts, 0, 0, tft.height(), tft.width());
 
 GuiMultiLineTextBox* textbox = new GuiMultiLineTextBox(150, 0, 100, 200);
-KeypadScreen* keypad_screen = new KeypadScreen();
+KeypadScreen* keypad_screen = new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY);
 
 void setup(void) {
  // while (!Serial);     // used for leonardo debugging
@@ -69,9 +69,12 @@ void setup(void) {
   // build some widgets
   keypad_screen->load("0");
 
+  gui.addChild(keypad_screen);
+
+  gui.draw();
+
   return;  
 }
-
 
 void loop()
 {

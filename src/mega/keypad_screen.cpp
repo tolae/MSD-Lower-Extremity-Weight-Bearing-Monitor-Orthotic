@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include "inc/mega.h"
 #include "inc/keypad_screen.h"
 
 const char *input;
@@ -8,8 +7,13 @@ int str_val_lbl_text_ctr = 0;
 
 uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event);
 
-KeypadScreen::KeypadScreen()
+KeypadScreen::KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
+    x = _x;
+    y = _y;
+    width = _width;
+    height = _height;
+
     str_val_lbl = new GuiLabel(60, 0, 360, 60, str_val_lbl_text);
     str_val_lbl->textAlignH = TEXT_H_ALIGN_RIGHT;
     str_val_lbl->fontSize(6);
@@ -39,28 +43,26 @@ KeypadScreen::KeypadScreen()
     button_save->connectCallback(btn_callback_function, this);
     button0->connectCallback(btn_callback_function, this);
     button_bksp->connectCallback(btn_callback_function, this);
+    // finally add the widgt to the page
+    GuiElement::addChild((GuiElement *)str_val_lbl);
+    GuiElement::addChild((GuiElement *)button7);
+    GuiElement::addChild((GuiElement *)button8);
+    GuiElement::addChild((GuiElement *)button9);
+    GuiElement::addChild((GuiElement *)button4);
+    GuiElement::addChild((GuiElement *)button5);
+    GuiElement::addChild((GuiElement *)button6);
+    GuiElement::addChild((GuiElement *)button1);
+    GuiElement::addChild((GuiElement *)button2);
+    GuiElement::addChild((GuiElement *)button3);
+    GuiElement::addChild((GuiElement *)button_save);
+    GuiElement::addChild((GuiElement *)button0);
+    GuiElement::addChild((GuiElement *)button_bksp);
 }
 
 void KeypadScreen::load(const void * params)
 {
     strcpy(str_val_lbl_text, (const char *)params);
     str_val_lbl->text(str_val_lbl_text);
-    // finally add the widgt to the page
-    gui.addChild(str_val_lbl);
-    gui.addChild(button7);
-    gui.addChild(button8);
-    gui.addChild(button9);
-    gui.addChild(button4);
-    gui.addChild(button5);
-    gui.addChild(button6);
-    gui.addChild(button1);
-    gui.addChild(button2);
-    gui.addChild(button3);
-    gui.addChild(button_save);
-    gui.addChild(button0);
-    gui.addChild(button_bksp);
-
-    gui.draw();
 }
 
 void * KeypadScreen::unload()
