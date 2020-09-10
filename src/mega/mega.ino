@@ -52,8 +52,12 @@ TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 // needs reference to the tft and the touchscreen
 Gui gui(&tft, &ts, 0, 0, tft.height(), tft.width());
 
-GuiMultiLineTextBox* textbox = new GuiMultiLineTextBox(150, 0, 100, 200);
-KeypadScreen* keypad_screen = new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY);
+const Screen* SCREENS[] = 
+{
+  new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY),
+};
+
+ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
  // while (!Serial);     // used for leonardo debugging
@@ -66,14 +70,17 @@ void setup(void) {
   // in multiples of 90 only (duh)
   gui.setRotation(270);
 
-  // build some widgets
-  keypad_screen->load("0");
-
-  gui.addChild(keypad_screen);
+  for (int i = 0; i < sizeof(SCREENS) / sizeof(char*); i++)
+  {
+    Screen* screen = SCREENS[i];
+    screen->visible(false);
+    gui.addChild(screen);
+  }
+  screen_manager->init_screen(SCREENS[0], "0");
 
   gui.draw();
 
-  return;  
+  return;
 }
 
 void loop()
@@ -81,6 +88,5 @@ void loop()
   // this has to be called to keep the system up to date
   gui.update();
 
-  keypad_screen->update();
   return;
 }

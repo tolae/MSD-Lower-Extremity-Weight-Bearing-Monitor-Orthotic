@@ -6,4 +6,6 @@
 
 extern Gui gui;
 
+extern const Screen* SCREENS[];
+
 #endif
