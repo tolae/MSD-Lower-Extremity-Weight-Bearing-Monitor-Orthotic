@@ -19,6 +19,11 @@ Screen* ScreenManager::get_current_screen()
     return current_screen;
 }
 
+void ScreenManager::init_screen(Screen* first_screen)
+{
+    init_screen(first_screen, NULL);
+}
+
 void ScreenManager::init_screen(Screen* first_screen, void* data)
 {
     first_screen->load(data);

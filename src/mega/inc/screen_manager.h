@@ -10,6 +10,7 @@ class ScreenManager
 
         void update();
         Screen* get_current_screen();
+        void init_screen(Screen*);
         void init_screen(Screen*, void*);
         void switch_screen(Screen*);
     
