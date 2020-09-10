@@ -5,6 +5,5 @@
 #include "keypad_screen.h"
 
 extern Gui gui;
-extern KeypadScreen * keypad_screen;
 
 #endif

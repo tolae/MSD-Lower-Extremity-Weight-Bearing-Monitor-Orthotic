@@ -2,7 +2,6 @@
 #include "inc/mega.h"
 #include "inc/keypad_screen.h"
 
-extern KeypadScreen* keypad_screen;
 const char *input;
 char str_val_lbl_text[4] = "\0\0\0";
 int str_val_lbl_text_ctr = 0;
@@ -28,18 +27,18 @@ KeypadScreen::KeypadScreen()
     button_bksp = new GuiButton(300, 260, 120, 60, "<-");
 
     // hook up the callback function defined above to the button so we can track clicks
-    button7->connectCallback(btn_callback_function);
-    button8->connectCallback(btn_callback_function);
-    button9->connectCallback(btn_callback_function);
-    button4->connectCallback(btn_callback_function);
-    button5->connectCallback(btn_callback_function);
-    button6->connectCallback(btn_callback_function);
-    button1->connectCallback(btn_callback_function);
-    button2->connectCallback(btn_callback_function);
-    button3->connectCallback(btn_callback_function);
-    button_save->connectCallback(btn_callback_function);
-    button0->connectCallback(btn_callback_function);
-    button_bksp->connectCallback(btn_callback_function);
+    button7->connectCallback(btn_callback_function, this);
+    button8->connectCallback(btn_callback_function, this);
+    button9->connectCallback(btn_callback_function, this);
+    button4->connectCallback(btn_callback_function, this);
+    button5->connectCallback(btn_callback_function, this);
+    button6->connectCallback(btn_callback_function, this);
+    button1->connectCallback(btn_callback_function, this);
+    button2->connectCallback(btn_callback_function, this);
+    button3->connectCallback(btn_callback_function, this);
+    button_save->connectCallback(btn_callback_function, this);
+    button0->connectCallback(btn_callback_function, this);
+    button_bksp->connectCallback(btn_callback_function, this);
 }
 
 void KeypadScreen::load(const void * params)
@@ -71,12 +70,13 @@ void * KeypadScreen::unload()
 
 void KeypadScreen::update()
 {
-    // str_val_lbl->draw();
     return; // Nothing to do
 }
 
 // This will be called when the button is pressed or released
 uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
+  KeypadScreen* keypad_screen = (KeypadScreen *)a;
+
   if (event == GUI_EVENT_PRESS)
   {
     
