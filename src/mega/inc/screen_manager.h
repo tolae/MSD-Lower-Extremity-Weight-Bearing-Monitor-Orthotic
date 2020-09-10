@@ -10,13 +10,10 @@ class ScreenManager
 
         void update();
         Screen* get_current_screen();
-        void switch_screen(Screen*);
-        void switch_screen_params(Screen*, void*);
+        void switch_screen(Screen*, Screen*);
     
     private:
         Screen* current_screen;
 };
-
-extern ScreenManager scrn_mngr;
 
 #endif
