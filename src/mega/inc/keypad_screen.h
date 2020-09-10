@@ -10,7 +10,7 @@ class KeypadScreen : public Screen
         KeypadScreen(int16_t x, int16_t y, int16_t width, int16_t height);
 
         void load(const void *);
-        void *unload();
+        const void *unload();
         void update();
 
         GuiLabel *str_val_lbl;

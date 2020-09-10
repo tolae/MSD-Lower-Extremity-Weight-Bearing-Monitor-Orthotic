@@ -65,9 +65,9 @@ void KeypadScreen::load(const void * params)
     str_val_lbl->text(str_val_lbl_text);
 }
 
-void * KeypadScreen::unload()
+const void * KeypadScreen::unload()
 {
-    return (void *)str_val_lbl->text();
+    return (const void *)str_val_lbl->text();
 }
 
 void KeypadScreen::update()
