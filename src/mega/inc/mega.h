@@ -2,10 +2,12 @@
 #define MEGA_H
 
 #include <GuiLibrary.h>
-#include "keypad_screen.h"
+#include "screen.h"
+#include "screen_manager.h"
 
 extern Gui gui;
 
+extern ScreenManager* screen_manager;
 extern const Screen* SCREENS[];
 
 #endif

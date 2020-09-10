@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "inc/mega.h"
 #include "inc/keypad_screen.h"
 
 const char *input;
@@ -61,8 +62,20 @@ KeypadScreen::KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _heig
 
 void KeypadScreen::load(const void * params)
 {
-    strcpy(str_val_lbl_text, (const char *)params);
-    str_val_lbl->text(str_val_lbl_text);
+    if (params != NULL)
+    {
+        KeypadLoadData* data = (KeypadLoadData*)params;
+        strcpy(str_val_lbl_text, (const char*)(data->init_str_val_lbl_txt));
+        str_val_lbl->text(str_val_lbl_text);
+
+        calling_screen = data->calling_screen;
+    }
+    else
+    {
+      strcpy(str_val_lbl_text, "0");
+      str_val_lbl->text(str_val_lbl_text);
+      calling_screen = NULL;
+    }
 }
 
 const void * KeypadScreen::unload()
@@ -102,7 +115,12 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
           }
         }
       }
-      else if((str_val_lbl_text_ctr <=0) & (input == "0")){
+      else if (input == "Save")
+      {
+        screen_manager->switch_screen(keypad_screen->calling_screen);
+      }
+      else if ((str_val_lbl_text_ctr <=0) & (input == "0"))
+      {
         return 0;
       }
       else

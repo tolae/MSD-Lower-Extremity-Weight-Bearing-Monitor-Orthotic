@@ -55,6 +55,7 @@ Gui gui(&tft, &ts, 0, 0, tft.height(), tft.width());
 const Screen* SCREENS[] = 
 {
   new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY),
+  new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY),
 };
 
 ScreenManager* screen_manager = new ScreenManager();
@@ -76,7 +77,8 @@ void setup(void) {
     screen->visible(false);
     gui.addChild(screen);
   }
-  screen_manager->init_screen(SCREENS[0], "0");
+  KeypadLoadData* data = new KeypadLoadData(SCREENS[1], "0");
+  screen_manager->init_screen(SCREENS[0], data);
 
   gui.draw();
 

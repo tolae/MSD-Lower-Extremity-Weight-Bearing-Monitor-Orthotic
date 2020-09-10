@@ -4,6 +4,18 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
+class KeypadLoadData
+{
+    public:
+        Screen* calling_screen;
+        char* init_str_val_lbl_txt;
+
+        KeypadLoadData(Screen* screen, char* txt) :
+            calling_screen(screen),
+            init_str_val_lbl_txt(txt)
+            {}
+};
+
 class KeypadScreen : public Screen
 {
     public:
@@ -26,6 +38,8 @@ class KeypadScreen : public Screen
         GuiButton *button9;
         GuiButton *button_bksp;
         GuiButton *button_save;
+
+        Screen* calling_screen;
 };
 
 #endif
