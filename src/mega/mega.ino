@@ -38,6 +38,7 @@
 #include <TouchScreen.h>
 #include "inc/screen_manager.h"
 #include "inc/keypad_screen.h"
+#include "inc/home_screen.h"
 
 
 // Use hardware SPI (on Uno, #13, #12, #11) and the above for CS/DC
