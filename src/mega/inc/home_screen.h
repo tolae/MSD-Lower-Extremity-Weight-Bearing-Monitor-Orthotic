@@ -71,22 +71,17 @@ public:
         /** The label for the foot orthotic's battery life. */
         GuiLabel* str_val_FS;
 
-class HomeScreen : public Screen
-{
-public:
-    HomeScreen(int16_t x, int16_t y, int16_t width, int16_t height);
+        /** The label for the currently applied weight percentage. */
+        GuiLabel* str_val_Percentage;
 
-    void load(const void*);
-    void* unload();
-    void update();
+        /** The label for the currently set weight. */
+        GuiLabel* str_val_Weight;
 
-    GuiLabel* str_val_TS;
-    GuiLabel* str_val_FS;
-    GuiLabel* str_val_Percentage;
-    GuiLabel* str_val_Weight;
-    GuiLabel* str_val_Tolerance;
-    GuiButton* buttonSettings;
+        /** The label for the currently set tolerance. */
+        GuiLabel* str_val_Tolerance;
 
+        /** Transitions to the SettingsScreen. */
+        GuiButton* buttonSettings;
 };
 
 #endif
