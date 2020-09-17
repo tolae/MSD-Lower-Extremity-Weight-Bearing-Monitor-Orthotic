@@ -1,12 +1,12 @@
 /***************************************************
-  Example showing a list of elements, some enabled, some disabled some touch enabled
+	Example showing a list of elements, some enabled, some disabled some touch enabled
 
-  NOTE: screeen rotation is set to 270 degrees. Don't worry, the touchscreen will map
-  correctly.
+	NOTE: screeen rotation is set to 270 degrees. Don't worry, the touchscreen will map
+	correctly.
 
-  Uses Adafruit TFT library for the example:
-  Written by Limor Fried/Ladyada for Adafruit Industries.
-  MIT license, all text above must be included in any redistribution
+	Uses Adafruit TFT library for the example:
+	Written by Limor Fried/Ladyada for Adafruit Industries.
+	MIT license, all text above must be included in any redistribution
  ****************************************************/
 
 /** NOT FOR USE WITH THE TOUCH SHIELD, ONLY FOR THE BREAKOUT! **/
@@ -84,32 +84,12 @@ void setup(void) {
 	gui.draw();
 
 	return;
-//   Serial.begin(115200);
-//   delay(1000);
-//   Serial.println(F("Gui Widgets test!"));
-  
-//   tft.begin();
-//   // in multiples of 90 only (duh)
-//   gui.setRotation(270);
-
-//   for (int i = 0; i < sizeof(SCREENS) / sizeof(char*); i++)
-//   {
-//     Screen* screen = SCREENS[i];
-//     screen->visible(false);
-//     gui.addChild(screen);
-//   }
-//   KeypadLoadData* data = new KeypadLoadData(SCREENS[0], "0");
-//   screen_manager->init_screen(SCREENS[1], data);
-
-//   gui.draw();
-
-//   return;
 }
 
 void loop()
 {
-  // this has to be called to keep the system up to date
-  gui.update();
+	// this has to be called to keep the system up to date
+	gui.update();
 
-  return;
+	return;
 }
