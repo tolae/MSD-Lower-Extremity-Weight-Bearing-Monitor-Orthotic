@@ -4,10 +4,22 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
-class HomeScreen : Screen
+class HomeLoadData
 {
 public:
-    HomeScreen();
+    uint32_t weight;
+    uint32_t tolerance;
+
+    HomeLoadData(uint32_t w, uint32_t t) :
+        weight(w),
+        tolerance(t)
+    {}
+};
+
+class HomeScreen : public Screen
+{
+public:
+    HomeScreen(int16_t x, int16_t y, int16_t width, int16_t height);
 
     void load(const void*);
     void* unload();
