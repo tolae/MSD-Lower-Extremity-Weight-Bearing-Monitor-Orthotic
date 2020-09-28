@@ -66,6 +66,7 @@ const void* HomeScreen::unload()
 
 void HomeScreen::update()
 {
+	//for(i=0
 	Serial.println(str_val_lbl_text1);
 	strcpy(str_val_lbl_text1, "AAA");
 	str_val_Percentage->foregroundColour = COLOR_BLACK;

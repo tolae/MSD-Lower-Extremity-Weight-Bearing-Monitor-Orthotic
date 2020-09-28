@@ -3,6 +3,9 @@
 #include "inc/settings_screen.h"
 
 const char* input2;
+int haptic = 0;
+int auditory = 0;
+
 
 
 uint8_t btn_callback_function_settings(void* a, GuiElement* element, uint8_t event);
@@ -90,10 +93,25 @@ uint8_t btn_callback_function_settings(void* a, GuiElement* element, uint8_t eve
 			screen_manager->switch_screen(SCREENS[0]);
 		}
 		else if (input2 == "Auditory") {
-			screen_manager->switch_screen(SCREENS[0]);
+			if(auditory == 0){
+				((GuiButton*)element)->setBackground(COLOR_WHITE);
+				auditory = 1;
+			}
+			else{
+				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
+				auditory = 0;
+			}
+			
 		}
 		else if (input2 == "Haptic") {
-			screen_manager->switch_screen(SCREENS[0]);
+			if(haptic == 0){
+				((GuiButton*)element)->setBackground(COLOR_WHITE);
+				haptic = 1;
+			}
+			else{
+				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
+				haptic = 0;
+			}
 		}
 		else {
 			screen_manager->switch_screen(SCREENS[1]);
