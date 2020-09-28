@@ -4,16 +4,35 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
+/**
+ * @brief The data to load the home screen with.
+ * 
+ */
 class HomeLoadData
 {
-public:
-    uint32_t weight;
-    uint32_t tolerance;
+    public:
+        /**
+         * @brief The weight input of the user.
+         * 
+         */
+        uint32_t weight;
 
-    HomeLoadData(uint32_t w, uint32_t t) :
-        weight(w),
-        tolerance(t)
-    {}
+        /**
+         * @brief The percentage of the user's weight that the user cannot exceed.
+         * 
+         */
+        uint32_t tolerance;
+
+        /**
+         * @brief Construct a new Home Load Data object
+         * 
+         * @param w The weight input
+         * @param t The tolerance input
+         */
+        HomeLoadData(uint32_t w, uint32_t t) :
+            weight(w),
+            tolerance(t)
+        {}
 };
 
 /**
