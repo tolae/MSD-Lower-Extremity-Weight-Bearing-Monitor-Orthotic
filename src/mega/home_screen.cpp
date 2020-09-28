@@ -22,8 +22,8 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 	str_val_FS = new GuiLabel(380, 10, 60, 60, "FS 100%");
 	str_val_FS->textAlignH = TEXT_H_ALIGN_CENTRE;
 	str_val_FS->fontSize(3);
-	str_val_Percentage = new GuiLabel(240, 140, 60, 60, "50%");
-	str_val_Percentage->textAlignH = TEXT_H_ALIGN_CENTRE;
+	str_val_Percentage = new GuiLabel(240, 140, 60, 60, "\0");
+	str_val_Percentage->textAlignH = TEXT_H_ALIGN_LEFT;
 	str_val_Percentage->fontSize(12);
 	str_val_Weight = new GuiLabel(120, 260, 60, 60, "Weight");
 	str_val_Weight->textAlignH = TEXT_H_ALIGN_CENTRE;
@@ -46,7 +46,6 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 
 void HomeScreen::load(const void* params)
 {
-	
 	if (params != NULL)
 	{
 		HomeLoadData* data = (HomeLoadData*)params;
@@ -67,6 +66,16 @@ const void* HomeScreen::unload()
 
 void HomeScreen::update()
 {
+	Serial.println(str_val_lbl_text1);
+	strcpy(str_val_lbl_text1, "AAA");
+	str_val_Percentage->foregroundColour = COLOR_BLACK;
+	str_val_Percentage->text(str_val_lbl_text1);
+	//Serial.println(k);
+	tft.drawCircle(60, 160, 40, COLOR_GREEN);
+	tft.fillCircle(60, 160, 40, COLOR_GREEN);
+	delay(500);
+	str_val_Percentage->foregroundColour = COLOR_DARKGREY;
+	str_val_Percentage->draw();
 	return; // Nothing to do
 }
 
@@ -75,12 +84,13 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event) 
 	if (event == GUI_EVENT_PRESS)
 	{
 		input1 = ((GuiButton*)element)->text();
+		
 	}
 	else if (event == GUI_EVENT_RELEASE)
 	{
 		if (input1 == "Settings")
 		{
-			screen_manager->switch_screen(SCREENS[0]);
+			screen_manager->switch_screen(SCREENS[2]);
 		}
 
 	}

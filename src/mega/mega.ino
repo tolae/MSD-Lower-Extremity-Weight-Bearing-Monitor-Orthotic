@@ -39,6 +39,7 @@
 #include "inc/screen_manager.h"
 #include "inc/keypad_screen.h"
 #include "inc/home_screen.h"
+#include "inc/settings_screen.h"
 
 
 // Use hardware SPI (on Uno, #13, #12, #11) and the above for CS/DC
@@ -56,7 +57,8 @@ Gui gui(&tft, &ts, 0, 0, tft.height(), tft.width());
 const Screen* SCREENS[] = 
 {
   new KeypadScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY),
-  new HomeScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY)
+  new HomeScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY),
+  new SettingsScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY)
 };
 
 ScreenManager* screen_manager = new ScreenManager();
@@ -78,11 +80,14 @@ void setup(void) {
 		screen->visible(false);
 		gui.addChild(screen);
 	}
-
+//
+//	Screen* screen = SCREENS[2];
+//	gui.addChild(screen);
 	screen_manager->init_screen(SCREENS[1]);
-
+	
 	gui.draw();
 
+	
 	return;
 }
 
@@ -90,6 +95,7 @@ void loop()
 {
 	// this has to be called to keep the system up to date
 	gui.update();
+	screen_manager->update();
 
 	return;
 }

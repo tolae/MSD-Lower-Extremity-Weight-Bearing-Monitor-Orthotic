@@ -118,7 +118,7 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
 			}
 			else if (input == "Save")
 			{
-				screen_manager->switch_screen(keypad_screen->calling_screen);
+				screen_manager->switch_screen(SCREENS[2]);
 			}
 			else if ((str_val_lbl_text_ctr <=0) & (input == "0"))
 			{
