@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "inc/mega.h"
 #include "inc/keypad_screen.h"
+#include "inc/settings_screen.h"
 
 const char *input;
 char str_val_lbl_text[4] = "\0\0\0";
@@ -27,8 +28,8 @@ KeypadScreen::KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _heig
 	button1 = new GuiButton(60, 200, 120, 60, "1");
 	button2 = new GuiButton(180, 200, 120, 60, "2");
 	button3 = new GuiButton(300, 200, 120, 60, "3");
-	button_save = new GuiButton(60, 260, 120, 60, "Save");
 	button0 = new GuiButton(180, 260, 120, 60, "0");
+	button_save = new GuiButton(60, 260, 120, 60, "Save");
 	button_bksp = new GuiButton(300, 260, 120, 60, "<-");
 
 	// hook up the callback function defined above to the button so we can track clicks
@@ -66,6 +67,8 @@ void KeypadScreen::load(const BaseLoadData* params)
 	{
 		KeypadLoadData* data = (KeypadLoadData*)params;
 		strcpy(str_val_lbl_text, (const char*)(data->init_str_val_lbl_txt));
+		str_val_lbl_text[3] = '\0';
+		str_val_lbl_text_ctr = strlen(str_val_lbl_text);
 		str_val_lbl->text(str_val_lbl_text);
 
 		calling_screen = data->calling_screen;
@@ -74,13 +77,14 @@ void KeypadScreen::load(const BaseLoadData* params)
 	{
 		strcpy(str_val_lbl_text, "0");
 		str_val_lbl->text(str_val_lbl_text);
+		str_val_lbl_text_ctr = 1;
 		calling_screen = NULL;
 	}
 }
 
 const BaseLoadData* KeypadScreen::unload()
 {
-	return (const BaseLoadData*)str_val_lbl->text();
+	return new SettingsLoadData(str_val_lbl->text());
 }
 
 void KeypadScreen::update()

@@ -66,6 +66,26 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 
 void SettingsScreen::load(const BaseLoadData* params)
 {
+	if (params != (void *)NULL)
+	{
+		SettingsLoadData* data = (SettingsLoadData*)params;
+		if (update_label == Label::WEIGHT)
+		{
+			buttonWeight->text(data->init_str_val_lbl_txt);
+		}
+		else if (update_label == Label::TOLERANCE)
+		{
+			buttonTolerance->text(data->init_str_val_lbl_txt);
+		}
+		else if (update_label == Label::VOLUME)
+		{
+			buttonVolume->text(data->init_str_val_lbl_txt);
+		}
+		else if (update_label == Label::VIBRATION)
+		{
+			buttonVibration->text(data->init_str_val_lbl_txt);
+		}
+	}
 }
 
 const BaseLoadData* SettingsScreen::unload()
