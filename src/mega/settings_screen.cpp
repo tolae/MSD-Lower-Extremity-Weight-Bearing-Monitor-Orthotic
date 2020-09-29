@@ -18,17 +18,21 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 	auditory = 0;
 
 	str_val_weight = new GuiLabel(20, 20, 60, 60, "Weight");
-	buttonWeight = new GuiButton(140, 20, 100, 60, "200");
+	strcpy(button_weight_str, "200");
+	buttonWeight = new GuiButton(140, 20, 100, 60, button_weight_str);
 	buttonWeight->value(Label::WEIGHT);
 	str_val_volume = new GuiLabel(250, 20, 60, 60, "Volume");
-	buttonVolume = new GuiButton(360, 20, 100, 60, "%");
+	strcpy(button_volume_str, "0");
+	buttonVolume = new GuiButton(360, 20, 100, 60, button_volume_str);
 	buttonVolume->value(Label::VOLUME);
 
 	str_val_tolerance = new GuiLabel(20, 90, 60, 60, "Tolerance");
-	buttonTolerance = new GuiButton(140, 90, 100, 60, "50");
+	strcpy(button_tolerance_str, "50");
+	buttonTolerance = new GuiButton(140, 90, 100, 60, button_tolerance_str);
 	buttonTolerance->value(Label::TOLERANCE);
 	str_val_vibration = new GuiLabel(250, 90, 60, 60, "Vibration");
-	buttonVibration = new GuiButton(360, 90, 100, 60, "%");
+	strcpy(button_vibration_str, "0");
+	buttonVibration = new GuiButton(360, 90, 100, 60, button_vibration_str);
 	buttonVibration->value(Label::VIBRATION);
 
 	str_val_feedback = new GuiLabel(20, 160, 60, 60, "Feedback");
@@ -71,19 +75,19 @@ void SettingsScreen::load(const BaseLoadData* params)
 		SettingsLoadData* data = (SettingsLoadData*)params;
 		if (update_label == Label::WEIGHT)
 		{
-			buttonWeight->text(data->init_str_val_lbl_txt);
+			strcpy(button_weight_str, data->init_str_val_lbl_txt);
 		}
 		else if (update_label == Label::TOLERANCE)
 		{
-			buttonTolerance->text(data->init_str_val_lbl_txt);
+			strcpy(button_tolerance_str, data->init_str_val_lbl_txt);
 		}
 		else if (update_label == Label::VOLUME)
 		{
-			buttonVolume->text(data->init_str_val_lbl_txt);
+			strcpy(button_volume_str, data->init_str_val_lbl_txt);
 		}
 		else if (update_label == Label::VIBRATION)
 		{
-			buttonVibration->text(data->init_str_val_lbl_txt);
+			strcpy(button_vibration_str, data->init_str_val_lbl_txt);
 		}
 	}
 }

@@ -96,12 +96,20 @@ public:
 
 	/** Weight Button */
 	GuiButton* buttonWeight;
+	/** The weight button's text */
+	char button_weight_str[4];
 	/** Volume Button */
 	GuiButton* buttonVolume;
+	/** The volume button's text */
+	char button_volume_str[4];
 	/** Tolerance Button */
 	GuiButton* buttonTolerance;
+	/** The tolerance button's text */
+	char button_tolerance_str[4];
 	/** Vibration Button */
 	GuiButton* buttonVibration;
+	/** The vibration button's text */
+	char button_vibration_str[4];
 	/** Auditory Feedback Button */
 	GuiButton* buttonAuditory;
 	/** Haptic Feedback Button */

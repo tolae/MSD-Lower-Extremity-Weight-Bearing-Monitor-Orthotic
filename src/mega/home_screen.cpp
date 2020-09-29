@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "inc/mega.h"
 #include "inc/home_screen.h"
+#include "inc/settings_screen.h"
 
 extern HomeScreen* home_screen;
 const char* input1;
@@ -62,7 +63,7 @@ void HomeScreen::load(const BaseLoadData* params)
 
 const BaseLoadData* HomeScreen::unload()
 {
-	return (void*)str_val_Weight->text();
+	return new SettingsLoadData(str_val_Weight->text());
 }
 
 void HomeScreen::update()
