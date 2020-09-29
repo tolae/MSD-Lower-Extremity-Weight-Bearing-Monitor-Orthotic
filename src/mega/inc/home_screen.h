@@ -8,20 +8,20 @@
  * @brief The data to load the home screen with.
  * 
  */
-class HomeLoadData
+class HomeLoadData : public BaseLoadData
 {
     public:
         /**
          * @brief The weight input of the user.
          * 
          */
-        uint32_t weight;
+        const char* weight;
 
         /**
          * @brief The percentage of the user's weight that the user cannot exceed.
          * 
          */
-        uint32_t tolerance;
+        const char* tolerance;
 
         /**
          * @brief Construct a new Home Load Data object
@@ -29,7 +29,7 @@ class HomeLoadData
          * @param w The weight input
          * @param t The tolerance input
          */
-        HomeLoadData(uint32_t w, uint32_t t) :
+        HomeLoadData(const char* w, const char* t) :
             weight(w),
             tolerance(t)
         {}
@@ -65,7 +65,7 @@ public:
          * 
          * @param params 
          */
-        void load(const void *params);
+        void load(const BaseLoadData* params);
 
         /**
          * @brief WIP.
@@ -74,9 +74,9 @@ public:
          * - The current weight
          * - The current threshold
          * 
-         * @return const void* A HomeUnloadData object.
+         * @return const BaseLoadData* A HomeUnloadData object.
          */
-        const void *unload();
+        const BaseLoadData* unload();
 
         /**
          * @brief Handles the logic and communcation to the foot orthotic.

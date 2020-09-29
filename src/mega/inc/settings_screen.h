@@ -8,15 +8,14 @@
  * @brief The data to load the keypad with.
  *
  * This is the parameter structure the keypad expects.
- *
- * TODO: All loading data should be shifted to a different header file.
  */
-class SettingsLoadData
+class SettingsLoadData : public BaseLoadData
 {
 public:
-	/** The screen to return to when the data has been entered. */
-	Screen* calling_screen;
-	/** The initial string value to load into the Settings label. */
+	/**
+	 * @brief The initial string value to load into the Settings label.
+	 * 
+	 */
 	char* init_str_val_lbl_txt;
 
 	/**
@@ -25,8 +24,7 @@ public:
 	 * @param screen The screen to return to.
 	 * @param txt The initial string value to load.
 	 */
-	SettingsLoadData(Screen* screen, char* txt) :
-		calling_screen(screen),
+	SettingsLoadData(char* txt) :
 		init_str_val_lbl_txt(txt)
 	{}
 };
@@ -41,6 +39,17 @@ public:
 class SettingsScreen : public Screen
 {
 public:
+	enum Label
+	{
+		WEIGHT,
+		TOLERANCE,
+		VOLUME,
+		VIBRATION,
+		SAVE_AND_EXIT,
+		AUDITORY,
+		HAPTIC,
+		NONE = 99
+	};
 	/**
 	 * @brief Construct a new Settings Screen object.
 	 *
@@ -61,16 +70,16 @@ public:
 	 *
 	 * @param params A pointer to the SettingsLoadData object.
 	 */
-	void load(const void* params);
+	void load(const BaseLoadData* params);
 
 	/**
 	 * @brief Returns the string value that is contained within the Settings
 	 * label when the save button is clicked.
 	 *
-	 * @return const void* A pointer to the string that is contained in the
+	 * @return const BaseLoadData* A pointer to the string that is contained in the
 	 * Settings label.
 	 */
-	const void* unload();
+	const BaseLoadData* unload();
 
 	/**
 	 * @brief Does nothing.
@@ -100,8 +109,15 @@ public:
 	/** Save & Exit Button */
 	GuiButton* buttonSE;
 
+	/** Internal flags */
+	int haptic;
+	int auditory;
+
 	/** The previous screen that swapped to this one. */
 	Screen* calling_screen;
+
+	/** The label that is being updated by the keypad screen */
+	Label update_label;
 };
 
 #endif

@@ -24,7 +24,7 @@ void ScreenManager::init_screen(Screen* first_screen)
 	init_screen(first_screen, NULL);
 }
 
-void ScreenManager::init_screen(Screen* first_screen, void* data)
+void ScreenManager::init_screen(Screen* first_screen, BaseLoadData* data)
 {
 	first_screen->load(data);
 	first_screen->visible(true);

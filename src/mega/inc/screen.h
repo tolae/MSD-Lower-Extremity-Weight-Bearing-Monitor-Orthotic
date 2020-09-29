@@ -4,6 +4,15 @@
 #include <GuiLibrary.h>
 
 /**
+ * @brief Base class for all load data.
+ * 
+ */
+class BaseLoadData
+{
+    // Nothing here
+};
+
+/**
  * @brief Base screen class. Derives from GuiElement to contain child elemnts.
  * 
  */
@@ -24,7 +33,7 @@ class Screen : public GuiElement {
 		 * 
 		 * @param param The parameters to load.
 		 */
-		virtual void load(const void *param) = 0;
+		virtual void load(const BaseLoadData* param) = 0;
 
 		/**
 		 * @brief Preserves parameters that are passed from screen to screen.
@@ -32,9 +41,9 @@ class Screen : public GuiElement {
 		 * For example, the keypad screen would return the text a user has
 		 * entered as an integer.
 		 * 
-		 * @return const void* The parameters to preserve.
+		 * @return const BaseLoadData* The parameters to preserve.
 		 */
-		virtual const void * unload() = 0;
+		virtual const BaseLoadData* unload() = 0;
 		
 		/**
 		 * @brief Called during the update cycle of the main loop.

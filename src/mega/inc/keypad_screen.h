@@ -8,10 +8,8 @@
  * @brief The data to load the keypad with.
  * 
  * This is the parameter structure the keypad expects.
- * 
- * TODO: All loading data should be shifted to a different header file.
  */
-class KeypadLoadData
+class KeypadLoadData : public BaseLoadData
 {
 	public:
 		/** The screen to return to when the data has been entered. */
@@ -61,16 +59,16 @@ class KeypadScreen : public Screen
 		 * 
 		 * @param params A pointer to the KeypadLoadData object.
 		 */
-		void load(const void *params);
+		void load(const BaseLoadData* params);
 
 		/**
 		 * @brief Returns the string value that is contained within the keypad
 		 * label when the save button is clicked.
 		 * 
-		 * @return const void* A pointer to the string that is contained in the
+		 * @return const BaseLoadData* A pointer to the string that is contained in the
 		 * keypad label.
 		 */
-		const void *unload();
+		const BaseLoadData* unload();
 
 		/**
 		 * @brief Does nothing.

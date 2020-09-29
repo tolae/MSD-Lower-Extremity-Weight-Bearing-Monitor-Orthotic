@@ -44,13 +44,14 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 
 }
 
-void HomeScreen::load(const void* params)
+void HomeScreen::load(const BaseLoadData* params)
 {
-	if (params != NULL)
+	if (params != (void *)NULL)
 	{
 		HomeLoadData* data = (HomeLoadData*)params;
 		strcpy(str_val_lbl_text1, (const char*)(data->weight));
-		str_val_Weight->text(str_val_lbl_text1);
+		str_val_Weight->text(data->weight);
+		str_val_Tolerance->text(data->tolerance);
 	}
 	else
 	{
@@ -59,7 +60,7 @@ void HomeScreen::load(const void* params)
 	}
 }
 
-const void* HomeScreen::unload()
+const BaseLoadData* HomeScreen::unload()
 {
 	return (void*)str_val_Weight->text();
 }

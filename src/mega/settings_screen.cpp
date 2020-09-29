@@ -1,12 +1,8 @@
 #include <Arduino.h>
 #include "inc/mega.h"
 #include "inc/settings_screen.h"
-
-const char* input2;
-int haptic = 0;
-int auditory = 0;
-
-
+#include "inc/keypad_screen.h"
+#include "inc/home_screen.h"
 
 uint8_t btn_callback_function_settings(void* a, GuiElement* element, uint8_t event);
 
@@ -17,23 +13,32 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 	width = _width;
 	height = _height;
 
+	update_label = Label::NONE;
+	haptic = 0;
+	auditory = 0;
+
 	str_val_weight = new GuiLabel(20, 20, 60, 60, "Weight");
-	buttonWeight = new GuiButton(140, 20, 100, 60, "LBS");
+	buttonWeight = new GuiButton(140, 20, 100, 60, "200");
+	buttonWeight->value(Label::WEIGHT);
 	str_val_volume = new GuiLabel(250, 20, 60, 60, "Volume");
 	buttonVolume = new GuiButton(360, 20, 100, 60, "%");
+	buttonVolume->value(Label::VOLUME);
 
 	str_val_tolerance = new GuiLabel(20, 90, 60, 60, "Tolerance");
-	GuiButton* buttonTolerance = new GuiButton(140, 90, 100, 60, "%");
+	buttonTolerance = new GuiButton(140, 90, 100, 60, "50");
+	buttonTolerance->value(Label::TOLERANCE);
 	str_val_vibration = new GuiLabel(250, 90, 60, 60, "Vibration");
-	GuiButton* buttonVibration = new GuiButton(360, 90, 100, 60, "%");
+	buttonVibration = new GuiButton(360, 90, 100, 60, "%");
+	buttonVibration->value(Label::VIBRATION);
 
 	str_val_feedback = new GuiLabel(20, 160, 60, 60, "Feedback");
-	GuiButton* buttonAuditory = new GuiButton(140, 160, 140, 60, "Auditory");
-	GuiButton* buttonHaptic = new GuiButton(320, 160, 140, 60, "Haptic");
+	buttonAuditory = new GuiButton(140, 160, 140, 60, "Auditory");
+	buttonAuditory->value(Label::AUDITORY);
+	buttonHaptic = new GuiButton(320, 160, 140, 60, "Haptic");
+	buttonHaptic->value(Label::HAPTIC);
 
-	GuiButton* buttonSE = new GuiButton(320, 230, 140, 60, "Save & Exit");
-
-	
+	buttonSE = new GuiButton(320, 230, 140, 60, "Save & Exit");
+	buttonSE->value(Label::SAVE_AND_EXIT);
 
 	// hook up the callback function defined above to the button so we can track clicks
 	buttonWeight->connectCallback(btn_callback_function_settings, this);
@@ -59,14 +64,47 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 	GuiElement::addChild((GuiElement*)buttonSE);
 }
 
-void SettingsScreen::load(const void* params)
+void SettingsScreen::load(const BaseLoadData* params)
 {
-	
 }
 
-const void* SettingsScreen::unload()
+const BaseLoadData* SettingsScreen::unload()
 {
+	KeypadLoadData* keypad_data = (void *)NULL;
+	HomeLoadData* home_data = (void *)NULL;
+	if (update_label == Label::WEIGHT)
+	{
+		keypad_data = new KeypadLoadData(this, buttonWeight->text());
+	}
+	else if (update_label == Label::TOLERANCE)
+	{
+		keypad_data = new KeypadLoadData(this, buttonTolerance->text());
+	}
+	else if (update_label == Label::VOLUME)
+	{
+		keypad_data = new KeypadLoadData(this, buttonVolume->text());
+	}
+	else if (update_label == Label::VIBRATION)
+	{
+		keypad_data = new KeypadLoadData(this, buttonVibration->text());
+	}
+	else if (update_label == Label::SAVE_AND_EXIT)
+	{
+		home_data = new HomeLoadData(
+			buttonWeight->text(),
+			buttonTolerance->text()
+		);
+	}
 
+	if (keypad_data != (void *)NULL)
+	{
+		return keypad_data;
+	}
+	else
+	{
+		return home_data;
+	}
+	return (void *)NULL;
 }
 
 void SettingsScreen::update()
@@ -80,43 +118,40 @@ uint8_t btn_callback_function_settings(void* a, GuiElement* element, uint8_t eve
 
 	if (event == GUI_EVENT_PRESS)
 	{
-		input2 = ((GuiButton*)element)->text();
-
+		settings_screen->update_label = ((GuiButton*)element)->value();
 	}
 	else if (event == GUI_EVENT_RELEASE)
 	{
-		if (input2 == "LBS")
+		if (settings_screen->update_label == SettingsScreen::Label::SAVE_AND_EXIT)
+		{
+			screen_manager->switch_screen(SCREENS[1]);
+		}
+		else if (settings_screen->update_label == SettingsScreen::Label::HAPTIC)
+		{
+			if(settings_screen->haptic == 0){
+				((GuiButton*)element)->setBackground(COLOR_WHITE);
+				settings_screen->haptic = 1;
+			}
+			else{
+				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
+				settings_screen->haptic = 0;
+			}
+		}
+		else if (settings_screen->update_label == SettingsScreen::Label::AUDITORY)
+		{
+			if(settings_screen->auditory == 0){
+				((GuiButton*)element)->setBackground(COLOR_WHITE);
+				settings_screen->auditory = 1;
+			}
+			else{
+				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
+				settings_screen->auditory = 0;
+			}
+		}
+		else // Update a label
 		{
 			screen_manager->switch_screen(SCREENS[0]);
 		}
-		else if (input2 == "%") {
-			screen_manager->switch_screen(SCREENS[0]);
-		}
-		else if (input2 == "Auditory") {
-			if(auditory == 0){
-				((GuiButton*)element)->setBackground(COLOR_WHITE);
-				auditory = 1;
-			}
-			else{
-				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
-				auditory = 0;
-			}
-			
-		}
-		else if (input2 == "Haptic") {
-			if(haptic == 0){
-				((GuiButton*)element)->setBackground(COLOR_WHITE);
-				haptic = 1;
-			}
-			else{
-				((GuiButton*)element)->setBackground(COLOR_DARKGREY);
-				haptic = 0;
-			}
-		}
-		else {
-			screen_manager->switch_screen(SCREENS[1]);
-		}
-
 	}
 	return 0;
 }

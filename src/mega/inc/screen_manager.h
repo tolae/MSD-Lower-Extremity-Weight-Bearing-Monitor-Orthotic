@@ -48,7 +48,7 @@ class ScreenManager
 		 * @param screen The screen to initialize with.
 		 * @param params The parameter to load the screen with.
 		 */
-		void init_screen(Screen* screen, void* params);
+		void init_screen(Screen* screen, BaseLoadData* params);
 
 		/**
 		 * @brief Transitions from the current screen to the new screen.

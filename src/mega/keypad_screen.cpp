@@ -60,7 +60,7 @@ KeypadScreen::KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _heig
 	GuiElement::addChild((GuiElement *)button_bksp);
 }
 
-void KeypadScreen::load(const void * params)
+void KeypadScreen::load(const BaseLoadData* params)
 {
 	if (params != NULL)
 	{
@@ -78,9 +78,9 @@ void KeypadScreen::load(const void * params)
 	}
 }
 
-const void * KeypadScreen::unload()
+const BaseLoadData* KeypadScreen::unload()
 {
-	return (const void *)str_val_lbl->text();
+	return (const BaseLoadData*)str_val_lbl->text();
 }
 
 void KeypadScreen::update()
