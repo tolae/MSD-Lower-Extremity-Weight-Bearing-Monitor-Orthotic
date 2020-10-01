@@ -8,6 +8,8 @@ reducing the number of redudant work to make the same custom footprints.
  required for layout.
  - <b>extenstion_1</b>: Contains the schematic and layout focusing on the first
  extenstion for the footpad.
+ - <b>imported_parts</b>: Contains footprints and pads for external components
+ such as the TMUX1109.
  - <b>main</b>: Contains the schematic and layout focusing on the primary
  footpad that will interface directly with the Arduino Nano.
  - <b>wiring_complete</b>: Contains the schematics for a complete wiring
