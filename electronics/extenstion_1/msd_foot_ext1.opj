@@ -66,12 +66,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\custom_parts\library\mylib.olb")
-      (Select "Design Resources" "Library" "..\custom_parts\library\mylib.olb"
-         "EXT1_MAIN_CONNECTOR"))
+      (Path "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb")
+      (Select "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -79,35 +83,11 @@
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
       (Tab 0))
     (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1596 52 525"))
-      (Path
-         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
-      (Package "STRAIN CELL")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1098 156 735"))
-      (Path
-         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
-      (Package "EXT1_EXT2_CONNECTOR")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 182 1124 182 761"))
-      (Path
-         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
-      (Package "EXT1_MAIN_CONNECTOR")
-      (PartType "1"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-50 -9")
-        (Zoom "113")
+        (Scroll "-39 0")
+        (Zoom "119")
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\EXTENSTION_1\MSD_FOOT_EXT1.DSN")
