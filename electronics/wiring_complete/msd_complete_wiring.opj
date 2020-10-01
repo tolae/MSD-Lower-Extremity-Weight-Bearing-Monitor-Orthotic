@@ -2,13 +2,7 @@
   (ProjectVersion "19981106")
   (SoftwareVersion "17.4-2019 P001 (3823098) [11/20/2019]-[04/23/20]")
   (Folder "Design Resources"
-    (Folder "Library"
-      (File ".\library\mylib.olb"
-        (Type "Schematic Library")
-        (DisplayName ".\library\mylib.olb"))
-      (File ".\library\adafruit\adafruitpowerboost1000crevb.olb"
-        (Type "Schematic Library")
-        (DisplayName ".\library\adafruit\adafruitpowerboost1000crevb.olb")))
+    (Folder "Library")
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
@@ -138,7 +132,8 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\msd_complete_wiring.dsn")
-      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Main"))
+      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Main")
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -149,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 234 1465 234 809")
-        (Scroll "-196 -9")
+        (Scroll "-68 -9")
         (Zoom "113")
         (Occurrence "/"))
       (Path
