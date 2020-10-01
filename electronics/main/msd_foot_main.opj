@@ -2,38 +2,56 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "..\custom_parts\library\mylib.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\msd_foot_main.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    ("Strain Cell"
+      (FullPartName "Strain Cell.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (MAIN_NANO_CONNECTOR
+      (FullPartName "MAIN_NANO_CONNECTOR.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (EXT1_MAIN_CONNECTOR
+      (FullPartName "EXT1_MAIN_CONNECTOR.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0")))
   (MPSSessionName "Ethan")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn")
-      (Path "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources" ".\msd_foot_main.dsn")
+      (Path "Design Resources" ".\msd_foot_main.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb")
+      (Select "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 540"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 35 1527 182 761")
-        (Scroll "-325 -9")
+        (Placement "44 2 3 -1 -1 -8 -31 250 1742 69 648")
+        (Scroll "-50 -9")
         (Zoom "113")
         (Occurrence "/"))
       (Path
