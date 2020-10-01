@@ -1,0 +1,18 @@
+* source MSD_PRELINMINARY_DESIGN
+R_R5         A0- VDD  350 TC=0,0 
+R_R8         A0 VDD R_R8 {STRAIN_GAUGE} TC=0,0 
+.model        R_R8 RES R=1 DEV=2% TC1=0 TC2=0
+R_R7         0 A0  350 TC=0,0 
+R_R6         0 A0-  350 TC=0,0 
+V_V1         VDD 0 3.3V
+R_R9         N10187 N06125  100 TC=0,0 
+E_U2         A0OUT 0 VALUE {LIMIT(V(N08953,N08856)*1E6,-15V,+15V)}
+C_C1         0 N06125  800u  TC=0,0 
+R_R14         A0- N08856  1k TC=0,0 
+R_R15         A0 N08953  1k TC=0,0 
+R_R16         N08953 0  1k TC=0,0 
+R_R17         N08856 A0OUT  1k TC=0,0 
+E_U3         N10187 0 VALUE {LIMIT(V(N10098,0)*1E6,-15V,+15V)}
+R_R18         A0OUT N10098  1k TC=0,0 
+R_R21         N10098 N10187  200k TC=0,0 
+.PARAM  default=350 strain_gauge=350
