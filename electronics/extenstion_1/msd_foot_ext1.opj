@@ -42,6 +42,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\IEC\DEVICE.OLB")
+      (DeviceIndex "0"))
     (EXT1_EXT2_CONNECTOR
       (FullPartName "EXT1_EXT2_CONNECTOR.Normal")
       (LibraryName
@@ -75,13 +79,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 226 0 866"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-16 14")
+        (Scroll "-16 48")
         (Zoom "119")
         (Occurrence "/"))
       (Path
