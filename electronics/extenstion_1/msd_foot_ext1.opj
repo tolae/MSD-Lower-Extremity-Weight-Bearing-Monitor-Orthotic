@@ -20,7 +20,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "C:\Users\Ethan\Projects\Circuits\MSD_Foot\layout\msd_foot.brd")
+       "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ORCAD")
@@ -79,8 +79,7 @@
       (Path "Design Resources" "Library"
          "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb")
       (Select "Design Resources"
-         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -91,7 +90,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-184 33")
+        (Scroll "-184 0")
         (Zoom "119")
         (Occurrence "/"))
       (Path

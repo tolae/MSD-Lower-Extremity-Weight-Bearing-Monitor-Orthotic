@@ -1,0 +1,59 @@
+\t (00:00:04) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Fri Oct 02 21:46:12 2020
+\t (00:00:04)         Host=DESKTOP-JV3CNMF User=Ethan Pid=14064 CPUs=16
+\t (00:00:04) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged extension1
+\d (00:00:06) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards/extension1.brd
+\i (00:00:06) trapsize 30
+\i (00:00:06) trapsize 31
+\i (00:00:06) trapsize 30
+\i (00:00:06) trapsize 30
+\i (00:00:07) generaledit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 0.173 0.515
+\i (00:00:08) trapsize 60
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 0.124 0.514
+\i (00:00:08) trapsize 120
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -1.476 0.562
+\i (00:00:09) trapsize 60
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -1.428 0.562
+\i (00:00:09) trapsize 30
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -0.174 -0.049
+\i (00:00:10) trapsize 15
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -0.111 -0.001
+\i (00:00:10) trapsize 30
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 0.057 0.023
+\i (00:00:11) trapsize 15
+\i (00:00:20) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:20) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:21) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:00:21) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:00:21) define grid 
+\t (00:00:21) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:22) setwindow form.grid
+\i (00:00:22) FORM grid done  
+\i (00:00:23) setwindow pcb
+\i (00:00:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:00:27) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:27) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:00:29) exit 
+\t (00:00:29)     Journal end - Fri Oct 02 21:46:38 2020
