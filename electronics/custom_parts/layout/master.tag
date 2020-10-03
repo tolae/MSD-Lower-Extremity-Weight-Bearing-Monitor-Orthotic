@@ -1,1 +1,1 @@
-strain_cell.dra
+ext1_ext2_connector.dra
