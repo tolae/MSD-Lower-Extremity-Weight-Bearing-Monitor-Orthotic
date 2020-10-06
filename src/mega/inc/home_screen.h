@@ -84,6 +84,8 @@ public:
          */
         void update();
 
+
+
         /** The label for the touchscreen's battery life. */
         GuiLabel* str_val_TS;
 
@@ -102,5 +104,8 @@ public:
         /** Transitions to the SettingsScreen. */
         GuiButton* buttonSettings;
 };
+
+void circle_on();
+void circle_off();
 
 #endif
