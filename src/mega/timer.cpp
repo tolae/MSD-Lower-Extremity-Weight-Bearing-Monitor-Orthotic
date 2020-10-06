@@ -32,7 +32,6 @@ inline void _set_desired_freq(uint16_t target_freq, uint16_t prescaler)
 	OCR1A = F_CPU / (target_freq * prescaler - 1);
 }
 
-int toggle1 = 0;
 ISR(TIMER1_COMPA_vect)          // timer compare interrupt service routine
 {
 	registered_callback();

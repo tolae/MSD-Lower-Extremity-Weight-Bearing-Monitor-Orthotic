@@ -65,8 +65,6 @@ const Screen* SCREENS[] =
 ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
-	pinMode(LED_BUILTIN, OUTPUT);
-
 	Serial.begin(115200);
 	delay(1000);
 	Serial.println(F("Gui Widgets test!"));
@@ -85,24 +83,7 @@ void setup(void) {
 	
 	gui.draw();
 
-	configure_timer1(blink_led, 4, TimerPrescaler::TEN_TWO_FOUR);
-
 	return;
-}
-
-int toggle = 0;
-void blink_led()
-{
-	if (toggle)
-	{
-		digitalWrite(LED_BUILTIN, LOW);
-		toggle = 0;
-	}
-	else
-	{
-		digitalWrite(LED_BUILTIN, HIGH);
-		toggle = 1;
-	}
 }
 
 void loop()
