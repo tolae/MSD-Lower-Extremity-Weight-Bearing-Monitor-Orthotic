@@ -1,7 +1,10 @@
 #include <Arduino.h>
 #include "inc/mega.h"
 #include "inc/home_screen.h"
-#include "inc\timer.h"
+#include "inc/timer.h"
+
+#define YELLOW_UPDATE_FREQ 2 // 2 Hz (500ms)
+#define RED_UPDATE_FREQ 4 // 4 Hz (250ms)
 
 extern HomeScreen* home_screen;
 const char* input1;
@@ -12,7 +15,6 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event);
 
 HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
-	configure_timer1();
 	x = _x;
 	y = _y;
 	width = _width;

@@ -40,6 +40,7 @@
 #include "inc/keypad_screen.h"
 #include "inc/home_screen.h"
 #include "inc/settings_screen.h"
+#include "inc/timer.h"
 
 
 // Use hardware SPI (on Uno, #13, #12, #11) and the above for CS/DC
@@ -64,14 +65,14 @@ const Screen* SCREENS[] =
 ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
- // while (!Serial);     // used for leonardo debugging
+	pinMode(LED_BUILTIN, OUTPUT);
 
 	Serial.begin(115200);
 	delay(1000);
 	Serial.println(F("Gui Widgets test!"));
 	
 	tft.begin();
-	// in multiples of 90 only (duh)
+	// in multiples of 90 only
 	gui.setRotation(270);
 
 	for (int i = 0; i < sizeof(SCREENS) / sizeof(char*); i++)
@@ -80,15 +81,28 @@ void setup(void) {
 		screen->visible(false);
 		gui.addChild(screen);
 	}
-//
-//	Screen* screen = SCREENS[2];
-//	gui.addChild(screen);
 	screen_manager->init_screen(SCREENS[1]);
 	
 	gui.draw();
 
-	
+	configure_timer1(blink_led, 4, TimerPrescaler::TEN_TWO_FOUR);
+
 	return;
+}
+
+int toggle = 0;
+void blink_led()
+{
+	if (toggle)
+	{
+		digitalWrite(LED_BUILTIN, LOW);
+		toggle = 0;
+	}
+	else
+	{
+		digitalWrite(LED_BUILTIN, HIGH);
+		toggle = 1;
+	}
 }
 
 void loop()
