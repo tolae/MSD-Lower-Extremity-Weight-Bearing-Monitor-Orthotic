@@ -70,10 +70,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\custom_parts\library\mylib.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb")
       (Select "Design Resources"))
     (HierarchyView)
     (Doc
@@ -84,8 +83,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "0 38")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1287 52 631")
+        (Scroll "-16 38")
         (Zoom "119")
         (Occurrence "/"))
       (Path

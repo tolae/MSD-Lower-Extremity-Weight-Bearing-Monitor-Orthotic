@@ -1,1 +1,1 @@
-msd_foot_ext1.brd
+ext2_ext3_connector.dra
