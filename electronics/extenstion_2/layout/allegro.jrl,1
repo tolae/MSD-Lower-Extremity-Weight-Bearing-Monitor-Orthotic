@@ -1,0 +1,1553 @@
+\t (00:00:02) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Oct 07 11:01:16 2020
+\t (00:00:02)         Host=DESKTOP-JV3CNMF User=Ethan Pid=17320 CPUs=16
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession Ethan C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_2\layout\msd_foot_ext1.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext1
+\d (00:00:04) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_2/layout/msd_foot_ext1.brd
+\i (00:00:04) trapsize 8461
+\i (00:00:04) trapsize 8706
+\i (00:00:04) trapsize 8461
+\i (00:00:04) trapsize 9081
+\i (00:00:05) generaledit 
+\i (00:00:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:00:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:00:13) define grid 
+\t (00:00:13) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:15) setwindow form.grid
+\i (00:00:15) FORM grid non_etch non_etch_x_grids 1 
+\i (00:00:16) FORM grid non_etch non_etch_y_grids 1 
+\i (00:00:17) FORM grid all_etch all_etch_x_grids 1 
+\i (00:00:18) FORM grid all_etch all_etch_y_grids 1 
+\i (00:00:18) FORM grid done  
+\i (00:00:18) setwindow pcb
+\i (00:00:18) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup "Design Parameters"
+\i (00:00:18) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup "Design Parameters"
+\i (00:00:18) prmed 
+\i (00:00:19) setwindow form.prmedit
+\i (00:00:19) FORM prmedit design  
+\i (00:00:21) FORM prmedit units Millimeter 
+\e (00:00:21) Change may cause round-off; run dbcheck.
+\i (00:00:24) FORM prmedit apply  
+\w (00:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:24) setwindow pcb
+\i (00:00:24) trapsize 23066
+\t (00:00:24) Performing DRC...
+\t (00:00:24) Multithreaded DRC update (16 threads).
+\t (00:00:25) No DRC errors detected.
+\i (00:00:27) setwindow form.prmedit
+\i (00:00:27) FORM prmedit done  
+\i (00:00:28) setwindow pcb
+\i (00:00:28) generaledit 
+\i (00:00:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:00:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:00:33) QtSignal "Board Outline"
+\i (00:00:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline"
+\i (00:00:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:00:37) QtSignal "Board Outline" Create Automatically
+\i (00:00:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:00:37) QtSignal Create Automatically
+\i (00:00:37) board outline 
+   (00:00:37) Loading floor.cxt 
+   (00:00:37) Loading fputil.cxt 
+\i (00:00:39) setwindow form.fpbdoutline
+\i (00:00:39) FORM fpbdoutline fpboplacerect YES 
+\i (00:00:42) FORM fpbdoutline fpboclearance 0.3mm 
+\i (00:00:47) FORM fpbdoutline fpboplacewdt '20 MM' 
+\i (00:00:59) FORM fpbdoutline fpboplacehgt '30 MM' 
+\i (00:00:59) FORM fpbdoutline done  
+\i (00:00:59) setwindow pcb
+\i (00:00:59) generaledit 
+\i (00:01:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:01:01) QtSignal "Board Outline" Create Automatically
+\i (00:01:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:01:01) QtSignal Create Automatically
+\i (00:01:01) board outline 
+\i (00:01:02) setwindow form.fpbdoutline
+\i (00:01:02) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:05) FORM fpbdoutline fpboclearance 0.3mm 
+\i (00:01:09) FORM fpbdoutline fpboplacewdt 20mm 
+\i (00:01:14) FORM fpbdoutline fpboplacehgt 40mm 
+\i (00:01:18) FORM fpbdoutline fpboplacehgt 80mm 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) pick grid 273.1043 174.8421
+\t (00:01:20) last pick:  273.1008 174.8536
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 278.6402 195.1404
+\i (00:01:20) trapsize 11533
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 278.6402 195.1404
+\i (00:01:20) trapsize 5767
+\i (00:01:22) setwindow form.fpbdoutline
+\i (00:01:22) FORM fpbdoutline done  
+\i (00:01:22) setwindow pcb
+\i (00:01:22) generaledit 
+\i (00:01:23) zoom in 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in 281.6388 224.2038
+\i (00:01:23) trapsize 2883
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out 282.5615 224.7229
+\i (00:01:23) trapsize 5767
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out 282.9074 224.9535
+\i (00:01:23) trapsize 11533
+\i (00:01:24) roam start
+\i (00:01:24) roam y -32
+\i (00:01:24) roam end
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in 290.7500 223.9731
+\i (00:01:25) trapsize 5767
+\i (00:01:26) roam start
+\i (00:01:26) roam y -48
+\i (00:01:26) roam y -32
+\i (00:01:27) roam end
+\i (00:01:28) pick grid 313.3549 243.6948
+\t (00:01:28) last pick:  313.3598 243.6876
+\i (00:01:28) prepopup 309.3183 243.6948
+\i (00:01:31) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:01:31) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:01:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:01:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:01:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:01:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:01:32) place manual 
+\i (00:01:36) setwindow form.plc_manual
+\i (00:01:36) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:36) Placing C1 / CAP NP_0402-CAP_47PF / 0402-CAP on Top.
+\i (00:01:36) FORM plc_manual tree  'Components by refdes' 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom in 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom in 282.6768 237.0056
+\i (00:02:14) trapsize 2883
+\i (00:02:17) pick grid 287.8090 239.6006
+\t (00:02:17) last pick:  287.8074 239.5982
+\t (00:02:17) Placing C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP on Top.
+\i (00:02:20) pick grid 284.1761 199.8113
+\t (00:02:20) last pick:  284.1752 199.8218
+\t (00:02:20) Placing C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP on Top.
+\i (00:02:21) pick grid 277.6599 238.3319
+\t (00:02:21) last pick:  277.6474 238.3282
+\t (00:02:21) Placing IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR on Top.
+\i (00:02:26) zoom in 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom in 275.0649 222.9929
+\i (00:02:26) trapsize 1442
+\i (00:02:29) pick grid 274.8920 222.8776
+\t (00:02:29) last pick:  274.9042 222.8850
+\t (00:02:29) Placing IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR on Top.
+\i (00:02:32) pick grid 291.2690 223.3389
+\t (00:02:32) last pick:  291.2618 223.3422
+\t (00:02:32) Placing R1 / R_0402-RES_10K / 0402-RES on Top.
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 287.7226 222.5028
+\i (00:02:33) trapsize 2883
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 287.2036 222.8487
+\i (00:02:33) trapsize 5767
+\i (00:02:34) zoom in 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom in 288.9335 225.0401
+\i (00:02:34) trapsize 2883
+\i (00:02:36) pick grid 278.4961 234.9586
+\t (00:02:36) last pick:  278.4856 234.9500
+\t (00:02:36) Placing R2 / R_0402-RES_1K / 0402-RES on Top.
+\i (00:02:37) pick grid 278.3807 233.1133
+\t (00:02:37) last pick:  278.3840 233.1212
+\t (00:02:37) Placing R3 / R_0402-RES_6.8K / 0402-RES on Top.
+\i (00:02:40) pick grid 287.8956 236.2849
+\t (00:02:40) last pick:  287.8836 236.2962
+\t (00:02:40) Placing R_SENSING / R_0402-RES_5K / 0402-RES on Top.
+\i (00:02:41) pick grid 285.7043 230.4607
+\t (00:02:41) last pick:  285.6992 230.4542
+\t (00:02:41) Placing SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:43) rotate 
+\t (00:02:43) Spin the element(s).
+\i (00:02:45) iangle -90.000
+\t (00:02:45) last angle:  +270.000 Degrees
+\i (00:02:50) pick grid 280.3414 207.4521
+\t (00:02:50) last pick:  280.3398 207.4418
+\t (00:02:50) Placing SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:51) rotate 
+\t (00:02:51) Spin the element(s).
+\i (00:02:52) iangle -90.000
+\t (00:02:52) last angle:  +270.000 Degrees
+\i (00:02:53) pick grid 286.7999 207.3367
+\t (00:02:53) last pick:  286.7914 207.3402
+\t (00:02:53) Placing SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:53) rotate 
+\t (00:02:53) Spin the element(s).
+\i (00:02:54) iangle -90.000
+\t (00:02:54) last angle:  +270.000 Degrees
+\i (00:02:55) pick grid 280.2837 221.6378
+\t (00:02:55) last pick:  280.2890 221.6404
+\t (00:02:55) Placing SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:55) rotate 
+\t (00:02:55) Spin the element(s).
+\i (00:02:56) iangle -90.000
+\t (00:02:56) last angle:  +270.000 Degrees
+\i (00:02:56) pick grid 287.2036 221.7531
+\t (00:02:56) last pick:  287.1978 221.7420
+\w (00:02:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:56) Placing U1 / TMUX1104DGSR_DGS10_TEX_TMUX1104 / DGS10_TEX on Top.
+\i (00:02:58) pick grid 283.6283 214.6026
+\t (00:02:58) last pick:  283.6164 214.6046
+\w (00:02:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:58) Placing U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH on Top.
+\i (00:02:59) pick grid 281.8407 229.0190
+\t (00:02:59) last pick:  281.8384 229.0064
+\i (00:03:01) pick grid 291.8745 209.0091
+\t (00:03:01) last pick:  291.8714 209.0166
+\i (00:03:02) zoom in 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom in 289.8562 213.1033
+\i (00:03:02) trapsize 1442
+\i (00:03:02) zoom in 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom in 289.8562 213.1321
+\i (00:03:02) trapsize 721
+\i (00:03:03) zoom out 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom out 288.5587 213.9251
+\i (00:03:03) trapsize 1442
+\i (00:03:03) prepopup 288.2704 216.3758
+\i (00:03:04) done 
+\i (00:03:04) generaledit 
+\i (00:03:05) zoom out 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom out 285.0123 216.8948
+\i (00:03:05) trapsize 2883
+\i (00:03:05) zoom out 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom out 285.0124 216.8948
+\i (00:03:05) trapsize 5767
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in 285.4737 218.8554
+\i (00:03:06) trapsize 2883
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in 285.3008 219.2014
+\i (00:03:06) trapsize 1442
+\i (00:03:09) roam start
+\i (00:03:09) roam y -16
+\i (00:03:09) roam y -16
+\i (00:03:09) roam x 16
+\i (00:03:09) roam y -48
+\i (00:03:09) roam y -64
+\i (00:03:09) roam y -32
+\i (00:03:09) roam x -32
+\i (00:03:09) roam y -32
+\i (00:03:09) roam x -48
+\i (00:03:09) roam x -48
+\i (00:03:09) roam y 16
+\i (00:03:09) roam x -64
+\i (00:03:09) roam y 112
+\i (00:03:09) roam x -16
+\i (00:03:09) roam y 128
+\i (00:03:09) roam y 144
+\i (00:03:09) roam x 32
+\i (00:03:09) roam y 64
+\i (00:03:09) roam x 32
+\i (00:03:09) roam y 64
+\i (00:03:09) roam x 48
+\i (00:03:09) roam y 48
+\i (00:03:09) roam x 80
+\i (00:03:09) roam y 16
+\i (00:03:09) roam x 48
+\i (00:03:09) roam x -80
+\i (00:03:09) roam y -32
+\i (00:03:09) roam x -64
+\i (00:03:09) roam y -16
+\i (00:03:10) roam end
+\i (00:03:11) pick grid 280.2540 207.1054
+\t (00:03:11) last pick:  280.2636 207.1116
+\i (00:03:12) move 
+\t (00:03:12) last pick:  280.3398 207.4418
+\t (00:03:12) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:12) Pick new location for the element(s).
+\i (00:03:13) rotate 
+\t (00:03:13) Spin the element(s).
+\i (00:03:14) iangle -360.000
+\t (00:03:14) last angle:  270.000 Degrees
+\i (00:03:14) pick grid 280.0810 207.2784
+\t (00:03:14) last pick:  280.0858 207.2894
+\i (00:03:14) generaledit 
+\i (00:03:16) rotate 
+\i (00:03:17) pick grid 280.1675 207.2208
+\t (00:03:17) last pick:  280.1620 207.2132
+\i (00:03:18) pick grid 277.0247 206.8459
+\t (00:03:18) last pick:  277.0124 206.8576
+\i (00:03:19) move 
+\t (00:03:19) Select element(s) to move.
+\i (00:03:20) pick grid 280.2540 207.5091
+\t (00:03:20) last pick:  280.2636 207.5180
+\t (00:03:20) last pick:  280.0858 207.2894
+\t (00:03:20) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:20) Pick new location for the element(s).
+\i (00:03:20) rotate 
+\t (00:03:20) Spin the element(s).
+\i (00:03:21) iangle -180.000
+\t (00:03:21) last angle:  90.000 Degrees
+\i (00:03:21) pick grid 280.2252 207.5091
+\t (00:03:21) last pick:  280.2128 207.5180
+\i (00:03:22) pick grid 286.3665 207.5956
+\t (00:03:22) last pick:  286.3596 207.5942
+\t (00:03:22) last pick:  286.7914 207.3402
+\t (00:03:22) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:22) Pick new location for the element(s).
+\i (00:03:22) rotate 
+\t (00:03:22) Spin the element(s).
+\i (00:03:23) iangle -180.000
+\t (00:03:23) last angle:  90.000 Degrees
+\i (00:03:24) pick grid 286.8855 207.7109
+\t (00:03:24) last pick:  286.8930 207.7212
+\i (00:03:25) roam start
+\i (00:03:25) roam x 32
+\i (00:03:25) roam y -48
+\i (00:03:25) roam x 48
+\i (00:03:25) roam y -64
+\i (00:03:25) roam y -16
+\i (00:03:25) roam x 32
+\i (00:03:25) roam y -48
+\i (00:03:25) roam y -32
+\i (00:03:25) roam x -48
+\i (00:03:25) roam y -32
+\i (00:03:25) roam x -32
+\i (00:03:25) roam y -32
+\i (00:03:25) roam x -48
+\i (00:03:25) roam y -32
+\i (00:03:25) roam x -64
+\i (00:03:25) roam y -48
+\i (00:03:26) roam x -16
+\i (00:03:26) roam x 48
+\i (00:03:26) roam y -16
+\i (00:03:26) roam x 48
+\i (00:03:26) roam y -16
+\i (00:03:26) roam x 32
+\i (00:03:26) roam y -16
+\i (00:03:26) roam end
+\i (00:03:27) pick grid 287.6640 221.3200
+\t (00:03:27) last pick:  287.6550 221.3102
+\t (00:03:27) last pick:  287.1978 221.7420
+\t (00:03:27) Moving SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:27) Pick new location for the element(s).
+\i (00:03:28) pick grid 284.9249 221.6660
+\t (00:03:28) last pick:  284.9372 221.6658
+\i (00:03:28) pick grid 281.1478 221.5506
+\t (00:03:28) last pick:  281.1526 221.5388
+\t (00:03:28) last pick:  274.9042 222.8850
+\t (00:03:28) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:03:28) Pick new location for the element(s).
+\i (00:03:30) prepopup 281.6668 221.6660
+\i (00:03:31) oops 
+\t (00:03:31) last pick:  281.1526 221.5388
+\i (00:03:31) pick grid 280.4269 222.0984
+\t (00:03:31) last pick:  280.4160 222.0976
+\t (00:03:31) last pick:  280.2890 221.6404
+\t (00:03:31) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:31) Pick new location for the element(s).
+\i (00:03:34) pick grid 281.2343 221.6660
+\t (00:03:34) last pick:  281.2288 221.6658
+\i (00:03:34) pick grid 283.2237 213.9388
+\t (00:03:34) last pick:  283.2354 213.9442
+\t (00:03:34) last pick:  283.6164 214.6046
+\t (00:03:34) Moving U1 / TMUX1104DGSR_DGS10_TEX_TMUX1104 / DGS10_TEX.
+\t (00:03:34) Pick new location for the element(s).
+\i (00:03:36) pick grid 283.1661 215.2939
+\t (00:03:36) last pick:  283.1592 215.2904
+\i (00:03:37) zoom out 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom out 284.3482 213.5063
+\i (00:03:37) trapsize 2883
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in 285.7898 206.4135
+\i (00:03:37) trapsize 1442
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in 285.8186 206.5000
+\i (00:03:37) trapsize 721
+\i (00:03:38) roam start
+\i (00:03:38) roam y 64
+\i (00:03:38) roam y 16
+\i (00:03:38) roam y 48
+\i (00:03:38) roam end
+\i (00:03:38) zoom out 1 
+\i (00:03:38) setwindow pcb
+\i (00:03:38) zoom out 285.6457 205.9376
+\i (00:03:38) trapsize 1442
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 285.6457 206.7738
+\i (00:03:39) trapsize 2883
+\i (00:03:39) roam start
+\i (00:03:39) roam x 16
+\i (00:03:39) roam y -32
+\i (00:03:39) roam y -32
+\i (00:03:40) roam x -16
+\i (00:03:40) roam y -16
+\i (00:03:40) roam x -32
+\i (00:03:40) roam x -16
+\i (00:03:40) roam y 48
+\i (00:03:40) roam y 80
+\i (00:03:40) roam y 32
+\i (00:03:40) roam y 16
+\i (00:03:40) roam x 32
+\i (00:03:40) roam y 16
+\i (00:03:40) roam x 16
+\i (00:03:40) roam y 16
+\i (00:03:40) roam end
+\i (00:03:41) pick grid 280.4270 207.7685
+\t (00:03:41) last pick:  280.4160 207.7720
+\t (00:03:41) last pick:  280.2128 207.5180
+\t (00:03:41) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:41) Pick new location for the element(s).
+\i (00:03:42) pick grid 281.2343 205.6926
+\t (00:03:42) last pick:  281.2288 205.6892
+\i (00:03:43) pick grid 287.1739 207.8839
+\t (00:03:43) last pick:  287.1724 207.8736
+\t (00:03:43) last pick:  286.8930 207.7212
+\t (00:03:43) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:43) Pick new location for the element(s).
+\i (00:03:44) pick grid 284.9826 205.8656
+\t (00:03:44) last pick:  284.9880 205.8670
+\i (00:03:45) pick grid 284.1176 199.4070
+\t (00:03:45) last pick:  284.1244 199.4154
+\t (00:03:45) last pick:  284.1752 199.8218
+\t (00:03:45) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:45) Pick new location for the element(s).
+\i (00:03:46) pick grid 283.0796 211.6898
+\t (00:03:46) last pick:  283.0830 211.6836
+\i (00:03:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:03:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:03:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:03:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:03:49) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Colors
+\i (00:03:49) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Colors
+\i (00:03:49) color192 
+\i (00:03:49) QtSignal CWorkFlowWidget CWorkFlowWidget_tree dataChanged Setup 2 | Colors
+\i (00:03:51) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (00:03:55) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 11 0
+\i (00:03:55) QtSignal CVDNetSplitter CVDNetTable dataChanged 11 0
+\i (00:03:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:03:57) QtSignal CVDColorTable CVDColorButton1:12 clicked
+\i (00:03:59) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 1 0
+\i (00:03:59) QtSignal CVDNetSplitter CVDNetTable dataChanged 1 0
+\i (00:03:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:04:02) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:04:03) prepopup 286.7702 209.2102
+\i (00:04:05) done 
+\i (00:04:05) generaledit 
+\i (00:04:05) zoom in 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom in 283.2526 201.6560
+\i (00:04:05) trapsize 1442
+\i (00:04:05) zoom in 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom in 283.2526 201.7425
+\i (00:04:05) trapsize 721
+\i (00:04:06) pick grid 283.5986 201.3100
+\t (00:04:06) last pick:  283.5910 201.3204
+\i (00:04:07) move 
+\t (00:04:07) Select element(s) to move.
+\i (00:04:08) pick grid 284.6942 205.9377
+\t (00:04:08) last pick:  284.6832 205.9432
+\t (00:04:08) last pick:  284.9880 205.8670
+\t (00:04:08) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:04:08) Pick new location for the element(s).
+\i (00:04:11) pick grid 285.1411 205.7214
+\t (00:04:11) last pick:  285.1404 205.7146
+\i (00:04:12) pick grid 287.2315 205.9521
+\t (00:04:12) last pick:  287.2232 205.9432
+\i (00:04:15) zoom out 1 
+\i (00:04:15) setwindow pcb
+\i (00:04:15) zoom out 285.7322 207.0333
+\i (00:04:15) trapsize 1442
+\i (00:04:16) zoom out 1 
+\i (00:04:16) setwindow pcb
+\i (00:04:16) zoom out 287.1450 208.7345
+\i (00:04:16) trapsize 2883
+\i (00:04:16) zoom out 1 
+\i (00:04:16) setwindow pcb
+\i (00:04:16) zoom out 287.1451 210.4068
+\i (00:04:16) trapsize 5767
+\i (00:04:16) roam start
+\i (00:04:16) roam x 16
+\i (00:04:16) roam y -16
+\i (00:04:16) roam x 16
+\i (00:04:16) roam x 16
+\i (00:04:17) roam x 32
+\i (00:04:17) roam y -16
+\i (00:04:17) roam x 32
+\i (00:04:17) roam y -16
+\i (00:04:17) roam end
+\i (00:04:17) zoom in 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom in 290.6338 228.4705
+\i (00:04:17) trapsize 2883
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 286.8279 225.2989
+\i (00:04:18) trapsize 1442
+\i (00:04:19) zoom in 1 
+\i (00:04:19) setwindow pcb
+\i (00:04:19) zoom in 282.5895 223.6266
+\i (00:04:19) trapsize 721
+\i (00:04:20) zoom out 1 
+\i (00:04:20) setwindow pcb
+\i (00:04:20) zoom out 283.9158 223.5689
+\i (00:04:20) trapsize 1442
+\i (00:04:21) roam start
+\i (00:04:21) roam y -48
+\i (00:04:21) roam y -32
+\i (00:04:21) roam x 16
+\i (00:04:21) roam y -48
+\i (00:04:21) roam y -16
+\i (00:04:21) roam y -16
+\i (00:04:21) roam x 16
+\i (00:04:21) roam y -32
+\i (00:04:22) roam end
+\i (00:04:22) pick grid 285.7034 230.6041
+\t (00:04:22) last pick:  285.6992 230.6066
+\t (00:04:22) last pick:  285.6992 230.4542
+\t (00:04:22) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:04:22) Pick new location for the element(s).
+\i (00:04:23) pick grid 287.0586 230.5176
+\t (00:04:23) last pick:  287.0708 230.5050
+\i (00:04:24) roam start
+\i (00:04:24) roam x 16
+\i (00:04:24) roam y -32
+\i (00:04:24) roam y -32
+\i (00:04:24) roam x -16
+\i (00:04:24) roam y -16
+\i (00:04:24) roam x -16
+\i (00:04:24) roam y -16
+\i (00:04:25) roam end
+\i (00:04:25) pick grid 282.3876 229.0471
+\t (00:04:25) last pick:  282.3972 229.0572
+\t (00:04:25) last pick:  281.8384 229.0064
+\t (00:04:25) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:04:25) Pick new location for the element(s).
+\i (00:04:25) rotate 
+\t (00:04:25) Spin the element(s).
+\i (00:04:26) iangle 90.000
+\t (00:04:26) last angle:  90.000 Degrees
+\i (00:04:27) pick grid 282.9642 233.7180
+\t (00:04:27) last pick:  282.9560 233.7054
+\i (00:04:28) roam start
+\i (00:04:28) roam y -16
+\i (00:04:28) roam x 48
+\i (00:04:28) roam y -32
+\i (00:04:28) roam y -16
+\i (00:04:28) roam x -16
+\i (00:04:28) roam y -16
+\i (00:04:28) roam x -32
+\i (00:04:28) roam x -32
+\i (00:04:28) roam y 16
+\i (00:04:28) roam y 16
+\i (00:04:28) roam x -16
+\i (00:04:28) roam y 48
+\i (00:04:28) roam y 32
+\i (00:04:28) roam y 32
+\i (00:04:28) roam x 16
+\i (00:04:28) roam y 32
+\i (00:04:28) roam y 32
+\i (00:04:29) roam y 16
+\i (00:04:29) roam y -32
+\i (00:04:29) roam x 16
+\i (00:04:29) roam y -48
+\i (00:04:29) roam x 16
+\i (00:04:29) roam y -16
+\i (00:04:29) roam x 16
+\i (00:04:29) roam y -16
+\i (00:04:29) roam x 16
+\i (00:04:29) roam y -16
+\i (00:04:29) roam end
+\i (00:04:30) pick grid 282.8778 232.8818
+\t (00:04:30) last pick:  282.8798 232.8926
+\t (00:04:30) last pick:  282.9560 233.7054
+\t (00:04:30) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:04:30) Pick new location for the element(s).
+\i (00:04:32) pick grid 283.1084 229.9409
+\t (00:04:32) last pick:  283.1084 229.9462
+\i (00:04:33) pick grid 287.0297 230.4311
+\t (00:04:33) last pick:  287.0200 230.4288
+\t (00:04:33) last pick:  287.0708 230.5050
+\t (00:04:33) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:04:33) Pick new location for the element(s).
+\i (00:04:35) rotate 
+\t (00:04:35) Spin the element(s).
+\i (00:04:36) iangle 90.000
+\t (00:04:36) last angle:  90.000 Degrees
+\i (00:04:37) pick grid 288.7885 231.2095
+\t (00:04:37) last pick:  288.7980 231.2162
+\i (00:04:38) roam start
+\i (00:04:38) roam x 16
+\i (00:04:38) roam y -48
+\i (00:04:38) roam y -16
+\i (00:04:38) roam y -48
+\i (00:04:38) roam x -32
+\i (00:04:38) roam y -16
+\i (00:04:38) roam x -32
+\i (00:04:38) roam y -16
+\i (00:04:39) roam end
+\i (00:04:42) pick grid 278.6393 234.6118
+\t (00:04:42) last pick:  278.6380 234.6198
+\t (00:04:42) last pick:  278.4856 234.9500
+\t (00:04:42) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:04:42) Pick new location for the element(s).
+\i (00:04:43) pick grid 277.8609 235.3903
+\t (00:04:43) last pick:  277.8506 235.3818
+\i (00:04:44) pick grid 278.2934 233.1413
+\t (00:04:44) last pick:  278.2824 233.1466
+\t (00:04:44) last pick:  278.3840 233.1212
+\t (00:04:44) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:04:44) Pick new location for the element(s).
+\i (00:04:45) pick grid 277.7744 231.1807
+\t (00:04:45) last pick:  277.7744 231.1908
+\i (00:04:45) pick grid 277.8320 235.2461
+\t (00:04:45) last pick:  277.8252 235.2548
+\t (00:04:45) last pick:  277.8506 235.3818
+\t (00:04:45) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:04:45) Pick new location for the element(s).
+\i (00:04:47) pick grid 277.7744 232.9972
+\t (00:04:47) last pick:  277.7744 232.9942
+\i (00:04:47) pick grid 277.7455 231.1519
+\t (00:04:47) last pick:  277.7490 231.1400
+\t (00:04:47) last pick:  277.7744 231.1908
+\t (00:04:47) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:04:47) Pick new location for the element(s).
+\i (00:04:48) pick grid 278.7547 227.8938
+\t (00:04:48) last pick:  278.7650 227.8888
+\i (00:04:48) pick grid 277.2842 232.9683
+\t (00:04:48) last pick:  277.2918 232.9688
+\t (00:04:48) last pick:  277.7744 232.9942
+\t (00:04:48) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:04:48) Pick new location for the element(s).
+\i (00:04:52) pick grid 278.8412 229.9986
+\t (00:04:52) last pick:  278.8412 229.9970
+\i (00:04:53) pick grid 279.1295 227.7784
+\t (00:04:53) last pick:  279.1206 227.7872
+\t (00:04:53) last pick:  278.7650 227.8888
+\t (00:04:53) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:04:53) Pick new location for the element(s).
+\i (00:04:53) rotate 
+\t (00:04:53) Spin the element(s).
+\i (00:04:54) iangle -180.000
+\t (00:04:54) last angle:  180.000 Degrees
+\i (00:04:56) pick grid 278.8412 227.7784
+\t (00:04:56) last pick:  278.8412 227.7872
+\i (00:04:59) pick grid 288.2406 236.4282
+\t (00:04:59) last pick:  288.2392 236.4232
+\t (00:04:59) last pick:  287.8836 236.2962
+\t (00:04:59) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:04:59) Pick new location for the element(s).
+\i (00:04:59) rotate 
+\t (00:04:59) Spin the element(s).
+\i (00:05:01) iangle 90.000
+\t (00:05:01) last angle:  90.000 Degrees
+\i (00:05:02) pick grid 286.8278 230.1715
+\t (00:05:02) last pick:  286.8168 230.1748
+\i (00:05:02) pick grid 288.8461 231.1807
+\t (00:05:02) last pick:  288.8488 231.1908
+\t (00:05:02) last pick:  288.7980 231.2162
+\t (00:05:02) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:05:02) Pick new location for the element(s).
+\i (00:05:03) rotate 
+\t (00:05:03) Spin the element(s).
+\i (00:05:03) iangle -90.000
+\t (00:05:03) last angle:  0.000 Degrees
+\i (00:05:08) pick grid 290.2301 232.5647
+\t (00:05:08) last pick:  290.2204 232.5624
+\i (00:05:08) pick grid 287.6928 239.3404
+\t (00:05:08) last pick:  287.6804 239.3442
+\t (00:05:08) last pick:  287.8074 239.5982
+\t (00:05:08) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:05:08) Pick new location for the element(s).
+\i (00:05:09) rotate 
+\t (00:05:09) Spin the element(s).
+\i (00:05:09) iangle 90.000
+\t (00:05:09) last angle:  90.000 Degrees
+\i (00:05:11) pick grid 286.3953 235.2173
+\t (00:05:11) last pick:  286.3850 235.2294
+\i (00:05:11) pick grid 286.6837 230.2292
+\t (00:05:11) last pick:  286.6898 230.2256
+\t (00:05:11) last pick:  286.8168 230.1748
+\t (00:05:11) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:05:11) Pick new location for the element(s).
+\i (00:05:13) pick grid 284.3771 235.2173
+\t (00:05:13) last pick:  284.3784 235.2294
+\i (00:05:13) pick grid 289.8553 232.8530
+\t (00:05:13) last pick:  289.8648 232.8418
+\t (00:05:13) last pick:  290.2204 232.5624
+\t (00:05:13) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:05:13) Pick new location for the element(s).
+\i (00:05:15) rotate 
+\t (00:05:15) Spin the element(s).
+\i (00:05:15) iangle 90.000
+\t (00:05:15) last angle:  90.000 Degrees
+\i (00:05:18) pick grid 287.9235 230.0850
+\t (00:05:18) last pick:  287.9344 230.0732
+\i (00:05:19) prepopup 288.0100 226.1061
+\i (00:05:21) pick grid 277.8032 237.1491
+\t (00:05:21) last pick:  277.7998 237.1598
+\t (00:05:21) last pick:  277.6474 238.3282
+\t (00:05:21) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:05:21) Pick new location for the element(s).
+\i (00:05:24) pick grid 278.8700 233.9486
+\t (00:05:24) last pick:  278.8666 233.9594
+\i (00:05:25) prepopup 287.2603 231.9015
+\i (00:05:25) done 
+\i (00:05:26) generaledit 
+\i (00:05:26) roam start
+\i (00:05:26) roam y 16
+\i (00:05:26) roam x 16
+\i (00:05:26) roam y 80
+\i (00:05:26) roam x 64
+\i (00:05:26) roam y 112
+\i (00:05:26) roam x 16
+\i (00:05:26) roam y 64
+\i (00:05:26) roam x 16
+\i (00:05:26) roam y 32
+\i (00:05:26) roam y 32
+\i (00:05:26) roam y 48
+\i (00:05:26) roam x -32
+\i (00:05:26) roam y 16
+\i (00:05:26) roam x -80
+\i (00:05:26) roam x -80
+\i (00:05:27) roam x -32
+\i (00:05:27) roam y -16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam x 16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam x 16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam x 16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam x 16
+\i (00:05:27) roam y -16
+\i (00:05:27) roam x 64
+\i (00:05:27) roam y 80
+\i (00:05:27) roam x 32
+\i (00:05:27) roam y 48
+\i (00:05:27) roam x 16
+\i (00:05:27) roam y 48
+\i (00:05:27) roam y 16
+\i (00:05:27) roam y 16
+\i (00:05:28) roam y -16
+\i (00:05:28) roam y -48
+\i (00:05:28) roam x -32
+\i (00:05:28) roam y -128
+\i (00:05:28) roam x -16
+\i (00:05:28) roam y -128
+\i (00:05:28) roam y -48
+\i (00:05:28) roam y -16
+\i (00:05:28) roam end
+\i (00:05:33) zoom out 1 
+\i (00:05:33) setwindow pcb
+\i (00:05:33) zoom out 283.8004 233.4297
+\i (00:05:33) trapsize 2883
+\i (00:05:34) zoom in 1 
+\i (00:05:34) setwindow pcb
+\i (00:05:34) zoom in 286.1646 232.1611
+\i (00:05:34) trapsize 1442
+\i (00:05:35) move 
+\t (00:05:36) Select element(s) to move.
+\i (00:05:36) pick grid 278.5240 234.0640
+\t (00:05:36) last pick:  278.5364 234.0610
+\t (00:05:36) last pick:  278.8666 233.9594
+\t (00:05:36) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:05:36) Pick new location for the element(s).
+\i (00:05:37) pick grid 279.5331 236.0823
+\t (00:05:37) last pick:  279.5270 236.0930
+\i (00:05:37) pick grid 278.9564 230.0563
+\t (00:05:37) last pick:  278.9682 230.0478
+\t (00:05:37) last pick:  278.8412 229.9970
+\t (00:05:37) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:05:37) Pick new location for the element(s).
+\i (00:05:38) pick grid 279.0429 233.8046
+\t (00:05:38) last pick:  279.0444 233.8070
+\i (00:05:39) pick grid 279.3601 227.8362
+\t (00:05:39) last pick:  279.3492 227.8380
+\t (00:05:39) last pick:  278.8412 227.7872
+\t (00:05:39) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:05:39) Pick new location for the element(s).
+\i (00:05:41) pick grid 279.0429 231.9304
+\t (00:05:41) last pick:  279.0444 231.9274
+\i (00:05:45) pick grid 275.3524 224.5493
+\t (00:05:45) last pick:  275.3614 224.5614
+\t (00:05:45) last pick:  274.9042 222.8850
+\t (00:05:45) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:05:45) Pick new location for the element(s).
+\i (00:05:47) pick grid 277.6590 222.4733
+\t (00:05:47) last pick:  277.6474 222.4786
+\i (00:05:48) pick grid 291.0950 222.8481
+\t (00:05:48) last pick:  291.0840 222.8596
+\t (00:05:48) last pick:  291.2618 223.3422
+\t (00:05:48) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:05:48) Pick new location for the element(s).
+\i (00:05:51) pick grid 289.2209 222.3868
+\t (00:05:51) last pick:  289.2298 222.3770
+\i (00:05:51) pick grid 278.0050 222.2426
+\t (00:05:51) last pick:  278.0030 222.2500
+\t (00:05:51) last pick:  277.6474 222.4786
+\t (00:05:51) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:05:51) Pick new location for the element(s).
+\i (00:05:52) pick grid 276.9382 222.2138
+\t (00:05:52) last pick:  276.9362 222.2246
+\i (00:05:53) prepopup 292.4502 223.2806
+\i (00:05:54) done 
+\i (00:05:54) generaledit 
+\i (00:05:54) zoom out 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom out 290.2877 222.5886
+\i (00:05:54) trapsize 2883
+\i (00:05:55) zoom in 1 
+\i (00:05:55) setwindow pcb
+\i (00:05:55) zoom in 292.3637 211.2862
+\i (00:05:55) trapsize 1442
+\i (00:05:56) roam start
+\i (00:05:56) roam x 64
+\i (00:05:56) roam y 16
+\i (00:05:56) roam y 16
+\i (00:05:56) roam y 32
+\i (00:05:56) roam x -16
+\i (00:05:56) roam y -16
+\i (00:05:56) roam y -32
+\i (00:05:57) roam y -16
+\i (00:05:57) roam y -16
+\i (00:05:57) roam y -16
+\i (00:05:57) roam x -16
+\i (00:05:57) roam y -16
+\i (00:05:57) roam y -32
+\i (00:05:57) roam x -16
+\i (00:05:57) roam y -16
+\i (00:05:57) roam end
+\i (00:05:58) roam start
+\i (00:05:58) roam y 32
+\i (00:05:58) roam x 16
+\i (00:05:58) roam y 32
+\i (00:05:58) roam end
+\i (00:06:00) move 
+\t (00:06:00) Select element(s) to move.
+\i (00:06:01) pick grid 289.9995 220.4838
+\t (00:06:01) last pick:  289.9918 220.4720
+\t (00:06:01) last pick:  289.2298 222.3770
+\t (00:06:01) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:06:01) Pick new location for the element(s).
+\i (00:06:03) pick grid 290.2013 222.3003
+\t (00:06:03) last pick:  290.1950 222.3008
+\i (00:06:03) prepopup 290.3166 222.1561
+\i (00:06:04) done 
+\i (00:06:04) generaledit 
+\i (00:06:07) zoom out 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom out 287.2892 219.2440
+\i (00:06:07) trapsize 2883
+\i (00:06:07) move 
+\t (00:06:07) Select element(s) to move.
+\i (00:06:08) pick grid 290.3455 223.0499
+\t (00:06:08) last pick:  290.3474 223.0374
+\t (00:06:08) last pick:  290.1950 222.3008
+\t (00:06:08) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:06:08) Pick new location for the element(s).
+\i (00:06:11) pick grid 289.6535 221.5506
+\t (00:06:11) last pick:  289.6616 221.5388
+\i (00:06:11) prepopup 289.6535 221.5506
+\i (00:06:11) done 
+\i (00:06:12) generaledit 
+\i (00:06:13) zoom in 1 
+\i (00:06:13) setwindow pcb
+\i (00:06:13) zoom in 290.5185 217.1680
+\i (00:06:13) trapsize 1442
+\i (00:06:17) move 
+\t (00:06:18) Select element(s) to move.
+\i (00:06:18) pick grid 277.1113 221.3199
+\t (00:06:18) last pick:  277.1140 221.3102
+\t (00:06:18) last pick:  276.9362 222.2246
+\t (00:06:18) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:06:18) Pick new location for the element(s).
+\i (00:06:20) pick grid 276.5058 221.9831
+\t (00:06:20) last pick:  276.5044 221.9706
+\i (00:06:20) prepopup 277.9763 221.4641
+\i (00:06:21) done 
+\i (00:06:21) generaledit 
+\i (00:06:24) dimension edit 
+\i (00:06:26) prepopup 278.3800 226.9711
+\i (00:06:27) pop dyn_option_select '@:@Linear dimension' 
+\t (00:06:27) Pick an element or point to dimension ...
+\i (00:06:27) pick grid 276.2175 223.2806
+\t (00:06:27) last pick:  276.2250 223.2914
+\t (00:06:27) First point found ... pick the second point.
+\i (00:06:28) pick grid 289.3652 223.1941
+\t (00:06:28) last pick:  289.3568 223.1898
+\t (00:06:28) Indicate the X or Y direction first.
+\i (00:06:29) pick grid 285.2422 228.9606
+\t (00:06:29) last pick:  285.2420 228.9556
+\t (00:06:29) Pick location for the dimension value.
+\i (00:06:33) prepopup 285.9053 226.6252
+\i (00:06:36) cancel 
+\i (00:06:36) generaledit 
+\i (00:06:38) move 
+\t (00:06:38) Select element(s) to move.
+\i (00:06:39) pick grid 290.2590 221.4929
+\t (00:06:39) last pick:  290.2712 221.4880
+\t (00:06:39) last pick:  289.6616 221.5388
+\t (00:06:39) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:06:39) Pick new location for the element(s).
+\i (00:06:42) pick grid 290.4897 221.6948
+\t (00:06:42) last pick:  290.4998 221.6912
+\i (00:06:42) prepopup 290.2590 221.6371
+\i (00:06:44) done 
+\i (00:06:44) generaledit 
+\i (00:06:45) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup "Design Parameters"
+\i (00:06:45) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup "Design Parameters"
+\i (00:06:45) prmed 
+\i (00:06:47) setwindow form.prmedit
+\i (00:06:47) FORM prmedit display  
+\i (00:06:47) FORM prmedit design  
+\i (00:06:48) FORM prmedit cancel  
+\i (00:06:48) setwindow pcb
+\i (00:06:48) generaledit 
+\i (00:06:49) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:06:49) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:06:49) define grid 
+\t (00:06:49) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:06:51) setwindow form.grid
+\i (00:06:51) FORM grid non_etch non_etch_x_grids 1 
+\i (00:06:52) FORM grid non_etch non_etch_y_grids 1 
+\i (00:06:52) FORM grid all_etch all_etch_x_grids 1 
+\i (00:06:53) FORM grid all_etch all_etch_y_grids 1 
+\i (00:06:53) FORM grid done  
+\i (00:06:55) setwindow pcb
+\i (00:06:55) move 
+\t (00:06:55) Select element(s) to move.
+\i (00:06:55) pick grid 290.1725 222.8481
+\t (00:06:55) last pick:  290.0000 223.0000
+\t (00:06:55) last pick:  290.4998 221.6912
+\t (00:06:55) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:06:55) Pick new location for the element(s).
+\i (00:06:57) pick grid 289.5094 221.6371
+\t (00:06:57) last pick:  290.0000 222.0000
+\i (00:06:57) prepopup 289.9995 221.8678
+\i (00:06:58) done 
+\i (00:06:58) generaledit 
+\i (00:07:01) move 
+\t (00:07:01) Select element(s) to move.
+\i (00:07:01) pick grid 276.5923 222.7327
+\t (00:07:01) last pick:  277.0000 223.0000
+\t (00:07:01) last pick:  276.5044 221.9706
+\t (00:07:01) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:07:01) Pick new location for the element(s).
+\i (00:07:03) pick grid 276.9672 222.4732
+\t (00:07:03) last pick:  277.0000 222.0000
+\i (00:07:03) prepopup 277.9475 222.1849
+\i (00:07:03) done 
+\i (00:07:03) generaledit 
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 283.8005 220.9163
+\i (00:07:04) trapsize 2883
+\i (00:07:04) zoom in 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom in 285.8188 220.9739
+\i (00:07:04) trapsize 1442
+\i (00:07:07) zoom out 1 
+\i (00:07:07) setwindow pcb
+\i (00:07:07) zoom out 283.3392 221.5794
+\i (00:07:07) trapsize 2883
+\i (00:07:07) zoom out 1 
+\i (00:07:07) setwindow pcb
+\i (00:07:07) zoom out 283.3393 221.5794
+\i (00:07:07) trapsize 5767
+\i (00:07:08) zoom in 1 
+\i (00:07:08) setwindow pcb
+\i (00:07:08) zoom in 283.2240 221.9254
+\i (00:07:08) trapsize 2883
+\i (00:07:09) drag_start grid 304.7909 237.7257
+\i (00:07:10) drag_stop 265.3477 201.1082
+\i (00:07:11) pick grid 302.9456 212.1223
+\t (00:07:11) last pick:  303.0000 212.0000
+\i (00:07:13) drag_start grid 304.2719 237.0337
+\i (00:07:14) drag_stop 264.8288 200.8775
+\i (00:07:14) delete 
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:14) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:14) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\i (00:07:14) generaledit 
+\i (00:07:15) pick grid 299.2550 225.5583
+\t (00:07:15) last pick:  299.0000 226.0000
+\i (00:07:16) drag_start grid 299.0820 238.9943
+\i (00:07:16) drag_stop 269.7880 197.5329
+\i (00:07:16) delete 
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:16) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:16) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\t (00:07:16) No valid items selected for the current operation, exiting.
+\i (00:07:17) generaledit 
+\i (00:07:17) delete 
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\t (00:07:17) No valid items selected for the current operation, exiting.
+\i (00:07:17) generaledit 
+\i (00:07:17) delete 
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\t (00:07:17) No valid items selected for the current operation, exiting.
+\i (00:07:17) generaledit 
+\i (00:07:17) delete 
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\t (00:07:17) No valid items selected for the current operation, exiting.
+\i (00:07:17) delete 
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc2.1:Sc1.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.5:C2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31624, U1.2:Sc1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U1.6:U1.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io3.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel0, U1.1:Io2.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, Io3.4:Io2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io2.7"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.3:Sc3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:U1.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.7 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.6 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.5 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31558, U1.4:Sc3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.1 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.2 (N31624)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.2 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.4 (N31558)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.3 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:Io2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, U2.4:Io2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Io2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc3.1:Sc4.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Io2.2:R2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N32453, Io2.4:Io3.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.4 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.3 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc3.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:U2.5"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, R1.1:C3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R2.2:C3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R1.2:R2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31520, R2.1:U2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R2.1 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.2 (N31520)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R1.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.5 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C2.2:Sc2.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31616, U1.9:Sc2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc2.2 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C2.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, Io3.1:U1.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Sel1, U1.10:Io3.6"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.6 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.5 (Sel0)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.4 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, U2.3:U1.8"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31550, U1.7:Sc4.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.2 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.10 (Sel1)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.9 (N31616)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.8 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.7 (N31550)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U1.6 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vdd, U2.5:Io3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Cnc, R_Sensing.1:Io3.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:Io3.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Sc4.1:U2.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.3 (N32453)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Io3.1 (Vdd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.3 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "Sc4.1 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:U2.4"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Vout, R3.2:C1.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.2:R_Sensing.2"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.2 (Gnd)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R_Sensing.1 (Cnc)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, R3.1:U2.3"
+\t (00:07:17) Selected item not valid for current operation, ignored: Ratsnest "N31390, C1.1:R3.1"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "R3.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:17) Selected item not valid for current operation, ignored: Pin "U2.4 (Vout)"
+\t (00:07:17) No valid items selected for the current operation, exiting.
+\i (00:07:18) generaledit 
+\i (00:07:18) pick grid 281.2057 200.8198
+\t (00:07:18) last pick:  281.0000 201.0000
+\i (00:07:24) pick grid 302.1960 232.8241
+\t (00:07:24) last pick:  302.0000 233.0000
+\i (00:07:25) pick grid 286.6840 234.2658
+\t (00:07:25) last pick:  287.0000 234.0000
+\i (00:07:26) delete 
+\t (00:07:26) Selected item not valid for current operation, ignored: Pin "C1.1 (N31390)"
+\t (00:07:26) No valid items selected for the current operation, exiting.
+\i (00:07:26) generaledit 
+\i (00:07:27) pick grid 286.3380 235.5921
+\t (00:07:27) last pick:  286.0000 236.0000
+\i (00:07:27) delete 
+\t (00:07:27) Selected item not valid for current operation, ignored: Pin "C1.2 (Vout)"
+\t (00:07:27) No valid items selected for the current operation, exiting.
+\i (00:07:27) generaledit 
+\i (00:07:28) pick grid 294.1228 234.6118
+\t (00:07:28) last pick:  294.0000 235.0000
+\i (00:07:31) exit 
+\e (00:07:31) Do you want to save the changes you made to msd_foot_ext1.brd?
+\i (00:07:32) fillin no 
+\t (00:07:32)     Journal end - Wed Oct 07 11:08:46 2020

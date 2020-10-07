@@ -1,0 +1,5239 @@
+\t (00:00:02) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Oct 07 11:08:53 2020
+\t (00:00:02)         Host=DESKTOP-JV3CNMF User=Ethan Pid=4476 CPUs=16
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 29310
+\i (00:00:04) generaledit 
+\i (00:00:15) open 
+\i (00:00:31) fillin "msd_foot_ext2.brd"
+\i (00:00:31) trapsize 908
+\i (00:00:31) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:00:31) Opening existing design...
+\i (00:00:31) trapsize 9081
+\d (00:00:31) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_2/layout/msd_foot_ext2.brd
+\i (00:00:32) generaledit 
+\i (00:00:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:34) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup "Design Parameters"
+\i (00:00:34) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup "Design Parameters"
+\i (00:00:34) prmed 
+\i (00:00:35) setwindow form.prmedit
+\i (00:00:35) FORM prmedit design  
+\i (00:00:37) FORM prmedit units Millimeter 
+\e (00:00:37) Change may cause round-off; run dbcheck.
+\i (00:00:39) FORM prmedit done  
+\w (00:00:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:39) setwindow pcb
+\i (00:00:39) trapsize 23066
+\t (00:00:39) Performing DRC...
+\t (00:00:39) Multithreaded DRC update (16 threads).
+\t (00:00:40) No DRC errors detected.
+\i (00:00:40) generaledit 
+\i (00:00:41) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:00:41) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:00:41) define grid 
+\t (00:00:41) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:43) setwindow form.grid
+\i (00:00:43) FORM grid non_etch non_etch_x_grids 1 
+\i (00:00:44) FORM grid non_etch non_etch_y_grids 1 
+\i (00:00:44) FORM grid all_etch all_etch_x_grids 1 
+\i (00:00:46) FORM grid all_etch all_etch_y_grids 1 
+\i (00:00:46) FORM grid done  
+\i (00:00:48) setwindow pcb
+\i (00:00:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Colors
+\i (00:00:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Colors
+\i (00:00:48) color192 
+\i (00:00:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree dataChanged Setup 2 | Colors
+\i (00:00:48) generaledit 
+\i (00:00:51) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 11 0
+\i (00:00:51) QtSignal CVDNetSplitter CVDNetTable dataChanged 11 0
+\i (00:00:51) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:00:53) QtSignal CVDColorTable CVDColorButton1:12 clicked
+\i (00:00:54) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 1 0
+\i (00:00:54) QtSignal CVDNetSplitter CVDNetTable dataChanged 1 0
+\i (00:00:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:00:55) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:00:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup "Design Parameters"
+\i (00:00:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup "Design Parameters"
+\i (00:00:57) prmed 
+\i (00:00:58) setwindow form.prmedit
+\i (00:00:58) FORM prmedit cancel  
+\i (00:00:58) setwindow pcb
+\i (00:00:58) generaledit 
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:01:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup "Design Parameters"
+\i (00:01:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup "Design Parameters"
+\i (00:01:00) prmed 
+\i (00:01:01) setwindow form.prmedit
+\i (00:01:01) FORM prmedit cancel  
+\i (00:01:01) setwindow pcb
+\i (00:01:01) generaledit 
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:01:05) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:01:05) QtSignal "Board Outline" Create Automatically
+\i (00:01:05) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:01:05) QtSignal Create Automatically
+\i (00:01:05) board outline 
+   (00:01:05) Loading floor.cxt 
+   (00:01:05) Loading fputil.cxt 
+\i (00:01:07) setwindow form.fpbdoutline
+\i (00:01:07) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:10) FORM fpbdoutline fpboclearance 0.3mm 
+\i (00:01:14) FORM fpbdoutline fpboplacewdt 14mm 
+\i (00:01:22) FORM fpbdoutline fpboplacehgt 80mm 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) pick grid 280.9468 199.2923
+\t (00:01:23) last pick:  281.0000 199.0000
+\i (00:01:24) setwindow form.fpbdoutline
+\i (00:01:24) FORM fpbdoutline done  
+\i (00:01:25) setwindow pcb
+\i (00:01:25) generaledit 
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 297.5545 223.7425
+\i (00:01:27) trapsize 11533
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 297.0932 224.4345
+\i (00:01:27) trapsize 5767
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 297.0933 224.5498
+\i (00:01:27) trapsize 2883
+\i (00:01:28) roam start
+\i (00:01:28) roam x -64
+\i (00:01:28) roam x -80
+\i (00:01:29) roam y -32
+\i (00:01:29) roam end
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out 284.8680 227.2601
+\i (00:01:30) trapsize 5767
+\i (00:01:31) roam start
+\i (00:01:31) roam y -16
+\i (00:01:31) roam y -16
+\i (00:01:31) roam y -32
+\i (00:01:31) roam y -32
+\i (00:01:31) roam y -32
+\i (00:01:32) roam y -16
+\i (00:01:32) roam end
+\i (00:01:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:01:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:01:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:01:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:01:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:01:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:01:40) place manual 
+\i (00:01:42) setwindow form.plc_manual
+\i (00:01:42) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:42) Placing C1 / CAP NP_0402-CAP_47PF / 0402-CAP on Top.
+\i (00:01:42) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in 286.2520 253.7286
+\i (00:01:44) trapsize 2883
+\i (00:01:44) zoom in 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in 286.2520 253.7286
+\i (00:01:44) trapsize 1442
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 288.1550 253.8151
+\i (00:01:45) trapsize 2883
+\i (00:01:49) zoom in 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom in 288.3857 254.9685
+\i (00:01:49) trapsize 1442
+\i (00:01:50) pick grid 291.2690 260.5044
+\t (00:01:50) last pick:  291.0000 261.0000
+\t (00:01:50) Placing C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP on Top.
+\i (00:01:52) pick grid 284.3203 260.5044
+\t (00:01:52) last pick:  284.0000 261.0000
+\t (00:01:52) Placing C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP on Top.
+\i (00:01:55) pick grid 287.4919 237.5823
+\t (00:01:55) last pick:  287.0000 238.0000
+\t (00:01:55) Placing IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR on Top.
+\i (00:02:01) pick grid 282.5039 249.6921
+\t (00:02:01) last pick:  283.0000 250.0000
+\t (00:02:01) Placing IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR on Top.
+\i (00:02:05) pick grid 292.6818 250.4994
+\t (00:02:05) last pick:  293.0000 250.0000
+\t (00:02:05) Placing R1 / R_0402-RES_10K / 0402-RES on Top.
+\i (00:02:10) pick grid 286.4828 258.6591
+\t (00:02:10) last pick:  286.0000 259.0000
+\t (00:02:10) Placing R2 / R_0402-RES_1K / 0402-RES on Top.
+\i (00:02:11) pick grid 285.6755 257.4770
+\t (00:02:11) last pick:  286.0000 257.0000
+\t (00:02:11) Placing R3 / R_0402-RES_6.8K / 0402-RES on Top.
+\i (00:02:12) pick grid 291.1825 258.5438
+\t (00:02:12) last pick:  291.0000 259.0000
+\t (00:02:12) Placing R_SENSING / R_0402-RES_5K / 0402-RES on Top.
+\i (00:02:14) pick grid 291.2690 256.5255
+\t (00:02:14) last pick:  291.0000 257.0000
+\t (00:02:14) Placing SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:15) roam start
+\i (00:02:15) roam y 64
+\i (00:02:15) roam y 16
+\i (00:02:15) roam y 112
+\i (00:02:15) roam y 48
+\i (00:02:15) roam y 80
+\i (00:02:16) roam y 16
+\i (00:02:16) roam y 32
+\i (00:02:16) roam y 16
+\i (00:02:16) roam y 16
+\i (00:02:16) roam end
+\i (00:02:17) rotate 
+\t (00:02:17) Spin the element(s).
+\i (00:02:18) iangle 90.000
+\t (00:02:18) last angle:  +90.000 Degrees
+\i (00:02:20) pick grid 286.1368 238.4472
+\t (00:02:20) last pick:  286.0000 238.0000
+\t (00:02:20) Placing SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:21) rotate 
+\t (00:02:21) Spin the element(s).
+\i (00:02:21) iangle 90.000
+\t (00:02:21) last angle:  +90.000 Degrees
+\i (00:02:23) pick grid 289.7121 237.5246
+\t (00:02:23) last pick:  290.0000 238.0000
+\t (00:02:23) Placing SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:23) rotate 
+\t (00:02:23) Spin the element(s).
+\i (00:02:24) iangle -90.000
+\t (00:02:24) last angle:  +270.000 Degrees
+\i (00:02:25) pick grid 285.8773 248.4810
+\t (00:02:25) last pick:  286.0000 248.0000
+\t (00:02:25) Placing SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL on Top.
+\i (00:02:25) rotate 
+\t (00:02:25) Spin the element(s).
+\i (00:02:26) iangle -90.000
+\t (00:02:26) last angle:  +270.000 Degrees
+\i (00:02:28) pick grid 289.5102 248.1639
+\t (00:02:28) last pick:  290.0000 248.0000
+\w (00:02:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:28) Placing U1 / TMUX1104DGSR_DGS10_TEX_TMUX1104 / DGS10_TEX on Top.
+\i (00:02:29) pick grid 288.4722 243.3488
+\t (00:02:29) last pick:  288.0000 243.0000
+\w (00:02:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:29) Placing U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH on Top.
+\i (00:02:30) roam start
+\i (00:02:30) roam y -16
+\i (00:02:30) roam y -16
+\i (00:02:30) roam y -16
+\i (00:02:30) roam y -80
+\i (00:02:30) roam y -32
+\i (00:02:30) roam x -16
+\i (00:02:30) roam y -48
+\i (00:02:31) roam y -32
+\i (00:02:31) roam y -64
+\i (00:02:31) roam y -16
+\i (00:02:31) roam end
+\i (00:02:32) pick grid 288.4145 254.9684
+\t (00:02:32) last pick:  288.0000 255.0000
+\i (00:02:32) prepopup 289.0200 253.0655
+\i (00:02:33) done 
+\i (00:02:33) generaledit 
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 292.2493 252.1716
+\i (00:02:33) trapsize 2883
+\i (00:02:34) zoom in 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom in 296.2858 253.5557
+\i (00:02:34) trapsize 1442
+\i (00:02:36) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:02:36) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:02:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:02:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:02:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:02:38) QtSignal "Board Outline" Create Automatically
+\i (00:02:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:02:38) QtSignal Create Automatically
+\i (00:02:38) board outline 
+\i (00:02:41) pick grid 294.9884 239.0528
+\t (00:02:41) last pick:  295.0000 239.0000
+\i (00:02:41) pick grid 297.5257 239.1970
+\t (00:02:41) last pick:  298.0000 239.0000
+\i (00:02:42) pick grid 281.0045 239.1105
+\t (00:02:42) last pick:  281.0000 239.0000
+\i (00:02:43) pick grid 277.4004 239.7737
+\t (00:02:43) last pick:  277.0000 240.0000
+\i (00:02:44) setwindow form.fpbdoutline
+\i (00:02:44) FORM fpbdoutline done  
+\i (00:02:44) setwindow pcb
+\i (00:02:44) generaledit 
+\i (00:02:45) zoom out 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom out 288.9912 253.6999
+\i (00:02:45) trapsize 2883
+\i (00:02:47) zoom in 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in 287.0882 247.7027
+\i (00:02:47) trapsize 1442
+\i (00:02:50) pick grid 280.9468 240.6675
+\t (00:02:50) last pick:  281.0000 241.0000
+\i (00:02:50) move 
+\t (00:02:51) Select element(s) to move.
+\i (00:02:52) pick grid 283.0804 246.5205
+\t (00:02:52) last pick:  283.0000 247.0000
+\t (00:02:52) last pick:  283.0000 250.0000
+\t (00:02:52) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:02:52) Pick new location for the element(s).
+\i (00:02:53) pick grid 278.5537 251.0473
+\t (00:02:53) last pick:  279.0000 251.0000
+\i (00:02:54) pick grid 292.9701 250.4130
+\t (00:02:54) last pick:  293.0000 250.0000
+\t (00:02:54) last pick:  293.0000 250.0000
+\t (00:02:54) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:02:54) Pick new location for the element(s).
+\i (00:02:55) pick grid 295.9687 251.4510
+\t (00:02:55) last pick:  296.0000 251.0000
+\i (00:02:58) pick grid 285.6754 235.4199
+\t (00:02:58) last pick:  286.0000 235.0000
+\t (00:02:58) last pick:  286.0000 238.0000
+\t (00:02:58) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:02:58) Pick new location for the element(s).
+\i (00:02:58) pick grid 285.2717 233.5170
+\t (00:02:58) last pick:  285.0000 234.0000
+\i (00:02:59) pick grid 289.6543 235.1316
+\t (00:02:59) last pick:  290.0000 235.0000
+\t (00:02:59) last pick:  290.0000 238.0000
+\t (00:02:59) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:02:59) Pick new location for the element(s).
+\i (00:03:00) pick grid 289.7120 233.5170
+\t (00:03:00) last pick:  290.0000 234.0000
+\i (00:03:01) pick grid 285.5889 247.6162
+\t (00:03:01) last pick:  286.0000 248.0000
+\t (00:03:01) last pick:  286.0000 248.0000
+\t (00:03:01) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:01) Pick new location for the element(s).
+\i (00:03:01) pick grid 284.4644 248.9137
+\t (00:03:01) last pick:  284.0000 249.0000
+\i (00:03:02) pick grid 289.5678 248.8560
+\t (00:03:02) last pick:  290.0000 249.0000
+\t (00:03:02) last pick:  290.0000 248.0000
+\t (00:03:02) Moving SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:02) Pick new location for the element(s).
+\i (00:03:03) pick grid 289.5101 249.5768
+\t (00:03:03) last pick:  290.0000 250.0000
+\i (00:03:04) pick grid 286.9152 237.8419
+\t (00:03:04) last pick:  287.0000 238.0000
+\t (00:03:04) last pick:  287.0000 238.0000
+\t (00:03:04) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:04) Pick new location for the element(s).
+\i (00:03:05) pick grid 287.1458 239.5142
+\t (00:03:05) last pick:  287.0000 240.0000
+\i (00:03:07) roam start
+\i (00:03:07) roam y 64
+\i (00:03:07) roam y 128
+\i (00:03:07) roam x -16
+\i (00:03:07) roam y 128
+\i (00:03:07) roam y 48
+\i (00:03:07) roam y 48
+\i (00:03:07) roam y 32
+\i (00:03:07) roam y 16
+\i (00:03:07) roam y -48
+\i (00:03:07) roam y -48
+\i (00:03:07) roam y -64
+\i (00:03:07) roam y -48
+\i (00:03:07) roam end
+\i (00:03:08) pick grid 285.5023 233.2862
+\t (00:03:08) last pick:  286.0000 233.0000
+\t (00:03:08) last pick:  285.0000 234.0000
+\t (00:03:08) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:08) Pick new location for the element(s).
+\i (00:03:09) pick grid 286.0790 233.5168
+\t (00:03:09) last pick:  286.0000 234.0000
+\i (00:03:09) pick grid 289.4812 233.9782
+\t (00:03:09) last pick:  289.0000 234.0000
+\t (00:03:09) last pick:  290.0000 234.0000
+\t (00:03:09) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:09) Pick new location for the element(s).
+\i (00:03:10) pick grid 289.5101 232.8249
+\t (00:03:10) last pick:  290.0000 233.0000
+\i (00:03:10) pick grid 285.5600 234.5260
+\t (00:03:10) last pick:  286.0000 235.0000
+\t (00:03:10) last pick:  286.0000 234.0000
+\t (00:03:10) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:10) Pick new location for the element(s).
+\i (00:03:11) pick grid 285.7330 233.4880
+\t (00:03:11) last pick:  286.0000 233.0000
+\i (00:03:11) pick grid 287.2034 239.6006
+\t (00:03:11) last pick:  287.0000 240.0000
+\t (00:03:11) last pick:  287.0000 240.0000
+\t (00:03:11) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:11) Pick new location for the element(s).
+\i (00:03:12) pick grid 287.0593 238.4761
+\t (00:03:12) last pick:  287.0000 238.0000
+\i (00:03:13) pick grid 288.1838 241.8495
+\t (00:03:13) last pick:  288.0000 242.0000
+\t (00:03:13) last pick:  288.0000 243.0000
+\t (00:03:13) Moving U1 / TMUX1104DGSR_DGS10_TEX_TMUX1104 / DGS10_TEX.
+\t (00:03:13) Pick new location for the element(s).
+\i (00:03:14) pick grid 288.0684 241.4459
+\t (00:03:14) last pick:  288.0000 241.0000
+\i (00:03:14) pick grid 286.6844 237.9571
+\t (00:03:14) last pick:  287.0000 238.0000
+\t (00:03:14) last pick:  287.0000 238.0000
+\t (00:03:14) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:14) Pick new location for the element(s).
+\i (00:03:15) pick grid 287.5206 237.8994
+\t (00:03:15) last pick:  288.0000 238.0000
+\i (00:03:16) roam start
+\i (00:03:16) roam y -64
+\i (00:03:16) roam y -32
+\i (00:03:16) roam y -16
+\i (00:03:16) roam y -16
+\i (00:03:17) roam y -32
+\i (00:03:17) roam y -16
+\i (00:03:17) roam end
+\i (00:03:18) pick grid 288.3568 238.1589
+\t (00:03:18) last pick:  288.0000 238.0000
+\t (00:03:18) last pick:  288.0000 238.0000
+\t (00:03:18) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:18) Pick new location for the element(s).
+\i (00:03:19) rotate 
+\t (00:03:19) Spin the element(s).
+\i (00:03:19) iangle -90.000
+\t (00:03:19) last angle:  270.000 Degrees
+\i (00:03:21) pick grid 288.1838 237.4957
+\t (00:03:21) last pick:  288.0000 237.0000
+\i (00:03:23) pick grid 284.0318 249.6055
+\t (00:03:23) last pick:  284.0000 250.0000
+\t (00:03:23) last pick:  279.0000 251.0000
+\t (00:03:23) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:03:23) Pick new location for the element(s).
+\i (00:03:24) prepopup 285.4446 249.2306
+\i (00:03:24) oops 
+\t (00:03:24) last pick:  284.0000 250.0000
+\i (00:03:25) pick grid 284.1472 249.8650
+\t (00:03:25) last pick:  284.0000 250.0000
+\t (00:03:25) last pick:  284.0000 249.0000
+\t (00:03:25) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:25) Pick new location for the element(s).
+\i (00:03:27) pick grid 285.9348 248.4810
+\t (00:03:27) last pick:  286.0000 248.0000
+\i (00:03:28) pick grid 289.6542 247.6448
+\t (00:03:28) last pick:  290.0000 248.0000
+\t (00:03:28) last pick:  290.0000 250.0000
+\t (00:03:28) Moving SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:28) Pick new location for the element(s).
+\i (00:03:30) pick grid 289.8272 247.5007
+\t (00:03:30) last pick:  290.0000 248.0000
+\i (00:03:32) pick grid 286.3385 235.1602
+\t (00:03:32) last pick:  286.0000 235.0000
+\t (00:03:32) last pick:  286.0000 233.0000
+\t (00:03:32) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:32) Pick new location for the element(s).
+\i (00:03:34) pick grid 286.3385 234.4971
+\t (00:03:34) last pick:  286.0000 234.0000
+\i (00:03:35) pick grid 290.7210 234.5836
+\t (00:03:35) last pick:  291.0000 235.0000
+\t (00:03:35) last pick:  290.0000 233.0000
+\t (00:03:35) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:03:35) Pick new location for the element(s).
+\i (00:03:36) pick grid 290.1156 234.4971
+\t (00:03:36) last pick:  290.0000 234.0000
+\i (00:03:37) roam start
+\i (00:03:37) roam y -112
+\i (00:03:37) roam y -16
+\i (00:03:37) roam y -32
+\i (00:03:37) roam y -32
+\i (00:03:37) roam y -32
+\i (00:03:37) roam y -48
+\i (00:03:38) roam y 16
+\i (00:03:39) roam y 16
+\i (00:03:39) roam end
+\i (00:03:39) pick grid 279.1591 250.1822
+\t (00:03:39) last pick:  279.0000 250.0000
+\t (00:03:39) last pick:  279.0000 251.0000
+\t (00:03:39) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:03:39) Pick new location for the element(s).
+\i (00:03:41) pick grid 279.2168 249.5190
+\t (00:03:41) last pick:  279.0000 250.0000
+\i (00:03:44) pick grid 278.9573 250.0668
+\t (00:03:44) last pick:  279.0000 250.0000
+\t (00:03:44) last pick:  279.0000 250.0000
+\t (00:03:44) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:03:44) Pick new location for the element(s).
+\i (00:03:45) pick grid 280.5142 250.0380
+\t (00:03:45) last pick:  281.0000 250.0000
+\i (00:03:46) pick grid 295.8821 250.2398
+\t (00:03:46) last pick:  296.0000 250.0000
+\t (00:03:46) last pick:  296.0000 251.0000
+\t (00:03:46) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:03:46) Pick new location for the element(s).
+\i (00:03:48) pick grid 294.4981 250.7300
+\t (00:03:48) last pick:  294.0000 251.0000
+\i (00:03:49) roam start
+\i (00:03:49) roam y -96
+\i (00:03:49) roam y -16
+\i (00:03:49) roam y -32
+\i (00:03:49) roam y -32
+\i (00:03:49) roam x -16
+\i (00:03:49) roam y -32
+\i (00:03:49) roam x -32
+\i (00:03:49) roam y -32
+\i (00:03:50) roam end
+\i (00:03:51) pick grid 284.3491 260.7062
+\t (00:03:51) last pick:  284.0000 261.0000
+\t (00:03:51) last pick:  284.0000 261.0000
+\t (00:03:51) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:03:51) Pick new location for the element(s).
+\i (00:03:52) pick grid 284.4932 261.9460
+\t (00:03:52) last pick:  284.0000 262.0000
+\i (00:03:52) pick grid 286.1655 258.7167
+\t (00:03:52) last pick:  286.0000 259.0000
+\t (00:03:52) last pick:  286.0000 259.0000
+\t (00:03:52) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:03:52) Pick new location for the element(s).
+\i (00:03:53) pick grid 283.8012 259.5240
+\t (00:03:53) last pick:  284.0000 260.0000
+\i (00:03:54) pick grid 285.2717 257.4192
+\t (00:03:54) last pick:  285.0000 257.0000
+\t (00:03:54) last pick:  286.0000 257.0000
+\t (00:03:54) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:03:54) Pick new location for the element(s).
+\i (00:03:54) pick grid 283.4841 258.1689
+\t (00:03:54) last pick:  283.0000 258.0000
+\i (00:03:55) pick grid 288.3568 254.9396
+\t (00:03:55) last pick:  288.0000 255.0000
+\t (00:03:55) last pick:  288.0000 255.0000
+\t (00:03:55) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:03:55) Pick new location for the element(s).
+\i (00:03:55) rotate 
+\t (00:03:55) Spin the element(s).
+\i (00:03:56) iangle 90.000
+\t (00:03:56) last angle:  90.000 Degrees
+\i (00:03:56) pick grid 287.3765 255.5163
+\t (00:03:56) last pick:  287.0000 256.0000
+\i (00:03:57) roam start
+\i (00:03:57) roam end
+\i (00:03:58) zoom in 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in 290.5769 255.4298
+\i (00:03:58) trapsize 721
+\i (00:03:59) zoom out 1 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) zoom out 290.4616 255.6172
+\i (00:03:59) trapsize 1442
+\i (00:04:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:04:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:04:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Colors
+\i (00:04:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Colors
+\i (00:04:01) color192 
+\i (00:04:02) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (00:04:03) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (00:04:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components "Dev type"
+\i (00:04:05) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components "Comp value"
+\i (00:04:06) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components "Dev type"
+\i (00:04:06) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox 0
+\i (00:04:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:04:08) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:04:09) zoom in 1 
+\i (00:04:09) setwindow pcb
+\i (00:04:09) zoom in 288.0684 255.6460
+\i (00:04:09) trapsize 721
+\i (00:04:10) pick grid 290.8075 254.7666
+\t (00:04:10) last pick:  291.0000 255.0000
+\i (00:04:11) zoom out 1 
+\i (00:04:11) setwindow pcb
+\i (00:04:11) zoom out 290.4615 255.1126
+\i (00:04:11) trapsize 1442
+\i (00:04:12) zoom in 1 
+\i (00:04:12) setwindow pcb
+\i (00:04:12) zoom in 288.7316 258.1112
+\i (00:04:12) trapsize 721
+\i (00:04:15) pick grid 284.3202 261.8739
+\t (00:04:15) last pick:  284.0000 262.0000
+\t (00:04:15) last pick:  284.0000 262.0000
+\t (00:04:15) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:04:15) Pick new location for the element(s).
+\i (00:04:16) rotate 
+\t (00:04:16) Spin the element(s).
+\i (00:04:16) iangle -90.000
+\t (00:04:16) last angle:  270.000 Degrees
+\i (00:04:17) pick grid 284.1040 255.4874
+\t (00:04:17) last pick:  284.0000 255.0000
+\i (00:04:18) pick grid 284.2770 259.8556
+\t (00:04:18) last pick:  284.0000 260.0000
+\t (00:04:18) last pick:  284.0000 260.0000
+\t (00:04:18) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:04:18) Pick new location for the element(s).
+\i (00:04:18) pick grid 283.4985 260.0430
+\t (00:04:18) last pick:  283.0000 260.0000
+\i (00:04:20) roam start
+\i (00:04:20) roam y 160
+\i (00:04:20) roam y 80
+\i (00:04:20) roam y 80
+\i (00:04:20) roam y 48
+\i (00:04:20) roam y 32
+\i (00:04:21) roam y 48
+\i (00:04:21) roam end
+\i (00:04:21) pick grid 283.8012 254.4055
+\t (00:04:21) last pick:  284.0000 254.0000
+\t (00:04:21) last pick:  284.0000 255.0000
+\t (00:04:21) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:04:21) Pick new location for the element(s).
+\i (00:04:22) pick grid 283.7580 252.4737
+\t (00:04:22) last pick:  284.0000 252.0000
+\i (00:04:23) roam start
+\i (00:04:23) roam y -16
+\i (00:04:23) roam y -16
+\i (00:04:23) roam y -48
+\i (00:04:23) roam y -32
+\i (00:04:23) roam y -48
+\i (00:04:24) roam y -32
+\i (00:04:24) roam x 16
+\i (00:04:24) roam y -48
+\i (00:04:24) roam y -32
+\i (00:04:24) roam x 16
+\i (00:04:24) roam y -32
+\i (00:04:24) roam y -16
+\i (00:04:24) roam y -16
+\i (00:04:24) roam end
+\i (00:04:26) pick grid 291.0230 260.7054
+\t (00:04:26) last pick:  291.0000 261.0000
+\t (00:04:26) last pick:  291.0000 261.0000
+\t (00:04:26) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:04:26) Pick new location for the element(s).
+\i (00:04:26) rotate 
+\t (00:04:26) Spin the element(s).
+\i (00:04:27) iangle -90.000
+\t (00:04:27) last angle:  270.000 Degrees
+\i (00:04:28) pick grid 287.9956 260.9937
+\t (00:04:28) last pick:  288.0000 261.0000
+\i (00:04:29) pick grid 291.3978 259.1628
+\t (00:04:29) last pick:  291.0000 259.0000
+\t (00:04:29) last pick:  291.0000 259.0000
+\t (00:04:29) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:04:29) Pick new location for the element(s).
+\i (00:04:29) rotate 
+\t (00:04:29) Spin the element(s).
+\i (00:04:29) iangle -90.000
+\t (00:04:29) last angle:  270.000 Degrees
+\i (00:04:30) pick grid 290.4896 260.9216
+\t (00:04:30) last pick:  290.0000 261.0000
+\i (00:04:32) pick grid 291.2825 256.9427
+\t (00:04:32) last pick:  291.0000 257.0000
+\t (00:04:32) last pick:  291.0000 257.0000
+\t (00:04:32) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:04:32) Pick new location for the element(s).
+\i (00:04:33) rotate 
+\t (00:04:33) Spin the element(s).
+\i (00:04:34) iangle -90.000
+\t (00:04:34) last angle:  270.000 Degrees
+\i (00:04:36) pick grid 290.9654 254.5063
+\t (00:04:36) last pick:  291.0000 255.0000
+\i (00:04:36) roam start
+\i (00:04:36) roam y -32
+\i (00:04:37) roam end
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in 289.5958 259.9414
+\i (00:04:37) trapsize 360
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in 289.5886 259.9558
+\i (00:04:37) trapsize 180
+\i (00:04:37) zoom out 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom out 289.5814 259.9594
+\i (00:04:37) trapsize 360
+\i (00:04:39) zoom out 1 
+\i (00:04:39) setwindow pcb
+\i (00:04:39) zoom out 289.5238 258.6477
+\i (00:04:39) trapsize 721
+\i (00:04:40) pick grid 288.1686 260.1757
+\t (00:04:40) last pick:  288.0000 260.0000
+\t (00:04:40) last pick:  288.0000 261.0000
+\t (00:04:40) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:04:40) Pick new location for the element(s).
+\i (00:04:40) rotate 
+\t (00:04:40) Spin the element(s).
+\i (00:04:40) iangle -180.000
+\t (00:04:40) last angle:  90.000 Degrees
+\i (00:04:41) pick grid 287.9956 260.0027
+\t (00:04:41) last pick:  288.0000 260.0000
+\i (00:04:41) rotate 
+\i (00:04:42) pick grid 288.0389 260.4929
+\t (00:04:42) last pick:  288.0000 260.0000
+\t (00:04:42) last pick:  288.0000 260.0000
+\t (00:04:42) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:04:42) Pick new location for the element(s).
+\i (00:04:43) rotate 
+\t (00:04:43) Spin the element(s).
+\i (00:04:43) iangle -180.000
+\t (00:04:43) last angle:  270.000 Degrees
+\i (00:04:44) pick grid 287.9956 262.0066
+\t (00:04:44) last pick:  288.0000 262.0000
+\i (00:04:44) rotate 
+\i (00:04:45) pick grid 288.0389 261.3723
+\t (00:04:45) last pick:  288.0000 261.0000
+\t (00:04:45) last pick:  288.0000 262.0000
+\t (00:04:45) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:04:45) Pick new location for the element(s).
+\i (00:04:46) rotate 
+\t (00:04:46) Spin the element(s).
+\i (00:04:48) iangle -270.000
+\t (00:04:48) last angle:  0.000 Degrees
+\i (00:04:48) pick grid 287.9956 262.0066
+\t (00:04:48) last pick:  288.0000 262.0000
+\i (00:04:49) pick grid 290.2446 260.1325
+\t (00:04:49) last pick:  290.0000 260.0000
+\t (00:04:49) last pick:  290.0000 261.0000
+\t (00:04:49) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:04:49) Pick new location for the element(s).
+\i (00:04:49) rotate 
+\t (00:04:49) Spin the element(s).
+\i (00:04:50) iangle 90.000
+\t (00:04:50) last angle:  0.000 Degrees
+\i (00:04:51) pick grid 290.5041 258.7341
+\t (00:04:51) last pick:  291.0000 259.0000
+\i (00:04:52) pick grid 288.0533 261.5741
+\t (00:04:52) last pick:  288.0000 262.0000
+\t (00:04:52) last pick:  287.0000 256.0000
+\t (00:04:52) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:04:52) Pick new location for the element(s).
+\i (00:04:53) prepopup 290.6915 260.5506
+\i (00:04:53) oops 
+\t (00:04:53) last pick:  288.0000 262.0000
+\i (00:04:54) pick grid 288.8894 262.0354
+\t (00:04:54) last pick:  289.0000 262.0000
+\t (00:04:54) last pick:  288.0000 262.0000
+\t (00:04:54) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:04:54) Pick new location for the element(s).
+\i (00:04:55) pick grid 290.5473 261.4155
+\t (00:04:55) last pick:  291.0000 261.0000
+\i (00:04:57) zoom in 1 
+\i (00:04:57) setwindow pcb
+\i (00:04:57) zoom in 292.2917 258.4025
+\i (00:04:57) trapsize 360
+\i (00:04:58) pick grid 291.2898 258.7773
+\t (00:04:58) last pick:  291.0000 259.0000
+\t (00:04:58) last pick:  291.0000 259.0000
+\t (00:04:58) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:04:58) Pick new location for the element(s).
+\i (00:04:58) rotate 
+\t (00:04:58) Spin the element(s).
+\i (00:05:00) iangle -180.000
+\t (00:05:00) last angle:  180.000 Degrees
+\i (00:05:00) pick grid 291.0015 259.0080
+\t (00:05:00) last pick:  291.0000 259.0000
+\i (00:05:01) pick grid 291.7079 260.6947
+\t (00:05:01) last pick:  292.0000 261.0000
+\t (00:05:01) last pick:  291.0000 261.0000
+\t (00:05:01) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:05:01) Pick new location for the element(s).
+\i (00:05:01) rotate 
+\t (00:05:01) Spin the element(s).
+\i (00:05:02) iangle -180.000
+\t (00:05:02) last angle:  180.000 Degrees
+\i (00:05:03) pick grid 291.4844 261.1632
+\t (00:05:03) last pick:  291.0000 261.0000
+\i (00:05:03) zoom out 1 
+\i (00:05:03) setwindow pcb
+\i (00:05:03) zoom out 292.2629 258.8999
+\i (00:05:03) trapsize 721
+\i (00:05:04) roam start
+\i (00:05:04) roam x 16
+\i (00:05:04) roam x 16
+\i (00:05:04) roam x 16
+\i (00:05:04) roam y 48
+\i (00:05:04) roam y 64
+\i (00:05:04) roam x -32
+\i (00:05:04) roam y 32
+\i (00:05:04) roam x -16
+\i (00:05:04) roam y 32
+\i (00:05:04) roam x -16
+\i (00:05:04) roam y 32
+\i (00:05:05) roam x 48
+\i (00:05:05) roam x 32
+\i (00:05:05) roam end
+\i (00:05:05) zoom out 1 
+\i (00:05:05) setwindow pcb
+\i (00:05:05) zoom out 292.9099 253.6833
+\i (00:05:05) trapsize 1442
+\i (00:05:06) roam start
+\i (00:05:06) roam x 48
+\i (00:05:06) roam y 64
+\i (00:05:06) roam x 16
+\i (00:05:06) roam y 16
+\i (00:05:06) roam x 16
+\i (00:05:06) roam y 32
+\i (00:05:06) roam y 32
+\i (00:05:06) roam y 16
+\i (00:05:06) roam x -16
+\i (00:05:07) roam end
+\i (00:05:08) zoom out 1 
+\i (00:05:08) setwindow pcb
+\i (00:05:08) zoom out 293.6019 249.6323
+\i (00:05:08) trapsize 2883
+\i (00:05:09) zoom in 1 
+\i (00:05:09) setwindow pcb
+\i (00:05:09) zoom in 289.8538 241.5592
+\i (00:05:09) trapsize 1442
+\i (00:05:10) roam start
+\i (00:05:10) roam x 16
+\i (00:05:10) roam y 16
+\i (00:05:10) roam y 16
+\i (00:05:10) roam x 16
+\i (00:05:10) roam x 16
+\i (00:05:10) roam y 32
+\i (00:05:10) roam end
+\i (00:05:10) prepopup 293.8614 242.3952
+\i (00:05:11) done 
+\i (00:05:11) generaledit 
+\i (00:05:12) roam start
+\i (00:05:12) roam y 16
+\i (00:05:12) roam x 16
+\i (00:05:12) roam y 16
+\i (00:05:12) roam y 16
+\i (00:05:12) roam x 48
+\i (00:05:12) roam y 32
+\i (00:05:12) roam x 16
+\i (00:05:12) roam y 16
+\i (00:05:13) roam x -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam x -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam x -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -32
+\i (00:05:13) roam y -16
+\i (00:05:13) roam x 32
+\i (00:05:13) roam y -32
+\i (00:05:13) roam x 16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -16
+\i (00:05:13) roam y -16
+\i (00:05:14) roam x -16
+\i (00:05:14) roam x -16
+\i (00:05:14) roam y -16
+\i (00:05:14) roam x -16
+\i (00:05:14) roam end
+\i (00:05:22) prepopup 297.2348 248.5366
+\i (00:05:22) pick grid 296.7159 250.0071
+\t (00:05:22) last pick:  297.0000 250.0000
+\i (00:05:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:05:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:05:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:05:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:05:27) create fanout 
+\w (00:05:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:05:43) setwindow form.mini
+\i (00:05:43) FORM mini crfan_via_direction Outward 
+\i (00:05:55) FORM mini crfan_override_line_width YES 
+\i (00:05:58) FORM mini crfan_line_width 0.281 
+\i (00:06:03) setwindow form.find
+\i (00:06:03) FORM find symbols NO 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) pick grid 280.8291 254.1301
+\t (00:06:04) last pick:  281.0000 254.0000
+\t (00:06:04) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:05) pick grid 281.3193 255.9466
+\t (00:06:05) last pick:  281.0000 256.0000
+\t (00:06:05) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:07) pick grid 282.4437 259.8390
+\t (00:06:07) last pick:  282.0000 260.0000
+\t (00:06:07) Generate Fanouts completed, #Pins=1, R1
+\i (00:06:08) pick grid 284.0872 257.6765
+\t (00:06:08) last pick:  284.0000 258.0000
+\t (00:06:08) Generate Fanouts completed, #Pins=1, R2
+\i (00:06:09) pick grid 294.1498 256.1196
+\t (00:06:09) last pick:  294.0000 256.0000
+\t (00:06:09) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:10) pick grid 293.7461 253.6976
+\t (00:06:10) last pick:  294.0000 254.0000
+\t (00:06:10) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:10) pick grid 291.0647 254.0148
+\t (00:06:10) last pick:  291.0000 254.0000
+\t (00:06:10) Generate Fanouts completed, #Pins=1, R_SENSING
+\i (00:06:11) pick grid 290.2285 250.9297
+\t (00:06:11) last pick:  290.0000 251.0000
+\t (00:06:11) Generate Fanouts completed, #Pins=1, SC4
+\i (00:06:11) pick grid 285.9902 250.0359
+\t (00:06:11) last pick:  286.0000 250.0000
+\t (00:06:11) Generate Fanouts completed, #Pins=1, SC3
+\i (00:06:12) pick grid 286.8263 254.4761
+\t (00:06:12) last pick:  287.0000 254.0000
+\t (00:06:12) Generate Fanouts completed, #Pins=1, U2
+\i (00:06:13) pick grid 285.9902 256.8980
+\t (00:06:13) last pick:  286.0000 257.0000
+\t (00:06:13) Generate Fanouts completed, #Pins=1, U2
+\i (00:06:14) pick grid 290.4015 239.8868
+\t (00:06:14) last pick:  290.0000 240.0000
+\t (00:06:14) Generate Fanouts completed, #Pins=1, U1
+\i (00:06:15) pick grid 286.0478 239.7715
+\t (00:06:15) last pick:  286.0000 240.0000
+\t (00:06:15) Generate Fanouts completed, #Pins=1, U1
+\i (00:06:16) pick grid 286.1055 240.9248
+\t (00:06:16) last pick:  286.0000 241.0000
+\t (00:06:16) Generate Fanouts completed, #Pins=1, U1
+\i (00:06:17) pick grid 288.0661 237.5802
+\t (00:06:17) last pick:  288.0000 238.0000
+\t (00:06:17) Generate Fanouts completed, #Pins=1, C3
+\i (00:06:17) pick grid 288.0373 236.2251
+\t (00:06:17) last pick:  288.0000 236.0000
+\t (00:06:17) Generate Fanouts completed, #Pins=1, C3
+\i (00:06:18) zoom out 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom out 292.4486 238.7912
+\i (00:06:18) trapsize 2883
+\i (00:06:18) zoom out 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom out 292.4488 238.9065
+\i (00:06:18) trapsize 5767
+\i (00:06:18) zoom in 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom in 296.2546 234.7546
+\i (00:06:18) trapsize 2883
+\i (00:06:19) zoom in 1 
+\i (00:06:19) setwindow pcb
+\i (00:06:19) zoom in 292.3910 235.1007
+\i (00:06:19) trapsize 1442
+\i (00:06:19) roam start
+\i (00:06:19) roam y 16
+\i (00:06:19) roam y 32
+\i (00:06:19) roam y 32
+\i (00:06:19) roam end
+\i (00:06:19) zoom out 1 
+\i (00:06:19) setwindow pcb
+\i (00:06:19) zoom out 292.2757 232.7941
+\i (00:06:19) trapsize 2883
+\i (00:06:20) pick grid 289.9692 232.3904
+\t (00:06:20) last pick:  290.0000 232.0000
+\t (00:06:20) Generate Fanouts completed, #Pins=1, SC2
+\i (00:06:21) pick grid 285.9903 231.6408
+\t (00:06:21) last pick:  286.0000 232.0000
+\t (00:06:21) Generate Fanouts completed, #Pins=1, SC1
+\i (00:06:22) roam start
+\i (00:06:22) roam y 16
+\i (00:06:22) roam y 16
+\i (00:06:22) roam x 16
+\i (00:06:22) roam y 48
+\i (00:06:22) roam y 16
+\i (00:06:22) roam end
+\i (00:06:23) zoom in 1 
+\i (00:06:23) setwindow pcb
+\i (00:06:23) zoom in 292.3048 251.0742
+\i (00:06:23) trapsize 1442
+\i (00:06:25) prepopup 289.2774 252.8330
+\i (00:06:27) pick grid 299.2246 253.8422
+\t (00:06:27) last pick:  299.0000 254.0000
+\i (00:06:29) pick grid 281.5214 243.6931
+\t (00:06:29) last pick:  282.0000 244.0000
+\t (00:06:29) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:29) pick grid 281.1755 245.7114
+\t (00:06:29) last pick:  281.0000 246.0000
+\t (00:06:29) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:31) pick grid 281.5214 247.9892
+\t (00:06:31) last pick:  282.0000 248.0000
+\t (00:06:31) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:32) pick grid 293.4581 245.8844
+\t (00:06:32) last pick:  293.0000 246.0000
+\t (00:06:32) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:32) pick grid 293.6888 248.0468
+\t (00:06:32) last pick:  294.0000 248.0000
+\t (00:06:32) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:33) pick grid 293.9771 249.7191
+\t (00:06:33) last pick:  294.0000 250.0000
+\t (00:06:33) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:36) pick grid 280.8295 250.0939
+\t (00:06:36) last pick:  281.0000 250.0000
+\t (00:06:36) Generate Fanouts completed, #Pins=1, IO2
+\i (00:06:36) pick grid 292.8815 251.8816
+\t (00:06:36) last pick:  293.0000 252.0000
+\t (00:06:36) Generate Fanouts completed, #Pins=1, IO3
+\i (00:06:38) prepopup 291.6417 247.5567
+\i (00:06:39) done 
+\i (00:06:40) generaledit 
+\i (00:06:41) drag_start grid 281.0025 242.8281
+\i (00:06:41) slide 
+\t (00:06:41) last pick:  281.0000 243.0000
+\t (00:06:41) Waiting for the destination pick.
+\i (00:06:42) drag_stop grid 282.6747 243.8661
+\t (00:06:42) No DRC errors detected.
+\i (00:06:42) generaledit 
+\i (00:06:43) drag_start grid 293.9194 244.7023
+\i (00:06:43) slide 
+\t (00:06:43) last pick:  294.0000 245.0000
+\t (00:06:43) Waiting for the destination pick.
+\i (00:06:44) drag_stop grid 291.6993 245.8267
+\t (00:06:44) No DRC errors detected.
+\i (00:06:44) generaledit 
+\i (00:06:45) drag_start grid 295.9377 248.0180
+\i (00:06:45) slide 
+\t (00:06:45) last pick:  296.0000 248.0000
+\t (00:06:45) Waiting for the destination pick.
+\i (00:06:46) drag_stop grid 292.0453 247.9027
+\t (00:06:46) No DRC errors detected.
+\i (00:06:46) generaledit 
+\i (00:06:46) drag_start grid 296.0531 249.8633
+\i (00:06:46) slide 
+\t (00:06:47) last pick:  296.0000 250.0000
+\t (00:06:47) Waiting for the destination pick.
+\i (00:06:47) drag_stop grid 292.1030 249.7768
+\t (00:06:47) No DRC errors detected.
+\i (00:06:47) generaledit 
+\i (00:06:48) drag_start grid 295.9954 252.1411
+\i (00:06:48) move 
+\t (00:06:48) last pick:  295.8000 251.0000
+\t (00:06:48) Pick new location for the element(s).
+\i (00:06:49) drag_stop grid 292.0165 251.9681
+\i (00:06:49) generaledit 
+\i (00:06:50) undo 
+\i (00:06:50) trapsize 1442
+\i (00:06:50) generaledit 
+\i (00:06:51) drag_start grid 295.5917 252.3141
+\i (00:06:51) slide 
+\t (00:06:52) last pick:  296.0000 252.0000
+\t (00:06:52) Waiting for the destination pick.
+\i (00:06:52) drag_stop grid 291.5840 252.1699
+\t (00:06:52) No DRC errors detected.
+\i (00:06:52) generaledit 
+\i (00:06:53) pick grid 295.9089 247.3260
+\t (00:06:53) last pick:  296.0000 247.0000
+\i (00:06:55) drag_start grid 282.5306 246.0286
+\i (00:06:55) slide 
+\t (00:06:55) last pick:  283.0000 246.0000
+\t (00:06:55) Waiting for the destination pick.
+\i (00:06:56) drag_stop grid 283.1937 246.0574
+\t (00:06:56) No DRC errors detected.
+\i (00:06:56) generaledit 
+\i (00:06:57) drag_start grid 282.6747 248.2487
+\i (00:06:57) slide 
+\t (00:06:57) last pick:  283.0000 248.0000
+\t (00:06:57) Waiting for the destination pick.
+\i (00:06:57) drag_stop grid 283.1937 248.1622
+\t (00:06:57) No DRC errors detected.
+\i (00:06:58) generaledit 
+\i (00:06:58) drag_start grid 282.7324 249.8345
+\i (00:06:58) slide 
+\t (00:06:58) last pick:  283.0000 250.0000
+\t (00:06:58) Waiting for the destination pick.
+\i (00:06:59) drag_stop grid 283.2226 249.8345
+\t (00:06:59) No DRC errors detected.
+\i (00:06:59) generaledit 
+\i (00:07:00) pick grid 295.9089 242.4822
+\t (00:07:00) last pick:  296.0000 242.0000
+\i (00:07:03) drag_start grid 281.2043 256.9849
+\i (00:07:03) slide 
+\t (00:07:03) last pick:  281.0000 257.0000
+\t (00:07:03) Waiting for the destination pick.
+\i (00:07:04) drag_stop grid 280.1951 257.5904
+\t (00:07:04) No DRC errors detected.
+\i (00:07:04) generaledit 
+\i (00:07:05) drag_start grid 281.2620 259.7817
+\i (00:07:05) slide 
+\t (00:07:05) last pick:  282.0000 260.0000
+\t (00:07:05) Waiting for the destination pick.
+\i (00:07:06) drag_stop grid 280.6565 259.7529
+\t (00:07:06) No DRC errors detected.
+\i (00:07:06) generaledit 
+\i (00:07:07) drag_start grid 285.8175 258.3689
+\i (00:07:07) slide 
+\t (00:07:08) last pick:  286.0000 258.0000
+\t (00:07:08) Waiting for the destination pick.
+\i (00:07:08) drag_stop grid 285.8463 258.9455
+\t (00:07:08) No DRC errors detected.
+\i (00:07:08) generaledit 
+\i (00:07:09) drag_start grid 294.2366 257.1868
+\i (00:07:09) slide 
+\t (00:07:09) last pick:  294.0000 257.0000
+\t (00:07:09) Waiting for the destination pick.
+\i (00:07:11) drag_stop grid 293.9771 257.3886
+\t (00:07:11) No DRC errors detected.
+\i (00:07:11) generaledit 
+\i (00:07:12) drag_start grid 293.9771 257.1579
+\i (00:07:12) slide 
+\t (00:07:12) last pick:  294.0000 257.0000
+\t (00:07:12) Waiting for the destination pick.
+\i (00:07:13) drag_stop grid 293.9771 257.5327
+\t (00:07:13) No DRC errors detected.
+\i (00:07:13) generaledit 
+\i (00:07:14) drag_start grid 294.0059 257.7634
+\i (00:07:14) slide 
+\t (00:07:14) last pick:  294.0000 258.0000
+\t (00:07:14) Waiting for the destination pick.
+\i (00:07:14) drag_stop grid 294.0059 257.3021
+\t (00:07:14) No DRC errors detected.
+\i (00:07:14) generaledit 
+\i (00:07:15) pick grid 295.9666 256.6389
+\t (00:07:15) last pick:  296.0000 257.0000
+\i (00:07:16) drag_start grid 293.9194 257.1003
+\i (00:07:16) slide 
+\t (00:07:16) last pick:  294.0000 257.0000
+\t (00:07:16) Waiting for the destination pick.
+\i (00:07:16) drag_stop grid 293.9771 257.7346
+\t (00:07:16) No DRC errors detected.
+\i (00:07:16) generaledit 
+\i (00:07:17) drag_start grid 295.8512 254.1593
+\i (00:07:17) slide 
+\t (00:07:17) last pick:  296.0000 254.0000
+\t (00:07:17) Waiting for the destination pick.
+\i (00:07:19) drag_stop grid 291.9588 254.0152
+\t (00:07:19) No DRC errors detected.
+\i (00:07:19) generaledit 
+\i (00:07:20) zoom in 1 
+\i (00:07:20) setwindow pcb
+\i (00:07:20) zoom in 293.8906 254.1882
+\i (00:07:20) trapsize 721
+\i (00:07:22) zoom out 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom out 291.9588 254.4909
+\i (00:07:22) trapsize 1442
+\i (00:07:23) pick grid 291.7859 256.8841
+\t (00:07:23) last pick:  292.0000 257.0000
+\i (00:07:24) move 
+\t (00:07:24) Select element(s) to move.
+\i (00:07:25) pick grid 291.0939 255.3848
+\t (00:07:25) last pick:  291.0000 255.0000
+\t (00:07:25) last pick:  291.0000 255.0000
+\t (00:07:25) Moving R_SENSING / R_0402-RES_5K / 0402-RES.
+\t (00:07:25) Pick new location for the element(s).
+\i (00:07:26) pick grid 290.4884 255.3848
+\t (00:07:26) last pick:  290.0000 255.0000
+\i (00:07:27) zoom in 1 
+\i (00:07:27) setwindow pcb
+\i (00:07:27) zoom in 291.1227 255.3559
+\i (00:07:27) trapsize 721
+\i (00:07:28) pick grid 291.6706 255.6298
+\t (00:07:28) last pick:  292.0000 256.0000
+\i (00:07:28) prepopup 291.6850 255.6442
+\i (00:07:29) done 
+\i (00:07:29) generaledit 
+\i (00:07:30) drag_start grid 290.0127 253.4962
+\i (00:07:30) slide 
+\t (00:07:30) last pick:  290.0000 254.0000
+\t (00:07:30) Waiting for the destination pick.
+\i (00:07:31) drag_stop grid 289.9406 252.7898
+\t (00:07:31) No DRC errors detected.
+\i (00:07:31) generaledit 
+\i (00:07:34) pick grid 290.0559 251.7663
+\t (00:07:34) last pick:  290.0000 252.0000
+\i (00:07:36) prepopup 290.0559 251.6077
+\i (00:07:36) pick grid 289.5802 251.6077
+\t (00:07:36) last pick:  290.0000 252.0000
+\i (00:07:38) delete 
+\i (00:07:38) generaledit 
+\i (00:07:39) pick grid 286.1491 251.7086
+\t (00:07:39) last pick:  286.0000 252.0000
+\i (00:07:39) delete 
+\i (00:07:39) generaledit 
+\i (00:07:40) drag_start grid 286.9997 253.3953
+\i (00:07:40) slide 
+\t (00:07:40) last pick:  287.0000 254.0000
+\t (00:07:40) Waiting for the destination pick.
+\i (00:07:41) drag_stop grid 286.9997 252.8619
+\t (00:07:41) No DRC errors detected.
+\i (00:07:41) generaledit 
+\i (00:07:42) pick grid 287.1150 252.8042
+\t (00:07:42) last pick:  287.0000 253.0000
+\i (00:07:42) delete 
+\i (00:07:42) generaledit 
+\i (00:07:43) pick grid 291.7859 253.6836
+\t (00:07:43) last pick:  292.0000 254.0000
+\i (00:07:43) delete 
+\i (00:07:44) generaledit 
+\i (00:07:44) zoom out 1 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom out 289.7244 252.5447
+\i (00:07:44) trapsize 1442
+\i (00:07:45) roam start
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:46) roam x -80
+\i (00:07:46) roam x -80
+\i (00:07:46) roam x -64
+\i (00:07:46) roam y -16
+\i (00:07:46) roam x -32
+\i (00:07:46) roam y -16
+\i (00:07:46) roam x -32
+\i (00:07:46) roam end
+\i (00:07:47) zoom in 1 
+\i (00:07:47) setwindow pcb
+\i (00:07:47) zoom in 285.6153 253.9860
+\i (00:07:47) trapsize 721
+\i (00:07:48) drag_start grid 284.5773 257.7775
+\i (00:07:48) slide 
+\t (00:07:48) last pick:  284.0000 258.0000
+\t (00:07:48) Waiting for the destination pick.
+\t (00:07:48) New cline would result in DRC error(s); retaining old cline.
+\i (00:07:50) drag_stop grid 283.6547 256.5954
+\t (00:07:50) No DRC errors detected.
+\i (00:07:50) generaledit 
+\i (00:07:51) drag_start grid 282.7321 254.1302
+\i (00:07:51) slide 
+\t (00:07:51) last pick:  283.0000 254.0000
+\t (00:07:51) Waiting for the destination pick.
+\i (00:07:52) drag_stop grid 283.6403 254.7790
+\t (00:07:52) No DRC errors detected.
+\i (00:07:52) generaledit 
+\i (00:07:52) pick grid 284.0872 254.9231
+\t (00:07:52) last pick:  284.0000 255.0000
+\i (00:07:52) delete 
+\i (00:07:53) generaledit 
+\i (00:07:53) roam start
+\i (00:07:53) roam y 16
+\i (00:07:53) roam x 48
+\i (00:07:53) roam y 48
+\i (00:07:53) roam x 16
+\i (00:07:53) roam y 32
+\i (00:07:54) roam y 48
+\i (00:07:54) roam end
+\i (00:07:56) zoom out 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom out 285.9036 250.1080
+\i (00:07:56) trapsize 1442
+\i (00:07:56) zoom in 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom in 289.7671 249.0412
+\i (00:07:56) trapsize 721
+\i (00:07:57) roam start
+\i (00:07:57) roam y 32
+\i (00:07:57) roam y 48
+\i (00:07:57) roam y 32
+\i (00:07:57) roam y 32
+\i (00:07:58) roam y 48
+\i (00:07:58) roam end
+\i (00:07:58) zoom out 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out 288.4985 246.2876
+\i (00:07:58) trapsize 1442
+\i (00:07:59) roam start
+\i (00:07:59) roam x 32
+\i (00:07:59) roam y 96
+\i (00:07:59) roam x 32
+\i (00:07:59) roam y 80
+\i (00:07:59) roam y 32
+\i (00:07:59) roam y 16
+\i (00:07:59) roam y 16
+\i (00:07:59) roam end
+\i (00:08:01) zoom in 1 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom in 285.5864 238.1858
+\i (00:08:01) trapsize 721
+\i (00:08:01) zoom in 1 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom in 285.1396 239.1805
+\i (00:08:01) trapsize 360
+\i (00:08:02) drag_start grid 284.8152 239.7860
+\i (00:08:02) slide 
+\t (00:08:02) last pick:  285.0000 240.0000
+\t (00:08:02) Waiting for the destination pick.
+\t (00:08:02) New cline would result in DRC error(s); retaining old cline.
+\i (00:08:03) drag_stop grid 284.3971 239.8220
+\t (00:08:03) No DRC errors detected.
+\i (00:08:03) generaledit 
+\i (00:08:04) drag_start grid 284.5557 240.9681
+\i (00:08:04) slide 
+\t (00:08:04) last pick:  285.0000 241.0000
+\t (00:08:04) Waiting for the destination pick.
+\i (00:08:04) drag_stop grid 283.9502 240.9825
+\t (00:08:04) No DRC errors detected.
+\i (00:08:05) generaledit 
+\i (00:08:06) drag_start grid 284.0295 241.1123
+\i (00:08:06) slide 
+\t (00:08:06) last pick:  284.0000 241.0000
+\t (00:08:06) Waiting for the destination pick.
+\i (00:08:10) drag_stop grid 287.4173 240.9032
+\t (00:08:10) No DRC errors detected.
+\i (00:08:11) generaledit 
+\i (00:08:11) pick grid 284.2746 239.9229
+\t (00:08:11) last pick:  284.0000 240.0000
+\i (00:08:12) delete 
+\i (00:08:12) generaledit 
+\i (00:08:12) pick grid 284.6710 239.9734
+\t (00:08:12) last pick:  285.0000 240.0000
+\i (00:08:13) delete 
+\i (00:08:13) generaledit 
+\i (00:08:13) zoom out 1 
+\i (00:08:13) setwindow pcb
+\i (00:08:13) zoom out 286.6533 239.4760
+\i (00:08:13) trapsize 721
+\i (00:08:14) roam start
+\i (00:08:14) roam x 16
+\i (00:08:14) roam x 16
+\i (00:08:14) roam x 16
+\i (00:08:14) roam x 16
+\i (00:08:14) roam end
+\i (00:08:15) pick grid 291.3097 239.9374
+\t (00:08:15) last pick:  291.0000 240.0000
+\i (00:08:15) delete 
+\i (00:08:15) generaledit 
+\i (00:08:15) pick grid 290.8916 239.9518
+\t (00:08:15) last pick:  291.0000 240.0000
+\i (00:08:16) delete 
+\i (00:08:16) generaledit 
+\i (00:08:16) drag_start grid 288.0516 238.6543
+\i (00:08:16) slide 
+\t (00:08:17) last pick:  288.0000 238.0000
+\t (00:08:17) Waiting for the destination pick.
+\i (00:08:17) drag_stop grid 288.1237 239.3031
+\t (00:08:17) No DRC errors detected.
+\i (00:08:17) generaledit 
+\i (00:08:18) zoom out 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom out 289.5941 238.3949
+\i (00:08:18) trapsize 1442
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 289.5942 238.3948
+\i (00:08:18) trapsize 721
+\i (00:08:19) roam start
+\i (00:08:19) roam x 16
+\i (00:08:19) roam y 16
+\i (00:08:19) roam x 16
+\i (00:08:19) roam y 32
+\i (00:08:19) roam y 16
+\i (00:08:19) roam x 16
+\i (00:08:19) roam y 32
+\i (00:08:19) roam y 32
+\i (00:08:19) roam y 32
+\i (00:08:20) roam end
+\i (00:08:21) zoom out 1 
+\i (00:08:21) setwindow pcb
+\i (00:08:21) zoom out 290.1852 235.7926
+\i (00:08:21) trapsize 1442
+\i (00:08:21) roam start
+\i (00:08:22) roam y 16
+\i (00:08:22) roam y 96
+\i (00:08:22) roam x -16
+\i (00:08:22) roam y 16
+\i (00:08:22) roam y 16
+\i (00:08:22) roam x 64
+\i (00:08:22) roam x 48
+\i (00:08:22) roam x 16
+\i (00:08:22) roam y -16
+\i (00:08:22) roam end
+\i (00:08:23) zoom in 1 
+\i (00:08:23) setwindow pcb
+\i (00:08:23) zoom in 289.7095 230.8911
+\i (00:08:23) trapsize 721
+\i (00:08:24) drag_start grid 286.2641 230.2712
+\i (00:08:24) slide 
+\t (00:08:24) last pick:  286.0000 230.0000
+\t (00:08:24) Waiting for the destination pick.
+\i (00:08:25) drag_stop grid 287.9363 231.6408
+\t (00:08:25) No DRC errors detected.
+\i (00:08:25) generaledit 
+\i (00:08:26) pick grid 289.9258 230.3145
+\t (00:08:26) last pick:  290.0000 230.0000
+\i (00:08:26) delete 
+\i (00:08:26) generaledit 
+\i (00:08:27) pick grid 289.9979 230.3722
+\t (00:08:27) last pick:  290.0000 230.0000
+\i (00:08:27) delete 
+\i (00:08:27) generaledit 
+\i (00:08:28) drag_start grid 287.9508 235.2881
+\i (00:08:28) slide 
+\t (00:08:28) last pick:  288.0000 236.0000
+\t (00:08:28) Waiting for the destination pick.
+\i (00:08:29) drag_stop grid 287.8787 234.6394
+\t (00:08:29) No DRC errors detected.
+\i (00:08:29) generaledit 
+\i (00:08:30) pick grid 288.0805 233.6591
+\t (00:08:30) last pick:  288.0000 234.0000
+\i (00:08:30) roam start
+\i (00:08:30) roam y -16
+\i (00:08:30) roam y -16
+\i (00:08:31) roam y -16
+\i (00:08:31) roam x -32
+\i (00:08:31) roam y -48
+\i (00:08:31) roam x -32
+\i (00:08:31) roam y -32
+\i (00:08:31) roam y -32
+\i (00:08:31) roam x -16
+\i (00:08:31) roam y -16
+\i (00:08:31) roam y -16
+\i (00:08:31) roam end
+\i (00:08:31) zoom out 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom out 286.9272 236.3549
+\i (00:08:31) trapsize 1442
+\i (00:08:32) roam start
+\i (00:08:32) roam x 64
+\i (00:08:32) roam y -96
+\i (00:08:32) roam y -16
+\i (00:08:32) roam x 32
+\i (00:08:32) roam y -64
+\i (00:08:32) roam x 32
+\i (00:08:32) roam y -64
+\i (00:08:32) roam y -32
+\i (00:08:32) roam y -64
+\i (00:08:32) roam y -32
+\i (00:08:32) roam x -32
+\i (00:08:32) roam y -32
+\i (00:08:32) roam x -32
+\i (00:08:32) roam y -32
+\i (00:08:33) roam end
+\i (00:08:37) prepopup 287.8354 251.4775
+\i (00:08:38) pick grid 296.6581 253.3516
+\t (00:08:38) last pick:  297.0000 253.0000
+\i (00:08:40) zoom in 1 
+\i (00:08:40) setwindow pcb
+\i (00:08:40) zoom in 287.2587 250.9873
+\i (00:08:40) trapsize 721
+\i (00:08:41) add connect 
+\t (00:08:41) Pick first element.
+\i (00:08:41) zoom in 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom in 287.0714 252.1839
+\i (00:08:41) trapsize 360
+\i (00:08:42) zoom out 1 
+\i (00:08:42) setwindow pcb
+\i (00:08:42) zoom out 287.0714 252.1839
+\i (00:08:42) trapsize 721
+\i (00:08:42) roam start
+\i (00:08:42) roam y -16
+\i (00:08:42) roam x -96
+\i (00:08:42) roam y -80
+\i (00:08:42) roam y -16
+\i (00:08:42) roam x -16
+\i (00:08:42) roam x -16
+\i (00:08:42) roam y -16
+\i (00:08:42) roam x -16
+\i (00:08:42) roam y -32
+\i (00:08:43) roam y -16
+\i (00:08:43) roam end
+\i (00:08:44) pick grid 284.0150 255.0383
+\t (00:08:44) last pick:  284.0000 255.0000
+\t (00:08:44) Target Symbol Pin is defined on TOP.
+\t (00:08:44) last pick:  284.0000 255.0000
+\i (00:08:44) mouse_pos 283.6691 256.5232
+\i (00:08:46) mouse_pos 284.0583 255.4997
+\i (00:08:46) mouse_pos 283.6835 256.5376
+\i (00:08:47) pick grid 283.6835 256.5376
+\t (00:08:47) last pick:  284.0000 257.0000
+\t (00:08:47) No DRC errors detected.
+\t (00:08:47) Pick first element.
+\i (00:08:48) prepopup 284.1592 254.8653
+\i (00:08:48) done 
+\i (00:08:48) generaledit 
+\i (00:08:49) slide 
+\t (00:08:50) Pick element to slide.
+\i (00:08:50) drag_start grid 283.4384 254.4905
+\i (00:08:51) drag_stop 282.9627 254.7500
+\t (00:08:51) Waiting for the destination pick.
+\i (00:08:53) pick grid 283.2942 254.4905
+\t (00:08:53) last pick:  283.0000 254.0000
+\t (00:08:53) No DRC errors detected.
+\t (00:08:53) Pick another element to slide.
+\i (00:08:55) pick grid 283.5105 254.5482
+\t (00:08:55) last pick:  284.0000 255.0000
+\t (00:08:55) last pick:  283.5295 254.5295
+\t (00:08:55) Waiting for the destination pick.
+\i (00:08:56) delete 
+\i (00:08:57) prepopup 283.7123 255.1825
+\i (00:08:58) done 
+\i (00:08:58) generaledit 
+\i (00:08:58) pick grid 283.5681 255.3987
+\t (00:08:58) last pick:  284.0000 255.0000
+\i (00:08:59) delete 
+\i (00:08:59) generaledit 
+\i (00:08:59) pick grid 283.8132 254.8221
+\t (00:08:59) last pick:  284.0000 255.0000
+\i (00:08:59) delete 
+\i (00:09:00) generaledit 
+\i (00:09:00) pick grid 283.7267 254.9807
+\t (00:09:00) last pick:  284.0000 255.0000
+\i (00:09:00) delete 
+\i (00:09:00) generaledit 
+\i (00:09:01) pick grid 282.6311 254.0004
+\t (00:09:01) last pick:  283.0000 254.0000
+\i (00:09:01) delete 
+\i (00:09:01) generaledit 
+\i (00:09:02) add connect 
+\t (00:09:02) Pick first element.
+\i (00:09:03) pick grid 281.3625 254.0004
+\t (00:09:03) last pick:  281.0000 254.0000
+\t (00:09:03) Target Symbol Pin is defined on TOP.
+\t (00:09:03) last pick:  281.0000 254.0000
+\i (00:09:03) mouse_pos 283.3231 256.5376
+\i (00:09:05) mouse_pos 283.2510 255.4997
+\i (00:09:05) prepopup 283.2510 255.4708
+\i (00:09:06) cancel 
+\i (00:09:06) generaledit 
+\i (00:09:07) add connect 
+\t (00:09:08) Pick first element.
+\i (00:09:10) setwindow form.mini
+\i (00:09:10) FORM mini acon_line_width 0.281 
+\i (00:09:13) FORM mini lock_direction 45 
+\i (00:09:13) setwindow pcb
+\i (00:09:13) pick grid 281.5210 254.0580
+\t (00:09:13) last pick:  282.0000 254.0000
+\t (00:09:13) last pick:  281.0000 254.0000
+\t (00:09:13) Target Symbol Pin is defined on TOP.
+\t (00:09:13) last pick:  281.0000 254.0000
+\i (00:09:14) mouse_pos 283.6979 256.5088
+\i (00:09:15) mouse_pos 283.4961 255.7303
+\i (00:09:18) pick grid 283.4961 255.3411
+\t (00:09:18) last pick:  283.0000 255.0000
+\t (00:09:18) No DRC errors detected.
+\i (00:09:18) mouse_pos 283.6546 256.5088
+\i (00:09:20) pick grid 283.6546 256.5088
+\t (00:09:20) last pick:  284.0000 257.0000
+\t (00:09:20) No DRC errors detected.
+\t (00:09:20) Pick first element.
+\i (00:09:21) pick grid 284.0583 251.3766
+\t (00:09:21) last pick:  284.0000 251.0000
+\t (00:09:21) Pick first element.
+\t (00:09:21) last pick:  284.0000 251.3500
+\t (00:09:21) Target Vertical Line Segment is defined on TOP.
+\t (00:09:21) last pick:  284.0000 251.3500
+\i (00:09:27) mouse_pos 286.5091 252.5011
+\i (00:09:28) pick grid 286.5091 252.5011
+\t (00:09:28) last pick:  287.0000 253.0000
+\t (00:09:28) No DRC errors detected.
+\t (00:09:28) Pick first element.
+\i (00:09:29) pick grid 286.0477 251.5784
+\t (00:09:29) last pick:  286.0000 252.0000
+\t (00:09:29) Pick first element.
+\t (00:09:29) last pick:  286.0000 251.6318
+\t (00:09:29) Target Symbol Pin is defined on TOP.
+\t (00:09:29) last pick:  286.0000 251.6318
+\i (00:09:30) mouse_pos 286.0189 252.5011
+\i (00:09:30) pick grid 286.0189 252.5011
+\t (00:09:30) last pick:  286.0000 253.0000
+\t (00:09:30) No DRC errors detected.
+\t (00:09:30) Pick first element.
+\i (00:09:32) pick grid 287.0136 252.9191
+\t (00:09:32) last pick:  287.0000 253.0000
+\t (00:09:32) Pick first element.
+\t (00:09:32) Target Via is defined from TOP to BOTTOM.
+\t (00:09:32) last pick:  287.0000 253.0000
+\i (00:09:32) mouse_pos 289.5797 252.9047
+\i (00:09:32) pick grid 289.5797 252.9047
+\t (00:09:32) last pick:  290.0000 253.0000
+\t (00:09:32) No DRC errors detected.
+\t (00:09:32) Pick first element.
+\i (00:09:33) pick grid 290.0410 251.6217
+\t (00:09:33) last pick:  290.0000 252.0000
+\t (00:09:33) Pick first element.
+\t (00:09:33) last pick:  290.0000 251.6318
+\t (00:09:33) Target Via is defined from TOP to BOTTOM.
+\t (00:09:33) last pick:  290.0000 251.6318
+\i (00:09:33) mouse_pos 289.9978 252.5155
+\i (00:09:34) pick grid 289.9978 252.5155
+\t (00:09:34) last pick:  290.0000 253.0000
+\t (00:09:34) No DRC errors detected.
+\t (00:09:34) Pick first element.
+\i (00:09:35) pick grid 291.8575 253.9139
+\t (00:09:35) last pick:  292.0000 254.0000
+\t (00:09:35) Pick first element.
+\t (00:09:35) Target Via is defined from TOP to BOTTOM.
+\t (00:09:35) last pick:  292.0000 254.0000
+\i (00:09:35) mouse_pos 290.4735 253.0201
+\i (00:09:37) mouse_pos 291.5259 252.8903
+\i (00:09:38) pick grid 291.4971 252.9480
+\t (00:09:38) last pick:  291.0000 253.0000
+\t (00:09:38) No DRC errors detected.
+\i (00:09:39) mouse_pos 290.4591 252.9480
+\i (00:09:39) pick grid 290.4591 252.9480
+\t (00:09:39) last pick:  290.0000 253.0000
+\t (00:09:39) No DRC errors detected.
+\t (00:09:39) Pick first element.
+\i (00:09:40) zoom out 1 
+\i (00:09:40) setwindow pcb
+\i (00:09:40) zoom out 290.6754 251.2180
+\i (00:09:40) trapsize 1442
+\i (00:09:40) roam start
+\i (00:09:40) roam x 64
+\i (00:09:40) roam y 32
+\i (00:09:40) roam x 16
+\i (00:09:40) roam y 16
+\i (00:09:40) roam x 32
+\i (00:09:40) roam y 16
+\i (00:09:41) roam y 48
+\i (00:09:41) roam y 16
+\i (00:09:41) roam x -16
+\i (00:09:41) roam y 32
+\i (00:09:41) roam y 16
+\i (00:09:41) roam end
+\i (00:09:44) roam start
+\i (00:09:44) roam y 16
+\i (00:09:44) roam x 16
+\i (00:09:44) roam y 80
+\i (00:09:44) roam x 48
+\i (00:09:44) roam y 64
+\i (00:09:44) roam x 16
+\i (00:09:44) roam y 32
+\i (00:09:45) roam y 16
+\i (00:09:45) roam x -16
+\i (00:09:45) roam y 16
+\i (00:09:45) roam x -32
+\i (00:09:45) roam x -32
+\i (00:09:45) roam y -32
+\i (00:09:45) roam y -16
+\i (00:09:45) roam y -16
+\i (00:09:45) roam y -48
+\i (00:09:45) roam y -32
+\i (00:09:45) roam y -32
+\i (00:09:45) roam y 48
+\i (00:09:45) roam y 64
+\i (00:09:45) roam y 32
+\i (00:09:46) roam y 32
+\i (00:09:46) roam x -16
+\i (00:09:46) roam y 32
+\i (00:09:46) roam y 16
+\i (00:09:46) roam y 16
+\i (00:09:46) roam y 16
+\i (00:09:46) roam x -16
+\i (00:09:46) roam y 16
+\i (00:09:46) roam y 16
+\i (00:09:46) roam end
+\i (00:09:46) zoom in 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom in 289.7960 232.8517
+\i (00:09:46) trapsize 721
+\i (00:09:47) pick grid 289.7528 231.5831
+\t (00:09:47) last pick:  290.0000 232.0000
+\t (00:09:47) Pick first element.
+\t (00:09:47) last pick:  290.0000 231.8000
+\t (00:09:47) Target Via is defined from TOP to BOTTOM.
+\t (00:09:47) last pick:  290.0000 231.8000
+\i (00:09:47) mouse_pos 288.4697 231.8426
+\i (00:09:48) pick grid 288.4697 231.8426
+\t (00:09:48) last pick:  288.0000 232.0000
+\t (00:09:48) No DRC errors detected.
+\t (00:09:48) Pick first element.
+\i (00:09:48) zoom out 1 
+\i (00:09:48) setwindow pcb
+\i (00:09:48) zoom out 291.7855 233.6734
+\i (00:09:48) trapsize 1442
+\i (00:09:49) roam start
+\i (00:09:49) roam x 80
+\i (00:09:49) roam y -64
+\i (00:09:49) roam x 16
+\i (00:09:49) roam y -16
+\i (00:09:49) roam x 16
+\i (00:09:49) roam y -32
+\i (00:09:49) roam y -48
+\i (00:09:49) roam y -16
+\i (00:09:49) roam y -48
+\i (00:09:49) roam y -16
+\i (00:09:50) roam y -32
+\i (00:09:50) roam y -16
+\i (00:09:50) roam y -32
+\i (00:09:50) roam y -16
+\i (00:09:50) roam y -16
+\i (00:09:50) roam end
+\i (00:09:51) roam start
+\i (00:09:51) roam y -96
+\i (00:09:51) roam y -16
+\i (00:09:51) roam y -32
+\i (00:09:51) roam x -16
+\i (00:09:51) roam y -32
+\i (00:09:51) roam x -16
+\i (00:09:51) roam y -48
+\i (00:09:51) roam end
+\i (00:09:52) prepopup 295.3607 259.1758
+\i (00:09:53) done 
+\i (00:09:53) generaledit 
+\i (00:09:53) zoom in 1 
+\i (00:09:53) setwindow pcb
+\i (00:09:53) zoom in 290.2862 255.8601
+\i (00:09:53) trapsize 721
+\i (00:09:55) zoom out 1 
+\i (00:09:55) setwindow pcb
+\i (00:09:55) zoom out 291.0359 256.6962
+\i (00:09:55) trapsize 1442
+\i (00:09:56) roam start
+\i (00:09:56) roam x 16
+\i (00:09:56) roam x 16
+\i (00:09:56) roam x 16
+\i (00:09:56) roam x 16
+\i (00:09:56) roam y 16
+\i (00:09:56) roam x 32
+\i (00:09:56) roam y 32
+\i (00:09:56) roam y 48
+\i (00:09:56) roam end
+\i (00:09:57) zoom in 1 
+\i (00:09:57) setwindow pcb
+\i (00:09:57) zoom in 292.3333 253.5534
+\i (00:09:57) trapsize 721
+\i (00:10:04) pick grid 288.1526 252.9912
+\t (00:10:04) last pick:  288.0000 253.0000
+\i (00:10:05) delete 
+\i (00:10:06) generaledit 
+\i (00:10:07) pick grid 289.7096 252.9479
+\t (00:10:07) last pick:  290.0000 253.0000
+\i (00:10:08) prepopup 289.8105 252.9912
+\i (00:10:10) pop dyn_option_select @:@Copy 
+\i (00:10:10) copy 
+\i (00:10:11) pick grid 287.4895 252.6452
+\t (00:10:11) last pick:  287.0000 253.0000
+\i (00:10:13) prepopup 288.1815 251.8955
+\i (00:10:14) done 
+\i (00:10:14) generaledit 
+\i (00:10:15) zoom out 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom out 288.3545 251.4631
+\i (00:10:15) trapsize 1442
+\i (00:10:16) roam start
+\i (00:10:16) roam x 16
+\i (00:10:16) roam y 32
+\i (00:10:16) roam x 16
+\i (00:10:16) roam y 16
+\i (00:10:16) roam x 16
+\i (00:10:16) roam y 32
+\i (00:10:16) roam y 32
+\i (00:10:16) roam y 32
+\i (00:10:16) roam end
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in 287.7777 244.9325
+\i (00:10:18) trapsize 721
+\i (00:10:19) zoom out 1 
+\i (00:10:19) setwindow pcb
+\i (00:10:19) zoom out 287.7345 244.8172
+\i (00:10:19) trapsize 1442
+\i (00:10:22) roam start
+\i (00:10:22) roam y -80
+\i (00:10:22) roam x -16
+\i (00:10:22) roam y -80
+\i (00:10:22) roam end
+\i (00:10:22) zoom in 1 
+\i (00:10:22) setwindow pcb
+\i (00:10:22) zoom in 289.7095 259.5506
+\i (00:10:23) trapsize 721
+\i (00:10:23) roam start
+\i (00:10:23) roam x -16
+\i (00:10:23) roam x -16
+\i (00:10:23) roam x -16
+\i (00:10:23) roam x -48
+\i (00:10:23) roam x -32
+\i (00:10:24) roam end
+\i (00:10:24) zoom in 1 
+\i (00:10:24) setwindow pcb
+\i (00:10:24) zoom in 283.2510 258.6280
+\i (00:10:24) trapsize 360
+\i (00:10:25) roam start
+\i (00:10:25) roam x 80
+\i (00:10:25) roam y 16
+\i (00:10:25) roam x 32
+\i (00:10:25) roam x 48
+\i (00:10:25) roam y 16
+\i (00:10:25) roam x 16
+\i (00:10:25) roam x -64
+\i (00:10:25) roam x -80
+\i (00:10:25) roam y 16
+\i (00:10:25) roam x -96
+\i (00:10:25) roam x -64
+\i (00:10:25) roam x -32
+\i (00:10:26) roam y -16
+\i (00:10:26) roam x 16
+\i (00:10:26) roam y -16
+\i (00:10:26) roam y -16
+\i (00:10:26) roam end
+\i (00:10:27) add connect 
+\t (00:10:27) Pick first element.
+\t (00:10:27) Target Via is defined from TOP to BOTTOM.
+\t (00:10:27) last pick:  290.0000 253.0000
+\i (00:10:29) prepopup 283.7340 258.9379
+\i (00:10:30) cancel 
+\i (00:10:30) generaledit 
+\i (00:10:31) pick grid 283.9646 259.0172
+\t (00:10:31) last pick:  284.0000 259.0000
+\i (00:10:32) add connect 
+\t (00:10:32) Pick first element.
+\i (00:10:32) pick grid 283.7556 259.9038
+\t (00:10:32) last pick:  284.0000 260.0000
+\t (00:10:32) last pick:  283.6500 260.0000
+\t (00:10:32) Target Symbol Pin is defined on TOP.
+\t (00:10:32) last pick:  283.6500 260.0000
+\i (00:10:32) mouse_pos 282.6023 258.4983
+\i (00:10:33) pick grid 282.4942 258.2532
+\t (00:10:33) last pick:  282.0000 258.0000
+\t (00:10:33) No DRC errors detected.
+\t (00:10:33) Pick first element.
+\i (00:10:34) zoom out 1 
+\i (00:10:34) setwindow pcb
+\i (00:10:34) zoom out 284.7143 257.4675
+\i (00:10:34) trapsize 721
+\i (00:10:35) roam start
+\i (00:10:35) roam end
+\i (00:10:36) pick grid 286.0982 254.9446
+\t (00:10:36) last pick:  286.0000 255.0000
+\t (00:10:36) Pick first element.
+\t (00:10:36) last pick:  286.0500 254.7046
+\t (00:10:36) Target Symbol Pin is defined on TOP.
+\t (00:10:36) last pick:  286.0500 254.7046
+\i (00:10:36) mouse_pos 284.1953 259.5002
+\i (00:10:37) pick grid 284.1953 259.5002
+\t (00:10:37) last pick:  284.0000 260.0000
+\t (00:10:37) No DRC errors detected.
+\t (00:10:37) Pick first element.
+\i (00:10:38) prepopup 285.0314 257.1647
+\i (00:10:39) done 
+\i (00:10:39) generaledit 
+\i (00:10:40) slide 
+\t (00:10:40) Pick element to slide.
+\i (00:10:41) pick grid 285.4351 257.4963
+\t (00:10:41) last pick:  285.0000 257.0000
+\t (00:10:41) last pick:  285.5285 257.4963
+\t (00:10:41) Waiting for the destination pick.
+\i (00:10:41) pick grid 285.4351 257.4963
+\t (00:10:41) last pick:  285.0000 257.0000
+\t (00:10:41) No DRC errors detected.
+\t (00:10:41) Pick another element to slide.
+\i (00:10:42) pick grid 285.5216 256.5737
+\t (00:10:42) last pick:  286.0000 257.0000
+\t (00:10:42) last pick:  285.5030 256.5552
+\t (00:10:42) Waiting for the destination pick.
+\i (00:10:43) pick grid 285.4495 256.4872
+\t (00:10:43) last pick:  285.0000 256.0000
+\t (00:10:43) No DRC errors detected.
+\t (00:10:43) Pick another element to slide.
+\i (00:10:44) prepopup 285.6657 256.6602
+\i (00:10:44) done 
+\i (00:10:44) generaledit 
+\i (00:10:45) roam start
+\i (00:10:45) roam x 128
+\i (00:10:45) roam y 64
+\i (00:10:45) roam x 96
+\i (00:10:45) roam y 32
+\i (00:10:45) roam x 96
+\i (00:10:45) roam y 32
+\i (00:10:45) roam x 96
+\i (00:10:45) roam y 16
+\i (00:10:45) roam x 80
+\i (00:10:45) roam y 32
+\i (00:10:45) roam x 48
+\i (00:10:45) roam y 16
+\i (00:10:45) roam x 48
+\i (00:10:45) roam y 32
+\i (00:10:45) roam x 16
+\i (00:10:46) roam x -64
+\i (00:10:46) roam y -16
+\i (00:10:46) roam x -80
+\i (00:10:46) roam x -80
+\i (00:10:46) roam x -80
+\i (00:10:46) roam x -64
+\i (00:10:46) roam x -32
+\i (00:10:46) roam x -16
+\i (00:10:46) roam end
+\i (00:10:48) add connect 
+\t (00:10:49) Pick first element.
+\i (00:10:50) roam start
+\i (00:10:50) roam x 64
+\i (00:10:50) roam y -48
+\i (00:10:50) roam x 16
+\i (00:10:50) roam x 48
+\i (00:10:50) roam y -48
+\i (00:10:50) roam y -32
+\i (00:10:50) roam x -16
+\i (00:10:50) roam y -16
+\i (00:10:50) roam x -32
+\i (00:10:50) roam end
+\i (00:10:51) pick grid 290.3726 259.1470
+\t (00:10:51) last pick:  290.0000 259.0000
+\t (00:10:51) last pick:  290.3500 259.0000
+\t (00:10:51) Target Symbol Pin is defined on TOP.
+\t (00:10:51) last pick:  290.3500 259.0000
+\i (00:10:51) mouse_pos 290.4591 260.5166
+\i (00:10:52) pick grid 290.4591 260.5166
+\t (00:10:52) last pick:  290.0000 261.0000
+\t (00:10:52) No DRC errors detected.
+\t (00:10:52) Pick first element.
+\i (00:10:53) pick grid 287.8786 257.5324
+\t (00:10:53) last pick:  288.0000 258.0000
+\t (00:10:53) Pick first element.
+\t (00:10:53) last pick:  287.9500 257.2954
+\t (00:10:53) Target Symbol Pin is defined on TOP.
+\t (00:10:53) last pick:  287.9500 257.2954
+\i (00:10:53) mouse_pos 289.5220 258.7578
+\i (00:10:53) mouse_pos 289.4211 259.0461
+\i (00:10:55) pick grid 288.5273 258.9596
+\t (00:10:55) last pick:  289.0000 259.0000
+\t (00:10:55) No DRC errors detected.
+\i (00:10:55) mouse_pos 288.6138 258.9596
+\i (00:10:55) mouse_pos 289.5220 258.9596
+\i (00:10:55) pick grid 289.5220 258.9596
+\t (00:10:55) last pick:  290.0000 259.0000
+\t (00:10:55) No DRC errors detected.
+\t (00:10:55) Pick first element.
+\i (00:10:56) roam start
+\i (00:10:56) roam x 48
+\i (00:10:56) roam y 48
+\i (00:10:56) roam y 16
+\i (00:10:56) roam x 16
+\i (00:10:56) roam y 16
+\i (00:10:56) roam x 32
+\i (00:10:56) roam y 64
+\i (00:10:56) roam y 16
+\i (00:10:57) roam end
+\i (00:10:58) roam start
+\i (00:10:59) roam y 48
+\i (00:10:59) roam y 16
+\i (00:10:59) roam y 16
+\i (00:10:59) roam y 32
+\i (00:10:59) roam y 16
+\i (00:10:59) roam y 48
+\i (00:10:59) roam y 32
+\i (00:10:59) roam end
+\i (00:11:02) prepopup 291.7710 253.1354
+\i (00:11:02) done 
+\i (00:11:02) generaledit 
+\i (00:11:03) pick grid 291.5259 253.5247
+\t (00:11:03) last pick:  292.0000 254.0000
+\i (00:11:04) delete 
+\i (00:11:04) generaledit 
+\i (00:11:04) pick grid 290.9637 252.9624
+\t (00:11:04) last pick:  291.0000 253.0000
+\i (00:11:05) delete 
+\i (00:11:05) generaledit 
+\i (00:11:06) pick grid 290.0555 252.8615
+\t (00:11:06) last pick:  290.0000 253.0000
+\i (00:11:06) settoggle smooth_mode Off Minimal Full 
+\i (00:11:06) options smooth_level Off 
+\i (00:11:06) trapsize 721
+\e (00:11:06) Form field label not found
+\i (00:11:07) generaledit 
+\i (00:11:08) prepopup 289.9402 252.9192
+\i (00:11:09) pop dyn_option_select @:@Copy 
+\i (00:11:09) copy 
+\i (00:11:10) pick grid 292.1891 253.5967
+\t (00:11:10) last pick:  292.0000 254.0000
+\i (00:11:11) prepopup 291.6701 253.3517
+\i (00:11:11) done 
+\i (00:11:11) generaledit 
+\i (00:11:12) pick grid 291.5836 255.3988
+\t (00:11:12) last pick:  292.0000 255.0000
+\i (00:11:14) add connect 
+\t (00:11:14) Pick first element.
+\i (00:11:14) pick grid 289.9546 255.6150
+\t (00:11:14) last pick:  290.0000 256.0000
+\t (00:11:14) last pick:  290.0000 255.6500
+\t (00:11:14) Target Via is defined from TOP to BOTTOM.
+\t (00:11:14) last pick:  290.0000 255.6500
+\i (00:11:15) mouse_pos 291.5259 250.2522
+\i (00:11:16) mouse_pos 291.4827 250.8288
+\i (00:11:18) pick grid 291.3241 254.5050
+\t (00:11:18) last pick:  291.0000 255.0000
+\t (00:11:18) No DRC errors detected.
+\i (00:11:21) pick grid 290.8340 252.4579
+\t (00:11:21) last pick:  291.0000 252.0000
+\t (00:11:21) No DRC errors detected.
+\i (00:11:21) mouse_pos 291.6413 250.4972
+\i (00:11:23) pick grid 291.6413 250.4972
+\t (00:11:23) last pick:  292.0000 250.0000
+\t (00:11:23) No DRC errors detected.
+\t (00:11:23) Pick first element.
+\i (00:11:23) prepopup 291.6845 251.3766
+\i (00:11:24) done 
+\i (00:11:24) generaledit 
+\i (00:11:26) zoom out 1 
+\i (00:11:26) setwindow pcb
+\i (00:11:26) zoom out 290.1132 251.1027
+\i (00:11:26) trapsize 1442
+\i (00:11:27) roam start
+\i (00:11:27) roam y 16
+\i (00:11:27) roam y 32
+\i (00:11:27) roam y 32
+\i (00:11:28) roam x -32
+\i (00:11:28) roam y 32
+\i (00:11:28) roam end
+\i (00:11:29) zoom in 1 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) zoom in 286.1055 248.9979
+\i (00:11:29) trapsize 721
+\i (00:11:30) zoom out 1 
+\i (00:11:30) setwindow pcb
+\i (00:11:30) zoom out 286.1055 248.9980
+\i (00:11:30) trapsize 1442
+\i (00:11:30) pick grid 295.4473 244.2406
+\t (00:11:30) last pick:  295.0000 244.0000
+\i (00:11:31) move 
+\t (00:11:31) Select element(s) to move.
+\i (00:11:32) pick grid 294.4382 246.7202
+\t (00:11:32) last pick:  294.0000 247.0000
+\t (00:11:32) last pick:  294.0000 251.0000
+\t (00:11:32) Moving IO3 / EXT2_EXT3_CONNECTOR_EXT2_EXT3_C / EXT2_EXT3_CONNECTOR.
+\t (00:11:32) Pick new location for the element(s).
+\i (00:11:34) pick grid 294.5247 250.9874
+\t (00:11:34) last pick:  295.0000 251.0000
+\i (00:11:35) prepopup 292.3334 249.8917
+\i (00:11:36) done 
+\i (00:11:36) generaledit 
+\i (00:11:36) zoom in 1 
+\i (00:11:36) setwindow pcb
+\i (00:11:36) zoom in 291.9874 248.9403
+\i (00:11:36) trapsize 721
+\i (00:11:38) slide 
+\t (00:11:39) Pick element to slide.
+\i (00:11:39) pick grid 291.5838 250.9154
+\t (00:11:39) last pick:  292.0000 251.0000
+\t (00:11:39) last pick:  291.6232 250.9552
+\t (00:11:39) Waiting for the destination pick.
+\i (00:11:41) pick grid 291.9874 251.5064
+\t (00:11:41) last pick:  292.0000 252.0000
+\t (00:11:41) No DRC errors detected.
+\t (00:11:41) Pick another element to slide.
+\i (00:11:43) prepopup 292.0595 248.6232
+\i (00:11:43) done 
+\i (00:11:43) generaledit 
+\i (00:11:43) add connect 
+\t (00:11:44) Pick first element.
+\i (00:11:44) pick grid 292.7803 249.9639
+\t (00:11:44) last pick:  293.0000 250.0000
+\t (00:11:44) Target Vertical Line Segment is defined on TOP.
+\t (00:11:44) last pick:  293.0000 250.0000
+\i (00:11:44) pick grid 292.4632 249.9927
+\t (00:11:44) last pick:  292.0000 250.0000
+\t (00:11:44) No DRC errors detected.
+\t (00:11:44) Pick first element.
+\i (00:11:45) pick grid 292.9966 253.8995
+\t (00:11:45) last pick:  293.0000 254.0000
+\t (00:11:45) Pick first element.
+\t (00:11:45) Target Via is defined from TOP to BOTTOM.
+\t (00:11:45) last pick:  293.0000 254.0000
+\i (00:11:45) mouse_pos 292.4055 253.8707
+\i (00:11:46) pick grid 292.4055 253.8707
+\t (00:11:46) last pick:  292.0000 254.0000
+\t (00:11:46) No DRC errors detected.
+\t (00:11:46) Pick first element.
+\i (00:11:46) prepopup 291.8289 248.8683
+\i (00:11:47) done 
+\i (00:11:47) generaledit 
+\i (00:11:47) pick grid 291.7280 248.7097
+\t (00:11:47) last pick:  292.0000 249.0000
+\i (00:11:48) zoom out 1 
+\i (00:11:48) setwindow pcb
+\i (00:11:48) zoom out 291.7280 248.7097
+\i (00:11:48) trapsize 1442
+\i (00:11:49) roam start
+\i (00:11:49) roam x 32
+\i (00:11:49) roam y 96
+\i (00:11:49) roam x 16
+\i (00:11:49) roam y 96
+\i (00:11:49) roam y 32
+\i (00:11:49) roam y 32
+\i (00:11:49) roam y 16
+\i (00:11:49) roam x -48
+\i (00:11:49) roam x -48
+\i (00:11:49) roam y -32
+\i (00:11:49) roam x -32
+\i (00:11:49) roam y -16
+\i (00:11:50) roam y -16
+\i (00:11:50) roam y -16
+\i (00:11:50) roam end
+\i (00:11:52) roam start
+\i (00:11:52) roam y -16
+\i (00:11:52) roam x 32
+\i (00:11:52) roam y -48
+\i (00:11:52) roam x 16
+\i (00:11:52) roam y -16
+\i (00:11:52) roam y -32
+\i (00:11:52) roam y -16
+\i (00:11:52) roam y -32
+\i (00:11:52) roam x -16
+\i (00:11:53) roam y -32
+\i (00:11:53) roam end
+\i (00:11:53) zoom in 1 
+\i (00:11:53) setwindow pcb
+\i (00:11:53) zoom in 290.6610 259.1182
+\i (00:11:53) trapsize 721
+\i (00:11:54) roam start
+\i (00:11:54) roam y -16
+\i (00:11:54) roam y -32
+\i (00:11:54) roam y -32
+\i (00:11:54) roam x -16
+\i (00:11:54) roam y -16
+\i (00:11:55) roam y -32
+\i (00:11:55) roam y -32
+\i (00:11:55) roam end
+\i (00:11:55) add connect 
+\t (00:11:55) Selected item not valid for current operation, ignored: Text "Sc4"
+\t (00:11:55) No valid items selected for the current operation, exiting.
+\i (00:11:55) generaledit 
+\i (00:11:56) pick grid 288.0228 254.6923
+\t (00:11:56) last pick:  288.0000 255.0000
+\i (00:11:58) pick grid 291.8287 256.3502
+\t (00:11:58) last pick:  292.0000 256.0000
+\i (00:11:58) add connect 
+\t (00:11:59) Pick first element.
+\i (00:11:59) pick grid 287.9219 254.7933
+\t (00:11:59) last pick:  288.0000 255.0000
+\t (00:11:59) last pick:  287.9500 254.7046
+\t (00:11:59) Target Symbol Pin is defined on TOP.
+\t (00:11:59) last pick:  287.9500 254.7046
+\i (00:12:01) pick grid 290.4880 257.4314
+\t (00:12:01) last pick:  290.0000 257.0000
+\t (00:12:01) No DRC errors detected.
+\i (00:12:01) mouse_pos 290.2718 257.4026
+\i (00:12:01) mouse_pos 290.6754 257.3449
+\i (00:12:01) mouse_pos 291.7422 258.5127
+\i (00:12:02) pick grid 291.7422 258.5127
+\t (00:12:02) last pick:  292.0000 259.0000
+\t (00:12:02) No DRC errors detected.
+\t (00:12:02) Pick first element.
+\i (00:12:03) pick grid 291.5260 260.9058
+\t (00:12:03) last pick:  292.0000 261.0000
+\t (00:12:03) Pick first element.
+\t (00:12:03) last pick:  291.6500 261.0000
+\t (00:12:03) Target Symbol Pin is defined on TOP.
+\t (00:12:03) last pick:  291.6500 261.0000
+\i (00:12:03) mouse_pos 291.4539 259.4497
+\i (00:12:03) pick grid 291.5116 259.1470
+\t (00:12:03) last pick:  292.0000 259.0000
+\t (00:12:03) No DRC errors detected.
+\t (00:12:03) Pick first element.
+\i (00:12:04) roam start
+\i (00:12:04) roam y 16
+\i (00:12:04) roam y 128
+\i (00:12:04) roam y 48
+\i (00:12:04) roam x -16
+\i (00:12:04) roam y 32
+\i (00:12:04) roam x -16
+\i (00:12:04) roam y 16
+\i (00:12:04) roam end
+\i (00:12:05) zoom out 1 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) zoom out 291.7711 254.1013
+\i (00:12:05) trapsize 1442
+\i (00:12:05) roam start
+\i (00:12:05) roam y 16
+\i (00:12:05) roam y 16
+\i (00:12:06) roam x 32
+\i (00:12:06) roam y 48
+\i (00:12:06) roam y 32
+\i (00:12:06) roam x 16
+\i (00:12:06) roam y 16
+\i (00:12:06) roam y 48
+\i (00:12:06) roam y 16
+\i (00:12:06) roam y 32
+\i (00:12:06) roam y 48
+\i (00:12:06) roam x -16
+\i (00:12:06) roam y 32
+\i (00:12:06) roam x -16
+\i (00:12:06) roam y 48
+\i (00:12:06) roam end
+\i (00:12:07) zoom in 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom in 292.0449 243.0584
+\i (00:12:07) trapsize 721
+\i (00:12:10) pick grid 290.3006 240.9536
+\t (00:12:10) last pick:  290.0000 241.0000
+\t (00:12:10) Pick first element.
+\t (00:12:10) last pick:  290.2134 241.0000
+\t (00:12:10) Target Symbol Pin is defined on TOP.
+\t (00:12:10) last pick:  290.2134 241.0000
+\i (00:12:12) pick grid 287.8066 244.4856
+\t (00:12:12) last pick:  288.0000 244.0000
+\t (00:12:12) No DRC errors detected.
+\i (00:12:12) roam start
+\i (00:12:12) roam y -16
+\i (00:12:12) roam y -48
+\i (00:12:13) roam y -16
+\i (00:12:13) roam y -48
+\i (00:12:13) roam y -32
+\i (00:12:13) roam y -48
+\i (00:12:13) roam y -64
+\i (00:12:13) roam y -64
+\i (00:12:13) roam x 16
+\i (00:12:13) roam y -112
+\i (00:12:13) roam y -112
+\i (00:12:13) roam x 16
+\i (00:12:13) roam y -96
+\i (00:12:13) mouse_pos 288.4697 254.3752
+\i (00:12:13) roam y -48
+\i (00:12:13) roam x -16
+\i (00:12:13) roam y 16
+\i (00:12:13) roam y 16
+\i (00:12:13) roam y 16
+\i (00:12:13) roam y 16
+\i (00:12:14) roam end
+\i (00:12:14) pick grid 288.0372 254.5049
+\t (00:12:14) last pick:  288.0000 255.0000
+\t (00:12:14) No DRC errors detected.
+\t (00:12:14) Pick first element.
+\i (00:12:15) zoom out 1 
+\i (00:12:15) setwindow pcb
+\i (00:12:15) zoom out 290.1131 249.9926
+\i (00:12:15) trapsize 1442
+\i (00:12:15) roam start
+\i (00:12:15) roam y 16
+\i (00:12:15) roam y 16
+\i (00:12:15) roam y 16
+\i (00:12:15) roam x 16
+\i (00:12:15) roam y 32
+\i (00:12:15) roam y 32
+\i (00:12:15) roam y 16
+\i (00:12:16) roam y 32
+\i (00:12:16) roam x -16
+\i (00:12:16) roam y 32
+\i (00:12:16) roam end
+\i (00:12:16) zoom in 1 
+\i (00:12:16) setwindow pcb
+\i (00:12:16) zoom in 291.6413 241.2996
+\i (00:12:16) trapsize 721
+\i (00:12:17) roam start
+\i (00:12:17) roam y 16
+\i (00:12:17) roam end
+\i (00:12:17) zoom in 1 
+\i (00:12:17) setwindow pcb
+\i (00:12:17) zoom in 290.5312 241.1410
+\i (00:12:17) trapsize 360
+\i (00:12:19) roam start
+\i (00:12:19) roam x 64
+\i (00:12:19) roam x -16
+\i (00:12:19) roam y -32
+\i (00:12:19) roam x -16
+\i (00:12:19) roam y -32
+\i (00:12:19) roam y -64
+\i (00:12:19) roam x 16
+\i (00:12:19) roam y -16
+\i (00:12:20) roam end
+\i (00:12:20) pick grid 290.3582 241.9845
+\t (00:12:20) last pick:  290.0000 242.0000
+\t (00:12:20) Pick first element.
+\t (00:12:20) last pick:  290.2134 242.0000
+\t (00:12:20) Target Via is defined from TOP to BOTTOM.
+\t (00:12:20) last pick:  290.2134 242.0000
+\i (00:12:21) mouse_pos 292.7225 245.5092
+\i (00:12:22) pick grid 292.7225 245.5092
+\t (00:12:22) last pick:  293.0000 246.0000
+\t (00:12:22) No DRC errors detected.
+\t (00:12:22) Pick first element.
+\i (00:12:22) zoom out 1 
+\i (00:12:22) setwindow pcb
+\i (00:12:22) zoom out 292.2252 243.6928
+\i (00:12:22) trapsize 721
+\i (00:12:22) roam start
+\i (00:12:23) roam x -64
+\i (00:12:23) roam x -80
+\i (00:12:23) roam x -96
+\i (00:12:23) roam y -16
+\i (00:12:23) roam x -32
+\i (00:12:23) roam x -48
+\i (00:12:23) roam x -16
+\i (00:12:23) roam end
+\i (00:12:24) pick grid 283.1645 245.7110
+\t (00:12:24) last pick:  283.0000 246.0000
+\t (00:12:24) Pick first element.
+\t (00:12:24) Target Symbol Pin is defined on TOP.
+\t (00:12:24) last pick:  283.0000 246.0000
+\i (00:12:25) mouse_pos 285.5144 242.0348
+\i (00:12:26) pick grid 285.5144 242.0348
+\t (00:12:26) last pick:  286.0000 242.0000
+\t (00:12:26) No DRC errors detected.
+\t (00:12:26) Pick first element.
+\i (00:12:29) add connect 
+\t (00:12:29) Pick first element.
+\i (00:12:30) pick grid 285.2982 243.7648
+\t (00:12:30) last pick:  285.0000 244.0000
+\t (00:12:30) last pick:  285.7866 240.0000
+\i (00:12:31) prepopup 285.0675 243.7648
+\i (00:12:33) cancel 
+\i (00:12:33) generaledit 
+\i (00:12:34) slide 
+\t (00:12:35) Pick element to slide.
+\i (00:12:35) drag_start grid 284.7936 244.1540
+\i (00:12:36) drag_stop 284.1737 243.7648
+\t (00:12:36) Waiting for the destination pick.
+\i (00:12:38) pick grid 284.5053 243.9090
+\t (00:12:38) last pick:  285.0000 244.0000
+\t (00:12:38) No DRC errors detected.
+\t (00:12:38) Pick another element to slide.
+\i (00:12:39) slide 
+\t (00:12:39) Pick element to slide.
+\i (00:12:40) pick grid 284.8224 243.9955
+\t (00:12:40) last pick:  285.0000 244.0000
+\t (00:12:40) last pick:  284.9134 244.0866
+\t (00:12:40) Waiting for the destination pick.
+\i (00:12:42) pick grid 284.3178 243.5774
+\t (00:12:42) last pick:  284.0000 244.0000
+\t (00:12:42) No DRC errors detected.
+\t (00:12:42) Pick another element to slide.
+\i (00:12:42) pick grid 285.7162 242.8854
+\t (00:12:42) last pick:  286.0000 243.0000
+\t (00:12:42) last pick:  285.7866 242.8854
+\t (00:12:42) Waiting for the destination pick.
+\i (00:12:44) prepopup 283.5970 242.6836
+\i (00:12:45) done 
+\i (00:12:45) generaledit 
+\i (00:12:45) roam start
+\i (00:12:45) roam x 80
+\i (00:12:45) roam y 32
+\i (00:12:45) roam x 16
+\i (00:12:45) roam y 16
+\i (00:12:45) roam x 80
+\i (00:12:45) roam y 32
+\i (00:12:45) roam x 64
+\i (00:12:45) roam y 32
+\i (00:12:45) roam x 32
+\i (00:12:45) roam y 16
+\i (00:12:46) roam end
+\i (00:12:47) add connect 
+\t (00:12:47) Pick first element.
+\i (00:12:49) pick grid 286.1631 245.1488
+\t (00:12:49) last pick:  286.0000 245.0000
+\t (00:12:49) last pick:  286.0000 245.8000
+\t (00:12:49) Target Symbol Pin is defined on TOP.
+\t (00:12:49) last pick:  286.0000 245.8000
+\i (00:12:51) mouse_pos 285.9757 240.5068
+\i (00:12:52) mouse_pos 286.5523 240.4491
+\i (00:12:53) prepopup 287.1290 240.4203
+\i (00:12:54) oops 
+\t (00:12:54) last pick:  286.0000 245.8000
+\t (00:12:54) Pick first element.
+\i (00:12:55) prepopup 286.6965 240.6365
+\i (00:12:56) done 
+\i (00:12:56) generaledit 
+\i (00:12:57) drag_start grid 286.8695 241.0690
+\i (00:12:57) slide 
+\t (00:12:58) last pick:  287.0000 241.0000
+\t (00:12:58) Waiting for the destination pick.
+\t (00:12:58) New cline would result in DRC error(s); retaining old cline.
+\i (00:12:58) drag_stop grid 284.1160 241.0546
+\t (00:12:58) No DRC errors detected.
+\i (00:12:58) generaledit 
+\i (00:13:00) add connect 
+\t (00:13:00) Pick first element.
+\i (00:13:01) pick grid 286.0478 245.4660
+\t (00:13:01) last pick:  286.0000 245.0000
+\t (00:13:01) last pick:  286.0000 245.8000
+\t (00:13:01) Target Symbol Pin is defined on TOP.
+\t (00:13:01) last pick:  286.0000 245.8000
+\i (00:13:02) mouse_pos 286.4803 240.4059
+\i (00:13:06) prepopup 285.9757 240.4059
+\i (00:13:08) cancel 
+\i (00:13:08) generaledit 
+\i (00:13:08) zoom out 1 
+\i (00:13:08) setwindow pcb
+\i (00:13:08) zoom out 286.9416 239.2814
+\i (00:13:08) trapsize 1442
+\i (00:13:10) add connect 
+\t (00:13:10) Pick first element.
+\i (00:13:10) pick grid 285.9036 236.0233
+\t (00:13:10) last pick:  286.0000 236.0000
+\t (00:13:10) last pick:  286.0000 236.2000
+\t (00:13:10) Target Symbol Pin is defined on TOP.
+\t (00:13:10) last pick:  286.0000 236.2000
+\i (00:13:11) prepopup 284.3178 237.2055
+\i (00:13:12) cancel 
+\i (00:13:12) generaledit 
+\i (00:13:14) zoom out 1 
+\i (00:13:14) setwindow pcb
+\i (00:13:14) zoom out 293.1117 239.3679
+\i (00:13:14) trapsize 2883
+\i (00:13:14) roam start
+\i (00:13:14) roam y 16
+\i (00:13:15) roam y 16
+\i (00:13:15) roam x 16
+\i (00:13:15) roam y 16
+\i (00:13:15) roam x 16
+\i (00:13:15) roam y 48
+\i (00:13:15) roam x 16
+\i (00:13:15) roam y 32
+\i (00:13:15) roam x 32
+\i (00:13:15) roam y 32
+\i (00:13:15) roam x 48
+\i (00:13:15) roam y 16
+\i (00:13:15) roam x 16
+\i (00:13:15) roam y 16
+\i (00:13:15) roam x -32
+\i (00:13:15) roam x -16
+\i (00:13:15) roam y -16
+\i (00:13:15) roam x -16
+\i (00:13:15) roam y -16
+\i (00:13:15) roam end
+\i (00:13:16) zoom in 1 
+\i (00:13:16) setwindow pcb
+\i (00:13:16) zoom in 293.4582 232.6213
+\i (00:13:16) trapsize 1442
+\i (00:13:17) roam start
+\i (00:13:17) roam y -16
+\i (00:13:17) roam x -48
+\i (00:13:17) roam y -64
+\i (00:13:17) roam y -16
+\i (00:13:17) roam x -16
+\i (00:13:17) roam y -32
+\i (00:13:17) roam y -16
+\i (00:13:17) roam y -16
+\i (00:13:17) roam x 32
+\i (00:13:17) roam y -32
+\i (00:13:17) roam x 16
+\i (00:13:17) roam y -16
+\i (00:13:17) roam y -48
+\i (00:13:18) roam end
+\i (00:13:18) pick grid 285.9325 251.7658
+\t (00:13:18) last pick:  286.0000 252.0000
+\i (00:13:19) delete 
+\i (00:13:19) generaledit 
+\i (00:13:20) pick grid 285.9613 251.5640
+\t (00:13:20) last pick:  286.0000 252.0000
+\i (00:13:20) delete 
+\i (00:13:20) generaledit 
+\i (00:13:20) roam start
+\i (00:13:20) roam y 16
+\i (00:13:20) roam x 16
+\i (00:13:20) roam y 96
+\i (00:13:21) roam y 64
+\i (00:13:21) roam y 80
+\i (00:13:21) roam y 16
+\i (00:13:21) roam y 48
+\i (00:13:21) roam x -16
+\i (00:13:21) roam y 32
+\i (00:13:21) roam end
+\i (00:13:22) pick grid 287.3453 231.7849
+\t (00:13:22) last pick:  287.0000 232.0000
+\i (00:13:22) delete 
+\i (00:13:22) generaledit 
+\i (00:13:23) roam start
+\i (00:13:23) roam y -96
+\i (00:13:23) roam x 16
+\i (00:13:23) roam y -16
+\i (00:13:23) roam y -16
+\i (00:13:24) roam x 16
+\i (00:13:24) roam y -32
+\i (00:13:24) roam y -32
+\i (00:13:24) roam y -32
+\i (00:13:24) roam x 16
+\i (00:13:24) roam y -32
+\i (00:13:24) roam y -32
+\i (00:13:24) roam end
+\i (00:13:25) move 
+\t (00:13:25) Select element(s) to move.
+\i (00:13:25) pick grid 285.8171 246.8355
+\t (00:13:25) last pick:  286.0000 247.0000
+\t (00:13:25) last pick:  286.0000 248.0000
+\t (00:13:25) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:13:25) Pick new location for the element(s).
+\i (00:13:26) pick grid 293.5442 235.3024
+\t (00:13:26) last pick:  294.0000 235.0000
+\i (00:13:26) pick grid 286.0189 234.0338
+\t (00:13:26) last pick:  286.0000 234.0000
+\t (00:13:26) last pick:  286.0000 234.0000
+\t (00:13:26) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:13:26) Pick new location for the element(s).
+\i (00:13:30) pick grid 280.4542 235.9944
+\t (00:13:30) last pick:  280.0000 236.0000
+\i (00:13:31) prepopup 283.4817 235.1583
+\i (00:13:33) cancel 
+\i (00:13:33) generaledit 
+\i (00:13:35) pick grid 287.9219 231.8714
+\t (00:13:35) last pick:  288.0000 232.0000
+\i (00:13:38) delete 
+\i (00:13:38) generaledit 
+\i (00:13:39) pick grid 286.1919 232.4192
+\t (00:13:39) last pick:  286.0000 232.0000
+\i (00:13:39) prepopup 286.1919 232.4192
+\i (00:13:40) pick grid 282.0689 236.1962
+\t (00:13:40) last pick:  282.0000 236.0000
+\i (00:13:41) move 
+\t (00:13:41) Select element(s) to move.
+\i (00:13:42) pick grid 285.9324 234.8988
+\t (00:13:42) last pick:  286.0000 235.0000
+\t (00:13:42) last pick:  286.0000 234.0000
+\t (00:13:42) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:13:42) Pick new location for the element(s).
+\i (00:13:43) pick grid 286.4802 247.8734
+\t (00:13:43) last pick:  286.0000 248.0000
+\i (00:13:45) pick grid 286.3649 248.0753
+\t (00:13:45) last pick:  286.0000 248.0000
+\t (00:13:45) last pick:  281.0000 250.0000
+\t (00:13:45) Moving IO2 / EXT1_EXT2_CONNECTOR_EXT1_EXT2_C / EXT1_EXT2_CONNECTOR.
+\t (00:13:45) Pick new location for the element(s).
+\i (00:13:46) rotate 
+\t (00:13:46) Spin the element(s).
+\i (00:13:46) prepopup 286.5667 247.9888
+\i (00:13:47) oops 
+\t (00:13:47) last pick:  286.0000 248.0000
+\i (00:13:48) prepopup 285.6153 248.2771
+\i (00:13:48) oops 
+\t (00:13:48) last pick:  286.0000 248.0000
+\i (00:13:50) pick grid 286.4802 245.7110
+\t (00:13:50) last pick:  286.0000 246.0000
+\t (00:13:50) last pick:  286.0000 248.0000
+\t (00:13:50) Moving SC1 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:13:50) Pick new location for the element(s).
+\i (00:13:51) rotate 
+\t (00:13:51) Spin the element(s).
+\i (00:13:55) iangle -180.000
+\t (00:13:55) last angle:  270.000 Degrees
+\i (00:13:56) pick grid 286.4802 247.9888
+\t (00:13:56) last pick:  286.0000 248.0000
+\i (00:13:57) prepopup 291.8431 236.8594
+\i (00:13:58) pick grid 298.9359 241.9627
+\t (00:13:58) last pick:  299.0000 242.0000
+\i (00:13:59) pick grid 294.6399 235.7061
+\t (00:13:59) last pick:  295.0000 236.0000
+\t (00:13:59) last pick:  294.0000 235.0000
+\t (00:13:59) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:13:59) Pick new location for the element(s).
+\i (00:14:01) pick grid 285.5288 234.1491
+\t (00:14:01) last pick:  286.0000 234.0000
+\i (00:14:01) pick grid 285.8171 234.1491
+\t (00:14:01) last pick:  286.0000 234.0000
+\t (00:14:01) last pick:  286.0000 234.0000
+\t (00:14:01) Moving SC3 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:14:01) Pick new location for the element(s).
+\i (00:14:02) rotate 
+\t (00:14:02) Spin the element(s).
+\i (00:14:03) iangle 180.000
+\t (00:14:03) last angle:  90.000 Degrees
+\i (00:14:03) pick grid 285.9901 234.0050
+\t (00:14:03) last pick:  286.0000 234.0000
+\i (00:14:03) prepopup 286.2207 234.1203
+\i (00:14:04) done 
+\i (00:14:04) generaledit 
+\i (00:14:06) roam start
+\i (00:14:06) roam x 16
+\i (00:14:06) roam y -64
+\i (00:14:06) roam y -16
+\i (00:14:06) roam y -32
+\i (00:14:06) roam x -64
+\i (00:14:06) roam y -48
+\i (00:14:06) roam x -32
+\i (00:14:06) roam y -32
+\i (00:14:06) roam x -32
+\i (00:14:06) roam y -16
+\i (00:14:07) roam end
+\i (00:14:08) zoom in 1 
+\i (00:14:08) setwindow pcb
+\i (00:14:08) zoom in 285.9901 250.8144
+\i (00:14:08) trapsize 721
+\i (00:14:08) zoom in 1 
+\i (00:14:08) setwindow pcb
+\i (00:14:08) zoom in 285.9902 250.8144
+\i (00:14:08) trapsize 360
+\i (00:14:10) zoom out 1 
+\i (00:14:10) setwindow pcb
+\i (00:14:10) zoom out 286.1055 250.3387
+\i (00:14:10) trapsize 721
+\i (00:14:11) add connect 
+\t (00:14:11) Pick first element.
+\i (00:14:12) pick grid 285.9902 250.5983
+\t (00:14:12) last pick:  286.0000 251.0000
+\t (00:14:12) last pick:  286.0000 250.2000
+\t (00:14:12) Target Odd-angle Line Segment is defined on TOP.
+\t (00:14:12) last pick:  286.0000 250.2000
+\i (00:14:13) mouse_pos 285.9902 252.5012
+\i (00:14:13) pick grid 285.9902 252.5012
+\t (00:14:13) last pick:  286.0000 253.0000
+\t (00:14:13) No DRC errors detected.
+\t (00:14:13) Pick first element.
+\i (00:14:15) roam start
+\i (00:14:15) roam x 48
+\i (00:14:15) roam y 80
+\i (00:14:15) roam x 32
+\i (00:14:15) roam y 64
+\i (00:14:15) roam x 48
+\i (00:14:15) roam y 64
+\i (00:14:15) roam end
+\i (00:14:15) zoom out 1 
+\i (00:14:15) setwindow pcb
+\i (00:14:15) zoom out 291.4539 245.8552
+\i (00:14:15) trapsize 1442
+\i (00:14:16) roam start
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 48
+\i (00:14:16) roam y 80
+\i (00:14:16) roam y 32
+\i (00:14:16) roam y 32
+\i (00:14:16) roam x -32
+\i (00:14:16) roam y 48
+\i (00:14:16) roam x -16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x -16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam x -16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam y 16
+\i (00:14:16) roam end
+\i (00:14:17) zoom in 1 
+\i (00:14:17) setwindow pcb
+\i (00:14:17) zoom in 292.5640 235.2448
+\i (00:14:17) trapsize 721
+\i (00:14:18) pick grid 286.3939 231.7849
+\t (00:14:18) last pick:  286.0000 232.0000
+\t (00:14:18) Pick first element.
+\t (00:14:18) last pick:  286.0000 231.8000
+\t (00:14:18) Target Horizontal Line Segment is defined on TOP.
+\t (00:14:18) last pick:  286.0000 231.8000
+\i (00:14:18) mouse_pos 287.5039 231.7705
+\i (00:14:19) pick grid 287.5039 231.7705
+\t (00:14:19) last pick:  288.0000 232.0000
+\t (00:14:19) No DRC errors detected.
+\t (00:14:19) Pick first element.
+\i (00:14:20) prepopup 288.0085 233.1256
+\i (00:14:20) done 
+\i (00:14:20) generaledit 
+\i (00:14:21) pick grid 288.0806 234.9997
+\t (00:14:21) last pick:  288.0000 235.0000
+\i (00:14:22) settoggle smooth_mode Off Minimal Full 
+\i (00:14:22) options smooth_level Minimal 
+\i (00:14:23) trapsize 721
+\e (00:14:23) Form field label not found
+\i (00:14:23) generaledit 
+\i (00:14:24) prepopup 288.0662 235.0285
+\i (00:14:25) pop dyn_option_select @:@Copy 
+\i (00:14:25) copy 
+\i (00:14:27) pick grid 287.9220 231.5254
+\t (00:14:27) last pick:  288.0000 232.0000
+\i (00:14:28) prepopup 288.2103 231.0641
+\i (00:14:29) done 
+\i (00:14:29) generaledit 
+\i (00:14:31) pick grid 288.6572 231.8281
+\t (00:14:31) last pick:  289.0000 232.0000
+\i (00:14:32) delete 
+\i (00:14:32) generaledit 
+\i (00:14:34) drag_start grid 288.0229 231.8858
+\i (00:14:34) slide 
+\t (00:14:34) last pick:  288.0000 232.0000
+\t (00:14:34) Waiting for the destination pick.
+\i (00:14:35) drag_stop grid 287.9941 231.6551
+\t (00:14:35) No DRC errors detected.
+\i (00:14:35) generaledit 
+\i (00:14:35) add connect 
+\t (00:14:35) Pick first element.
+\i (00:14:35) pick grid 286.1632 231.7560
+\t (00:14:35) last pick:  286.0000 232.0000
+\t (00:14:35) last pick:  286.0000 231.8000
+\t (00:14:35) Target Symbol Pin is defined on TOP.
+\t (00:14:35) last pick:  286.0000 231.8000
+\i (00:14:36) mouse_pos 287.5328 231.7993
+\i (00:14:37) pick grid 287.5328 231.7993
+\t (00:14:37) last pick:  288.0000 232.0000
+\t (00:14:37) No DRC errors detected.
+\t (00:14:37) Pick first element.
+\i (00:14:37) pick grid 289.7096 231.7849
+\t (00:14:37) last pick:  290.0000 232.0000
+\t (00:14:37) Pick first element.
+\t (00:14:37) last pick:  290.0000 231.8000
+\t (00:14:37) Target Via is defined from TOP to BOTTOM.
+\t (00:14:37) last pick:  290.0000 231.8000
+\i (00:14:37) mouse_pos 288.4986 231.7849
+\i (00:14:38) pick grid 288.4986 231.7849
+\t (00:14:38) last pick:  288.0000 232.0000
+\t (00:14:38) No DRC errors detected.
+\t (00:14:38) Pick first element.
+\i (00:14:38) prepopup 288.1815 233.1256
+\i (00:14:39) done 
+\i (00:14:39) generaledit 
+\i (00:14:40) zoom out 1 
+\i (00:14:40) setwindow pcb
+\i (00:14:40) zoom out 287.7634 234.1347
+\i (00:14:40) trapsize 1442
+\i (00:14:41) roam start
+\i (00:14:41) roam x 16
+\i (00:14:41) roam y -64
+\i (00:14:41) roam y -16
+\i (00:14:41) roam y -16
+\i (00:14:41) roam y -32
+\i (00:14:41) roam x -16
+\i (00:14:41) roam y -16
+\i (00:14:41) roam end
+\i (00:14:41) zoom out 1 
+\i (00:14:41) setwindow pcb
+\i (00:14:41) zoom out 288.4409 239.9157
+\i (00:14:41) trapsize 2883
+\i (00:14:42) zoom in 1 
+\i (00:14:42) setwindow pcb
+\i (00:14:42) zoom in 285.9614 244.0676
+\i (00:14:42) trapsize 1442
+\i (00:14:42) zoom in 1 
+\i (00:14:42) setwindow pcb
+\i (00:14:42) zoom in 287.4895 241.3862
+\i (00:14:42) trapsize 721
+\i (00:14:43) zoom in 1 
+\i (00:14:43) setwindow pcb
+\i (00:14:43) zoom in 287.0283 240.7375
+\i (00:14:43) trapsize 360
+\i (00:14:43) zoom out 1 
+\i (00:14:43) setwindow pcb
+\i (00:14:43) zoom out 287.0283 240.7664
+\i (00:14:43) trapsize 721
+\i (00:14:44) add connect 
+\t (00:14:44) Pick first element.
+\i (00:14:45) pick grid 285.8461 245.4661
+\t (00:14:45) last pick:  286.0000 245.0000
+\t (00:14:45) last pick:  286.0000 245.8000
+\t (00:14:45) Target Symbol Pin is defined on TOP.
+\t (00:14:45) last pick:  286.0000 245.8000
+\i (00:14:46) mouse_pos 285.9903 241.5016
+\i (00:14:47) pick grid 285.9903 241.5016
+\t (00:14:47) last pick:  286.0000 242.0000
+\t (00:14:47) No DRC errors detected.
+\t (00:14:47) Pick first element.
+\i (00:14:49) pick grid 290.0268 245.6967
+\t (00:14:49) last pick:  290.0000 246.0000
+\t (00:14:49) Pick first element.
+\t (00:14:49) last pick:  290.0000 245.8000
+\t (00:14:49) Target Symbol Pin is defined on TOP.
+\t (00:14:49) last pick:  290.0000 245.8000
+\i (00:14:50) prepopup 289.3925 243.8082
+\i (00:14:51) cancel 
+\i (00:14:51) generaledit 
+\i (00:14:52) zoom out 1 
+\i (00:14:52) setwindow pcb
+\i (00:14:52) zoom out 292.2469 243.6208
+\i (00:14:52) trapsize 1442
+\i (00:14:53) roam start
+\i (00:14:53) roam x 16
+\i (00:14:53) roam x 16
+\i (00:14:53) roam y 16
+\i (00:14:53) roam end
+\i (00:14:57) pick grid 289.9401 251.8524
+\t (00:14:57) last pick:  290.0000 252.0000
+\i (00:14:58) delete 
+\i (00:14:58) generaledit 
+\i (00:14:58) pick grid 289.9401 251.5929
+\t (00:14:58) last pick:  290.0000 252.0000
+\i (00:14:58) delete 
+\i (00:14:59) generaledit 
+\i (00:15:00) pick grid 295.6202 236.2540
+\t (00:15:00) last pick:  296.0000 236.0000
+\i (00:15:00) move 
+\t (00:15:00) Select element(s) to move.
+\i (00:15:01) pick grid 290.3150 249.6034
+\t (00:15:01) last pick:  290.0000 250.0000
+\t (00:15:01) last pick:  290.0000 248.0000
+\t (00:15:01) Moving SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:15:01) Pick new location for the element(s).
+\i (00:15:02) pick grid 295.8508 234.4952
+\t (00:15:02) last pick:  296.0000 234.0000
+\i (00:15:03) pick grid 290.2573 234.2357
+\t (00:15:03) last pick:  290.0000 234.0000
+\t (00:15:03) last pick:  290.0000 234.0000
+\t (00:15:03) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:15:03) Pick new location for the element(s).
+\i (00:15:04) pick grid 289.5653 247.5275
+\t (00:15:04) last pick:  290.0000 248.0000
+\i (00:15:06) pick grid 295.8220 234.4087
+\t (00:15:06) last pick:  296.0000 234.0000
+\t (00:15:06) last pick:  296.0000 234.0000
+\t (00:15:06) Moving SC4 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:15:06) Pick new location for the element(s).
+\i (00:15:08) rotate 
+\t (00:15:08) Spin the element(s).
+\i (00:15:09) iangle -180.000
+\t (00:15:09) last angle:  90.000 Degrees
+\i (00:15:10) pick grid 289.9978 234.0050
+\t (00:15:10) last pick:  290.0000 234.0000
+\i (00:15:11) pick grid 290.1708 247.9023
+\t (00:15:11) last pick:  290.0000 248.0000
+\t (00:15:11) last pick:  290.0000 248.0000
+\t (00:15:11) Moving SC2 / STRAIN CELL_STRAIN_CELL_STRAIN / STRAIN_CELL.
+\t (00:15:11) Pick new location for the element(s).
+\i (00:15:11) rotate 
+\t (00:15:11) Spin the element(s).
+\i (00:15:14) iangle -180.000
+\t (00:15:14) last angle:  270.000 Degrees
+\i (00:15:14) pick grid 289.9978 247.9888
+\t (00:15:14) last pick:  290.0000 248.0000
+\i (00:15:14) prepopup 289.9978 247.9888
+\i (00:15:15) done 
+\i (00:15:15) generaledit 
+\i (00:15:16) pick grid 295.3318 239.8292
+\t (00:15:16) last pick:  295.0000 240.0000
+\i (00:15:17) zoom in 1 
+\i (00:15:17) setwindow pcb
+\i (00:15:17) zoom in 289.9113 231.8426
+\i (00:15:17) trapsize 721
+\i (00:15:18) roam start
+\i (00:15:18) roam x 64
+\i (00:15:18) roam y 80
+\i (00:15:18) roam x 32
+\i (00:15:18) roam y 16
+\i (00:15:18) roam y 32
+\i (00:15:18) roam y 48
+\i (00:15:18) roam x -16
+\i (00:15:18) roam y 32
+\i (00:15:19) roam x -16
+\i (00:15:19) roam end
+\i (00:15:20) pick grid 288.6716 231.7705
+\t (00:15:20) last pick:  289.0000 232.0000
+\i (00:15:21) delete 
+\i (00:15:21) generaledit 
+\i (00:15:21) pick grid 292.6505 231.7993
+\t (00:15:21) last pick:  293.0000 232.0000
+\i (00:15:22) add connect 
+\t (00:15:22) Pick first element.
+\i (00:15:22) pick grid 289.8970 231.8137
+\t (00:15:22) last pick:  290.0000 232.0000
+\t (00:15:22) last pick:  290.0000 231.8000
+\t (00:15:22) Target Odd-angle Line Segment is defined on TOP.
+\t (00:15:22) last pick:  290.0000 231.8000
+\i (00:15:22) mouse_pos 288.4409 231.8714
+\i (00:15:23) pick grid 288.4409 231.8714
+\t (00:15:23) last pick:  288.0000 232.0000
+\t (00:15:23) No DRC errors detected.
+\t (00:15:23) Pick first element.
+\i (00:15:24) roam start
+\i (00:15:24) roam y 16
+\i (00:15:24) roam y 16
+\i (00:15:24) roam x 16
+\i (00:15:24) roam y 64
+\i (00:15:24) roam y -32
+\i (00:15:24) roam x -16
+\i (00:15:24) roam y -64
+\i (00:15:24) roam x -16
+\i (00:15:24) roam y -80
+\i (00:15:24) roam y -96
+\i (00:15:24) roam y -80
+\i (00:15:24) roam y -64
+\i (00:15:24) roam x -16
+\i (00:15:24) roam y -64
+\i (00:15:24) roam y -48
+\i (00:15:24) roam y -32
+\i (00:15:24) roam y -48
+\i (00:15:24) roam y -32
+\i (00:15:24) roam y -32
+\i (00:15:24) roam y -16
+\i (00:15:24) roam y -16
+\i (00:15:25) roam y -48
+\i (00:15:25) roam y -48
+\i (00:15:25) roam y -32
+\i (00:15:25) roam y -96
+\i (00:15:25) roam y -32
+\i (00:15:25) roam y -48
+\i (00:15:25) roam y -16
+\i (00:15:25) roam y -16
+\i (00:15:25) roam y -16
+\i (00:15:25) roam end
+\i (00:15:26) pick grid 290.0122 250.2377
+\t (00:15:26) last pick:  290.0000 250.0000
+\t (00:15:26) Pick first element.
+\t (00:15:26) last pick:  290.0000 250.2000
+\t (00:15:26) Target Via is defined from TOP to BOTTOM.
+\t (00:15:26) last pick:  290.0000 250.2000
+\i (00:15:26) mouse_pos 290.1708 252.5011
+\i (00:15:26) pick grid 290.1708 252.5011
+\t (00:15:26) last pick:  290.0000 253.0000
+\t (00:15:26) No DRC errors detected.
+\t (00:15:26) Pick first element.
+\i (00:15:27) prepopup 290.5168 251.8956
+\i (00:15:27) done 
+\i (00:15:27) generaledit 
+\i (00:15:28) zoom out 1 
+\i (00:15:28) setwindow pcb
+\i (00:15:28) zoom out 291.1223 250.5260
+\i (00:15:28) trapsize 1442
+\i (00:15:29) zoom in 1 
+\i (00:15:29) setwindow pcb
+\i (00:15:29) zoom in 290.4014 252.4290
+\i (00:15:29) trapsize 721
+\i (00:15:30) drag_start grid 290.0266 252.9192
+\i (00:15:30) slide 
+\t (00:15:30) last pick:  290.0000 253.0000
+\t (00:15:30) Waiting for the destination pick.
+\i (00:15:32) drag_stop grid 290.0843 252.6308
+\t (00:15:32) No DRC errors detected.
+\i (00:15:32) generaledit 
+\i (00:15:33) drag_start grid 290.0843 252.7750
+\i (00:15:33) slide 
+\t (00:15:33) last pick:  290.0000 253.0000
+\t (00:15:33) Waiting for the destination pick.
+\i (00:15:34) drag_stop grid 290.1275 252.2272
+\t (00:15:34) No DRC errors detected.
+\i (00:15:34) generaledit 
+\i (00:15:34) prepopup 291.6557 249.5169
+\i (00:15:36) pick grid 295.8364 244.3271
+\t (00:15:36) last pick:  296.0000 244.0000
+\i (00:15:36) zoom out 1 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) zoom out 295.4760 244.8172
+\i (00:15:36) trapsize 1442
+\i (00:15:37) roam start
+\i (00:15:37) roam y 16
+\i (00:15:37) roam x 48
+\i (00:15:37) roam y 48
+\i (00:15:37) roam x 48
+\i (00:15:37) roam y 64
+\i (00:15:37) roam x 48
+\i (00:15:37) roam y 48
+\i (00:15:37) roam x 16
+\i (00:15:37) roam x 48
+\i (00:15:37) roam y 64
+\i (00:15:37) roam x 16
+\i (00:15:37) roam y 16
+\i (00:15:37) roam y 16
+\i (00:15:37) roam x -16
+\i (00:15:37) roam y 48
+\i (00:15:37) roam x -32
+\i (00:15:37) roam y 32
+\i (00:15:37) roam x -16
+\i (00:15:37) roam end
+\i (00:15:38) roam start
+\i (00:15:38) roam x 32
+\i (00:15:38) roam y 48
+\i (00:15:38) roam x 16
+\i (00:15:38) roam x 16
+\i (00:15:38) roam y 32
+\i (00:15:38) roam end
+\i (00:15:39) zoom in 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom in 292.2756 236.2828
+\i (00:15:39) trapsize 721
+\i (00:15:40) roam start
+\i (00:15:40) roam x -32
+\i (00:15:40) roam x -32
+\i (00:15:40) roam y -16
+\i (00:15:40) roam y -16
+\i (00:15:40) roam y -16
+\i (00:15:41) roam y -16
+\i (00:15:41) roam y -16
+\i (00:15:41) roam end
+\i (00:15:41) add connect 
+\t (00:15:41) Pick first element.
+\i (00:15:42) pick grid 289.9113 245.7831
+\t (00:15:42) last pick:  290.0000 246.0000
+\t (00:15:42) last pick:  290.0000 245.8000
+\t (00:15:42) Target Symbol Pin is defined on TOP.
+\t (00:15:42) last pick:  290.0000 245.8000
+\i (00:15:42) mouse_pos 289.7527 241.4870
+\i (00:15:44) mouse_pos 289.4500 241.7753
+\i (00:15:44) mouse_pos 289.5221 241.5303
+\i (00:15:45) pick grid 290.2285 241.5014
+\t (00:15:45) last pick:  290.0000 242.0000
+\t (00:15:45) No DRC errors detected.
+\t (00:15:45) Pick first element.
+\i (00:15:47) prepopup 291.0214 242.6115
+\i (00:15:48) oops 
+\t (00:15:48) last pick:  290.0000 245.8000
+\i (00:15:51) pick grid 289.0896 243.4909
+\t (00:15:51) last pick:  289.0000 243.0000
+\t (00:15:51) No DRC errors detected.
+\i (00:15:51) mouse_pos 289.5221 241.5158
+\i (00:15:52) pick grid 289.6230 241.4870
+\t (00:15:52) last pick:  290.0000 241.0000
+\t (00:15:52) No DRC errors detected.
+\t (00:15:52) Pick first element.
+\i (00:15:54) pick grid 285.8748 236.8882
+\t (00:15:54) last pick:  286.0000 237.0000
+\t (00:15:54) Pick first element.
+\t (00:15:54) last pick:  286.0000 236.2000
+\t (00:15:54) Target Symbol Pin is defined on TOP.
+\t (00:15:54) last pick:  286.0000 236.2000
+\i (00:15:56) pick grid 286.8262 239.4976
+\t (00:15:56) last pick:  287.0000 239.0000
+\t (00:15:56) No DRC errors detected.
+\i (00:15:57) mouse_pos 286.4803 240.4490
+\i (00:15:58) pick grid 285.8315 240.4923
+\t (00:15:58) last pick:  286.0000 240.0000
+\t (00:15:58) No DRC errors detected.
+\t (00:15:58) Pick first element.
+\i (00:15:58) pick grid 289.8392 236.7729
+\t (00:15:58) last pick:  290.0000 237.0000
+\t (00:15:58) Pick first element.
+\t (00:15:58) last pick:  290.0000 236.2000
+\t (00:15:58) Target Symbol Pin is defined on TOP.
+\t (00:15:58) last pick:  290.0000 236.2000
+\i (00:16:00) pick grid 289.4933 238.5028
+\t (00:16:00) last pick:  289.0000 239.0000
+\t (00:16:00) No DRC errors detected.
+\i (00:16:01) mouse_pos 289.5221 240.4346
+\i (00:16:02) pick grid 289.9257 240.4923
+\t (00:16:02) last pick:  290.0000 240.0000
+\t (00:16:02) No DRC errors detected.
+\t (00:16:02) Pick first element.
+\i (00:16:02) roam start
+\i (00:16:02) roam x 48
+\i (00:16:02) roam y 64
+\i (00:16:02) roam x 16
+\i (00:16:02) roam y 32
+\i (00:16:02) roam y 48
+\i (00:16:03) roam y 32
+\i (00:16:03) roam y 48
+\i (00:16:03) roam x -16
+\i (00:16:03) roam y 32
+\i (00:16:03) roam x -16
+\i (00:16:03) roam x -16
+\i (00:16:03) roam y 32
+\i (00:16:03) roam x -16
+\i (00:16:03) roam x -48
+\i (00:16:03) roam end
+\i (00:16:03) zoom out 1 
+\i (00:16:03) setwindow pcb
+\i (00:16:03) zoom out 289.7527 234.7691
+\i (00:16:03) trapsize 1442
+\i (00:16:04) roam start
+\i (00:16:04) roam y -16
+\i (00:16:04) roam x 80
+\i (00:16:04) roam y -64
+\i (00:16:04) roam x 16
+\i (00:16:04) roam y -48
+\i (00:16:04) roam y -32
+\i (00:16:04) roam x -16
+\i (00:16:04) roam y -32
+\i (00:16:04) roam x -16
+\i (00:16:04) roam y -32
+\i (00:16:04) roam x -16
+\i (00:16:04) roam y -32
+\i (00:16:04) roam y -48
+\i (00:16:04) roam x -16
+\i (00:16:04) roam y -32
+\i (00:16:04) roam y -16
+\i (00:16:04) roam end
+\i (00:16:06) roam start
+\i (00:16:06) roam y -16
+\i (00:16:06) roam x 16
+\i (00:16:06) roam y -48
+\i (00:16:06) roam y -16
+\i (00:16:06) roam x 32
+\i (00:16:06) roam y -32
+\i (00:16:06) roam y -16
+\i (00:16:06) roam end
+\i (00:16:08) zoom in 1 
+\i (00:16:08) setwindow pcb
+\i (00:16:08) zoom in 285.5576 255.5718
+\i (00:16:08) trapsize 721
+\i (00:16:09) roam start
+\i (00:16:09) roam x 16
+\i (00:16:09) roam x 32
+\i (00:16:09) roam y -16
+\i (00:16:09) roam y -48
+\i (00:16:09) roam x -32
+\i (00:16:09) roam y -16
+\i (00:16:10) roam y -32
+\i (00:16:10) roam y -16
+\i (00:16:10) roam y -16
+\i (00:16:10) roam x -16
+\i (00:16:10) roam x -16
+\i (00:16:10) roam x -16
+\i (00:16:10) roam y -16
+\i (00:16:10) roam y -16
+\i (00:16:11) roam end
+\i (00:16:52) prepopup 284.4764 255.1825
+\i (00:16:53) done 
+\i (00:16:53) generaledit 
+\i (00:16:54) zoom out 1 
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom out 284.3034 256.6242
+\i (00:16:54) trapsize 1442
+\i (00:16:54) zoom in 1 
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom in 284.2457 256.7106
+\i (00:16:54) trapsize 721
+\i (00:16:55) pick grid 284.9666 257.0999
+\t (00:16:55) last pick:  285.0000 257.0000
+\i (00:16:55) prepopup 284.9666 257.0999
+\i (00:16:58) pop dyn_option_select 'Net@:@Ripup etch' 
+\i (00:16:58) ripup etch 
+\i (00:16:58) generaledit 
+\i (00:16:59) pick grid 283.7844 254.8798
+\t (00:16:59) last pick:  284.0000 255.0000
+\i (00:17:00) zoom out 1 
+\i (00:17:00) setwindow pcb
+\i (00:17:00) zoom out 284.1448 255.2257
+\i (00:17:00) trapsize 1442
+\i (00:17:01) zoom in 1 
+\i (00:17:01) setwindow pcb
+\i (00:17:01) zoom in 284.1448 255.3411
+\i (00:17:01) trapsize 721
+\i (00:17:02) pick grid 283.0924 255.3699
+\t (00:17:02) last pick:  283.0000 255.0000
+\i (00:17:02) prepopup 283.0924 255.3699
+\i (00:17:04) pick grid 286.5668 251.8380
+\t (00:17:04) last pick:  287.0000 252.0000
+\i (00:17:06) pick grid 283.0636 255.1105
+\t (00:17:06) last pick:  283.0000 255.0000
+\i (00:17:06) prepopup 283.0636 255.1105
+\i (00:17:08) pop dyn_option_select 'Net@:@Ripup etch' 
+\i (00:17:08) ripup etch 
+\i (00:17:08) generaledit 
+\i (00:17:09) zoom out 1 
+\i (00:17:09) setwindow pcb
+\i (00:17:09) zoom out 283.7412 254.4906
+\i (00:17:09) trapsize 1442
+\i (00:17:10) roam start
+\i (00:17:10) roam x 16
+\i (00:17:10) roam y 16
+\i (00:17:10) roam x 48
+\i (00:17:10) roam y 64
+\i (00:17:10) roam x 48
+\i (00:17:10) roam y 64
+\i (00:17:10) roam y 16
+\i (00:17:10) roam x 48
+\i (00:17:10) roam y 64
+\i (00:17:10) roam x 32
+\i (00:17:10) roam y 64
+\i (00:17:10) roam x 16
+\i (00:17:10) roam y 32
+\i (00:17:10) roam y 32
+\i (00:17:10) roam y 48
+\i (00:17:10) roam end
+\i (00:17:11) undo 
+\i (00:17:11) trapsize 721
+\i (00:17:11) generaledit 
+\i (00:17:12) pick grid 283.3663 254.7068
+\t (00:17:12) last pick:  283.0000 255.0000
+\i (00:17:13) pick grid 282.4870 253.9860
+\t (00:17:13) last pick:  282.0000 254.0000
+\i (00:17:14) pick grid 282.7897 254.2166
+\t (00:17:14) last pick:  283.0000 254.0000
+\i (00:17:14) zoom in 1 
+\i (00:17:14) setwindow pcb
+\i (00:17:14) zoom in 282.8474 254.3176
+\i (00:17:14) trapsize 360
+\i (00:17:15) pick grid 283.0132 255.3267
+\t (00:17:15) last pick:  283.0000 255.0000
+\i (00:17:16) delete 
+\i (00:17:16) generaledit 
+\i (00:17:16) pick grid 282.4365 254.0004
+\t (00:17:16) last pick:  282.0000 254.0000
+\i (00:17:17) delete 
+\i (00:17:17) generaledit 
+\i (00:17:17) pick grid 282.2924 253.9716
+\t (00:17:17) last pick:  282.0000 254.0000
+\i (00:17:18) delete 
+\i (00:17:18) generaledit 
+\i (00:17:18) pick grid 283.0204 256.3647
+\t (00:17:18) last pick:  283.0000 256.0000
+\i (00:17:19) delete 
+\i (00:17:19) generaledit 
+\i (00:17:19) zoom out 1 
+\i (00:17:19) setwindow pcb
+\i (00:17:19) zoom out 283.2294 256.0115
+\i (00:17:19) trapsize 721
+\i (00:17:19) zoom out 1 
+\i (00:17:19) setwindow pcb
+\i (00:17:19) zoom out 283.2150 256.0115
+\i (00:17:19) trapsize 1442
+\i (00:17:20) zoom in 1 
+\i (00:17:20) setwindow pcb
+\i (00:17:20) zoom in 283.6187 255.6655
+\i (00:17:20) trapsize 721
+\t (00:17:20) Pick to complete the window.
+\i (00:17:25) pick 283.4184 254.7054
+\t (00:17:25) last pick:  283.4184 254.7054
+\i (00:17:25) setwindow pcb
+\i (00:17:25) zoom points
+\i (00:17:25) pick 272.0238 243.1263
+\i (00:17:25) pick 300.6486 264.7160
+\i (00:17:25) trapsize 1153
+\i (00:17:26) zoom in 1 
+\i (00:17:26) setwindow pcb
+\i (00:17:26) zoom in 284.3641 251.4531
+\i (00:17:26) trapsize 577
+\i (00:17:27) pick grid 284.9292 251.5338
+\t (00:17:27) last pick:  285.0000 252.0000
+\i (00:17:28) delete 
+\i (00:17:28) generaledit 
+\i (00:17:28) pick grid 284.7678 251.3608
+\t (00:17:28) last pick:  285.0000 251.0000
+\i (00:17:28) delete 
+\i (00:17:29) generaledit 
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 284.6640 252.6179
+\i (00:17:31) trapsize 1153
+\i (00:17:32) pick grid 285.8173 252.6180
+\t (00:17:32) last pick:  286.0000 253.0000
+\i (00:17:33) delete 
+\i (00:17:33) generaledit 
+\i (00:17:33) zoom in 1 
+\i (00:17:33) setwindow pcb
+\i (00:17:33) zoom in 286.1402 252.3642
+\i (00:17:33) trapsize 577
+\i (00:17:33) zoom in 1 
+\i (00:17:33) setwindow pcb
+\i (00:17:33) zoom in 286.1402 252.3643
+\i (00:17:33) trapsize 288
+\i (00:17:34) pick grid 285.9327 251.8511
+\t (00:17:34) last pick:  286.0000 252.0000
+\i (00:17:35) delete 
+\i (00:17:35) generaledit 
+\i (00:17:35) pick grid 286.1114 252.6065
+\t (00:17:35) last pick:  286.0000 253.0000
+\i (00:17:36) delete 
+\i (00:17:36) generaledit 
+\i (00:17:36) pick grid 286.4343 252.9640
+\t (00:17:36) last pick:  286.0000 253.0000
+\i (00:17:37) delete 
+\i (00:17:37) generaledit 
+\i (00:17:37) zoom out 1 
+\i (00:17:37) setwindow pcb
+\i (00:17:37) zoom out 285.5809 252.8025
+\i (00:17:37) trapsize 577
+\i (00:17:38) roam start
+\i (00:17:38) roam y -16
+\i (00:17:38) roam x -16
+\i (00:17:38) roam x -48
+\i (00:17:38) roam y -48
+\i (00:17:38) roam x -16
+\i (00:17:38) roam y -16
+\i (00:17:38) roam x -16
+\i (00:17:38) roam y -16
+\i (00:17:38) roam y -16
+\i (00:17:38) roam end
+\i (00:17:38) zoom out 1 
+\i (00:17:38) setwindow pcb
+\i (00:17:38) zoom out 284.3796 254.5323
+\i (00:17:38) trapsize 1153
+\i (00:17:41) roam start
+\i (00:17:41) roam y -16
+\i (00:17:41) roam y -16
+\i (00:17:41) roam y -16
+\i (00:17:41) roam x -16
+\i (00:17:41) roam y -16
+\i (00:17:41) roam x -16
+\i (00:17:41) roam y -32
+\i (00:17:41) roam x -16
+\i (00:17:41) roam end
+\i (00:17:42) prepopup 285.4176 261.5214
+\i (00:17:43) pick grid 284.0106 261.6828
+\t (00:17:43) last pick:  284.0000 262.0000
+\i (00:17:44) move 
+\t (00:17:45) Select element(s) to move.
+\i (00:17:46) pick grid 284.0798 252.0413
+\t (00:17:46) last pick:  284.0000 252.0000
+\t (00:17:46) last pick:  284.0000 252.0000
+\t (00:17:46) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:17:46) Pick new location for the element(s).
+\i (00:17:46) pick grid 282.1192 262.5132
+\t (00:17:46) last pick:  282.0000 263.0000
+\i (00:17:47) pick grid 282.9034 257.8539
+\t (00:17:47) last pick:  283.0000 258.0000
+\t (00:17:47) last pick:  283.0000 258.0000
+\t (00:17:47) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:17:47) Pick new location for the element(s).
+\i (00:17:49) pick grid 284.2182 252.5026
+\t (00:17:49) last pick:  284.0000 253.0000
+\i (00:17:50) pick grid 282.3960 259.9529
+\t (00:17:50) last pick:  282.0000 260.0000
+\t (00:17:50) last pick:  283.0000 260.0000
+\t (00:17:50) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:17:50) Pick new location for the element(s).
+\i (00:17:51) pick grid 283.6415 255.4550
+\t (00:17:51) last pick:  284.0000 255.0000
+\i (00:17:53) pick grid 286.8016 256.1239
+\t (00:17:53) last pick:  287.0000 256.0000
+\t (00:17:53) last pick:  287.0000 256.0000
+\t (00:17:53) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:17:53) Pick new location for the element(s).
+\i (00:17:58) prepopup 286.5478 257.7155
+\i (00:17:59) cancel 
+\i (00:17:59) generaledit 
+\i (00:18:00) pick grid 289.2004 258.9380
+\t (00:18:00) last pick:  289.0000 259.0000
+\i (00:18:01) delete 
+\i (00:18:01) generaledit 
+\i (00:18:02) pick grid 288.4392 258.6612
+\t (00:18:02) last pick:  288.0000 259.0000
+\i (00:18:02) delete 
+\i (00:18:02) generaledit 
+\i (00:18:03) pick grid 287.9318 257.9923
+\t (00:18:03) last pick:  288.0000 258.0000
+\i (00:18:03) delete 
+\i (00:18:03) generaledit 
+\i (00:18:04) pick grid 287.0322 253.8635
+\t (00:18:04) last pick:  287.0000 254.0000
+\i (00:18:05) delete 
+\i (00:18:05) generaledit 
+\i (00:18:05) prepopup 286.9400 256.1239
+\i (00:18:06) pick grid 283.5723 257.5771
+\t (00:18:06) last pick:  284.0000 258.0000
+\i (00:18:07) move 
+\t (00:18:07) Select element(s) to move.
+\i (00:18:07) pick grid 287.1475 256.5160
+\t (00:18:07) last pick:  287.0000 257.0000
+\t (00:18:07) last pick:  287.0000 256.0000
+\t (00:18:07) Moving U2 / MCP6001UT-EOT_SOT-23-5_MC_MCH_M / SOT-23-5_MC_MCH.
+\t (00:18:07) Pick new location for the element(s).
+\i (00:18:09) pick grid 287.1475 258.5228
+\t (00:18:09) last pick:  287.0000 259.0000
+\i (00:18:10) pick grid 284.0798 254.9014
+\t (00:18:10) last pick:  284.0000 255.0000
+\t (00:18:10) last pick:  284.0000 255.0000
+\t (00:18:10) Moving R1 / R_0402-RES_10K / 0402-RES.
+\t (00:18:10) Pick new location for the element(s).
+\i (00:18:11) pick grid 284.6103 255.4781
+\t (00:18:11) last pick:  285.0000 255.0000
+\i (00:18:12) pick grid 284.1028 253.0792
+\t (00:18:12) last pick:  284.0000 253.0000
+\t (00:18:12) last pick:  284.0000 253.0000
+\t (00:18:12) Moving R2 / R_0402-RES_1K / 0402-RES.
+\t (00:18:12) Pick new location for the element(s).
+\i (00:18:13) pick grid 284.5411 253.0792
+\t (00:18:13) last pick:  285.0000 253.0000
+\i (00:18:13) prepopup 287.2859 254.6938
+\i (00:18:14) done 
+\i (00:18:14) generaledit 
+\i (00:18:16) drag_start grid 283.0188 254.8553
+\i (00:18:16) slide 
+\t (00:18:16) last pick:  283.0000 255.0000
+\t (00:18:16) Waiting for the destination pick.
+\i (00:18:18) drag_stop grid 283.5954 256.2623
+\t (00:18:18) No DRC errors detected.
+\i (00:18:18) generaledit 
+\i (00:18:19) drag_start grid 284.1028 256.0547
+\i (00:18:19) slide 
+\t (00:18:19) last pick:  284.0000 256.0000
+\t (00:18:19) Waiting for the destination pick.
+\i (00:18:21) drag_stop grid 283.3647 256.7467
+\t (00:18:21) No DRC errors detected.
+\i (00:18:21) generaledit 
+\i (00:18:23) zoom in 1 
+\i (00:18:23) setwindow pcb
+\i (00:18:23) zoom in 284.9102 256.2623
+\i (00:18:23) trapsize 577
+\i (00:18:25) drag_start grid 283.3302 256.8390
+\i (00:18:25) slide 
+\t (00:18:25) last pick:  283.0000 257.0000
+\t (00:18:25) Waiting for the destination pick.
+\i (00:18:26) drag_stop grid 284.3335 256.9543
+\t (00:18:26) No DRC errors detected.
+\i (00:18:26) generaledit 
+\i (00:18:26) drag_start grid 283.0188 257.0005
+\i (00:18:26) slide 
+\t (00:18:27) last pick:  283.0000 257.0000
+\t (00:18:27) Waiting for the destination pick.
+\i (00:18:31) drag_stop grid 284.3566 256.9889
+\t (00:18:31) No DRC errors detected.
+\i (00:18:31) generaledit 
+\i (00:18:32) drag_start grid 284.1605 256.8967
+\i (00:18:32) slide 
+\t (00:18:32) last pick:  284.0000 257.0000
+\t (00:18:32) Waiting for the destination pick.
+\i (00:18:34) drag_stop grid 284.1490 256.3316
+\t (00:18:34) No DRC errors detected.
+\i (00:18:34) generaledit 
+\i (00:18:34) prepopup 285.6714 255.9510
+\i (00:18:35) pick grid 284.6219 256.5853
+\t (00:18:35) last pick:  285.0000 257.0000
+\i (00:18:36) drag_start grid 284.1375 256.1586
+\i (00:18:36) slide 
+\t (00:18:36) last pick:  284.0000 256.0000
+\t (00:18:36) Waiting for the destination pick.
+\i (00:18:43) drag_stop grid 284.4258 256.6084
+\t (00:18:43) No DRC errors detected.
+\i (00:18:43) generaledit 
+\i (00:18:43) prepopup 285.3138 256.1586
+\i (00:18:44) pick grid 284.9563 256.1009
+\t (00:18:44) last pick:  285.0000 256.0000
+\i (00:18:45) zoom out 1 
+\i (00:18:45) setwindow pcb
+\i (00:18:45) zoom out 286.3057 256.0778
+\i (00:18:45) trapsize 1153
+\i (00:18:45) roam start
+\i (00:18:45) roam x 64
+\i (00:18:45) roam y 16
+\i (00:18:46) roam x 80
+\i (00:18:46) roam y 32
+\i (00:18:46) roam x 16
+\i (00:18:46) roam x 16
+\i (00:18:46) roam x -32
+\i (00:18:46) roam x -48
+\i (00:18:46) roam end
+\i (00:18:47) zoom in 1 
+\i (00:18:47) setwindow pcb
+\i (00:18:47) zoom in 286.3402 255.8472
+\i (00:18:47) trapsize 577
+\i (00:18:48) drag_start grid 287.0092 253.0677
+\i (00:18:48) slide 
+\t (00:18:49) last pick:  287.0000 253.0000
+\t (00:18:49) Waiting for the destination pick.
+\i (00:18:49) drag_stop grid 286.9976 255.8703
+\t (00:18:49) No DRC errors detected.
+\i (00:18:49) generaledit 
+\i (00:18:50) pick grid 287.0899 254.7170
+\t (00:18:50) last pick:  287.0000 255.0000
+\i (00:18:51) add connect 
+\t (00:18:52) Selected item not valid for current operation, ignored: Text "Mcp6001ut-eot"
+\t (00:18:52) No valid items selected for the current operation, exiting.
+\i (00:18:52) generaledit 
+\i (00:18:53) pick grid 286.9169 257.5310
+\t (00:18:53) last pick:  287.0000 258.0000
+\i (00:18:55) prepopup 288.1971 256.2393
+\i (00:18:56) pick grid 288.7737 253.5060
+\t (00:18:56) last pick:  289.0000 254.0000
+\i (00:18:57) add connect 
+\t (00:18:58) Pick first element.
+\i (00:18:58) pick grid 286.9284 257.5887
+\t (00:18:58) last pick:  287.0000 258.0000
+\t (00:18:58) last pick:  287.0000 257.7046
+\t (00:18:58) Target Via is defined from TOP to BOTTOM.
+\t (00:18:58) last pick:  287.0000 257.7046
+\i (00:18:58) mouse_pos 286.9400 256.4815
+\i (00:18:59) pick grid 286.9400 256.4815
+\t (00:18:59) last pick:  287.0000 256.0000
+\t (00:18:59) No DRC errors detected.
+\t (00:18:59) Pick first element.
+\i (00:19:00) roam start
+\i (00:19:00) roam y 96
+\i (00:19:00) roam y 80
+\i (00:19:00) roam x 16
+\i (00:19:00) roam y 80
+\i (00:19:00) roam y 32
+\i (00:19:00) roam y 16
+\i (00:19:00) roam end
+\i (00:19:03) pick grid 286.2364 250.8187
+\t (00:19:03) last pick:  286.0000 251.0000
+\t (00:19:03) Pick first element.
+\t (00:19:03) last pick:  286.0000 250.2000
+\t (00:19:03) Target Via is defined from TOP to BOTTOM.
+\t (00:19:03) last pick:  286.0000 250.2000
+\i (00:19:03) mouse_pos 285.7290 251.5222
+\i (00:19:04) pick grid 285.7290 251.5222
+\t (00:19:04) last pick:  286.0000 252.0000
+\t (00:19:04) No DRC errors detected.
+\t (00:19:04) Pick first element.
+\i (00:19:05) zoom out 1 
+\i (00:19:05) setwindow pcb
+\i (00:19:05) zoom out 286.4671 252.0297
+\i (00:19:05) trapsize 1153
+\i (00:19:06) prepopup 286.9054 252.6063
+\i (00:19:06) done 
+\i (00:19:06) generaledit 
+\i (00:19:08) pick grid 285.9366 251.4530
+\t (00:19:08) last pick:  286.0000 251.0000
+\i (00:19:09) delete 
+\i (00:19:09) generaledit 
+\i (00:19:09) pick grid 285.8905 251.8682
+\t (00:19:09) last pick:  286.0000 252.0000
+\i (00:19:10) delete 
+\i (00:19:10) generaledit 
+\i (00:19:10) pick grid 285.9135 251.6837
+\t (00:19:10) last pick:  286.0000 252.0000
+\i (00:19:10) delete 
+\i (00:19:10) generaledit 
+\i (00:19:11) pick grid 285.7290 252.1450
+\t (00:19:11) last pick:  286.0000 252.0000
+\i (00:19:11) delete 
+\i (00:19:11) generaledit 
+\i (00:19:15) zoom in 1 
+\i (00:19:15) setwindow pcb
+\i (00:19:15) zoom in 286.3748 253.0446
+\i (00:19:15) trapsize 577
+\i (00:19:15) add connect 
+\t (00:19:15) Pick first element.
+\i (00:19:16) pick grid 285.8328 252.9293
+\t (00:19:16) last pick:  286.0000 253.0000
+\t (00:19:16) last pick:  285.6500 253.0000
+\t (00:19:16) Target Symbol Pin is defined on TOP.
+\t (00:19:16) last pick:  285.6500 253.0000
+\i (00:19:17) mouse_pos 287.0322 255.5012
+\i (00:19:17) mouse_pos 287.0784 254.4632
+\i (00:19:18) pick grid 287.0784 254.4632
+\t (00:19:18) last pick:  287.0000 254.0000
+\t (00:19:18) No DRC errors detected.
+\i (00:19:18) mouse_pos 286.9631 253.8750
+\i (00:19:18) mouse_pos 286.9977 254.5093
+\i (00:19:18) mouse_pos 286.9977 255.5127
+\i (00:19:19) pick grid 286.9977 255.5127
+\t (00:19:19) last pick:  287.0000 256.0000
+\t (00:19:19) No DRC errors detected.
+\t (00:19:19) Pick first element.
+\i (00:19:19) pick grid 286.0173 250.7265
+\t (00:19:19) last pick:  286.0000 251.0000
+\t (00:19:19) Pick first element.
+\t (00:19:19) last pick:  286.0000 250.2000
+\t (00:19:19) Target Via is defined from TOP to BOTTOM.
+\t (00:19:19) last pick:  286.0000 250.2000
+\i (00:19:23) pick grid 287.0438 252.4795
+\t (00:19:23) last pick:  287.0000 252.0000
+\t (00:19:23) No DRC errors detected.
+\i (00:19:24) mouse_pos 286.9746 253.5060
+\i (00:19:24) prepopup 287.0322 252.7102
+\i (00:19:25) oops 
+\t (00:19:25) last pick:  286.0000 250.2000
+\i (00:19:27) pick grid 286.7093 252.5026
+\t (00:19:27) last pick:  287.0000 253.0000
+\t (00:19:27) No DRC errors detected.
+\i (00:19:28) mouse_pos 286.9169 253.5060
+\i (00:19:29) mouse_pos 287.5166 253.6905
+\i (00:19:30) mouse_pos 287.4936 253.5060
+\i (00:19:31) pick grid 287.4936 253.5060
+\t (00:19:31) last pick:  287.0000 254.0000
+\t (00:19:31) No DRC errors detected.
+\t (00:19:31) Pick first element.
+\i (00:19:31) prepopup 287.1476 253.1484
+\i (00:19:32) done 
+\i (00:19:32) generaledit 
+\i (00:19:32) zoom out 1 
+\i (00:19:32) setwindow pcb
+\i (00:19:32) zoom out 286.5133 252.1220
+\i (00:19:32) trapsize 1153
+\i (00:19:33) zoom in 1 
+\i (00:19:33) setwindow pcb
+\i (00:19:33) zoom in 285.3830 252.2374
+\i (00:19:33) trapsize 577
+\i (00:19:37) slide 
+\t (00:19:37) Pick element to slide.
+\i (00:19:37) drag_start grid 286.3403 252.3758
+\i (00:19:38) drag_stop 286.8477 251.9952
+\t (00:19:38) Waiting for the destination pick.
+\i (00:19:40) pick grid 286.6863 251.4993
+\t (00:19:40) last pick:  287.0000 251.0000
+\t (00:19:40) No DRC errors detected.
+\t (00:19:40) Pick another element to slide.
+\i (00:19:41) prepopup 286.2480 251.8683
+\i (00:19:41) done 
+\i (00:19:41) generaledit 
+\i (00:19:44) zoom out 1 
+\i (00:19:44) setwindow pcb
+\i (00:19:44) zoom out 286.5248 252.3873
+\i (00:19:44) trapsize 1153
+\i (00:19:45) roam start
+\i (00:19:45) roam x 80
+\i (00:19:45) roam y 32
+\i (00:19:45) roam y -16
+\i (00:19:46) roam x -16
+\i (00:19:46) roam x -16
+\i (00:19:46) roam x -16
+\i (00:19:46) roam y -16
+\i (00:19:46) roam x -16
+\i (00:19:46) roam end
+\i (00:19:48) roam start
+\i (00:19:48) roam y -80
+\i (00:19:48) roam y -32
+\i (00:19:48) roam x -16
+\i (00:19:48) roam y -32
+\i (00:19:48) roam x -32
+\i (00:19:48) roam y -16
+\i (00:19:48) roam x -16
+\i (00:19:48) roam y -32
+\i (00:19:49) roam end
+\i (00:19:54) create fanout 
+\i (00:19:55) pick grid 281.9116 262.4209
+\t (00:19:55) last pick:  282.0000 262.0000
+\t (00:19:55) Generate Fanouts completed, #Pins=1, C2
+\i (00:19:57) pick grid 282.2115 263.6204
+\t (00:19:57) last pick:  282.0000 264.0000
+\t (00:19:57) Generate Fanouts completed, #Pins=1, C2
+\i (00:19:57) prepopup 283.4801 262.1211
+\i (00:19:58) done 
+\i (00:19:58) generaledit 
+\i (00:19:58) zoom in 1 
+\i (00:19:58) setwindow pcb
+\i (00:19:58) zoom in 283.3417 262.2133
+\i (00:19:58) trapsize 577
+\i (00:20:00) drag_start grid 282.1077 261.5675
+\i (00:20:00) slide 
+\t (00:20:00) last pick:  282.0000 262.0000
+\t (00:20:00) Waiting for the destination pick.
+\i (00:20:00) drag_stop grid 282.0847 261.0254
+\t (00:20:00) No DRC errors detected.
+\i (00:20:00) generaledit 
+\i (00:20:01) zoom out 1 
+\i (00:20:01) setwindow pcb
+\i (00:20:01) zoom out 283.7915 262.1557
+\i (00:20:01) trapsize 1153
+\i (00:20:02) pick grid 282.0616 264.4391
+\t (00:20:02) last pick:  282.0000 264.0000
+\i (00:20:03) delete 
+\i (00:20:03) generaledit 
+\i (00:20:03) pick grid 282.0155 264.2546
+\t (00:20:03) last pick:  282.0000 264.0000
+\i (00:20:04) delete 
+\i (00:20:04) generaledit 
+\i (00:20:04) pick grid 283.6301 261.8788
+\t (00:20:04) last pick:  284.0000 262.0000
+\i (00:20:06) add connect 
+\t (00:20:06) Pick first element.
+\i (00:20:06) pick grid 282.1770 263.6549
+\t (00:20:06) last pick:  282.0000 264.0000
+\t (00:20:06) last pick:  282.0000 263.6500
+\t (00:20:06) Target Via is defined from TOP to BOTTOM.
+\t (00:20:06) last pick:  282.0000 263.6500
+\i (00:20:07) mouse_pos 285.5215 262.6400
+\i (00:20:07) pick grid 285.6599 262.4785
+\t (00:20:07) last pick:  286.0000 262.0000
+\t (00:20:07) No DRC errors detected.
+\t (00:20:07) Pick first element.
+\i (00:20:07) prepopup 284.2529 262.3171
+\i (00:20:08) done 
+\i (00:20:08) generaledit 
+\i (00:20:08) pick grid 283.0535 261.3483
+\t (00:20:08) last pick:  283.0000 261.0000
+\i (00:20:09) zoom in 1 
+\i (00:20:09) setwindow pcb
+\i (00:20:09) zoom in 283.5148 259.1570
+\i (00:20:09) trapsize 577
+\i (00:20:10) roam start
+\i (00:20:10) roam y 16
+\i (00:20:10) roam x 16
+\i (00:20:10) roam y 16
+\i (00:20:10) roam x 32
+\i (00:20:10) roam y 32
+\i (00:20:10) roam x 32
+\i (00:20:10) roam end
+\i (00:20:10) zoom out 1 
+\i (00:20:10) setwindow pcb
+\i (00:20:10) zoom out 284.3797 258.8342
+\i (00:20:10) trapsize 1153
+\i (00:20:11) roam start
+\i (00:20:11) roam x 80
+\i (00:20:11) roam y 48
+\i (00:20:11) roam x 48
+\i (00:20:11) roam y 16
+\i (00:20:12) roam y 16
+\i (00:20:12) roam y -16
+\i (00:20:12) roam x -64
+\i (00:20:12) roam y -32
+\i (00:20:12) roam end
+\i (00:20:13) zoom in 1 
+\i (00:20:13) setwindow pcb
+\i (00:20:13) zoom in 288.3932 259.8375
+\i (00:20:13) trapsize 577
+\i (00:20:14) add connect 
+\t (00:20:14) Pick first element.
+\i (00:20:15) pick grid 288.0011 260.2065
+\t (00:20:15) last pick:  288.0000 260.0000
+\t (00:20:15) last pick:  287.9500 260.2954
+\t (00:20:15) Target Symbol Pin is defined on TOP.
+\t (00:20:15) last pick:  287.9500 260.2954
+\i (00:20:15) mouse_pos 289.5235 261.1522
+\i (00:20:16) mouse_pos 289.4543 261.0600
+\i (00:20:17) pick grid 289.4543 261.0600
+\t (00:20:17) last pick:  289.0000 261.0000
+\t (00:20:17) No DRC errors detected.
+\i (00:20:17) mouse_pos 289.2928 261.0369
+\i (00:20:17) mouse_pos 289.5119 261.0254
+\i (00:20:18) mouse_pos 289.4658 261.0023
+\i (00:20:19) mouse_pos 289.5004 260.8178
+\i (00:20:19) mouse_pos 290.4922 260.2411
+\i (00:20:20) mouse_pos 290.1578 260.5064
+\i (00:20:20) mouse_pos 289.4889 261.1176
+\i (00:20:20) mouse_pos 288.4970 261.0139
+\i (00:20:21) mouse_pos 288.5316 260.5410
+\i (00:20:21) prepopup 288.0011 260.5987
+\i (00:20:22) oops 
+\t (00:20:22) last pick:  287.9500 260.2954
+\i (00:20:25) pick grid 287.5052 261.3368
+\t (00:20:25) last pick:  288.0000 261.0000
+\t (00:20:25) No DRC errors detected.
+\t (00:20:25) last pick:  287.9500 260.9500
+\i (00:20:26) mouse_pos 289.6849 261.1176
+\i (00:20:26) mouse_pos 291.6225 260.8409
+\i (00:20:27) setwindow form.mini
+\i (00:20:27) FORM mini lock_direction 90 
+\i (00:20:28) setwindow pcb
+\i (00:20:28) mouse_pos 290.4922 260.9908
+\i (00:20:29) pick grid 290.4922 260.9908
+\t (00:20:29) last pick:  290.0000 261.0000
+\t (00:20:29) No DRC errors detected.
+\t (00:20:29) Pick first element.
+\i (00:20:29) prepopup 289.0275 260.5987
+\i (00:20:30) done 
+\i (00:20:30) generaledit 
+\i (00:20:31) roam start
+\i (00:20:31) roam x -16
+\i (00:20:31) roam x -80
+\i (00:20:31) roam y 32
+\i (00:20:31) roam x -16
+\i (00:20:31) roam y 16
+\i (00:20:31) roam x -48
+\i (00:20:31) roam y 16
+\i (00:20:31) roam x -64
+\i (00:20:31) roam x -32
+\i (00:20:31) roam y 16
+\i (00:20:31) roam x -32
+\i (00:20:31) roam x -48
+\i (00:20:31) roam end
+\i (00:20:32) add connect 
+\t (00:20:32) Pick first element.
+\i (00:20:34) setwindow form.mini
+\i (00:20:34) FORM mini lock_direction 45 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) pick grid 288.0817 259.9644
+\t (00:20:34) last pick:  288.0000 260.0000
+\t (00:20:34) last pick:  287.9500 260.2954
+\t (00:20:34) Target Symbol Pin is defined on TOP.
+\t (00:20:34) last pick:  287.9500 260.2954
+\i (00:20:36) pick grid 283.8953 258.5113
+\t (00:20:36) last pick:  284.0000 259.0000
+\t (00:20:36) No DRC errors detected.
+\i (00:20:38) pick grid 283.0764 257.5079
+\t (00:20:38) last pick:  283.0000 258.0000
+\t (00:20:38) No DRC errors detected.
+\i (00:20:40) mouse_pos 282.4652 252.1912
+\i (00:20:40) pick grid 281.4964 252.0413
+\t (00:20:40) last pick:  281.0000 252.0000
+\t (00:20:40) No DRC errors detected.
+\t (00:20:40) Pick first element.
+\i (00:20:41) prepopup 282.7304 252.6064
+\i (00:20:42) done 
+\i (00:20:42) generaledit 
+\i (00:20:42) zoom out 1 
+\i (00:20:42) setwindow pcb
+\i (00:20:42) zoom out 285.0601 251.3493
+\i (00:20:42) trapsize 1153
+\i (00:20:43) roam start
+\i (00:20:43) roam x 16
+\i (00:20:43) roam x 64
+\i (00:20:43) roam y 32
+\i (00:20:43) roam x 80
+\i (00:20:43) roam y 32
+\i (00:20:43) roam x 64
+\i (00:20:43) roam y 32
+\i (00:20:43) roam x 32
+\i (00:20:43) roam y 32
+\i (00:20:43) roam x 16
+\i (00:20:43) roam x 16
+\i (00:20:43) roam y 32
+\i (00:20:43) roam y 32
+\i (00:20:43) roam y 16
+\i (00:20:43) roam x -32
+\i (00:20:43) roam y 32
+\i (00:20:43) roam y 16
+\i (00:20:43) roam end
+\i (00:20:51) zoom in 1 
+\i (00:20:51) setwindow pcb
+\i (00:20:51) zoom in 286.1096 254.9245
+\i (00:20:51) trapsize 577
+\i (00:20:53) add connect 
+\t (00:20:53) Pick first element.
+\i (00:20:53) pick grid 284.3682 253.1485
+\t (00:20:53) last pick:  284.0000 253.0000
+\t (00:20:53) last pick:  284.3500 253.0000
+\t (00:20:53) Target Symbol Pin is defined on TOP.
+\t (00:20:53) last pick:  284.3500 253.0000
+\i (00:20:54) mouse_pos 285.6368 254.5094
+\i (00:20:55) mouse_pos 284.4835 253.7251
+\i (00:20:56) pick grid 284.5066 253.7136
+\t (00:20:56) last pick:  285.0000 254.0000
+\t (00:20:56) No DRC errors detected.
+\i (00:20:57) mouse_pos 285.6945 254.5094
+\i (00:20:58) mouse_pos 285.4984 254.2672
+\i (00:20:59) pick grid 285.4984 254.2672
+\t (00:20:59) last pick:  285.0000 254.0000
+\w (00:20:59) WARNING(SPMHAC-22): The pick was ignored.  It is the same as the previous pick.
+\i (00:21:00) mouse_pos 285.5099 254.5209
+\i (00:21:01) mouse_pos 285.5099 254.0134
+\i (00:21:02) mouse_pos 285.7752 254.5209
+\i (00:21:03) prepopup 285.5907 254.8092
+\i (00:21:04) oops 
+\t (00:21:04) last pick:  285.0000 254.0000
+\i (00:21:04) mouse_pos 285.5907 254.8092
+\i (00:21:04) mouse_pos 285.1063 254.4632
+\i (00:21:05) prepopup 284.4143 253.8059
+\i (00:21:06) oops 
+\t (00:21:06) last pick:  284.3500 253.0000
+\t (00:21:06) Pick first element.
+\i (00:21:08) setwindow form.mini
+\i (00:21:08) FORM mini lock_direction 90 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) add connect 
+\t (00:21:10) Pick first element.
+\i (00:21:10) pick grid 284.2298 252.9639
+\t (00:21:10) last pick:  284.0000 253.0000
+\t (00:21:10) last pick:  284.3500 253.0000
+\t (00:21:10) Target Symbol Pin is defined on TOP.
+\t (00:21:10) last pick:  284.3500 253.0000
+\i (00:21:14) mouse_pos 285.7175 254.5094
+\i (00:21:15) pick grid 285.7175 254.5094
+\t (00:21:15) last pick:  286.0000 255.0000
+\t (00:21:15) No DRC errors detected.
+\t (00:21:15) Pick first element.
+\i (00:21:19) setwindow form.mini
+\i (00:21:19) FORM mini lock_direction 45 
+\i (00:21:20) setwindow pcb
+\i (00:21:20) pick grid 286.0520 257.4272
+\t (00:21:20) last pick:  286.0000 257.0000
+\t (00:21:20) Pick first element.
+\t (00:21:20) last pick:  286.0500 257.7046
+\t (00:21:20) Target Symbol Pin is defined on TOP.
+\t (00:21:20) last pick:  286.0500 257.7046
+\i (00:21:21) mouse_pos 285.5099 255.4781
+\i (00:21:21) pick grid 285.5099 255.0053
+\t (00:21:21) last pick:  286.0000 255.0000
+\t (00:21:21) No DRC errors detected.
+\t (00:21:21) Pick first element.
+\i (00:21:22) prepopup 286.3980 254.1057
+\i (00:21:23) done 
+\i (00:21:23) generaledit 
+\i (00:21:23) pick grid 284.9102 253.7021
+\t (00:21:23) last pick:  285.0000 254.0000
+\i (00:21:24) slide 
+\t (00:21:24) last pick:  285.0000 254.0000
+\t (00:21:24) Waiting for the destination pick.
+\i (00:21:25) pick grid 284.9102 253.7251
+\t (00:21:25) last pick:  285.0000 254.0000
+\t (00:21:25) No DRC errors detected.
+\i (00:21:25) generaledit 
+\i (00:21:25) prepopup 286.1673 254.0250
+\i (00:21:26) pick grid 286.5479 254.4863
+\t (00:21:26) last pick:  287.0000 254.0000
+\i (00:21:27) roam start
+\i (00:21:27) roam x 32
+\i (00:21:27) roam y 64
+\i (00:21:27) roam x 48
+\i (00:21:27) roam y 48
+\i (00:21:27) roam x 64
+\i (00:21:27) roam y 32
+\i (00:21:27) roam x 80
+\i (00:21:27) roam y 48
+\i (00:21:27) roam x 32
+\i (00:21:27) roam y 16
+\i (00:21:28) roam x -16
+\i (00:21:28) roam y -16
+\i (00:21:28) roam x -32
+\i (00:21:28) roam y -16
+\i (00:21:28) roam x -32
+\i (00:21:28) roam y -32
+\i (00:21:28) roam x -16
+\i (00:21:28) roam y -16
+\i (00:21:28) roam end
+\i (00:21:28) zoom out 1 
+\i (00:21:28) setwindow pcb
+\i (00:21:28) zoom out 288.2893 253.1715
+\i (00:21:28) trapsize 1153
+\i (00:21:31) zoom in 1 
+\i (00:21:31) setwindow pcb
+\i (00:21:31) zoom in 288.6123 253.9095
+\i (00:21:31) trapsize 577
+\i (00:21:32) roam start
+\i (00:21:32) roam y 80
+\i (00:21:32) roam y 64
+\i (00:21:32) roam y 112
+\i (00:21:32) roam x 16
+\i (00:21:32) roam y 96
+\i (00:21:32) roam y 64
+\i (00:21:32) roam y 48
+\i (00:21:32) roam y 32
+\i (00:21:32) roam y 16
+\i (00:21:32) roam y 16
+\i (00:21:32) roam y 32
+\i (00:21:32) roam y 16
+\i (00:21:32) roam y 32
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -128
+\i (00:21:33) roam x -16
+\i (00:21:33) roam y -112
+\i (00:21:33) roam y -80
+\i (00:21:33) roam y -64
+\i (00:21:33) roam y -48
+\i (00:21:33) roam y -48
+\i (00:21:33) roam y -48
+\i (00:21:33) roam y -48
+\i (00:21:33) roam y -48
+\i (00:21:33) roam y -32
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -16
+\i (00:21:33) roam y -16
+\i (00:21:33) roam end
+\i (00:21:35) add connect 
+\t (00:21:35) Selected item not valid for current operation, ignored: Text "Mcp6001ut-eot"
+\t (00:21:35) No valid items selected for the current operation, exiting.
+\i (00:21:35) generaledit 
+\i (00:21:36) pick grid 287.9088 257.6001
+\t (00:21:36) last pick:  288.0000 258.0000
+\i (00:21:38) pick grid 289.7310 257.5540
+\t (00:21:38) last pick:  290.0000 258.0000
+\i (00:21:39) add connect 
+\t (00:21:39) Pick first element.
+\i (00:21:39) pick grid 287.9318 257.5309
+\t (00:21:39) last pick:  288.0000 258.0000
+\t (00:21:39) last pick:  287.9500 257.7046
+\t (00:21:39) Target Symbol Pin is defined on TOP.
+\t (00:21:39) last pick:  287.9500 257.7046
+\i (00:21:40) mouse_pos 288.0472 255.4550
+\i (00:21:40) pick grid 288.0472 255.4550
+\t (00:21:40) last pick:  288.0000 255.0000
+\t (00:21:40) No DRC errors detected.
+\t (00:21:40) Pick first element.
+\i (00:21:41) prepopup 288.6007 254.9937
+\i (00:21:41) done 
+\i (00:21:41) generaledit 
+\i (00:21:42) zoom out 1 
+\i (00:21:42) setwindow pcb
+\i (00:21:42) zoom out 288.0241 255.0513
+\i (00:21:42) trapsize 1153
+\i (00:21:45) pick grid 288.6238 255.8356
+\t (00:21:45) last pick:  289.0000 256.0000
+\i (00:21:46) slide 
+\t (00:21:46) last pick:  289.0000 256.0000
+\t (00:21:46) Waiting for the destination pick.
+\i (00:21:47) prepopup 288.7622 255.6742
+\i (00:21:48) done 
+\i (00:21:48) generaledit 
+\i (00:21:49) pick grid 288.7161 255.9740
+\t (00:21:49) last pick:  289.0000 256.0000
+\i (00:21:49) delete 
+\i (00:21:49) generaledit 
+\i (00:21:49) pick grid 290.0308 256.9658
+\t (00:21:49) last pick:  290.0000 257.0000
+\i (00:21:50) delete 
+\i (00:21:50) generaledit 
+\i (00:21:50) pick grid 290.8612 257.3810
+\t (00:21:50) last pick:  291.0000 257.0000
+\i (00:21:50) delete 
+\i (00:21:50) generaledit 
+\i (00:21:51) zoom in 1 
+\i (00:21:51) setwindow pcb
+\i (00:21:51) zoom in 290.9073 257.7270
+\i (00:21:51) trapsize 577
+\i (00:21:52) add connect 
+\t (00:21:52) Pick first element.
+\i (00:21:53) pick grid 288.0241 257.7155
+\t (00:21:53) last pick:  288.0000 258.0000
+\t (00:21:53) last pick:  287.9500 257.7046
+\t (00:21:53) Target Vertical Line Segment is defined on TOP.
+\t (00:21:53) last pick:  287.9500 257.7046
+\i (00:21:54) mouse_pos 291.6570 258.5113
+\i (00:21:56) mouse_pos 291.5878 257.4849
+\i (00:21:58) prepopup 291.2418 257.9923
+\i (00:21:59) oops 
+\t (00:21:59) last pick:  287.9500 257.7046
+\t (00:21:59) Pick first element.
+\i (00:22:00) pick grid 291.6108 258.2114
+\t (00:22:00) last pick:  292.0000 258.0000
+\t (00:22:00) last pick:  291.6500 258.2824
+\t (00:22:00) Target Symbol Pin is defined on TOP.
+\t (00:22:00) last pick:  291.6500 258.2824
+\i (00:22:01) prepopup 291.4148 258.1538
+\i (00:22:02) next 
+\t (00:22:02) Pick first element.
+\i (00:22:03) prepopup 291.6685 258.2576
+\i (00:22:04) cancel 
+\i (00:22:04) generaledit 
+\i (00:22:05) pick grid 291.5878 258.2806
+\t (00:22:05) last pick:  292.0000 258.0000
+\i (00:22:05) delete 
+\i (00:22:05) generaledit 
+\i (00:22:06) add connect 
+\t (00:22:06) Pick first element.
+\i (00:22:07) pick grid 287.9779 257.6925
+\t (00:22:07) last pick:  288.0000 258.0000
+\t (00:22:07) last pick:  287.9500 257.7046
+\t (00:22:07) Target Symbol Pin is defined on TOP.
+\t (00:22:07) last pick:  287.9500 257.7046
+\i (00:22:07) mouse_pos 291.6685 258.5113
+\i (00:22:09) mouse_pos 291.5416 257.4733
+\i (00:22:10) mouse_pos 291.6224 258.5113
+\i (00:22:11) pick grid 291.6224 258.5113
+\t (00:22:11) last pick:  292.0000 259.0000
+\t (00:22:11) No DRC errors detected.
+\t (00:22:11) Pick first element.
+\i (00:22:11) prepopup 291.5647 257.8193
+\i (00:22:12) done 
+\i (00:22:12) generaledit 
+\i (00:22:13) pick grid 290.8035 258.0384
+\t (00:22:13) last pick:  291.0000 258.0000
+\i (00:22:14) slide 
+\t (00:22:14) last pick:  291.0000 258.0000
+\t (00:22:14) Waiting for the destination pick.
+\i (00:22:15) pick grid 290.8035 257.9923
+\t (00:22:15) last pick:  291.0000 258.0000
+\t (00:22:15) No DRC errors detected.
+\i (00:22:16) generaledit 
+\i (00:22:16) prepopup 291.2879 257.7040
+\i (00:22:16) pick grid 290.3999 257.5541
+\t (00:22:16) last pick:  290.0000 258.0000
+\i (00:22:17) zoom out 1 
+\i (00:22:17) setwindow pcb
+\i (00:22:17) zoom out 290.4691 257.2542
+\i (00:22:17) trapsize 1153
+\i (00:22:18) pick grid 288.8544 255.2475
+\t (00:22:18) last pick:  289.0000 255.0000
+\i (00:22:19) roam start
+\i (00:22:19) roam y 16
+\i (00:22:19) roam y 48
+\i (00:22:19) roam x -16
+\i (00:22:19) roam y 48
+\i (00:22:19) roam y 32
+\i (00:22:19) roam y 48
+\i (00:22:19) roam y 32
+\i (00:22:19) roam y 32
+\i (00:22:19) roam y 16
+\i (00:22:20) roam end
+\i (00:22:21) roam start
+\i (00:22:21) roam y 16
+\i (00:22:21) roam y 80
+\i (00:22:21) roam y 64
+\i (00:22:21) roam y 16
+\i (00:22:21) roam y 32
+\i (00:22:21) roam y 32
+\i (00:22:21) roam y 16
+\i (00:22:21) roam y 32
+\i (00:22:21) roam y 16
+\i (00:22:21) roam x 48
+\i (00:22:21) roam y 16
+\i (00:22:21) roam x 32
+\i (00:22:21) roam x 32
+\i (00:22:21) roam y 16
+\i (00:22:21) roam x 32
+\i (00:22:21) roam y 32
+\i (00:22:22) roam x 32
+\i (00:22:22) roam y 32
+\i (00:22:22) roam y 32
+\i (00:22:22) roam y 32
+\i (00:22:22) roam y 48
+\i (00:22:22) roam x -80
+\i (00:22:22) roam y 48
+\i (00:22:22) roam x -64
+\i (00:22:22) roam y 32
+\i (00:22:22) roam x -80
+\i (00:22:22) roam y 32
+\i (00:22:22) roam x -16
+\i (00:22:22) roam y -16
+\i (00:22:22) roam y -16
+\i (00:22:22) roam y -16
+\i (00:22:22) roam y -16
+\i (00:22:23) roam y -16
+\i (00:22:23) roam y -16
+\i (00:22:23) roam y -16
+\i (00:22:23) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -32
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:24) roam y -16
+\i (00:22:25) roam x 16
+\i (00:22:25) roam y 32
+\i (00:22:25) roam y 16
+\i (00:22:25) roam y 16
+\i (00:22:25) roam y 16
+\i (00:22:25) roam y 16
+\i (00:22:25) roam end
+\i (00:22:26) zoom in 1 
+\i (00:22:26) setwindow pcb
+\i (00:22:26) zoom in 286.7324 238.7322
+\i (00:22:26) trapsize 577
+\i (00:22:33) create fanout 
+\i (00:22:34) pick grid 290.3884 239.9086
+\t (00:22:34) last pick:  290.0000 240.0000
+\t (00:22:34) Generate Fanouts completed, #Pins=1, U1
+\i (00:22:35) pick grid 285.8560 239.8971
+\t (00:22:35) last pick:  286.0000 240.0000
+\t (00:22:35) Generate Fanouts completed, #Pins=1, U1
+\i (00:22:36) prepopup 285.9021 239.5742
+\i (00:22:36) done 
+\i (00:22:36) generaledit 
+\i (00:22:37) drag_start grid 284.5066 239.8279
+\i (00:22:37) slide 
+\t (00:22:37) last pick:  285.0000 240.0000
+\t (00:22:37) Waiting for the destination pick.
+\t (00:22:37) New cline would result in DRC error(s); retaining old cline.
+\i (00:22:39) drag_stop grid 284.2298 238.7899
+\t (00:22:39) No DRC errors detected.
+\i (00:22:39) generaledit 
+\i (00:22:40) drag_start grid 291.3572 239.9548
+\i (00:22:40) slide 
+\t (00:22:40) last pick:  291.0000 240.0000
+\t (00:22:40) Waiting for the destination pick.
+\i (00:22:41) drag_stop grid 291.7954 238.9860
+\t (00:22:41) No DRC errors detected.
+\i (00:22:41) generaledit 
+\i (00:22:44) slide 
+\t (00:22:44) Pick element to slide.
+\i (00:22:45) drag_start grid 290.9305 239.7356
+\i (00:22:45) drag_stop 291.1035 239.8394
+\t (00:22:45) Waiting for origin pick.
+\i (00:22:46) pick grid 290.9766 239.7126
+\t (00:22:46) last pick:  291.0000 240.0000
+\t (00:22:46) Waiting for the destination pick.
+\i (00:22:49) prepopup 291.5071 240.0240
+\i (00:22:50) cancel 
+\i (00:22:50) generaledit 
+\i (00:22:53) drag_start grid 290.9420 239.7472
+\i (00:22:53) slide 
+\t (00:22:53) last pick:  291.0000 240.0000
+\t (00:22:53) Waiting for the destination pick.
+\i (00:22:53) drag_stop grid 291.1381 239.8394
+\t (00:22:53) No DRC errors detected.
+\i (00:22:53) generaledit 
+\i (00:22:54) pick grid 290.9881 239.7702
+\t (00:22:54) last pick:  291.0000 240.0000
+\i (00:22:55) pick grid 292.4874 239.9894
+\t (00:22:55) last pick:  292.0000 240.0000
+\i (00:22:56) pick grid 291.1727 239.7241
+\t (00:22:56) last pick:  291.0000 240.0000
+\i (00:22:56) delete 
+\i (00:22:56) generaledit 
+\i (00:22:56) pick grid 290.8728 239.7356
+\t (00:22:56) last pick:  291.0000 240.0000
+\i (00:22:57) delete 
+\i (00:22:57) generaledit 
+\i (00:22:57) pick grid 292.4528 240.0701
+\t (00:22:57) last pick:  292.0000 240.0000
+\i (00:22:58) add connect 
+\t (00:22:58) Selected item not valid for current operation, ignored: Text "Tmux1104dgsr"
+\t (00:22:58) No valid items selected for the current operation, exiting.
+\i (00:22:58) generaledit 
+\i (00:22:59) pick grid 290.7344 239.9548
+\t (00:22:59) last pick:  291.0000 240.0000
+\i (00:23:01) pick grid 293.6292 241.0619
+\t (00:23:01) last pick:  294.0000 241.0000
+\i (00:23:02) pick grid 294.0098 238.9053
+\t (00:23:02) last pick:  294.0000 239.0000
+\i (00:23:02) add connect 
+\t (00:23:02) Pick first element.
+\i (00:23:03) pick grid 290.7575 239.9778
+\t (00:23:03) last pick:  291.0000 240.0000
+\t (00:23:03) last pick:  290.2134 240.0000
+\t (00:23:03) Target Via is defined from TOP to BOTTOM.
+\t (00:23:03) last pick:  290.2134 240.0000
+\i (00:23:03) mouse_pos 290.7575 239.9778
+\i (00:23:04) mouse_pos 291.5071 239.5396
+\i (00:23:06) pick grid 291.4379 239.5165
+\t (00:23:06) last pick:  291.0000 240.0000
+\t (00:23:06) No DRC errors detected.
+\t (00:23:06) Pick first element.
+\i (00:23:07) prepopup 292.4989 237.5213
+\i (00:23:08) done 
+\i (00:23:08) generaledit 
+\i (00:23:09) pick grid 292.4874 235.1455
+\t (00:23:09) last pick:  292.0000 235.0000
+\i (00:23:09) zoom out 1 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) zoom out 292.5105 235.1686
+\i (00:23:09) trapsize 1153
+\i (00:23:10) roam start
+\i (00:23:10) roam x 64
+\i (00:23:10) roam y 64
+\i (00:23:10) roam y 16
+\i (00:23:10) roam x 16
+\i (00:23:10) roam x 16
+\i (00:23:10) roam y 16
+\i (00:23:10) roam x 32
+\i (00:23:10) roam y 32
+\i (00:23:10) roam x 16
+\i (00:23:10) roam y 32
+\i (00:23:10) roam y 32
+\i (00:23:10) roam x -16
+\i (00:23:10) roam x -16
+\i (00:23:10) roam y 32
+\i (00:23:11) roam x 16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam x 16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -32
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -32
+\i (00:23:11) roam y -32
+\i (00:23:11) roam x -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -32
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam x 16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam x 16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam x 16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -32
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:11) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam x 16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam y -16
+\i (00:23:12) roam x -16
+\i (00:23:15) roam y -32
+\i (00:23:15) roam y -48
+\i (00:23:15) roam y -48
+\i (00:23:15) roam y -32
+\i (00:23:15) roam y -16
+\i (00:23:15) roam y -16
+\i (00:23:15) roam y -16
+\i (00:23:15) roam y -16
+\i (00:23:15) roam y -16
+\i (00:23:15) roam y 16
+\i (00:23:15) roam y 32
+\i (00:23:15) roam y 64
+\i (00:23:15) roam y 32
+\i (00:23:15) roam y 48
+\i (00:23:15) roam y 32
+\i (00:23:15) roam y 32
+\i (00:23:15) roam y 16
+\i (00:23:15) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam x -16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 32
+\i (00:23:16) roam y 32
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 16
+\i (00:23:16) roam x -16
+\i (00:23:16) roam y 32
+\i (00:23:16) roam y 16
+\i (00:23:16) roam y 32
+\i (00:23:16) roam y 16
+\i (00:23:17) roam y 32
+\i (00:23:17) roam y 32
+\i (00:23:17) roam y 16
+\i (00:23:17) roam y 48
+\i (00:23:17) roam x 32
+\i (00:23:17) roam y 16
+\i (00:23:17) roam x 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam x 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam x 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam y 16
+\i (00:23:17) roam y 16
+\i (00:23:18) roam y 16
+\i (00:23:18) roam end
+\i (00:23:18) pick grid 294.1596 234.3728
+\t (00:23:18) last pick:  294.0000 234.0000
+\i (00:23:20) save 
+\i (00:23:22) fillin yes 
+\i (00:23:22) generaledit 
+\i (00:23:27) pick grid 295.5436 243.4607
+\t (00:23:27) last pick:  296.0000 243.0000
+\i (00:23:28) add connect 
+\t (00:23:29) Pick first element.
+\i (00:23:31) setwindow form.mini
+\i (00:23:31) FORM mini active_subclass BOTTOM 
+\t (00:23:31) Pick first element.
+\i (00:23:33) setwindow pcb
+\i (00:23:33) roam start
+\i (00:23:33) roam x 16
+\i (00:23:33) roam x 32
+\i (00:23:33) roam y 16
+\i (00:23:34) roam y -32
+\i (00:23:34) roam y -16
+\i (00:23:34) roam y -32
+\i (00:23:34) roam y -48
+\i (00:23:34) roam y -16
+\i (00:23:34) roam y -16
+\i (00:23:34) roam x -32
+\i (00:23:34) roam x -16
+\i (00:23:34) roam x -16
+\i (00:23:34) roam x -16
+\i (00:23:34) roam y 16
+\i (00:23:34) roam y 32
+\i (00:23:34) roam x -16
+\i (00:23:34) roam y 16
+\i (00:23:34) roam y 32
+\i (00:23:34) roam x -16
+\i (00:23:34) roam y 32
+\i (00:23:34) roam y 32
+\i (00:23:34) roam y 16
+\i (00:23:35) roam y 16
+\i (00:23:35) roam y 16
+\i (00:23:35) roam y 16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam y 16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam y 16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam y -16
+\i (00:23:35) roam y -16
+\i (00:23:35) roam x 16
+\i (00:23:35) roam y -16
+\i (00:23:35) roam y -16
+\i (00:23:36) roam end
+\i (00:23:37) pick grid 284.2182 238.9398
+\t (00:23:37) last pick:  284.0000 239.0000
+\t (00:23:37) Target Via is defined from TOP to BOTTOM.
+\t (00:23:37) last pick:  284.0000 239.0000
+\i (00:23:37) mouse_pos 287.5166 238.8706
+\i (00:23:38) pick grid 287.5166 238.8706
+\t (00:23:38) last pick:  288.0000 239.0000
+\t (00:23:38) No DRC errors detected.
+\t (00:23:38) Pick first element.
+\i (00:23:38) pick grid 287.8857 238.8937
+\t (00:23:38) last pick:  288.0000 239.0000
+\t (00:23:38) Pick first element.
+\t (00:23:38) Target Via is defined from TOP to BOTTOM.
+\t (00:23:38) last pick:  288.0000 239.0000
+\i (00:23:39) mouse_pos 291.5532 238.7783
+\i (00:23:39) pick grid 291.5532 238.7783
+\t (00:23:39) last pick:  292.0000 239.0000
+\t (00:23:39) No DRC errors detected.
+\t (00:23:39) Pick first element.
+\i (00:23:41) pick grid 287.9318 231.9508
+\t (00:23:41) last pick:  288.0000 232.0000
+\t (00:23:41) Pick first element.
+\t (00:23:41) Target Via is defined from TOP to BOTTOM.
+\t (00:23:41) last pick:  288.0000 232.0000
+\i (00:23:42) mouse_pos 288.2086 234.5111
+\i (00:23:42) mouse_pos 287.9318 233.4962
+\i (00:23:42) prepopup 288.0702 233.2886
+\i (00:23:44) oops 
+\t (00:23:44) last pick:  288.0000 232.0000
+\t (00:23:44) Pick first element.
+\i (00:23:45) roam start
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -64
+\i (00:23:45) roam y -48
+\i (00:23:45) roam y -48
+\i (00:23:45) roam y -64
+\i (00:23:45) roam y -48
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -48
+\i (00:23:45) roam x 16
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam end
+\i (00:23:47) pick grid 283.0187 244.0604
+\t (00:23:47) last pick:  283.0000 244.0000
+\t (00:23:47) Target Via is defined from TOP to BOTTOM.
+\t (00:23:47) last pick:  283.0000 244.0000
+\i (00:23:48) mouse_pos 292.4296 245.5136
+\i (00:23:50) pick grid 292.5219 245.5828
+\t (00:23:50) last pick:  293.0000 246.0000
+\t (00:23:50) No DRC errors detected.
+\t (00:23:50) Pick first element.
+\i (00:23:51) pick grid 282.9726 245.8365
+\t (00:23:51) last pick:  283.0000 246.0000
+\t (00:23:51) Pick first element.
+\t (00:23:51) Target Via is defined from TOP to BOTTOM.
+\t (00:23:51) last pick:  283.0000 246.0000
+\i (00:23:51) mouse_pos 292.5680 247.7279
+\i (00:23:52) pick grid 292.5680 247.7279
+\t (00:23:52) last pick:  293.0000 248.0000
+\t (00:23:52) No DRC errors detected.
+\t (00:23:52) Pick first element.
+\i (00:23:53) pick grid 283.0879 247.7971
+\t (00:23:53) last pick:  283.0000 248.0000
+\t (00:23:53) Pick first element.
+\t (00:23:53) Target Via is defined from TOP to BOTTOM.
+\t (00:23:53) last pick:  283.0000 248.0000
+\i (00:23:53) mouse_pos 292.5219 249.7808
+\i (00:23:54) pick grid 292.5219 249.7808
+\t (00:23:54) last pick:  293.0000 250.0000
+\t (00:23:54) No DRC errors detected.
+\t (00:23:54) Pick first element.
+\i (00:23:55) pick grid 283.0418 249.8500
+\t (00:23:55) last pick:  283.0000 250.0000
+\t (00:23:55) Pick first element.
+\t (00:23:55) Target Via is defined from TOP to BOTTOM.
+\t (00:23:55) last pick:  283.0000 250.0000
+\i (00:23:55) mouse_pos 292.5680 251.5799
+\i (00:23:56) pick grid 292.5680 251.5799
+\t (00:23:56) last pick:  293.0000 252.0000
+\t (00:23:56) No DRC errors detected.
+\t (00:23:56) Pick first element.
+\i (00:23:56) roam start
+\i (00:23:56) roam y -16
+\i (00:23:57) roam y -48
+\i (00:23:57) roam y -32
+\i (00:23:57) roam y -16
+\i (00:23:57) roam y -32
+\i (00:23:57) roam y -32
+\i (00:23:57) roam x 16
+\i (00:23:57) roam y -32
+\i (00:23:57) roam y -16
+\i (00:23:57) roam y -16
+\i (00:23:58) roam y -16
+\i (00:23:58) roam end
+\i (00:24:01) pick grid 280.0894 258.0845
+\t (00:24:01) last pick:  280.0000 258.0000
+\t (00:24:01) Pick first element.
+\t (00:24:01) Target Via is defined from TOP to BOTTOM.
+\t (00:24:01) last pick:  280.0000 258.0000
+\i (00:24:02) mouse_pos 283.9414 257.4848
+\i (00:24:02) pick grid 283.9414 257.4848
+\t (00:24:02) last pick:  284.0000 257.0000
+\t (00:24:02) No DRC errors detected.
+\t (00:24:03) Pick first element.
+\i (00:24:04) pick grid 285.9712 261.8212
+\t (00:24:04) last pick:  286.0000 262.0000
+\t (00:24:04) Pick first element.
+\t (00:24:04) last pick:  286.0500 262.0000
+\t (00:24:04) Target Via is defined from TOP to BOTTOM.
+\t (00:24:04) last pick:  286.0500 262.0000
+\i (00:24:04) mouse_pos 284.9563 257.4848
+\i (00:24:05) pick grid 284.4950 257.0927
+\t (00:24:05) last pick:  284.0000 257.0000
+\t (00:24:05) No DRC errors detected.
+\t (00:24:05) Pick first element.
+\i (00:24:06) pick grid 294.7824 258.0615
+\t (00:24:06) last pick:  295.0000 258.0000
+\t (00:24:06) Pick first element.
+\t (00:24:06) Target Via is defined from TOP to BOTTOM.
+\t (00:24:06) last pick:  295.0000 258.0000
+\i (00:24:07) mouse_pos 286.4787 261.3138
+\i (00:24:07) mouse_pos 286.3172 261.5214
+\i (00:24:08) pick grid 286.3172 261.5214
+\t (00:24:08) last pick:  286.0000 262.0000
+\t (00:24:08) No DRC errors detected.
+\t (00:24:08) Pick first element.
+\i (00:24:08) roam start
+\i (00:24:08) roam x 32
+\i (00:24:08) roam y 64
+\i (00:24:08) roam x 32
+\i (00:24:08) roam y 64
+\i (00:24:08) roam x 16
+\i (00:24:08) roam y 64
+\i (00:24:08) roam x 16
+\i (00:24:08) roam y 48
+\i (00:24:09) roam y 48
+\i (00:24:09) roam y 48
+\i (00:24:09) roam y 32
+\i (00:24:09) roam y 16
+\i (00:24:09) roam y 16
+\i (00:24:09) roam y 48
+\i (00:24:09) roam x -16
+\i (00:24:09) roam y -16
+\i (00:24:09) roam y -16
+\i (00:24:09) roam y -16
+\i (00:24:09) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam y -16
+\i (00:24:10) roam end
+\i (00:24:12) pick grid 292.2682 239.1243
+\t (00:24:12) last pick:  292.0000 239.0000
+\t (00:24:12) Pick first element.
+\t (00:24:12) Target Via is defined from TOP to BOTTOM.
+\t (00:24:12) last pick:  292.0000 239.0000
+\i (00:24:15) pick grid 294.7363 242.4689
+\t (00:24:15) last pick:  295.0000 242.0000
+\t (00:24:15) No DRC errors detected.
+\i (00:24:16) mouse_pos 295.0823 257.5079
+\i (00:24:17) pick grid 295.0823 257.5079
+\t (00:24:17) last pick:  295.0000 258.0000
+\t (00:24:17) No DRC errors detected.
+\t (00:24:17) Pick first element.
+\i (00:24:18) roam start
+\i (00:24:18) roam y 16
+\i (00:24:18) roam x 16
+\i (00:24:18) roam y 64
+\i (00:24:18) roam y 32
+\i (00:24:18) roam y 48
+\i (00:24:18) roam x -16
+\i (00:24:18) roam y 64
+\i (00:24:18) roam x -48
+\i (00:24:18) roam y 64
+\i (00:24:18) roam x -48
+\i (00:24:18) roam y 48
+\i (00:24:18) roam x -32
+\i (00:24:18) roam y 16
+\i (00:24:18) roam x -32
+\i (00:24:18) roam y 32
+\i (00:24:18) roam x -16
+\i (00:24:19) roam x -16
+\i (00:24:19) roam x 32
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam x 16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam x 16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam x 16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:19) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam x 16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam x -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:20) roam y -16
+\i (00:24:21) roam y -16
+\i (00:24:21) roam x -16
+\i (00:24:21) roam y -16
+\i (00:24:21) roam y -16
+\i (00:24:21) roam y -16
+\i (00:24:21) roam end
+\i (00:24:26) roam start
+\i (00:24:26) roam y 16
+\i (00:24:26) roam x -16
+\i (00:24:26) roam y 16
+\i (00:24:26) roam x -16
+\i (00:24:26) roam y 64
+\i (00:24:26) roam x -32
+\i (00:24:26) roam y 64
+\i (00:24:26) roam x -16
+\i (00:24:26) roam y 48
+\i (00:24:26) roam x -16
+\i (00:24:26) roam y 48
+\i (00:24:26) roam x -16
+\i (00:24:26) roam y 64
+\i (00:24:26) roam y 48
+\i (00:24:26) roam y 48
+\i (00:24:26) roam y 64
+\i (00:24:26) roam y 80
+\i (00:24:26) roam y 48
+\i (00:24:26) roam x 32
+\i (00:24:26) roam y 64
+\i (00:24:26) roam x 64
+\i (00:24:26) roam y 48
+\i (00:24:26) roam x 16
+\i (00:24:26) roam y 16
+\i (00:24:27) roam x 16
+\i (00:24:27) roam y -48
+\i (00:24:27) roam y -64
+\i (00:24:27) roam y -48
+\i (00:24:27) roam x 16
+\i (00:24:27) roam y -48
+\i (00:24:27) roam y -48
+\i (00:24:27) roam y -48
+\i (00:24:27) roam y -64
+\i (00:24:27) roam y -32
+\i (00:24:27) roam y -32
+\i (00:24:27) roam y -16
+\i (00:24:27) roam y -16
+\i (00:24:27) roam y -16
+\i (00:24:27) roam y -16
+\i (00:24:27) roam y -16
+\i (00:24:27) roam y -16
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 32
+\i (00:24:28) roam x -16
+\i (00:24:28) roam y 32
+\i (00:24:28) roam y 48
+\i (00:24:28) roam y 64
+\i (00:24:28) roam y 48
+\i (00:24:28) roam y 48
+\i (00:24:28) roam y 32
+\i (00:24:28) roam y 32
+\i (00:24:28) roam y 32
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 32
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 16
+\i (00:24:28) roam y 16
+\i (00:24:29) roam end
+\i (00:24:29) prepopup 295.1515 239.6548
+\i (00:24:30) done 
+\i (00:24:30) generaledit 
+\i (00:24:31) roam start
+\i (00:24:31) roam x -16
+\i (00:24:31) roam x -32
+\i (00:24:31) roam y 64
+\i (00:24:31) roam y 16
+\i (00:24:31) roam x 48
+\i (00:24:31) roam x 64
+\i (00:24:31) roam x 48
+\i (00:24:31) roam y -32
+\i (00:24:31) roam x 16
+\i (00:24:31) roam y -48
+\i (00:24:31) roam x 16
+\i (00:24:31) roam y -64
+\i (00:24:31) roam y -64
+\i (00:24:31) roam y -32
+\i (00:24:31) roam y -48
+\i (00:24:31) roam x -16
+\i (00:24:31) roam y -64
+\i (00:24:31) roam x -16
+\i (00:24:31) roam y -48
+\i (00:24:31) roam x -16
+\i (00:24:31) roam y -32
+\i (00:24:31) roam x -16
+\i (00:24:31) roam y -48
+\i (00:24:31) roam y -32
+\i (00:24:32) roam x -16
+\i (00:24:32) roam y -32
+\i (00:24:32) roam x -16
+\i (00:24:32) roam y -32
+\i (00:24:32) roam x -32
+\i (00:24:32) roam y -16
+\i (00:24:32) roam y -16
+\i (00:24:32) roam end
+\i (00:24:32) zoom out 1 
+\i (00:24:32) setwindow pcb
+\i (00:24:32) zoom out 294.3672 251.5107
+\i (00:24:32) trapsize 2307
+\i (00:24:33) roam start
+\i (00:24:33) roam x 16
+\i (00:24:33) roam y 16
+\i (00:24:33) roam y 16
+\i (00:24:33) roam x 16
+\i (00:24:33) roam y 32
+\i (00:24:33) roam y 32
+\i (00:24:33) roam x 16
+\i (00:24:33) roam y 64
+\i (00:24:33) roam x 16
+\i (00:24:33) roam y 48
+\i (00:24:33) roam x 32
+\i (00:24:33) roam y 32
+\i (00:24:33) roam x 48
+\i (00:24:33) roam y 32
+\i (00:24:33) roam x 48
+\i (00:24:33) roam y 32
+\i (00:24:33) roam x 64
+\i (00:24:33) roam y 32
+\i (00:24:33) roam x 32
+\i (00:24:33) roam y 16
+\i (00:24:33) roam x -48
+\i (00:24:33) roam y -32
+\i (00:24:33) roam x -96
+\i (00:24:33) roam y -48
+\i (00:24:33) roam x -32
+\i (00:24:33) roam y -16
+\i (00:24:33) roam x -32
+\i (00:24:33) roam y -48
+\i (00:24:34) roam x -16
+\i (00:24:34) roam y -64
+\i (00:24:34) roam x -16
+\i (00:24:34) roam y -48
+\i (00:24:34) roam y -48
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y -64
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y -48
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y -16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y -16
+\i (00:24:34) roam x 32
+\i (00:24:34) roam y -16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y -16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam x 16
+\i (00:24:34) roam y 32
+\i (00:24:34) roam y 64
+\i (00:24:34) roam y 32
+\i (00:24:34) roam y 32
+\i (00:24:34) roam y 16
+\i (00:24:34) roam x -16
+\i (00:24:34) roam y 16
+\i (00:24:34) roam x -32
+\i (00:24:34) roam y 16
+\i (00:24:34) roam y 16
+\i (00:24:34) roam x -16
+\i (00:24:34) roam x -16
+\i (00:24:34) roam x -16
+\i (00:24:34) roam y -16
+\i (00:24:34) roam y -16
+\i (00:24:35) roam end
+\i (00:24:37) dimension edit 
+\i (00:24:38) prepopup 279.1898 265.9039
+\i (00:24:39) pop dyn_option_select '@:@Linear dimension' 
+\t (00:24:39) Pick an element or point to dimension ...
+\i (00:24:40) pick grid 280.2047 254.5093
+\t (00:24:40) last pick:  280.0000 255.0000
+\t (00:24:40) First point found ... pick the second point.
+\i (00:24:41) pick grid 294.8746 254.1864
+\t (00:24:41) last pick:  295.0000 254.0000
+\t (00:24:41) Indicate the X or Y direction first.
+\i (00:24:43) pick grid 292.4297 265.6271
+\t (00:24:43) last pick:  292.0000 266.0000
+\t (00:24:43) Pick location for the dimension value.
+\i (00:24:44) prepopup 287.7242 265.3503
+\i (00:24:45) cancel 
+\i (00:24:45) generaledit 
+\i (00:24:45) prepopup 302.0712 251.4185
+\i (00:24:46) pick grid 303.7320 255.2936
+\t (00:24:46) last pick:  304.0000 255.0000
+\i (00:24:47) zoom out 1 
+\i (00:24:47) setwindow pcb
+\i (00:24:47) zoom out 301.6560 253.8174
+\i (00:24:47) trapsize 4613
+\i (00:24:47) roam start
+\i (00:24:47) roam x 16
+\i (00:24:47) roam y 48
+\i (00:24:47) roam x 48
+\i (00:24:47) roam y 48
+\i (00:24:47) roam x 64
+\i (00:24:47) roam y 48
+\i (00:24:47) roam x 16
+\i (00:24:48) roam y -16
+\i (00:24:48) roam x -16
+\i (00:24:48) roam y -48
+\i (00:24:48) roam y -32
+\i (00:24:48) roam y -32
+\i (00:24:48) roam y -32
+\i (00:24:48) roam end
+\i (00:24:49) save 
+\i (00:24:50) fillin yes 
+\i (00:24:50) generaledit 
+\i (00:24:51) zoom in 1 
+\i (00:24:51) setwindow pcb
+\i (00:24:51) zoom in 300.5027 248.3738
+\i (00:24:51) trapsize 2307
+\i (00:24:51) zoom out 1 
+\i (00:24:51) setwindow pcb
+\i (00:24:51) zoom out 297.2274 248.8351
+\i (00:24:51) trapsize 4613
+\i (00:24:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:24:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:24:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:24:54) QtSignal "Board Outline" Create Automatically
+\i (00:24:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:24:54) QtSignal Create Automatically
+\i (00:24:54) board outline 
+\i (00:24:56) pick grid 287.2629 279.0054
+\t (00:24:56) last pick:  287.0000 279.0000
+\i (00:24:56) toggle 
+\i (00:24:57) pick grid 286.1558 265.3503
+\t (00:24:57) last pick:  286.0000 265.0000
+\i (00:24:59) pick grid 287.3552 198.7360
+\t (00:24:59) last pick:  287.0000 199.0000
+\i (00:24:59) toggle 
+\i (00:25:00) pick grid 287.5397 228.5371
+\t (00:25:01) last pick:  288.0000 229.0000
+\i (00:25:01) zoom in 1 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) zoom in 290.3999 241.0850
+\i (00:25:01) trapsize 2307
+\i (00:25:03) pick grid 287.7704 228.9062
+\t (00:25:03) last pick:  288.0000 229.0000
+\i (00:25:03) toggle 
+\i (00:25:03) pick grid 287.7243 229.5060
+\t (00:25:03) last pick:  288.0000 230.0000
+\i (00:25:04) roam start
+\i (00:25:04) roam y -16
+\i (00:25:04) roam y -64
+\i (00:25:04) roam y -16
+\i (00:25:04) roam y -16
+\i (00:25:04) roam x 16
+\i (00:25:04) roam y -32
+\i (00:25:04) roam y -48
+\i (00:25:04) roam y -48
+\i (00:25:04) roam y -48
+\i (00:25:04) roam y -32
+\i (00:25:04) roam y -16
+\i (00:25:04) roam y -32
+\i (00:25:04) roam y -32
+\i (00:25:05) roam y 16
+\i (00:25:05) roam x -16
+\i (00:25:05) roam y 32
+\i (00:25:05) roam y 16
+\i (00:25:05) roam y 16
+\i (00:25:05) roam x -16
+\i (00:25:05) roam y 16
+\i (00:25:05) roam end
+\i (00:25:06) setwindow form.fpbdoutline
+\i (00:25:06) FORM fpbdoutline done  
+\i (00:25:06) setwindow pcb
+\i (00:25:06) generaledit 
+\i (00:25:07) zoom in 1 
+\i (00:25:07) setwindow pcb
+\i (00:25:07) zoom in 282.6036 260.7833
+\i (00:25:07) trapsize 1153
+\i (00:25:09) zoom out 1 
+\i (00:25:09) setwindow pcb
+\i (00:25:09) zoom out 283.9184 261.8212
+\i (00:25:09) trapsize 2307
+\i (00:25:09) zoom in 1 
+\i (00:25:09) setwindow pcb
+\i (00:25:09) zoom in 283.9184 261.8213
+\i (00:25:09) trapsize 1153
+\i (00:25:11) move 
+\t (00:25:11) Select element(s) to move.
+\i (00:25:12) pick grid 282.2577 262.9746
+\t (00:25:12) last pick:  282.0000 263.0000
+\t (00:25:12) last pick:  282.0000 263.0000
+\t (00:25:12) Moving C2 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:25:12) Pick new location for the element(s).
+\i (00:25:14) pick grid 282.0962 261.4984
+\t (00:25:14) last pick:  282.0000 261.0000
+\i (00:25:14) prepopup 283.0650 260.6450
+\i (00:25:15) done 
+\i (00:25:15) generaledit 
+\i (00:25:17) pick grid 283.2956 263.6666
+\t (00:25:17) last pick:  283.0000 264.0000
+\i (00:25:17) delete 
+\i (00:25:17) generaledit 
+\i (00:25:18) pick grid 285.0717 262.8593
+\t (00:25:18) last pick:  285.0000 263.0000
+\i (00:25:18) delete 
+\i (00:25:18) generaledit 
+\i (00:25:19) pick grid 283.6416 261.6830
+\t (00:25:19) last pick:  284.0000 262.0000
+\i (00:25:19) add connect 
+\t (00:25:19) Pick first element.
+\t (00:25:19) last pick:  282.0000 261.6500
+\i (00:25:20) pick grid 281.9809 261.5446
+\t (00:25:20) last pick:  282.0000 262.0000
+\t (00:25:20) No DRC errors detected.
+\i (00:25:20) mouse_pos 285.5099 262.0289
+\i (00:25:22) pick grid 285.5099 262.0289
+\t (00:25:22) last pick:  286.0000 262.0000
+\t (00:25:22) No DRC errors detected.
+\t (00:25:22) Pick first element.
+\i (00:25:22) generaledit 
+\i (00:25:23) prepopup 283.9184 260.9679
+\i (00:25:24) pick grid 285.4869 262.9054
+\t (00:25:24) last pick:  285.0000 263.0000
+\i (00:25:25) pick grid 294.9900 262.8824
+\t (00:25:25) last pick:  295.0000 263.0000
+\i (00:25:26) save 
+\i (00:25:27) fillin yes 
+\i (00:25:27) generaledit 
+\i (00:25:29) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:25:29) QtSignal "Board Outline" Create Automatically
+\i (00:25:29) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:25:29) QtSignal Create Automatically
+\i (00:25:29) board outline 
+\i (00:25:31) pick grid 287.3783 265.0044
+\t (00:25:31) last pick:  287.0000 265.0000
+\i (00:25:33) pick grid 287.0554 264.9583
+\t (00:25:33) last pick:  287.0000 265.0000
+\i (00:25:34) zoom out 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom out 293.3754 261.7983
+\i (00:25:34) trapsize 2307
+\i (00:25:36) pick grid 287.2860 263.3206
+\t (00:25:36) last pick:  287.0000 263.0000
+\i (00:25:38) pick grid 286.8709 264.9814
+\t (00:25:38) last pick:  287.0000 265.0000
+\i (00:25:40) setwindow form.fpbdoutline
+\i (00:25:40) FORM fpbdoutline cancel  
+\i (00:25:40) setwindow pcb
+\i (00:25:40) generaledit 
+\i (00:25:41) pick grid 301.8176 263.4590
+\t (00:25:41) last pick:  302.0000 263.0000
+\i (00:25:42) save 
+\i (00:25:43) fillin yes 
+\i (00:25:43) generaledit 
+\i (00:25:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:25:44) QtSignal "Board Outline" Create Automatically
+\i (00:25:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:25:44) QtSignal Create Automatically
+\i (00:25:44) board outline 
+\i (00:25:46) pick grid 287.4706 264.9814
+\t (00:25:46) last pick:  287.0000 265.0000
+\i (00:25:48) prepopup 288.1625 264.5200
+\i (00:25:49) pick grid 292.4989 268.3490
+\t (00:25:49) last pick:  292.0000 268.0000
+\i (00:25:50) pick grid 290.6998 263.5051
+\t (00:25:50) last pick:  291.0000 264.0000
+\i (00:25:51) setwindow form.fpbdoutline
+\i (00:25:51) FORM fpbdoutline done  
+\i (00:25:51) setwindow pcb
+\i (00:25:51) generaledit 
+\i (00:25:54) undo 
+\i (00:25:54) trapsize 2307
+\i (00:25:54) generaledit 
+\i (00:25:55) pick grid 300.9872 264.0587
+\t (00:25:55) last pick:  301.0000 264.0000
+\i (00:25:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:25:57) QtSignal "Board Outline" Create Automatically
+\i (00:25:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:25:57) QtSignal Create Automatically
+\i (00:25:57) board outline 
+\i (00:25:59) pick grid 287.5167 264.9352
+\t (00:25:59) last pick:  288.0000 265.0000
+\i (00:26:01) prepopup 290.6537 265.9040
+\i (00:26:03) setwindow form.fpbdoutline
+\i (00:26:03) FORM fpbdoutline cancel  
+\i (00:26:03) setwindow pcb
+\i (00:26:03) generaledit 
+\i (00:26:03) pick grid 303.8474 261.5215
+\t (00:26:03) last pick:  304.0000 262.0000
+\i (00:26:04) roam start
+\i (00:26:04) roam y 16
+\i (00:26:04) roam x 16
+\i (00:26:04) roam y 160
+\i (00:26:04) roam x 16
+\i (00:26:04) roam y 192
+\i (00:26:04) roam x 16
+\i (00:26:04) roam y 96
+\i (00:26:04) roam y 32
+\i (00:26:04) roam y 48
+\i (00:26:04) roam x -16
+\i (00:26:04) roam y -16
+\i (00:26:04) roam y -32
+\i (00:26:04) roam y -32
+\i (00:26:04) roam y -16
+\i (00:26:05) roam y -32
+\i (00:26:05) roam y -32
+\i (00:26:05) roam y -16
+\i (00:26:05) roam y -16
+\i (00:26:05) roam y -32
+\i (00:26:05) roam y -32
+\i (00:26:05) roam y -16
+\i (00:26:05) roam y -32
+\i (00:26:05) roam y -16
+\i (00:26:05) roam y -16
+\i (00:26:05) roam y -16
+\i (00:26:05) roam end
+\i (00:26:06) pick grid 304.5624 253.6790
+\t (00:26:06) last pick:  305.0000 254.0000
+\i (00:26:06) save 
+\i (00:26:07) fillin yes 
+\i (00:26:07) generaledit 
+\i (00:26:08) pick grid 302.0251 255.6165
+\t (00:26:08) last pick:  302.0000 256.0000
+\i (00:26:09) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:26:09) QtSignal "Board Outline" Create Automatically
+\i (00:26:09) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:26:09) QtSignal Create Automatically
+\i (00:26:09) board outline 
+\i (00:26:11) pick grid 276.9294 264.9351
+\t (00:26:11) last pick:  277.0000 265.0000
+\i (00:26:16) pick grid 279.0976 262.5824
+\t (00:26:16) last pick:  279.0000 263.0000
+\i (00:26:17) pick grid 298.0116 246.5285
+\t (00:26:17) last pick:  298.0000 247.0000
+\i (00:26:18) prepopup 298.2884 246.3440
+\i (00:26:20) setwindow form.fpbdoutline
+\i (00:26:20) FORM fpbdoutline done  
+\i (00:26:20) setwindow pcb
+\i (00:26:20) generaledit 
+\i (00:26:21) undo 
+\i (00:26:21) trapsize 2307
+\i (00:26:21) generaledit 
+\i (00:26:22) prepopup 306.1770 254.7400
+\i (00:26:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:26:23) QtSignal "Board Outline" Create Manual
+\i (00:26:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:26:23) QtSignal Create Manual
+\i (00:26:23) FORM mini class BOARD GEOMETRY 
+\i (00:26:23) FORM mini subclass DESIGN_OUTLINE 
+\i (00:26:23) shape add 
+\i (00:26:23) trapsize 2307
+\i (00:26:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:26:24) QtSignal "Board Outline" Create Automatically
+\i (00:26:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:26:24) QtSignal Create Automatically
+\i (00:26:24) board outline 
+\i (00:26:27) pick grid 276.9755 264.7506
+\t (00:26:27) last pick:  277.0000 265.0000
+\i (00:26:29) pick grid 278.8669 262.5363
+\t (00:26:29) last pick:  279.0000 263.0000
+\i (00:26:30) pick grid 298.0578 262.9515
+\t (00:26:30) last pick:  298.0000 263.0000
+\i (00:26:32) pick grid 297.4581 262.9053
+\t (00:26:33) last pick:  297.0000 263.0000
+\i (00:26:34) prepopup 296.0280 240.6698
+\i (00:26:36) setwindow form.fpbdoutline
+\i (00:26:36) FORM fpbdoutline done  
+\i (00:26:36) setwindow pcb
+\i (00:26:36) generaledit 
+\i (00:26:47) zoom in 1 
+\i (00:26:47) setwindow pcb
+\i (00:26:47) zoom in 289.8002 241.2695
+\i (00:26:47) trapsize 1153
+\i (00:26:48) zoom out 1 
+\i (00:26:48) setwindow pcb
+\i (00:26:48) zoom out 290.2616 241.6155
+\i (00:26:48) trapsize 2307
+\i (00:26:49) roam start
+\i (00:26:49) roam x 16
+\i (00:26:49) roam x 32
+\i (00:26:49) roam y 16
+\i (00:26:49) roam x 16
+\i (00:26:49) roam y 32
+\i (00:26:50) roam end
+\i (00:27:10) prepopup 295.8434 239.4704
+\i (00:27:11) pick grid 301.7483 242.1460
+\t (00:27:11) last pick:  302.0000 242.0000
+\i (00:27:14) shape add rect 
+\i (00:27:20) setwindow form.mini
+\i (00:27:20) FORM mini dyns_fill_type Dynamic copper 
+\t (00:27:20) Dynamic copper shape not allowed on current subclass.
+\i (00:27:28) FORM mini class ETCH 
+\i (00:27:30) FORM mini subclass BOTTOM 
+\i (00:27:36) FORM mini dyns_netname_list  
+\i (00:27:38) fillin "Gnd"
+\t (00:27:38) Assigning selected shape to net: GND
+\i (00:27:40) setwindow pcb
+\i (00:27:40) pick grid 279.1437 262.7669
+\t (00:27:40) last pick:  279.0000 263.0000
+\i (00:27:42) pick grid 297.4580 230.3824
+\t (00:27:42) last pick:  297.0000 230.0000
+\i (00:27:43) prepopup 293.6752 239.2397
+\i (00:27:44) done 
+\i (00:27:44) generaledit 
+\i (00:27:44) zoom in 1 
+\i (00:27:44) setwindow pcb
+\i (00:27:44) zoom in 294.3672 241.1311
+\i (00:27:44) trapsize 1153
+\i (00:27:45) zoom in 1 
+\i (00:27:45) setwindow pcb
+\i (00:27:45) zoom in 294.3672 241.1311
+\i (00:27:45) trapsize 577
+\i (00:27:46) zoom out 1 
+\i (00:27:46) setwindow pcb
+\i (00:27:46) zoom out 293.6637 240.1508
+\i (00:27:46) trapsize 1153
+\i (00:27:46) zoom out 1 
+\i (00:27:46) setwindow pcb
+\i (00:27:46) zoom out 293.6407 240.2200
+\i (00:27:46) trapsize 2307
+\i (00:27:51) pick grid 301.8061 246.6323
+\t (00:27:51) last pick:  302.0000 247.0000
+\i (00:27:52) save 
+\i (00:27:53) fillin yes 
+\i (00:27:53) generaledit 
+\i (00:28:33) pick grid 302.3596 243.8183
+\t (00:28:33) last pick:  302.0000 244.0000
+\i (00:28:34) save 
+\i (00:28:35) fillin yes 
+\i (00:28:35) generaledit 
+\i (00:28:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:28:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:28:45) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints
+\i (00:28:45) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints
+\i (00:28:47) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints Physical
+\i (00:28:47) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints Physical
+\i (00:28:47) cmgr_phys 
+\i (00:28:48) setwindow cmgr
+\i (00:28:48) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:28:48) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:28:48) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:28:48) cm expand ( row ( Design "msd_foot_ext2" ) )
+\i (00:28:48) cm selectDesignTab ( kConsmgr worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "323:All Layers" ) 0
+\i (00:28:48) setwindow pcb
+\i (00:28:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree dataChanged Constraints 1 | Physical
+\i (00:28:48) generaledit 
+\i (00:28:55) setwindow cmgr
+\i (00:28:55) cm close ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:28:55) cm exit
+\i (00:28:55) setwindow pcb
+\i (00:28:55) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:28:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints
+\i (00:28:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints
+\i (00:28:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:28:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:28:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:28:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:29:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints
+\i (00:29:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints
+\i (00:29:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints
+\i (00:29:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints
+\i (00:29:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Interconnect
+\i (00:29:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Interconnect
+\i (00:29:04) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Interconnect
+\i (00:29:04) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Interconnect
+\i (00:29:05) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation"
+\i (00:29:05) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation"
+\i (00:29:06) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation"
+\i (00:29:06) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation"
+\i (00:29:08) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities
+\i (00:29:08) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities
+\i (00:29:10) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities "Display Status"
+\i (00:29:10) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities "Display Status"
+\i (00:29:10) status 
+\i (00:29:10) generaledit 
+\i (00:29:14) setwindow form.status
+\i (00:29:14) FORM status drc_update  
+\t (00:29:14) Running DRC, wait...
+\t (00:29:14) Performing DRC...
+\t (00:29:14) Multithreaded DRC update (16 threads).
+\t (00:29:14) No DRC errors detected.
+\t (00:29:14) DRC done.
+\i (00:29:16) FORM status done  
+\i (00:29:17) setwindow pcb
+\i (00:29:17) zoom in 1 
+\i (00:29:17) setwindow pcb
+\i (00:29:17) zoom in 283.3072 254.4747
+\i (00:29:17) trapsize 1153
+\i (00:29:17) zoom in 1 
+\i (00:29:17) setwindow pcb
+\i (00:29:17) zoom in 283.3073 254.4748
+\i (00:29:17) trapsize 577
+\i (00:29:19) zoom out 1 
+\i (00:29:19) setwindow pcb
+\i (00:29:19) zoom out 284.2761 254.1173
+\i (00:29:19) trapsize 1153
+\i (00:29:23) create fanout 
+\i (00:29:31) pick grid 281.0238 254.0250
+\t (00:29:31) last pick:  281.0000 254.0000
+\t (00:29:31) Generate Fanouts completed, #Pins=1, IO2
+\i (00:29:32) prepopup 283.5841 253.8866
+\i (00:29:32) done 
+\i (00:29:32) generaledit 
+\i (00:29:33) zoom in 1 
+\i (00:29:33) setwindow pcb
+\i (00:29:33) zoom in 283.3535 254.3709
+\i (00:29:33) trapsize 577
+\i (00:29:35) pick grid 282.9498 255.2820
+\t (00:29:35) last pick:  283.0000 255.0000
+\i (00:29:37) slide 
+\t (00:29:37) last pick:  283.0000 255.0000
+\t (00:29:37) Waiting for the destination pick.
+\i (00:29:39) pick grid 283.4919 255.1782
+\t (00:29:39) last pick:  283.0000 255.0000
+\t (00:29:39) No DRC errors detected.
+\i (00:29:39) generaledit 
+\i (00:29:40) roam start
+\i (00:29:40) roam y -16
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -32
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -48
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -48
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -16
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -16
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -48
+\i (00:29:40) roam x 16
+\i (00:29:40) roam y -32
+\i (00:29:41) roam x -16
+\i (00:29:41) roam y -32
+\i (00:29:41) roam y -16
+\i (00:29:41) roam x -16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam x -16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam y 16
+\i (00:29:41) roam y 16
+\i (00:29:42) roam x -16
+\i (00:29:42) roam y 16
+\i (00:29:42) roam y 16
+\i (00:29:42) roam y 16
+\i (00:29:42) roam end
+\i (00:29:43) pick grid 283.0995 256.2277
+\t (00:29:43) last pick:  283.0000 256.0000
+\i (00:29:45) slide 
+\t (00:29:46) last pick:  283.0000 256.0000
+\t (00:29:46) Waiting for the destination pick.
+\i (00:29:50) pick grid 283.4916 256.1931
+\t (00:29:50) last pick:  283.0000 256.0000
+\t (00:29:50) No DRC errors detected.
+\i (00:29:50) generaledit 
+\i (00:29:51) pick grid 283.6415 258.6381
+\t (00:29:51) last pick:  284.0000 259.0000
+\i (00:29:53) slide 
+\t (00:29:53) last pick:  284.0000 259.0000
+\t (00:29:53) Waiting for the destination pick.
+\i (00:29:54) pick grid 283.7107 258.4997
+\t (00:29:54) last pick:  284.0000 258.0000
+\t (00:29:54) No DRC errors detected.
+\i (00:29:54) generaledit 
+\i (00:29:55) pick grid 283.1917 255.7664
+\t (00:29:55) last pick:  283.0000 256.0000
+\i (00:29:58) pick grid 283.0879 253.5405
+\t (00:29:58) last pick:  283.0000 254.0000
+\i (00:29:59) slide 
+\t (00:30:00) last pick:  283.0000 254.0000
+\t (00:30:00) Waiting for the destination pick.
+\i (00:30:02) pick grid 283.1571 253.4828
+\t (00:30:02) last pick:  283.0000 253.0000
+\t (00:30:02) No DRC errors detected.
+\i (00:30:02) generaledit 
+\i (00:30:04) pick grid 283.3301 254.1172
+\t (00:30:04) last pick:  283.0000 254.0000
+\i (00:30:05) slide 
+\t (00:30:05) last pick:  283.0000 254.0000
+\t (00:30:05) Waiting for the destination pick.
+\i (00:30:07) prepopup 283.4109 254.1287
+\i (00:30:08) cancel 
+\i (00:30:08) generaledit 
+\i (00:30:10) pick grid 282.9380 253.1253
+\t (00:30:10) last pick:  283.0000 253.0000
+\i (00:30:11) slide 
+\t (00:30:12) last pick:  283.0000 253.0000
+\t (00:30:12) Waiting for the destination pick.
+\i (00:30:14) pick grid 282.9380 253.1253
+\t (00:30:14) last pick:  283.0000 253.0000
+\t (00:30:14) No DRC errors detected.
+\i (00:30:14) generaledit 
+\i (00:30:20) prepopup 283.1917 253.7596
+\i (00:30:21) pick grid 288.8890 254.1402
+\t (00:30:21) last pick:  289.0000 254.0000
+\i (00:30:23) zoom out 1 
+\i (00:30:23) setwindow pcb
+\i (00:30:23) zoom out 286.5594 253.9788
+\i (00:30:23) trapsize 1153
+\i (00:30:24) roam start
+\i (00:30:24) roam x 80
+\i (00:30:24) roam y 16
+\i (00:30:24) roam x 64
+\i (00:30:24) roam y 32
+\i (00:30:24) roam x 96
+\i (00:30:24) roam y 32
+\i (00:30:24) roam x 64
+\i (00:30:24) roam y 16
+\i (00:30:24) roam x 32
+\i (00:30:24) roam y 16
+\i (00:30:24) roam x 32
+\i (00:30:24) roam y 16
+\i (00:30:24) roam x 32
+\i (00:30:24) roam y -16
+\i (00:30:25) roam y -16
+\i (00:30:25) roam y -16
+\i (00:30:25) roam y -16
+\i (00:30:25) roam y -16
+\i (00:30:25) roam y -16
+\i (00:30:25) roam x -16
+\i (00:30:25) roam x -16
+\i (00:30:25) roam x -16
+\i (00:30:26) roam end
+\i (00:30:35) prepopup 289.6617 253.1715
+\i (00:30:36) pick grid 299.8338 255.4550
+\t (00:30:36) last pick:  300.0000 255.0000
+\i (00:30:37) save 
+\i (00:30:38) fillin yes 
+   (00:30:38) Loading consmgr.cxt 
+   (00:30:38) Loading acns_formula.cxt 
+\i (00:30:39) generaledit 
+\i (00:30:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities "Display Status"
+\i (00:30:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities "Display Status"
+\i (00:30:40) status 
+\i (00:30:40) generaledit 
+\i (00:30:42) setwindow form.status
+\i (00:30:42) FORM status done  
+\i (00:30:46) setwindow pcb
+\i (00:30:46) exit 
+\t (00:30:46)     Journal end - Wed Oct 07 11:39:38 2020

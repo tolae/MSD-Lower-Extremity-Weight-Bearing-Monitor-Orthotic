@@ -1,0 +1,132 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/extenstion_3/layout/msd_foot_ext3.brd                     |
+|                                                    Wed Oct 07 11:40:29 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CNC          pins ADDED TO this new net
+                                 IO3.4          R_SENSING.1    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C2.2           C3.2           IO3.2          
+                                 R2.2           R_SENSING.2    SC1.1          
+                                 SC2.1          SC3.1          SC4.1          
+                                 U1.3           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33079       pins ADDED TO this new net
+                                 C1.1           R3.1           U1.8           
+                                 U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33209       pins ADDED TO this new net
+                                 R1.2           R2.1           U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33239       pins ADDED TO this new net
+                                 SC4.2          U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33247       pins ADDED TO this new net
+                                 SC3.2          U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33305       pins ADDED TO this new net
+                                 SC2.2          U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N33313       pins ADDED TO this new net
+                                 SC1.2          U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SEL0         pins ADDED TO this new net
+                                 IO3.5          U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SEL1         pins ADDED TO this new net
+                                 IO3.6          U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD          pins ADDED TO this new net
+                                 C2.1           C3.1           IO3.1          
+                                 R1.1           U1.5           U1.6           
+                                 U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT         pins ADDED TO this new net
+                                 C1.2           IO3.3          R3.2           
+                                 U2.4           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/extenstion_3/layout/msd_foot_ext3.brd                     |
+|                                                    Wed Oct 07 11:40:29 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_0402-CAP_0.1UF
+ CAP NP_0402-CAP_47PF
+ EXT2_EXT3_CONNECTOR_EXT2_EXT3_C
+ MCP6001UT-EOT_SOT-23-5_MC_MCH_M
+ R_0402-RES_1K
+ R_0402-RES_5K
+ R_0402-RES_6.8K
+ R_0402-RES_10K
+ STRAIN CELL_STRAIN_CELL_STRAIN
+ TMUX1104DGSR_DGS10_TEX_TMUX1104
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/extenstion_3/layout/msd_foot_ext3.brd                     |
+|                                                    Wed Oct 07 11:40:29 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_0402-CAP_47PF  
+ C2                  CAP NP_0402-CAP_0.1UF 
+ C3                  CAP NP_0402-CAP_0.1UF 
+ IO3                 EXT2_EXT3_CONNECTOR_EXT2_EXT3_C 
+ R1                  R_0402-RES_10K        
+ R2                  R_0402-RES_1K         
+ R3                  R_0402-RES_6.8K       
+ R_SENSING           R_0402-RES_5K         
+ SC1                 STRAIN CELL_STRAIN_CELL_STRAIN 
+ SC2                 STRAIN CELL_STRAIN_CELL_STRAIN 
+ SC3                 STRAIN CELL_STRAIN_CELL_STRAIN 
+ SC4                 STRAIN CELL_STRAIN_CELL_STRAIN 
+ U1                  TMUX1104DGSR_DGS10_TEX_TMUX1104 
+ U2                  MCP6001UT-EOT_SOT-23-5_MC_MCH_M 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/extenstion_3/layout/msd_foot_ext3.brd                     |
+|                                                    Wed Oct 07 11:40:29 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ IO3.1                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R_SENSING.2                    PRIM_FILE      .\pstchip.dat
+ SC1.2                          PRIM_FILE      .\pstchip.dat
+ SC2.2                          PRIM_FILE      .\pstchip.dat
+ SC3.2                          PRIM_FILE      .\pstchip.dat
+ SC4.2                          PRIM_FILE      .\pstchip.dat
+ U1.6                           PRIM_FILE      .\pstchip.dat
+ U2.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      43                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      14                                        |
+|       Slot property added   :      14                                        |
+|                                                                              |
+|   Total ECO changes reported:      81                                        |
+|------------------------------------------------------------------------------|
