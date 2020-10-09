@@ -1,0 +1,299 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : msd_foot_ext1.brd                             )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Thu Oct 08 21:18:23 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.28100                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  SQUARE     2.00000                     0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
+  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
+  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
+  RECTANGLE  2.50010     x 1.00000       0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.28100                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < FAB >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/FAB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-121.1900 -169.7450)
+           ... using undefined line width of 0.1270
+
+    WARNING: text composed 0 width line found at (-119.2850 -155.1400)
+           ... using undefined line width of 0.1270
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.1270
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.1270
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+
+     FAB created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/ASSEMBLY.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15240                                  DARK 
+  SQUARE     2.00000                     0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
+  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
+  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
+  RECTANGLE  2.50010     x 1.00000       0.000 NO     DARK 
+
+     ASSEMBLY created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREENTOP >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/SILKSCREENTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.40640                                  DARK 
+
+     SILKSCREENTOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASKTOP >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/SOLDERMASKTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+  SQUARE     2.19990                     0.000 NO     DARK 
+  RECTANGLE  0.90320     x 1.10310       0.000 NO     DARK 
+  RECTANGLE  0.90320     x 1.10310      90.000 NO     DARK 
+  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
+  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
+  RECTANGLE  2.59990     x 1.19990       0.000 NO     DARK 
+
+     SOLDERMASKTOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASKTOP >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/PASTEMASKTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
+  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
+  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
+
+     PASTEMASKTOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASKBOTTOM >
+     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/SOLDERMASKBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+
+     SOLDERMASKBOTTOM created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        FAB created with warnings
+        ASSEMBLY created.
+        SILKSCREENTOP created.
+        SOLDERMASKTOP created.
+        PASTEMASKTOP created.
+        SOLDERMASKBOTTOM created.
+
+ ARTWORK had warnings
