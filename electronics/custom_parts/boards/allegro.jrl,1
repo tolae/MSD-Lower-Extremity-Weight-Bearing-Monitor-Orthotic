@@ -1,0 +1,566 @@
+\t (00:47:07) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:47:07)     Journal start - Thu Oct 08 19:43:54 2020
+\t (00:47:07)         Host=DESKTOP-JV3CNMF User=Ethan Pid=12608 CPUs=16
+\t (00:47:07) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession Ethan C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\custom_parts\boards\arduino_mega_tft_3p5_shield.brd
+\t (00:47:07) 
+\d (00:47:07) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd
+\i (00:47:07) generaledit 
+\i (00:47:09) pick grid 318.7732 243.8086
+\t (00:47:09) last pick:  319.0000 244.0000
+\i (00:47:12) zoom in 1 
+\i (00:47:12) setwindow pcb
+\i (00:47:12) zoom in 318.7732 243.8086
+\i (00:47:12) trapsize 2883
+\i (00:47:12) zoom out 1 
+\i (00:47:12) setwindow pcb
+\i (00:47:12) zoom out 318.7732 243.8087
+\i (00:47:12) trapsize 5767
+\i (00:47:22) pick grid 322.1177 271.7186
+\t (00:47:22) last pick:  322.0000 272.0000
+\i (00:47:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:47:23) QtSignal "Board Outline" Create
+\i (00:47:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:47:23) QtSignal Create
+\i (00:47:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:47:24) QtSignal "Board Outline" Create
+\i (00:47:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:47:24) QtSignal Create
+\i (00:47:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:47:24) QtSignal "Board Outline" Create Manual
+\i (00:47:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:47:24) QtSignal Create Manual
+\i (00:47:24) FORM mini class BOARD GEOMETRY 
+\i (00:47:24) FORM mini subclass DESIGN_OUTLINE 
+\i (00:47:24) shape add 
+\i (00:47:25) trapsize 5767
+\i (00:47:26) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:47:26) QtSignal "Board Outline" Create Automatically
+\i (00:47:26) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:47:26) QtSignal Create Automatically
+\i (00:47:26) board outline 
+\i (00:47:28) setwindow form.fpbdoutline
+\i (00:47:28) FORM fpbdoutline apply  
+\i (00:47:29) fillin confirm
+\i (00:47:30) FORM fpbdoutline cancel  
+\i (00:47:30) setwindow pcb
+\i (00:47:30) generaledit 
+\i (00:47:31) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:47:31) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:47:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:47:32) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:47:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:47:33) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:47:33) place manual 
+\t (00:47:33) Selected item not valid for current operation, ignored: Filled Rectangle "Xio1, Package Geometry/Place_Bound_Top"
+\t (00:47:33) No valid items selected for the current operation, exiting.
+\i (00:47:33) generaledit 
+\i (00:47:36) pick grid 318.6578 254.8803
+\t (00:47:36) last pick:  319.0000 255.0000
+\i (00:47:58) pick grid 359.2541 229.9690
+\t (00:47:58) last pick:  359.0000 230.0000
+\i (00:47:59) pick grid 318.5425 239.1954
+\t (00:47:59) last pick:  319.0000 239.0000
+\i (00:48:00) delete 
+\i (00:48:00) generaledit 
+\i (00:48:01) pick grid 319.2345 239.4261
+\t (00:48:01) last pick:  319.0000 239.0000
+\i (00:48:01) delete 
+\i (00:48:01) generaledit 
+\i (00:48:02) pick grid 320.3878 239.8874
+\t (00:48:02) last pick:  320.0000 240.0000
+\i (00:48:04) delete 
+\i (00:48:04) generaledit 
+\i (00:48:06) pick grid 318.6578 242.5400
+\t (00:48:06) last pick:  319.0000 243.0000
+\i (00:48:06) pick grid dbl 318.6578 242.5400
+\t (00:48:06) last pick:  319.0000 243.0000
+\i (00:48:08) delete 
+\i (00:48:08) generaledit 
+\i (00:48:10) zoom in 1 
+\i (00:48:10) setwindow pcb
+\i (00:48:10) zoom in 322.1177 248.4218
+\i (00:48:10) trapsize 2883
+\i (00:48:10) zoom in 1 
+\i (00:48:10) setwindow pcb
+\i (00:48:10) zoom in 322.1178 248.4219
+\i (00:48:10) trapsize 1442
+\i (00:48:10) zoom out 1 
+\i (00:48:10) setwindow pcb
+\i (00:48:10) zoom out 322.1178 248.4219
+\i (00:48:10) trapsize 2883
+\i (00:48:10) zoom out 1 
+\i (00:48:10) setwindow pcb
+\i (00:48:10) zoom out 322.1179 248.4220
+\i (00:48:10) trapsize 5767
+\i (00:48:10) undo 
+\i (00:48:10) trapsize 5767
+\i (00:48:11) generaledit 
+\i (00:48:11) undo 
+\i (00:48:11) trapsize 5767
+\i (00:48:11) generaledit 
+\i (00:48:13) pick grid 308.5088 236.7735
+\t (00:48:13) last pick:  309.0000 237.0000
+\i (00:48:14) pick grid 303.0882 268.8353
+\t (00:48:14) last pick:  303.0000 269.0000
+\i (00:48:14) pick grid 307.3555 268.9506
+\t (00:48:14) last pick:  307.0000 269.0000
+\i (00:48:15) pick grid 320.5031 252.9197
+\t (00:48:15) last pick:  321.0000 253.0000
+\i (00:48:16) prepopup 321.4258 253.1504
+\i (00:48:17) pop dyn_option_select @:@Delete 
+\i (00:48:17) delete 
+\i (00:48:17) generaledit 
+\i (00:48:19) undo 
+\i (00:48:19) trapsize 5767
+\i (00:48:19) generaledit 
+\i (00:48:21) pick grid 317.8505 251.7664
+\t (00:48:21) last pick:  318.0000 252.0000
+\i (00:48:21) pick grid 329.6142 252.5737
+\t (00:48:21) last pick:  330.0000 253.0000
+\i (00:48:23) undo 
+\i (00:48:23) trapsize 5767
+\i (00:48:23) generaledit 
+\i (00:48:23) undo 
+\i (00:48:23) trapsize 5767
+\i (00:48:23) generaledit 
+\i (00:48:24) undo 
+\i (00:48:24) trapsize 5767
+\i (00:48:24) generaledit 
+\i (00:48:25) pick grid 331.4595 253.6117
+\t (00:48:25) last pick:  331.0000 254.0000
+\i (00:48:27) pick grid 320.0418 253.1504
+\t (00:48:27) last pick:  320.0000 253.0000
+\i (00:48:29) move 
+\t (00:48:29) last pick:  322.0000 247.4100
+\t (00:48:29) Moving XIO1 / 0060_FH254-218DF08500V_2X18_18X / 2X18.
+\t (00:48:29) Pick new location for the element(s).
+\i (00:48:30) prepopup 319.1192 245.9999
+\i (00:48:34) pop dyn_option_select 'Options@:@Ripup etch' 
+\t (00:48:34) Moving XIO1 / 0060_FH254-218DF08500V_2X18_18X / 2X18.
+\t (00:48:34) Pick new location for the element(s).
+\i (00:48:37) delete 
+\i (00:48:37) generaledit 
+\i (00:48:39) prepopup 309.0854 250.0364
+\i (00:48:40) pick grid 349.4510 252.1124
+\t (00:48:40) last pick:  349.0000 252.0000
+\i (00:48:41) roam start
+\i (00:48:41) roam x -16
+\i (00:48:41) roam x -96
+\i (00:48:41) roam y 32
+\i (00:48:41) roam x -96
+\i (00:48:41) roam y 16
+\i (00:48:41) roam x -16
+\i (00:48:41) roam x -96
+\i (00:48:41) roam y 16
+\i (00:48:41) roam x -80
+\i (00:48:41) roam y 16
+\i (00:48:41) roam x -96
+\i (00:48:41) roam x -32
+\i (00:48:41) roam x 80
+\i (00:48:41) roam y -16
+\i (00:48:41) roam x 80
+\i (00:48:41) roam y -32
+\i (00:48:42) roam x 96
+\i (00:48:42) roam y -16
+\i (00:48:42) roam x 32
+\i (00:48:42) roam y -16
+\i (00:48:42) roam x 32
+\i (00:48:42) roam x 32
+\i (00:48:42) roam x 16
+\i (00:48:42) roam y 16
+\i (00:48:42) roam x 16
+\i (00:48:42) roam y 48
+\i (00:48:42) roam y 64
+\i (00:48:42) roam y 64
+\i (00:48:42) roam y 48
+\i (00:48:42) roam y 16
+\i (00:48:42) roam y 16
+\i (00:48:42) roam y 16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -32
+\i (00:48:43) roam y -32
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -32
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam x 16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam x 16
+\i (00:48:43) roam y -16
+\i (00:48:43) roam y -16
+\i (00:48:44) roam y 32
+\i (00:48:44) roam y 32
+\i (00:48:44) roam y 16
+\i (00:48:44) roam y 16
+\i (00:48:44) roam end
+\i (00:48:46) dimension edit 
+\i (00:48:47) prepopup 282.9054 193.0631
+\i (00:48:50) pop dyn_option_select '@:@Delete dimensions' 
+\i (00:48:51) pick grid 276.4469 178.5314
+\t (00:48:51) last pick:  276.0000 179.0000
+\i (00:48:52) prepopup 284.6354 201.7128
+\i (00:48:53) done 
+\i (00:48:53) generaledit 
+\i (00:48:54) roam start
+\i (00:48:54) roam y -16
+\i (00:48:54) roam x 16
+\i (00:48:54) roam y -16
+\i (00:48:54) roam x 16
+\i (00:48:54) roam y -16
+\i (00:48:54) roam x 48
+\i (00:48:54) roam y -64
+\i (00:48:54) roam y -48
+\i (00:48:54) roam y -32
+\i (00:48:54) roam y -16
+\i (00:48:55) roam y -32
+\i (00:48:55) roam end
+\i (00:49:02) roam start
+\i (00:49:02) roam x -16
+\i (00:49:03) roam x -48
+\i (00:49:03) roam x -16
+\i (00:49:03) roam x -64
+\i (00:49:03) roam x -80
+\i (00:49:03) roam x -64
+\i (00:49:03) roam x -32
+\i (00:49:03) roam x -64
+\i (00:49:03) roam y 16
+\i (00:49:03) roam x -48
+\i (00:49:03) roam y 16
+\i (00:49:03) roam x -16
+\i (00:49:03) roam y 16
+\i (00:49:03) roam y 48
+\i (00:49:03) roam x 80
+\i (00:49:03) roam y 32
+\i (00:49:03) roam x 112
+\i (00:49:03) roam x 80
+\i (00:49:03) roam x 48
+\i (00:49:03) roam y -16
+\i (00:49:03) roam x -16
+\i (00:49:04) roam x -16
+\i (00:49:04) roam y -16
+\i (00:49:04) roam x -16
+\i (00:49:04) roam y -16
+\i (00:49:04) roam x -16
+\i (00:49:04) roam y -16
+\i (00:49:04) roam x -16
+\i (00:49:04) roam y -16
+\i (00:49:04) roam end
+\i (00:49:04) prepopup 277.8309 256.2641
+\i (00:49:11) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:49:11) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:49:11) place manual 
+\i (00:49:17) setwindow form.mini
+\i (00:49:17) FORM mini class BOARD GEOMETRY 
+\i (00:49:22) FORM mini class PACKAGE GEOMETRY 
+\i (00:49:33) setwindow form.plc_manual
+\i (00:49:33) FORM plc_manual tree  'Components by refdes' 
+\i (00:49:39) setwindow form.mini
+\i (00:49:39) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:49:41) FORM mini subclass ASSEMBLY_TOP 
+\i (00:49:54) setwindow form.plc_manual
+\i (00:49:54) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:49:54) Placing ADCH / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:49:56) setwindow pcb
+\i (00:49:56) zoom in 1 
+\i (00:49:56) setwindow pcb
+\i (00:49:56) zoom in 310.2387 231.0067
+\i (00:49:56) trapsize 2883
+\i (00:49:57) zoom in 1 
+\i (00:49:57) setwindow pcb
+\i (00:49:57) zoom in 310.5848 228.4695
+\i (00:49:57) trapsize 1442
+\i (00:49:57) zoom out 1 
+\i (00:49:57) setwindow pcb
+\i (00:49:57) zoom out 310.7578 228.7579
+\i (00:49:57) trapsize 2883
+\i (00:49:59) prepopup 311.3922 230.2571
+\i (00:50:00) prepopup 312.7185 233.7747
+\i (00:50:02) rotate 
+\t (00:50:02) Spin the element(s).
+\i (00:50:04) iangle 90.000
+\t (00:50:04) last angle:  +90.000 Degrees
+\i (00:50:10) pick grid 307.7593 224.4906
+\t (00:50:10) last pick:  308.0000 224.0000
+\t (00:50:10) Placing ADCL1 / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:50:11) rotate 
+\t (00:50:11) Spin the element(s).
+\i (00:50:12) iangle 90.000
+\t (00:50:12) last angle:  +90.000 Degrees
+\i (00:50:13) pick grid 287.2305 224.4906
+\t (00:50:13) last pick:  287.0000 224.0000
+\t (00:50:13) Placing COMMUNICATION / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:50:15) roam start
+\i (00:50:15) roam x 32
+\i (00:50:15) roam y -64
+\i (00:50:15) roam x 32
+\i (00:50:15) roam y -48
+\i (00:50:15) roam x 48
+\i (00:50:15) roam y -64
+\i (00:50:15) roam x 32
+\i (00:50:15) roam y -48
+\i (00:50:15) roam x 16
+\i (00:50:15) roam y -48
+\i (00:50:15) roam x 16
+\i (00:50:15) roam y -32
+\i (00:50:15) roam x 16
+\i (00:50:15) roam y -16
+\i (00:50:15) roam y -16
+\i (00:50:15) roam x -32
+\i (00:50:15) roam x -32
+\i (00:50:15) roam y -16
+\i (00:50:15) roam y -16
+\i (00:50:15) roam y -16
+\i (00:50:15) roam end
+\i (00:50:16) rotate 
+\t (00:50:16) Spin the element(s).
+\i (00:50:17) iangle 90.000
+\t (00:50:17) last angle:  +90.000 Degrees
+\i (00:50:21) pick grid 304.2415 265.4905
+\t (00:50:21) last pick:  304.0000 265.0000
+\t (00:50:21) Placing JP1 / HEADER-1X20_ROUND_1X20_N_A / 1X20 on Top.
+\i (00:50:22) rotate 
+\t (00:50:22) Spin the element(s).
+\i (00:50:25) iangle -360.000
+\t (00:50:25) last angle:  +0.000 Degrees
+\i (00:50:25) zoom out 1 
+\i (00:50:25) setwindow pcb
+\i (00:50:25) zoom out 300.0896 258.9744
+\i (00:50:25) trapsize 5767
+\i (00:50:43) prepopup 316.9279 248.0180
+\i (00:50:44) cancel 
+\i (00:50:44) generaledit 
+\i (00:50:47) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:50:47) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:50:47) place manual 
+\i (00:50:53) setwindow form.plc_manual
+\i (00:50:53) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:50:53) Placing ADCH / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:50:53) FORM plc_manual tree  'Components by refdes' 
+\i (00:50:54) setwindow pcb
+\i (00:50:54) roam start
+\i (00:50:55) roam x -16
+\i (00:50:55) roam y 48
+\i (00:50:55) roam x -16
+\i (00:50:55) roam y 48
+\i (00:50:55) roam x -32
+\i (00:50:55) roam y 32
+\i (00:50:55) roam x -16
+\i (00:50:55) roam y 16
+\i (00:50:55) roam x -16
+\i (00:50:55) roam y 32
+\i (00:50:55) roam x -16
+\i (00:50:55) roam y 16
+\i (00:50:55) roam y 16
+\i (00:50:55) roam x 32
+\i (00:50:55) roam y 16
+\i (00:50:55) roam x 32
+\i (00:50:55) roam y 16
+\i (00:50:55) roam x 48
+\i (00:50:55) roam x 32
+\i (00:50:55) roam y -16
+\i (00:50:55) roam y -16
+\i (00:50:55) roam y -16
+\i (00:50:55) roam y -16
+\i (00:50:55) roam y -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam y -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam x -16
+\i (00:50:56) roam y -16
+\i (00:50:56) roam x 16
+\i (00:50:57) roam x 16
+\i (00:50:57) roam y -16
+\i (00:50:57) roam y 16
+\i (00:50:57) roam y 16
+\i (00:50:57) roam y 16
+\i (00:50:57) roam y 16
+\i (00:50:57) roam y 16
+\i (00:50:57) roam y 16
+\i (00:50:58) roam x -16
+\i (00:50:58) roam x -16
+\i (00:50:58) roam y 16
+\i (00:50:58) roam x -16
+\i (00:50:58) roam end
+\i (00:50:59) rotate 
+\t (00:50:59) Spin the element(s).
+\i (00:50:59) iangle 90.000
+\t (00:50:59) last angle:  +90.000 Degrees
+\i (00:51:05) pick grid 309.4314 217.1671
+\t (00:51:05) last pick:  309.0000 217.0000
+\t (00:51:05) Placing ADCL1 / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:51:06) rotate 
+\t (00:51:06) Spin the element(s).
+\i (00:51:06) iangle 90.000
+\t (00:51:06) last angle:  +90.000 Degrees
+\i (00:51:10) pick grid 286.5960 217.1671
+\t (00:51:10) last pick:  287.0000 217.0000
+\t (00:51:10) Placing COMMUNICATION / 0058_FH254-108DF08500V_1X08_FH2 / 1X08 on Top.
+\i (00:51:11) rotate 
+\t (00:51:11) Spin the element(s).
+\i (00:51:11) iangle 90.000
+\t (00:51:11) last angle:  +90.000 Degrees
+\i (00:51:14) pick grid 304.3568 272.5257
+\t (00:51:14) last pick:  304.0000 273.0000
+\t (00:51:14) Placing JP1 / HEADER-1X20_ROUND_1X20_N_A / 1X20 on Top.
+\i (00:51:14) rotate 
+\t (00:51:14) Spin the element(s).
+\i (00:51:15) iangle -90.000
+\t (00:51:15) last angle:  +270.000 Degrees
+\i (00:51:16) rotate 
+\t (00:51:16) Spin the element(s).
+\i (00:51:17) iangle -360.000
+\t (00:51:17) last angle:  +0.000 Degrees
+\i (00:51:23) pick grid 316.5819 247.6144
+\t (00:51:23) last pick:  317.0000 248.0000
+\t (00:51:23) Placing JP2 / HEADER-1X20_ROUND_1X20_N_A / 1X20 on Top.
+\i (00:51:29) pick grid 242.4244 248.3064
+\t (00:51:29) last pick:  242.0000 248.0000
+\t (00:51:29) Placing JP7 / 1216_FH254-110DF08500T30_1X10_F / 1X10 on Top.
+\i (00:51:30) rotate 
+\t (00:51:30) Spin the element(s).
+\i (00:51:31) iangle 90.000
+\t (00:51:31) last angle:  +90.000 Degrees
+\i (00:51:34) pick grid 257.4174 272.6411
+\t (00:51:34) last pick:  257.0000 273.0000
+\t (00:51:34) Placing POWER1 / 1217_FH254-108DF08500T21_1X08_F / 1X08 on Top.
+\i (00:51:35) rotate 
+\t (00:51:35) Spin the element(s).
+\i (00:51:36) iangle 90.000
+\t (00:51:36) last angle:  +90.000 Degrees
+\i (00:51:39) pick grid 263.5299 216.8212
+\t (00:51:39) last pick:  264.0000 217.0000
+\t (00:51:39) Placing PWML1 / 1218_FH254-108DF08500T20_1X08_F / 1X08 on Top.
+\i (00:51:40) rotate 
+\t (00:51:40) Spin the element(s).
+\i (00:51:41) iangle 90.000
+\t (00:51:41) last angle:  +90.000 Degrees
+\i (00:51:44) pick grid 281.4061 273.4484
+\t (00:51:44) last pick:  281.0000 273.0000
+\t (00:51:44) Placing XIO / 0060_FH254-218DF08500V_2X18_18X / 2X18 on Top.
+\i (00:51:51) pick grid 330.4215 247.1530
+\t (00:51:51) last pick:  330.0000 247.0000
+\i (00:51:53) prepopup 294.8998 248.1910
+\i (00:51:53) done 
+\i (00:51:54) generaledit 
+\i (00:51:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:51:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:51:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:51:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:52:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:52:00) QtSignal "Board Outline" Create Automatically
+\i (00:52:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:52:00) QtSignal Create Automatically
+\i (00:52:00) board outline 
+\i (00:52:02) pick grid 325.9236 272.5257
+\t (00:52:02) last pick:  326.0000 273.0000
+\i (00:52:03) pick grid 334.5734 275.7550
+\t (00:52:03) last pick:  335.0000 276.0000
+\i (00:52:05) pick grid 240.0025 218.2051
+\t (00:52:05) last pick:  240.0000 218.0000
+\i (00:52:10) pick grid 239.5412 214.5145
+\t (00:52:10) last pick:  240.0000 215.0000
+\i (00:52:11) zoom in 1 
+\i (00:52:11) setwindow pcb
+\i (00:52:11) zoom in 238.9645 236.4273
+\i (00:52:11) trapsize 2883
+\i (00:52:11) zoom in 1 
+\i (00:52:11) setwindow pcb
+\i (00:52:11) zoom in 238.9645 236.4274
+\i (00:52:11) trapsize 1442
+\i (00:52:12) zoom out 1 
+\i (00:52:12) setwindow pcb
+\i (00:52:12) zoom out 240.1179 236.6580
+\i (00:52:12) trapsize 2883
+\i (00:52:12) zoom out 1 
+\i (00:52:12) setwindow pcb
+\i (00:52:12) zoom out 240.1178 236.6581
+\i (00:52:12) trapsize 5767
+\i (00:52:14) setwindow form.fpbdoutline
+\i (00:52:14) FORM fpbdoutline done  
+\i (00:52:14) setwindow pcb
+\i (00:52:14) generaledit 
+\i (00:52:15) roam start
+\i (00:52:15) roam y 16
+\i (00:52:15) roam x -16
+\i (00:52:15) roam y 32
+\i (00:52:15) roam y 48
+\i (00:52:15) roam x 48
+\i (00:52:15) roam y 32
+\i (00:52:16) roam x 32
+\i (00:52:16) roam y 16
+\i (00:52:16) roam x 48
+\i (00:52:16) roam y 16
+\i (00:52:16) roam x 64
+\i (00:52:16) roam x 48
+\i (00:52:16) roam x 16
+\i (00:52:16) roam x 16
+\i (00:52:16) roam y -32
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -16
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -32
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -64
+\i (00:52:16) roam y -32
+\i (00:52:16) roam x -64
+\i (00:52:16) roam y -32
+\i (00:52:16) roam x -64
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -48
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -64
+\i (00:52:16) roam x -32
+\i (00:52:16) roam x -16
+\i (00:52:16) roam y -16
+\i (00:52:16) roam x -32
+\i (00:52:16) roam x -16
+\i (00:52:16) roam end
+\i (00:52:20) zoom in 1 
+\i (00:52:20) setwindow pcb
+\i (00:52:20) zoom in 290.8633 262.7226
+\i (00:52:20) trapsize 2883
+\i (00:52:20) zoom in 1 
+\i (00:52:20) setwindow pcb
+\i (00:52:20) zoom in 290.8056 262.9533
+\i (00:52:20) trapsize 1442
+\i (00:52:21) zoom out 1 
+\i (00:52:21) setwindow pcb
+\i (00:52:21) zoom out 284.4913 262.5784
+\i (00:52:21) trapsize 2883
+\i (00:52:21) zoom out 1 
+\i (00:52:21) setwindow pcb
+\i (00:52:21) zoom out 284.4913 262.5785
+\i (00:52:21) trapsize 5767
+\i (00:52:22) roam start
+\i (00:52:22) roam x -16
+\i (00:52:22) roam y 16
+\i (00:52:22) roam x -48
+\i (00:52:22) roam y 16
+\i (00:52:22) roam x -32
+\i (00:52:22) roam x -16
+\i (00:52:22) roam y 16
+\i (00:52:22) roam x -16
+\i (00:52:22) roam x 16
+\i (00:52:23) roam x 16
+\i (00:52:23) roam y -16
+\i (00:52:23) roam y -16
+\i (00:52:23) roam y -16
+\i (00:52:23) roam y -16
+\i (00:52:23) roam end
+\i (00:52:26) save 
+\i (00:52:28) fillin yes 
+\i (00:52:28) generaledit 
+\i (00:52:30) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:52:33) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged arduino_mega_tft_3p5_shield
+\i (00:52:33) opencd C:/Users/Ethan/Downloads/3.5inch-TFT-Breakout-PCB-master/3.5inch-TFT-Breakout-PCB-master/Adafruit_3_5in_480x320_allegro.brd 
+\t (00:52:33) Opening existing design...
+\i (00:52:33) trapsize 5236
+\t (00:52:33)     Journal end - Thu Oct 08 19:49:20 2020

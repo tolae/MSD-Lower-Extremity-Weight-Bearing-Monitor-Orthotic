@@ -1,0 +1,170 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Oct-08-2020 at 18:56:45 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ARDUINO_MEGA_TFT_3P5_SHIELD';
+ POST_TIME='Apr 26 2020 05:36:08';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ ADCH '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS6951@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins6951@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins6951@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ ADCH1 '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS8452@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins8452@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins8452@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ ADCL '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS7643@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins7643@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins7643@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ ADCL1 '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS11704@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins11704@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins11704@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ COMMUNICATION '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS7495@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins7495@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins7495@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ COMMUNICATION1 '0058_FH254-108DF08500V_1X08_FH2':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS11560@MEGA2560_REV3E.0058_FH254-108DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins11560@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins11560@mega2560_rev3e.\0058_fh254-108df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP1 'HEADER-1X20_ROUND_1X20_N_A':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS1051@ADAFRUIT3.5IN480X320.HEADER-1X20_ROUND.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins1051@\adafruit3.5in480x320\.\header-1x20_round.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins1051@\adafruit3.5in480x320\.\header-1x20_round.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP2 'HEADER-1X20_ROUND_1X20_N_A':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS672@ADAFRUIT3.5IN480X320.HEADER-1X20_ROUND.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins672@\adafruit3.5in480x320\.\header-1x20_round.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins672@\adafruit3.5in480x320\.\header-1x20_round.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP6 '1216_FH254-110DF08500T30_1X10_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS10262@MEGA2560_REV3E.1216_FH254-110DF08500T30.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins10262@mega2560_rev3e.\1216_fh254-110df08500t30.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins10262@mega2560_rev3e.\1216_fh254-110df08500t30.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP7 '1216_FH254-110DF08500T30_1X10_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS10628@MEGA2560_REV3E.1216_FH254-110DF08500T30.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins10628@mega2560_rev3e.\1216_fh254-110df08500t30.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins10628@mega2560_rev3e.\1216_fh254-110df08500t30.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POWER '1217_FH254-108DF08500T21_1X08_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS9203@MEGA2560_REV3E.1217_FH254-108DF08500T21.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins9203@mega2560_rev3e.\1217_fh254-108df08500t21.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins9203@mega2560_rev3e.\1217_fh254-108df08500t21.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ POWER1 '1217_FH254-108DF08500T21_1X08_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS9806@MEGA2560_REV3E.1217_FH254-108DF08500T21.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins9806@mega2560_rev3e.\1217_fh254-108df08500t21.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins9806@mega2560_rev3e.\1217_fh254-108df08500t21.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ PWML '1218_FH254-108DF08500T20_1X08_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS7567@MEGA2560_REV3E.1218_FH254-108DF08500T20.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins7567@mega2560_rev3e.\1218_fh254-108df08500t20.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins7567@mega2560_rev3e.\1218_fh254-108df08500t20.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ PWML1 '1218_FH254-108DF08500T20_1X08_F':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS11632@MEGA2560_REV3E.1218_FH254-108DF08500T20.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins11632@mega2560_rev3e.\1218_fh254-108df08500t20.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins11632@mega2560_rev3e.\1218_fh254-108df08500t20.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ XIO '0060_FH254-218DF08500V_2X18_18X':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS5282@MEGA2560_REV3E.0060_FH254-218DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins5282@mega2560_rev3e.\0060_fh254-218df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins5282@mega2560_rev3e.\0060_fh254-218df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ XIO1 '0060_FH254-218DF08500V_2X18_18X':;
+
+SECTION_NUMBER 1
+ '@ARDUINO_MEGA_TFT_3P5_SHIELD.SCHEMATIC1(SCH_1):INS6377@MEGA2560_REV3E.0060_FH254-218DF08500V.NORMAL(CHIPS)':
+ C_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):ins6377@mega2560_rev3e.\0060_fh254-218df08500v.normal\(chips)',
+ P_PATH='@arduino_mega_tft_3p5_shield.schematic1(sch_1):page1_ins6377@mega2560_rev3e.\0060_fh254-218df08500v.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,394 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +3V3         pins ADDED TO this new net
+                                 POWER1.4       POWER.4        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +5V          pins ADDED TO this new net
+                                 JP2.2          POWER1.2       POWER1.5       
+                                 POWER.2        POWER.5        XIO1.1         
+                                 XIO1.2         XIO.1          XIO.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC0         pins ADDED TO this new net
+                                 ADCL1.1        ADCL.1         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC1         pins ADDED TO this new net
+                                 ADCL1.2        ADCL.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC2         pins ADDED TO this new net
+                                 ADCL1.3        ADCL.3         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC3         pins ADDED TO this new net
+                                 ADCL1.4        ADCL.4         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC4         pins ADDED TO this new net
+                                 ADCL1.5        ADCL.5         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC5         pins ADDED TO this new net
+                                 ADCL1.6        ADCL.6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC6         pins ADDED TO this new net
+                                 ADCL1.7        ADCL.7         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC7         pins ADDED TO this new net
+                                 ADCL1.8        ADCL.8         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC8         pins ADDED TO this new net
+                                 ADCH1.1        ADCH.1         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC9         pins ADDED TO this new net
+                                 ADCH1.2        ADCH.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC10        pins ADDED TO this new net
+                                 ADCH1.3        ADCH.3         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC11        pins ADDED TO this new net
+                                 ADCH1.4        ADCH.4         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC12        pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 ADCH1.5        ADCH.5         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC13        pins ADDED TO this new net
+                                 ADCH1.6        ADCH.6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC14        pins ADDED TO this new net
+                                 ADCH1.7        ADCH.7         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADC15        pins ADDED TO this new net
+                                 ADCH1.8        ADCH.8         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AREF         pins ADDED TO this new net
+                                 JP6.3          JP7.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 JP2.1          JP2.15         JP6.4          
+                                 JP7.4          POWER1.6       POWER1.7       
+                                 POWER.6        POWER.7        XIO1.35        
+                                 XIO1.36        XIO.35         XIO.36         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCD_X+       pins ADDED TO this new net
+                                 JP2.12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCD_X-       pins ADDED TO this new net
+                                 JP2.14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCD_Y+       pins ADDED TO this new net
+                                 JP2.11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCD_Y-       pins ADDED TO this new net
+                                 JP2.13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N10318       pins ADDED TO this new net
+                                 JP6.5          JP7.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N10322       pins ADDED TO this new net
+                                 JP6.6          JP7.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N10326       pins ADDED TO this new net
+                                 JP6.7          JP7.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N10330       pins ADDED TO this new net
+                                 JP6.8          JP7.8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA0          pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 XIO1.3         XIO.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA1          pins ADDED TO this new net
+                                 XIO1.4         XIO.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA2          pins ADDED TO this new net
+                                 XIO1.5         XIO.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA3          pins ADDED TO this new net
+                                 XIO1.6         XIO.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA4          pins ADDED TO this new net
+                                 XIO1.7         XIO.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA5          pins ADDED TO this new net
+                                 XIO1.8         XIO.8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA6          pins ADDED TO this new net
+                                 XIO1.9         XIO.9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA7          pins ADDED TO this new net
+                                 XIO1.10        XIO.10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB0          pins ADDED TO this new net
+                                 XIO1.34        XIO.34         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB1          pins ADDED TO this new net
+                                 JP2.4          XIO1.33        XIO.33         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB2          pins ADDED TO this new net
+                                 JP2.6          XIO1.32        XIO.32         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB3          pins ADDED TO this new net
+                                 JP2.5          XIO1.31        XIO.31         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC0          pins ADDED TO this new net
+                                 XIO1.18        XIO.18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC1          pins ADDED TO this new net
+                                 XIO1.17        XIO.17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC2          pins ADDED TO this new net
+                                 XIO1.16        XIO.16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC3          pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 XIO1.15        XIO.15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC4          pins ADDED TO this new net
+                                 XIO1.14        XIO.14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC5          pins ADDED TO this new net
+                                 XIO1.13        XIO.13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC6          pins ADDED TO this new net
+                                 XIO1.12        XIO.12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC7          pins ADDED TO this new net
+                                 XIO1.11        XIO.11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PD7          pins ADDED TO this new net
+                                 XIO1.19        XIO.19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PE0          pins ADDED TO this new net
+                                 PWML1.1        PWML.1         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PE1          pins ADDED TO this new net
+                                 PWML1.2        PWML.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PE3          pins ADDED TO this new net
+                                 PWML1.6        PWML.6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PE4          pins ADDED TO this new net
+                                 PWML1.3        PWML.3         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PE5          pins ADDED TO this new net
+                                 PWML1.4        PWML.4         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG0          pins ADDED TO this new net
+                                 JP2.8          XIO1.22        XIO.22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG1          pins ADDED TO this new net
+                                 JP2.7          XIO1.21        XIO.21         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG2          pins ADDED TO this new net
+                                 JP2.9          XIO1.20        XIO.20         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG5          pins ADDED TO this new net
+                                 PWML1.5        PWML.5         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PH3          pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 PWML1.7        PWML.7         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PH4          pins ADDED TO this new net
+                                 JP2.10         PWML1.8        PWML.8         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PH5          pins ADDED TO this new net
+                                 JP6.10         JP7.10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PH6          pins ADDED TO this new net
+                                 JP6.9          JP7.9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL0          pins ADDED TO this new net
+                                 XIO1.30        XIO.30         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL1          pins ADDED TO this new net
+                                 XIO1.29        XIO.29         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL2          pins ADDED TO this new net
+                                 XIO1.28        XIO.28         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL3          pins ADDED TO this new net
+                                 XIO1.27        XIO.27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL4          pins ADDED TO this new net
+                                 XIO1.26        XIO.26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL5          pins ADDED TO this new net
+                                 XIO1.25        XIO.25         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL6          pins ADDED TO this new net
+                                 XIO1.24        XIO.24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PL7          pins ADDED TO this new net
+                                 XIO1.23        XIO.23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 POWER1.3       POWER.3        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RXD1         pins ADDED TO this new net
+                                 COMMUNICATION1.3 COMMUNICATION.3 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RXD2         pins ADDED TO this new net
+                                 COMMUNICATION1.5 COMMUNICATION.5 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RXD3         pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 COMMUNICATION1.7 COMMUNICATION.7 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 COMMUNICATION1.1 COMMUNICATION.1 
+                                 JP6.1          JP7.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 COMMUNICATION1.2 COMMUNICATION.2 
+                                 JP6.2          JP7.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TXD1         pins ADDED TO this new net
+                                 COMMUNICATION1.4 COMMUNICATION.4 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TXD2         pins ADDED TO this new net
+                                 COMMUNICATION1.6 COMMUNICATION.6 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TXD3         pins ADDED TO this new net
+                                 COMMUNICATION1.8 COMMUNICATION.8 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 JP2.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VIN          pins ADDED TO this new net
+                                 POWER1.8       POWER.8        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 0058_FH254-108DF08500V_1X08_FH2
+ 0060_FH254-218DF08500V_2X18_18X
+ 1216_FH254-110DF08500T30_1X10_F
+ 1217_FH254-108DF08500T21_1X08_F
+ 1218_FH254-108DF08500T20_1X08_F
+ HEADER-1X20_ROUND_1X20_N_A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ADCH1               0058_FH254-108DF08500V_1X08_FH2 
+ ADCH                0058_FH254-108DF08500V_1X08_FH2 
+ ADCL1               0058_FH254-108DF08500V_1X08_FH2 
+ ADCL                0058_FH254-108DF08500V_1X08_FH2 
+ COMMUNICATION1      0058_FH254-108DF08500V_1X08_FH2 
+ COMMUNICATION       0058_FH254-108DF08500V_1X08_FH2 
+ JP1                 HEADER-1X20_ROUND_1X20_N_A 
+ JP2                 HEADER-1X20_ROUND_1X20_N_A 
+ JP6                 1216_FH254-110DF08500T30_1X10_F 
+ JP7                 1216_FH254-110DF08500T30_1X10_F 
+ POWER1              1217_FH254-108DF08500T21_1X08_F 
+ POWER               1217_FH254-108DF08500T21_1X08_F 
+ PWML1               1218_FH254-108DF08500T20_1X08_F 
+ PWML                1218_FH254-108DF08500T20_1X08_F 
+ XIO1                0060_FH254-218DF08500V_2X18_18X 
+ XIO                 0060_FH254-218DF08500V_2X18_18X 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd       |
+|                                                    Thu Oct 08 18:56:45 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ADCH1.8                        PRIM_FILE      .\pstchip.dat
+ ADCH.8                         PRIM_FILE      .\pstchip.dat
+ ADCL1.8                        PRIM_FILE      .\pstchip.dat
+ ADCL.8                         PRIM_FILE      .\pstchip.dat
+ COMMUNICATION1.8                 PRIM_FILE      .\pstchip.dat
+ COMMUNICATION.8                 PRIM_FILE      .\pstchip.dat
+ JP1.9                          PRIM_FILE      .\pstchip.dat
+ JP2.9                          PRIM_FILE      .\pstchip.dat
+ JP6.9                          PRIM_FILE      .\pstchip.dat
+ JP7.9                          PRIM_FILE      .\pstchip.dat
+ POWER1.8                       PRIM_FILE      .\pstchip.dat
+ POWER.8                        PRIM_FILE      .\pstchip.dat
+ PWML1.8                        PRIM_FILE      .\pstchip.dat
+ PWML.8                         PRIM_FILE      .\pstchip.dat
+ XIO1.9                         PRIM_FILE      .\pstchip.dat
+ XIO.9                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :     185                                        |
+|       Comp definitions added:       6                                        |
+|       Components added      :      16                                        |
+|       Slot property added   :      16                                        |
+|                                                                              |
+|   Total ECO changes reported:     223                                        |
+|------------------------------------------------------------------------------|
