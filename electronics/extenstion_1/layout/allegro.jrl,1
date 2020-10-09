@@ -1,107 +1,393 @@
-\t (00:00:02) allegro 17.2 S067 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Wed Oct 07 10:49:36 2020
-\t (00:00:02)         Host=DESKTOP-JV3CNMF User=Ethan Pid=9500 CPUs=16
-\t (00:00:02) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext1
-\d (00:00:04) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd
-\i (00:00:04) trapsize 2677
-\i (00:00:04) trapsize 2754
-\i (00:00:04) trapsize 2677
-\i (00:00:04) trapsize 2677
-\i (00:00:05) generaledit 
-\i (00:00:08) new 
-\i (00:00:16) newdrawfillin "ext2_ext3_connector.dra" "Package Symbol (Wizard)"
-\t (00:00:16) Starting new design...
-\i (00:00:16) trapsize 21491
-\i (00:00:16) trapsize 22114
-\i (00:00:16) trapsize 21491
-\i (00:00:17) trapsize 23936
-\i (00:00:17) trapsize 23936
-\i (00:00:17) trapsize 23066
-\i (00:00:17) package symbol wizard 
-   (00:00:18) Loading cmds.cxt 
-\i (00:00:18) setwindow form.sym_wizard
-\i (00:00:18) FORM sym_wizard sip YES 
-\i (00:00:20) FORM sym_wizard rca_smd YES 
-\i (00:00:20) FORM sym_wizard rca_th YES 
-\i (00:00:21) FORM sym_wizard bga YES 
-\i (00:00:21) FORM sym_wizard plcc YES 
-\i (00:00:21) FORM sym_wizard soic YES 
-\i (00:00:22) FORM sym_wizard dip YES 
-\i (00:00:23) FORM sym_wizard soic YES 
-\i (00:00:27) FORM sym_wizard dip YES 
-\i (00:00:29) FORM sym_wizard sip YES 
-\i (00:00:31) FORM sym_wizard zip YES 
-\i (00:00:32) FORM sym_wizard rf_symbol YES 
-   (00:00:32) This is unsupported prototype level functionality. You are encouraged to give your feedback on this to Cadence, however, CCRs filed against this functionality do not follow standard Cadence CCR policy. In addition, this functionality may be productized in the future and made available only in an add-on option which must be purchased. 
-
-This command allows you to generate RF Symbol using data from GDSII file.
-
-\i (00:00:33) fillin confirm
-\i (00:00:34) FORM sym_wizard sip YES 
-\i (00:00:36) FORM sym_wizard wiz_next  
-\i (00:00:39) FORM sym_wizard load_template  
-\t (00:00:39) Opening existing design...
-\t (00:00:39) Grids are drawn 200, 200 apart for enhanced viewing.
-\i (00:00:39) setwindow pcb
-\i (00:00:39) trapsize 188
-\i (00:00:39) trapsize 196
-\i (00:00:39) trapsize 188
-\t (00:00:39) Grids are drawn 200, 200 apart for enhanced viewing.
-\i (00:00:39) trapsize 188
-\d (00:00:39) Design opened: C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/template/sym_template.dra
-\i (00:00:39) trapsize 182
-\i (00:00:41) setwindow form.sym_wizard
-\i (00:00:41) FORM sym_wizard wiz_next  
-\i (00:00:43) FORM sym_wizard pack_units Millimeter 
-\i (00:00:44) FORM sym_wizard pack_units_create Millimeter 
-\i (00:00:47) FORM sym_wizard ref_des IO 
-\i (00:00:47) FORM sym_wizard wiz_next  
-\i (00:01:00) FORM sym_wizard sip_pin_count 6 
-\i (00:01:21) FORM sym_wizard sip_e 2.000 
-\i (00:01:25) FORM sym_wizard sip_width 2.500 
-\i (00:01:27) FORM sym_wizard sip_width 3.000 
-\i (00:01:41) FORM sym_wizard sip_len 11.000 
-\i (00:01:41) FORM sym_wizard wiz_next  
-\i (00:01:43) FORM sym_wizard default_pad_browse  
-\i (00:01:58) fillin "menu_cancel"
-\i (00:02:21) FORM sym_wizard default_pad_browse  
-\i (00:02:27) fillin "Smd2p5mm_1Mm"
-\i (00:02:29) FORM sym_wizard wiz_next  
-\i (00:02:31) FORM sym_wizard wiz_next  
-\i (00:02:32) FORM sym_wizard wiz_finish  
-\w (00:02:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:02:32) Grids are drawn 5.080, 5.080 apart for enhanced viewing.
-\i (00:02:32) setwindow pcb
-\i (00:02:32) trapsize 4613
-\t (00:02:32) Performing DRC...
-\t (00:02:32) No DRC errors detected.
-\w (00:02:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:02:32) trapsize 4613
-\i (00:02:33) trapsize 81
-\i (00:02:33) trapsize 65
-\i (00:02:33) trapsize 65
-\t (00:02:33) Creating package symbol 'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/ext2_ext3_connector.psm'.
-\t (00:02:33) Starting Create symbol...
-\i (00:02:34) generaledit 
-\i (00:02:36) zoom out 1 
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out -0.355 -0.117
-\i (00:02:36) trapsize 130
-\i (00:02:37) zoom in 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom in -2.815 -0.090
-\i (00:02:37) trapsize 65
-\i (00:02:37) zoom out 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom out -2.528 0.158
-\i (00:02:37) trapsize 130
-\i (00:02:40) save 
-\i (00:02:49) fillin yes 
-\t (00:02:50) Symbol 'ext2_ext3_connector.psm' created.
-\i (00:02:50) generaledit 
-\i (00:02:53) exit 
-\t (00:02:53)     Journal end - Wed Oct 07 10:52:27 2020
+\t (00:05:19) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:05:19)     Journal start - Thu Oct 08 20:34:00 2020
+\t (00:05:19)         Host=DESKTOP-JV3CNMF User=Ethan Pid=15820 CPUs=16
+\t (00:05:19) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:05:19) 
+\d (00:05:19) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd
+\i (00:05:19) generaledit 
+\i (00:05:20) zoom out 1 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) zoom out 281.8362 256.5700
+\i (00:05:20) trapsize 5353
+\i (00:05:20) roam start
+\i (00:05:20) roam x 64
+\i (00:05:20) roam y -48
+\i (00:05:20) roam y -16
+\i (00:05:20) roam x 16
+\i (00:05:20) roam end
+\i (00:05:21) prepopup 287.0286 265.8306
+\i (00:05:22) pick grid 283.7098 273.0037
+\t (00:05:22) last pick:  284.0000 273.0000
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 264.6530 244.0974
+\i (00:05:25) trapsize 2677
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 264.5995 244.3116
+\i (00:05:25) trapsize 1338
+\i (00:05:28) zoom out 1 
+\i (00:05:28) setwindow pcb
+\i (00:05:28) zoom out 268.8552 244.4454
+\i (00:05:28) trapsize 2677
+\i (00:05:34) dimension edit 
+\i (00:05:34) roam start
+\i (00:05:34) roam x 80
+\i (00:05:34) roam y -16
+\i (00:05:34) roam x 64
+\i (00:05:34) roam y -16
+\i (00:05:34) roam x 80
+\i (00:05:34) roam y -32
+\i (00:05:34) roam x 64
+\i (00:05:34) roam y -32
+\i (00:05:34) roam x 80
+\i (00:05:34) roam y -32
+\i (00:05:34) roam x 48
+\i (00:05:34) roam y -48
+\i (00:05:34) roam x 16
+\i (00:05:35) roam x -64
+\i (00:05:35) roam y -16
+\i (00:05:35) roam x -48
+\i (00:05:35) roam x -32
+\i (00:05:35) roam x -48
+\i (00:05:35) roam x -48
+\i (00:05:35) roam x -32
+\i (00:05:35) roam end
+\i (00:05:35) roam start
+\i (00:05:35) roam x 16
+\i (00:05:35) roam y 64
+\i (00:05:36) roam x 16
+\i (00:05:36) roam y 32
+\i (00:05:36) roam end
+\i (00:05:39) zoom in 1 
+\i (00:05:39) setwindow pcb
+\i (00:05:39) zoom in 269.4707 263.3148
+\i (00:05:39) trapsize 1338
+\i (00:05:40) prepopup 269.5242 264.4121
+\i (00:05:41) cancel 
+\i (00:05:41) generaledit 
+\i (00:05:41) roam start
+\i (00:05:41) roam x 16
+\i (00:05:41) roam y -16
+\i (00:05:41) roam x 32
+\i (00:05:41) roam y -64
+\i (00:05:41) roam y -32
+\i (00:05:41) roam x 16
+\i (00:05:41) roam y -32
+\i (00:05:42) roam y -48
+\i (00:05:42) roam y -16
+\i (00:05:42) roam end
+\i (00:05:46) color192 
+\i (00:05:46) generaledit 
+\i (00:05:48) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (00:05:50) QtSignal CVDLayerTable VertHeader clickedCheckBox 1
+\i (00:05:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:05:51) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:05:54) zoom in 1 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) zoom in 270.2197 265.9641
+\i (00:05:54) trapsize 669
+\i (00:05:55) pick grid 269.6711 267.0213
+\t (00:05:55) last pick:  270.0000 267.0000
+\i (00:05:56) delete 
+\i (00:05:56) generaledit 
+\i (00:05:57) pick grid 268.3864 267.5967
+\t (00:05:57) last pick:  268.0000 268.0000
+\i (00:05:57) delete 
+\i (00:05:57) generaledit 
+\i (00:05:57) zoom out 1 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) zoom out 268.7343 267.7975
+\i (00:05:57) trapsize 1338
+\i (00:05:58) pick grid 268.4131 270.0993
+\t (00:05:58) last pick:  268.0000 270.0000
+\i (00:05:58) delete 
+\i (00:05:58) generaledit 
+\i (00:05:59) pick grid 268.6005 270.6613
+\t (00:05:59) last pick:  269.0000 271.0000
+\i (00:05:59) delete 
+\i (00:05:59) generaledit 
+\i (00:05:59) pick grid 269.5640 271.0093
+\t (00:05:59) last pick:  270.0000 271.0000
+\i (00:05:59) delete 
+\i (00:05:59) generaledit 
+\i (00:06:00) pick grid 271.2502 270.6346
+\t (00:06:00) last pick:  271.0000 271.0000
+\i (00:06:00) delete 
+\i (00:06:00) generaledit 
+\i (00:06:00) pick grid 272.0799 268.6272
+\t (00:06:00) last pick:  272.0000 269.0000
+\i (00:06:00) delete 
+\i (00:06:01) generaledit 
+\i (00:06:01) pick grid 271.3841 266.1916
+\t (00:06:01) last pick:  271.0000 266.0000
+\i (00:06:01) delete 
+\i (00:06:01) generaledit 
+\i (00:06:02) pick grid 268.4399 264.6927
+\t (00:06:02) last pick:  268.0000 265.0000
+\i (00:06:02) delete 
+\i (00:06:03) generaledit 
+\i (00:06:03) zoom in 1 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) zoom in 269.1090 264.9871
+\i (00:06:03) trapsize 669
+\i (00:06:04) pick grid 269.0288 265.3351
+\t (00:06:04) last pick:  269.0000 265.0000
+\i (00:06:04) delete 
+\i (00:06:04) generaledit 
+\i (00:06:04) pick grid 269.3767 265.5492
+\t (00:06:04) last pick:  269.0000 266.0000
+\i (00:06:05) delete 
+\i (00:06:05) generaledit 
+\i (00:06:06) pick grid 270.2198 265.8570
+\t (00:06:06) last pick:  270.0000 266.0000
+\i (00:06:08) pick grid 271.4242 264.7329
+\t (00:06:08) last pick:  271.0000 265.0000
+\i (00:06:08) move 
+\t (00:06:08) Select element(s) to move.
+\i (00:06:08) pick grid 270.3001 265.8704
+\t (00:06:08) last pick:  270.0000 266.0000
+\t (00:06:08) last pick:  269.0000 266.0000
+\t (00:06:08) Moving C1 / CAP NP_0402-CAP_47PF / 0402-CAP.
+\t (00:06:08) Pick new location for the element(s).
+\i (00:06:09) rotate 
+\t (00:06:09) Spin the element(s).
+\i (00:06:10) iangle -90.000
+\t (00:06:10) last angle:  270.000 Degrees
+\i (00:06:10) rotate 
+\t (00:06:10) Spin the element(s).
+\i (00:06:12) iangle 90.000
+\t (00:06:12) last angle:  90.000 Degrees
+\i (00:06:16) pick grid 268.5068 262.8994
+\t (00:06:16) last pick:  269.0000 263.0000
+\i (00:06:17) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:06:17) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:06:19) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:06:19) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:06:19) define grid 
+\t (00:06:19) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:06:22) setwindow form.grid
+\i (00:06:22) FORM grid done  
+\i (00:06:23) setwindow pcb
+\i (00:06:23) zoom out 1 
+\i (00:06:23) setwindow pcb
+\i (00:06:23) zoom out 269.6979 265.2012
+\i (00:06:23) trapsize 1338
+\i (00:06:24) pick grid 269.0020 268.6540
+\t (00:06:24) last pick:  269.0000 269.0000
+\t (00:06:24) last pick:  269.0000 269.0000
+\t (00:06:24) Moving R3 / R_0402-RES_6.8K / 0402-RES.
+\t (00:06:24) Pick new location for the element(s).
+\i (00:06:24) rotate 
+\t (00:06:24) Spin the element(s).
+\i (00:06:25) iangle 90.000
+\t (00:06:25) last angle:  90.000 Degrees
+\i (00:06:28) pick grid 271.4644 263.2207
+\t (00:06:28) last pick:  271.0000 263.0000
+\i (00:06:29) prepopup 266.0846 265.4154
+\i (00:06:29) done 
+\i (00:06:29) generaledit 
+\i (00:06:31) pick grid 260.7584 266.1113
+\t (00:06:31) last pick:  261.0000 266.0000
+\i (00:06:33) pick grid 258.0283 267.3425
+\t (00:06:33) last pick:  258.0000 267.0000
+\i (00:06:34) move 
+\t (00:06:34) Select element(s) to move.
+\i (00:06:34) pick grid 259.3933 266.1113
+\t (00:06:34) last pick:  259.0000 266.0000
+\t (00:06:34) last pick:  260.0000 266.0000
+\t (00:06:34) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:06:34) Pick new location for the element(s).
+\i (00:06:37) pick grid 260.0357 264.5054
+\t (00:06:37) last pick:  260.0000 265.0000
+\i (00:06:38) zoom in 1 
+\i (00:06:38) setwindow pcb
+\i (00:06:38) zoom in 260.4907 263.4883
+\i (00:06:38) trapsize 669
+\i (00:06:40) prepopup 261.5212 263.6222
+\i (00:06:40) done 
+\i (00:06:40) generaledit 
+\i (00:06:41) drag_start grid 260.6111 263.0200
+\i (00:06:41) slide 
+\t (00:06:41) last pick:  261.0000 263.0000
+\t (00:06:41) Waiting for the destination pick.
+\i (00:06:42) drag_stop grid 260.6513 263.6623
+\t (00:06:42) No DRC errors detected.
+\i (00:06:42) generaledit 
+\i (00:06:42) drag_start grid 259.1658 263.0200
+\i (00:06:42) slide 
+\t (00:06:42) last pick:  259.0000 263.0000
+\t (00:06:42) Waiting for the destination pick.
+\i (00:06:43) drag_stop grid 259.3532 263.8363
+\t (00:06:43) No DRC errors detected.
+\i (00:06:43) generaledit 
+\i (00:06:43) pick grid 260.3703 263.1270
+\t (00:06:43) last pick:  260.0000 263.0000
+\i (00:06:45) pick grid 262.0832 264.7062
+\t (00:06:45) last pick:  262.0000 265.0000
+\i (00:06:45) move 
+\t (00:06:45) Select element(s) to move.
+\i (00:06:45) pick grid 260.8654 265.0407
+\t (00:06:45) last pick:  261.0000 265.0000
+\t (00:06:45) last pick:  260.0000 265.0000
+\t (00:06:45) Moving C3 / CAP NP_0402-CAP_0.1UF / 0402-CAP.
+\t (00:06:46) Pick new location for the element(s).
+\i (00:06:47) pick grid 260.4773 264.2512
+\t (00:06:47) last pick:  260.0000 264.0000
+\i (00:06:47) prepopup 261.6550 263.5419
+\i (00:06:48) done 
+\i (00:06:48) generaledit 
+\i (00:06:48) zoom out 1 
+\i (00:06:48) setwindow pcb
+\i (00:06:48) zoom out 261.9494 263.9032
+\i (00:06:48) trapsize 1338
+\i (00:06:50) pick grid 269.7916 265.8571
+\t (00:06:50) last pick:  270.0000 266.0000
+\i (00:06:50) delete 
+\i (00:06:50) generaledit 
+\i (00:06:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:06:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:06:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:06:53) QtSignal "Board Outline" Create Automatically
+\i (00:06:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:06:53) QtSignal Create Automatically
+\i (00:06:53) board outline 
+\i (00:06:55) zoom out 1 
+\i (00:06:55) setwindow pcb
+\i (00:06:55) zoom out 267.7842 270.5677
+\i (00:06:55) trapsize 2677
+\i (00:06:56) pick grid 264.9471 272.0667
+\t (00:06:56) last pick:  265.0000 272.0000
+\i (00:06:56) toggle 
+\i (00:06:58) pick grid 264.1442 265.5360
+\t (00:06:58) last pick:  264.0000 266.0000
+\i (00:07:00) setwindow form.fpbdoutline
+\i (00:07:00) FORM fpbdoutline done  
+\i (00:07:00) setwindow pcb
+\i (00:07:00) generaledit 
+\i (00:07:01) prepopup 277.8479 259.0589
+\i (00:07:02) pick grid 292.0869 265.8572
+\t (00:07:02) last pick:  292.0000 266.0000
+\i (00:07:04) dimension edit 
+\i (00:07:06) prepopup 280.5244 266.7137
+\i (00:07:07) pop dyn_option_select '@:@Linear dimension' 
+\t (00:07:07) Pick an element or point to dimension ...
+\i (00:07:08) pick grid 274.1543 260.2900
+\t (00:07:08) last pick:  274.0000 260.0000
+\t (00:07:08) Pick location for the dimension value.
+\i (00:07:10) pick grid 286.7874 247.5499
+\t (00:07:10) last pick:  287.0000 248.0000
+\t (00:07:10) Pick an element or point to dimension ...
+\i (00:07:11) pick grid 266.0712 265.9642
+\t (00:07:11) last pick:  266.0000 266.0000
+\t (00:07:11) Pick an element or point to dimension ...
+\t (00:07:11) Pick location for the dimension value.
+\i (00:07:12) pick grid 265.4824 271.8526
+\t (00:07:12) last pick:  265.0000 272.0000
+\t (00:07:12) Pick an element or point to dimension ...
+\i (00:07:12) prepopup 267.4630 270.7284
+\i (00:07:13) done 
+\i (00:07:13) generaledit 
+\i (00:07:14) zoom out 1 
+\i (00:07:14) setwindow pcb
+\i (00:07:14) zoom out 275.1178 269.4437
+\i (00:07:14) trapsize 5353
+\i (00:07:15) color192 
+\i (00:07:15) generaledit 
+\i (00:07:17) QtSignal CVDLayerTable VertHeader clickedCheckBox 1
+\i (00:07:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:07:18) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:07:19) zoom in 1 
+\i (00:07:19) setwindow pcb
+\i (00:07:19) zoom in 271.2637 270.1931
+\i (00:07:19) trapsize 2677
+\i (00:07:20) zoom in 1 
+\i (00:07:20) setwindow pcb
+\i (00:07:20) zoom in 271.2638 270.2466
+\i (00:07:20) trapsize 1338
+\i (00:07:20) zoom out 1 
+\i (00:07:20) setwindow pcb
+\i (00:07:20) zoom out 270.0861 270.0592
+\i (00:07:20) trapsize 2677
+\i (00:07:21) pick grid 264.6796 271.5046
+\t (00:07:21) last pick:  265.0000 272.0000
+\i (00:07:22) prepopup 265.4825 271.2905
+\i (00:07:26) pick grid 282.3445 268.0787
+\t (00:07:26) last pick:  282.0000 268.0000
+\i (00:07:26) pick grid 268.6408 269.7381
+\t (00:07:26) last pick:  269.0000 270.0000
+\i (00:07:27) pick grid 268.6408 271.3441
+\t (00:07:27) last pick:  269.0000 271.0000
+\i (00:07:27) pick grid 268.8549 271.6117
+\t (00:07:27) last pick:  269.0000 272.0000
+\i (00:07:31) shape edit boundary 
+\i (00:07:32) drag_start grid 264.8937 271.7723
+\i (00:07:33) drag_stop grid 264.7866 266.7940
+\t (00:07:33) Pick the edit starting point on the shape boundary.
+\i (00:07:35) pick grid 264.9472 271.7188
+\t (00:07:35) last pick:  265.0000 272.0000
+\t (00:07:35) Pick the next vertex or the closing point on the shape.
+\i (00:07:36) prepopup 267.5702 268.7211
+\i (00:07:37) cancel 
+\i (00:07:37) generaledit 
+\i (00:07:52) island_delete 
+\t (00:07:52) No shape islands present on design!
+\i (00:07:52) generaledit 
+\i (00:08:03) shape edit boundary 
+\i (00:08:09) setwindow form.mini
+\i (00:08:09) FORM mini dyns_netname_list  
+\i (00:08:10) fillin "Gnd"
+\t (00:08:10) Assigning selected shape to net: GND
+\i (00:08:13) setwindow pcb
+\i (00:08:13) pick grid 256.3824 265.7234
+\t (00:08:13) last pick:  256.0000 266.0000
+\t (00:08:13) Pick the edit starting point on the shape boundary.
+\i (00:08:14) pick grid 273.6726 265.7769
+\t (00:08:14) last pick:  274.0000 266.0000
+\t (00:08:14) Pick the next vertex or the closing point on the shape.
+\i (00:08:16) pick grid 273.5121 265.5628
+\t (00:08:16) last pick:  274.0000 266.0000
+\t (00:08:16) Pick the next vertex or the closing point on the shape.
+\i (00:08:18) pick grid 256.4895 265.5093
+\t (00:08:18) last pick:  256.0000 266.0000
+\e (00:08:18) ERROR(SPMHGE-107): Line(s) cross the item being edited, pick again.
+\t (00:08:18) Pick the next vertex or the closing point on the shape.
+\e (00:08:18) ERROR(SPMHGE-107): Line(s) cross the item being edited, pick again.
+\i (00:08:19) pick grid 271.5314 261.9763
+\t (00:08:19) last pick:  272.0000 262.0000
+\t (00:08:19) Pick DONE or a start point on another shape or void boundary.
+\i (00:08:20) prepopup 276.4562 261.8157
+\i (00:08:21) cancel 
+\i (00:08:21) generaledit 
+\i (00:08:22) pick grid 277.4198 262.5116
+\t (00:08:22) last pick:  277.0000 263.0000
+\i (00:08:23) pick grid 272.7626 267.2758
+\t (00:08:23) last pick:  273.0000 267.0000
+\i (00:08:23) pick grid 273.6726 267.4364
+\t (00:08:23) last pick:  274.0000 267.0000
+\i (00:08:24) delete 
+\i (00:08:24) generaledit 
+\i (00:08:27) shape add rect 
+\i (00:08:31) setwindow form.mini
+\i (00:08:31) FORM mini dyns_netname_list  
+\i (00:08:32) fillin "Gnd"
+\t (00:08:32) Assigning selected shape to net: GND
+\i (00:08:34) setwindow pcb
+\i (00:08:34) pick grid 256.2754 265.7234
+\t (00:08:34) last pick:  256.0000 266.0000
+\i (00:08:36) pick grid 273.6191 231.4641
+\t (00:08:36) last pick:  274.0000 231.0000
+\i (00:08:37) save 
+\i (00:08:39) fillin yes 
+\i (00:08:39) generaledit 
+\i (00:08:39) zoom out 1 
+\i (00:08:39) setwindow pcb
+\i (00:08:39) zoom out 274.6897 253.9468
+\i (00:08:39) trapsize 5353
+\i (00:08:40) zoom in 1 
+\i (00:08:40) setwindow pcb
+\i (00:08:40) zoom in 277.4733 257.5868
+\i (00:08:40) trapsize 2677
+\i (00:09:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:09:13) exit 
+\t (00:09:13)     Journal end - Thu Oct 08 20:37:55 2020
