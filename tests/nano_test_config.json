@@ -1,6 +1,6 @@
 {
   "nano_dut": {
-    "port": "COM4",
+    "port": "COM7",
     "baud_rate": 9600,
     "device_manufacturer": "arduino",
     "chip_manufacturer": "avr",

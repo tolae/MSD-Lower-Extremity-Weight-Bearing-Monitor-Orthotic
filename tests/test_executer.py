@@ -16,8 +16,8 @@ def main():
         for compiled_test in testobj.compile_all():
             if args.compile:
                 continue
-            compiled_test[0].upload(compiled_test)
-            compiled_test[0].verify(compiled_test)
+            compiled_test[0].upload(compiled_test[1])
+            compiled_test[0].verify(compiled_test[1])
 
 if __name__ == "__main__":
     main()

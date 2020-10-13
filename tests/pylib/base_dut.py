@@ -19,11 +19,11 @@ class BaseDut(object):
         return ":".join(base)
     
     def compile(self, test : BaseTestConfig):
-        print("Compiling {}...".format(test))
+        print("Compiling {}...".format(str(test)))
         subprocess.check_call(["arduino-cli.exe", "compile", "--fqbn", self.fqbn, "--libraries", ".\\libraries", str(test)])
 
     def upload(self, test : BaseTestConfig):
-        print("Uploading {}...".format(test))
+        print("Uploading {}...".format(str(test)))
         subprocess.check_call(["arduino-cli.exe", "upload", "--fqbn", self.fqbn, "-p", self.port, str(test)])
 
     def verify(self, test : BaseTestConfig):
