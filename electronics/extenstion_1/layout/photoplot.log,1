@@ -3,8 +3,8 @@
 (    ARTWORK LOG                                                      )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
-(    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Oct 13 15:53:22 2020                      )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Thu Oct 08 21:38:44 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -15,15 +15,19 @@
 
 Results from parameter file ...
     DEVICE-TYPE           GERBER_RS274X
-    OUTPUT-UNITS          MM
+    OUTPUT-UNITS          INCHES
     FILM-SIZE             2400000 1600000
-    FORMAT                2.5
+    FORMAT                5.5
     ABORT-ON-ERROR        NO
     SCALE                 1
-    SUPPRESS-LEAD-ZEROES  NO
+    SUPPRESS-LEAD-ZEROES  YES
     SUPPRESS-TRAIL-ZEROES NO
     SUPPRESS-EQUAL        YES
     UNDEF-APT-CONT        NO
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
 
 
 
@@ -34,7 +38,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.0000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -45,21 +49,20 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.28100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
-  CIRCLE     0.60960                                  DARK 
-  SQUARE     2.00000                     0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
-  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
-  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
-  RECTANGLE  2.50010     x 1.00000       0.000 NO     DARK 
+  CIRCLE     0.01106                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  SQUARE     0.07874                     0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.05156     x 0.02000      90.000 NO     DARK 
+  RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
+  RECTANGLE  0.09843     x 0.03937       0.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
@@ -69,7 +72,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.0000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -80,15 +83,14 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.28100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
-  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.01106                                  DARK 
+  CIRCLE     0.02400                                  DARK 
 
-     BOTTOM created.
+     BOTTOM created with warnings
 
 
 ================================================================
@@ -98,7 +100,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -107,25 +109,25 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (-121.1900 -169.7450)
-           ... using undefined line width of 0.1270
+    WARNING: 0 width line found at (-121.1900 -169.7450) in MM
+           ... using undefined line width of 0.1270 MM
 
-    WARNING: text composed 0 width line found at (-119.2850 -155.1400)
-           ... using undefined line width of 0.1270
+    WARNING: text composed 0 width line found at (-119.2850 -155.1400) in MM
+           ... using undefined line width of 0.1270 MM
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.1270
+           ... using undefined line width of 0.1270 MM
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.1270
+           ... using undefined line width of 0.1270 MM
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.00500                                  DARK 
 
      FAB created with warnings
 
@@ -137,7 +139,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -148,20 +150,20 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  SQUARE     2.00000                     0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
-  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
-  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
-  RECTANGLE  2.50010     x 1.00000       0.000 NO     DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  SQUARE     0.07874                     0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.05156     x 0.02000      90.000 NO     DARK 
+  RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
+  RECTANGLE  0.09843     x 0.03937       0.000 NO     DARK 
 
-     ASSEMBLY created.
+     ASSEMBLY created with warnings
 
 
 ================================================================
@@ -171,7 +173,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -182,16 +184,16 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.05000                                  DARK 
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     0.40640                                  DARK 
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01600                                  DARK 
 
-     SILKSCREENTOP created.
+     SILKSCREENTOP created with warnings
 
 
 ================================================================
@@ -201,7 +203,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -212,20 +214,20 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     1.11760                                  DARK 
-  SQUARE     2.19990                     0.000 NO     DARK 
-  RECTANGLE  0.90320     x 1.10310       0.000 NO     DARK 
-  RECTANGLE  0.90320     x 1.10310      90.000 NO     DARK 
-  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
-  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
-  RECTANGLE  2.59990     x 1.19990       0.000 NO     DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.04400                                  DARK 
+  SQUARE     0.08661                     0.000 NO     DARK 
+  RECTANGLE  0.03556     x 0.04343       0.000 NO     DARK 
+  RECTANGLE  0.03556     x 0.04343      90.000 NO     DARK 
+  RECTANGLE  0.05156     x 0.02000      90.000 NO     DARK 
+  RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
+  RECTANGLE  0.10236     x 0.04724       0.000 NO     DARK 
 
-     SOLDERMASKTOP created.
+     SOLDERMASKTOP created with warnings
 
 
 ================================================================
@@ -235,7 +237,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -246,17 +248,17 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-  RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.89990      90.000 NO     DARK 
-  RECTANGLE  1.30960     x 0.50800      90.000 NO     DARK 
-  RECTANGLE  1.32790     x 0.27940       0.000 NO     DARK 
+  CIRCLE     0.00500                                  DARK 
+  RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.05156     x 0.02000      90.000 NO     DARK 
+  RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
 
-     PASTEMASKTOP created.
+     PASTEMASKTOP created with warnings
 
 
 ================================================================
@@ -266,7 +268,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1270
+  Undefined line width                0.1270 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -277,53 +279,25 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     1.11760                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.04400                                  DARK 
 
-     SOLDERMASKBOTTOM created.
-
-
-================================================================
-     PROCESSING FILM < OUTLINE >
-     TO FILE < C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork/OUTLINE.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.1270
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-
-     OUTLINE created.
+     SOLDERMASKBOTTOM created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
-        BOTTOM created.
+        TOP created with warnings
+        BOTTOM created with warnings
         FAB created with warnings
-        ASSEMBLY created.
-        SILKSCREENTOP created.
-        SOLDERMASKTOP created.
-        PASTEMASKTOP created.
-        SOLDERMASKBOTTOM created.
-        OUTLINE created.
+        ASSEMBLY created with warnings
+        SILKSCREENTOP created with warnings
+        SOLDERMASKTOP created with warnings
+        PASTEMASKTOP created with warnings
+        SOLDERMASKBOTTOM created with warnings
 
  ARTWORK had warnings

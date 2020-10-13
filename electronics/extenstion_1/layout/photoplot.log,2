@@ -3,8 +3,8 @@
 (    ARTWORK LOG                                                      )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
-(    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Oct 13 15:53:22 2020                      )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Mon Oct 12 09:06:59 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@ Results from parameter file ...
     FORMAT                2.5
     ABORT-ON-ERROR        NO
     SCALE                 1
-    SUPPRESS-LEAD-ZEROES  NO
+    SUPPRESS-LEAD-ZEROES  YES
     SUPPRESS-TRAIL-ZEROES NO
     SUPPRESS-EQUAL        YES
     UNDEF-APT-CONT        NO
@@ -50,7 +50,6 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.28100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
   CIRCLE     0.60960                                  DARK 
   SQUARE     2.00000                     0.000 NO     DARK 
   RECTANGLE  0.70000     x 0.89990       0.000 NO     DARK 
@@ -85,7 +84,6 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.28100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
   CIRCLE     0.60960                                  DARK 
 
      BOTTOM created.
