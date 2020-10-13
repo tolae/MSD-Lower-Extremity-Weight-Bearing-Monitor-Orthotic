@@ -1,0 +1,210 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Oct-07-2020 at 11:40:29}
+primitive 'CAP NP_0402-CAP_47PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0402-CAP';
+    VALUE='47pF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0402-CAP_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0402-CAP';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'EXT2_EXT3_CONNECTOR_EXT2_EXT3_C';
+  pin
+    'A3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'CNC':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SEL0':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'SEL1':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='EXT2_EXT3_CONNECTOR';
+    JEDEC_TYPE='ext2_ext3_connector';
+    VALUE='EXT2_EXT3_CONNECTOR';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='10k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_6.8K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='6.8k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_5K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='5k';
+  end_body;
+end_primitive;
+primitive 'STRAIN CELL_STRAIN_CELL_STRAIN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Strain Cell';
+    JEDEC_TYPE='strain_cell';
+    VALUE='Strain Cell';
+  end_body;
+end_primitive;
+primitive 'TMUX1104DGSR_DGS10_TEX_TMUX1104';
+  pin
+    'A0':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'S1':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'S3':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'EN':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+    'S4':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'D':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'S2':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'A1':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='TMUX1104DGSR';
+    JEDEC_TYPE='DGS10_TEX';
+    VALUE='TMUX1104DGSR';
+  end_body;
+end_primitive;
+primitive 'MCP6001UT-EOT_SOT-23-5_MC_MCH_M';
+  pin
+    'VIN+':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'VSS':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'VIN-':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'VOUT':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*)';
+    'VDD':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='MCP6001UT-EOT';
+    JEDEC_TYPE='SOT-23-5_MC_MCH';
+    VALUE='MCP6001UT-EOT';
+  end_body;
+end_primitive;
+END.

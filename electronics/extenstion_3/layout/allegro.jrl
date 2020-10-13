@@ -1,0 +1,44 @@
+\t (00:02:45) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:02:45)     Journal start - Thu Oct 08 20:31:26 2020
+\t (00:02:45)         Host=DESKTOP-JV3CNMF User=Ethan Pid=15820 CPUs=16
+\t (00:02:45) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:02:45) 
+\d (00:02:45) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_3/layout/msd_foot_ext3.brd
+\i (00:02:45) generaledit 
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 302.5689 265.3748
+\i (00:02:46) trapsize 2883
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 302.5689 265.3749
+\i (00:02:46) trapsize 5767
+\i (00:02:46) zoom in 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom in 304.9908 266.5281
+\i (00:02:46) trapsize 2883
+\i (00:02:50) dimension edit 
+\i (00:02:51) prepopup 308.2778 274.3706
+\i (00:02:52) pop dyn_option_select '@:@Linear dimension' 
+\t (00:02:53) Pick an element or point to dimension ...
+\i (00:02:54) pick grid 305.9135 267.2778
+\t (00:02:54) last pick:  306.0000 267.0000
+\t (00:02:54) Pick location for the dimension value.
+\i (00:02:55) pick grid 319.1765 260.5309
+\t (00:02:55) last pick:  319.0000 261.0000
+\t (00:02:55) Pick an element or point to dimension ...
+\i (00:02:56) pick grid 301.2426 275.1779
+\t (00:02:56) last pick:  301.0000 275.0000
+\t (00:02:56) Pick an element or point to dimension ...
+\t (00:02:56) Pick location for the dimension value.
+\i (00:02:58) pick grid 297.5521 284.5773
+\t (00:02:58) last pick:  298.0000 285.0000
+\t (00:02:58) Pick an element or point to dimension ...
+\i (00:03:46) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:03:48) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext3
+\i (00:03:48) opencd C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_2/layout/msd_foot_ext2.brd 
+\e (00:03:48) Do you want to save the changes you made to msd_foot_ext3.brd?
+\i (00:03:50) fillin yes 
+\t (00:03:50) Opening existing design...
+\i (00:03:50) trapsize 1153
+\t (00:03:50)     Journal end - Thu Oct 08 20:32:32 2020

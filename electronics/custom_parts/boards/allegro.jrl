@@ -1,0 +1,149 @@
+\t (00:00:04) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Oct 08 20:28:45 2020
+\t (00:00:04)         Host=DESKTOP-JV3CNMF User=Ethan Pid=15820 CPUs=16
+\t (00:00:04) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged arduino_mega_tft_3p5_shield
+\d (00:00:05) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd
+\i (00:00:05) trapsize 5767
+\i (00:00:05) trapsize 5934
+\i (00:00:06) trapsize 5767
+\i (00:00:06) trapsize 5767
+\i (00:00:06) generaledit 
+\i (00:00:23) dimension edit 
+\i (00:00:25) prepopup 283.5974 288.5566
+\i (00:00:30) pick grid 241.3865 275.0630
+\t (00:00:30) last pick:  241.4000 275.1000
+\w (00:00:30) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:30) pick grid 231.9294 277.8309
+\t (00:00:30) last pick:  231.9000 277.8000
+\w (00:00:30) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:32) pick grid 229.9687 276.2163
+\t (00:00:32) last pick:  230.0000 276.2000
+\w (00:00:32) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 231.1220 276.9083
+\i (00:00:32) trapsize 2883
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 231.1220 276.9083
+\i (00:00:32) trapsize 1442
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 231.1221 276.9083
+\i (00:00:32) trapsize 721
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 231.0932 277.3985
+\i (00:00:33) trapsize 1442
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 231.0933 277.3985
+\i (00:00:33) trapsize 2883
+\i (00:00:34) pick grid 230.0553 278.9555
+\t (00:00:34) last pick:  230.1000 279.0000
+\w (00:00:34) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:40) prepopup 246.4322 285.5870
+\i (00:00:45) prepopup 253.8710 285.0680
+\i (00:00:58) pick grid 277.9751 285.5293
+\t (00:00:58) last pick:  278.0000 285.5000
+\w (00:00:58) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:59) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:01:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:01:00) QtSignal "Board Outline"
+\i (00:01:00) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline"
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation" +
+\i (00:01:02) QtSignal "Board Outline" Create Automatically
+\i (00:01:02) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation" "Board Outline" +
+\i (00:01:02) QtSignal Create Automatically
+\i (00:01:02) board outline 
+   (00:01:02) Loading floor.cxt 
+   (00:01:02) Loading fputil.cxt 
+\i (00:01:06) setwindow form.fpbdoutline
+\i (00:01:06) FORM fpbdoutline fpbocreate YES 
+\i (00:01:07) fillin no 
+\i (00:01:08) FORM fpbdoutline fpbomove YES 
+\i (00:01:08) FORM fpbdoutline fpbodelete YES 
+\i (00:01:10) fillin no 
+\i (00:01:11) FORM fpbdoutline cancel  
+\i (00:01:11) setwindow pcb
+\i (00:01:11) generaledit 
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 258.9456 270.0174
+\i (00:01:11) trapsize 5767
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 258.9456 270.0174
+\i (00:01:11) trapsize 11533
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out 258.9455 270.0174
+\i (00:01:11) trapsize 23066
+\i (00:01:13) zoom in 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in 226.5105 280.0242
+\i (00:01:13) trapsize 11533
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 228.1252 280.0242
+\i (00:01:14) trapsize 5767
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 229.8552 280.2549
+\i (00:01:14) trapsize 11533
+\i (00:01:17) dimension edit 
+\i (00:01:17) prepopup 235.6218 332.1539
+\i (00:01:18) pop dyn_option_select '@:@Linear dimension' 
+\t (00:01:18) Pick an element or point to dimension ...
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 245.3096 285.3295
+\i (00:01:20) trapsize 5767
+\i (00:01:21) pick grid 236.3138 279.1016
+\t (00:01:21) last pick:  236.3000 279.1000
+\t (00:01:21) Pick location for the dimension value.
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out 249.3462 314.5083
+\i (00:01:23) trapsize 11533
+\i (00:01:23) pick grid 265.2619 315.4309
+\t (00:01:23) last pick:  265.3000 315.4000
+\t (00:01:23) Pick an element or point to dimension ...
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in 222.1280 228.7018
+\i (00:01:26) trapsize 5767
+\i (00:01:27) pick grid 223.7426 219.7060
+\t (00:01:27) last pick:  223.7000 219.7000
+\t (00:01:27) Pick an element or point to dimension ...
+\t (00:01:27) Pick location for the dimension value.
+\i (00:01:29) pick grid 197.4471 252.1141
+\t (00:01:29) last pick:  197.4000 252.1000
+\t (00:01:29) Pick an element or point to dimension ...
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 198.4851 252.2294
+\i (00:01:29) trapsize 11533
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 200.3304 252.2295
+\i (00:01:29) trapsize 23066
+\i (00:01:30) roam start
+\i (00:01:30) roam end
+\i (00:01:30) zoom in 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom in 206.6735 287.8667
+\i (00:01:30) trapsize 11533
+\i (00:02:35) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:02:42) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged arduino_mega_tft_3p5_shield
+\i (00:02:42) opencd C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_3/layout/msd_foot_ext3.brd 
+\e (00:02:42) Do you want to save the changes you made to arduino_mega_tft_3p5_shield.brd?
+\i (00:02:44) fillin yes 
+\t (00:02:44) Opening existing design...
+\i (00:02:45) trapsize 1442
+\t (00:02:45)     Journal end - Thu Oct 08 20:31:26 2020

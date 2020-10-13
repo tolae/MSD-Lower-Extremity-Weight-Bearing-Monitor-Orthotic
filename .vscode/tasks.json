@@ -1,0 +1,44 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile to Arduino Nano",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile --fqbn arduino:avr:nano:cpu=atmega328old ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Upload to Arduino Nano",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe upload -p ${input:port} --fqbn arduino:avr:nano:cpu=atmega328old ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Compile & Upload to Arduino Nano",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:nano:cpu=atmega328old ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "port",
+      "description": "Port name of the connected device.",
+      "type": "promptString"
+    }
+  ]
+}

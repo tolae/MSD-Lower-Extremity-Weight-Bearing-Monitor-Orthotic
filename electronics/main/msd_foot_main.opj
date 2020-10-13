@@ -1,0 +1,65 @@
+(ExpressProject "msd_foot_main"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\custom_parts\library\mylib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\msd_foot_main.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("Strain Cell"
+      (FullPartName "Strain Cell.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (MAIN_NANO_CONNECTOR
+      (FullPartName "MAIN_NANO_CONNECTOR.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (EXT1_MAIN_CONNECTOR
+      (FullPartName "EXT1_MAIN_CONNECTOR.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Ethan")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 -158 1334 165 744")
+        (Scroll "0 -7")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\iec"))

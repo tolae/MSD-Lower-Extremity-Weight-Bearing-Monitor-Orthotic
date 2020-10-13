@@ -1,0 +1,96 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : arduino_mega_tft_3p5_shield.brd               )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Thu Oct 08 18:56:45 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\allegro'
+Design Directory:            'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards'
+Old design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd'
+New design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/boards/arduino_mega_tft_3p5_shield.brd'
+
+CmdLine: netrev.exe -y 1 -n -i C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\allegro C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\custom_parts\boards\arduino_mega_tft_3p5_shield.brd C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\custom_parts\boards\arduino_mega_tft_3p5_shield.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstchip.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstchip.dat (00:00:00.02)
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstxprt.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstxnet.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/CUSTOM_PARTS/LIBRARY/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Oct 8 18:56:45 2020
+   DESIGN NAME : 'ARDUINO_MEGA_TFT_3P5_SHIELD'
+   PACKAGING ON Apr 26 2020 05:36:08
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:42
+elapsed time  0:00:01
+

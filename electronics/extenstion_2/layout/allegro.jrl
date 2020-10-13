@@ -1,0 +1,43 @@
+\t (00:03:50) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:03:50)     Journal start - Thu Oct 08 20:32:32 2020
+\t (00:03:50)         Host=DESKTOP-JV3CNMF User=Ethan Pid=15820 CPUs=16
+\t (00:03:50) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:03:50) 
+\d (00:03:50) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_2/layout/msd_foot_ext2.brd
+\i (00:03:50) generaledit 
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 293.0755 255.1090
+\i (00:03:51) trapsize 2307
+\i (00:03:51) zoom out 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom out 293.0754 255.1090
+\i (00:03:51) trapsize 4613
+\i (00:03:54) dimension edit 
+\i (00:03:55) prepopup 300.3643 265.9039
+\i (00:03:56) pop dyn_option_select '@:@Linear dimension' 
+\t (00:03:56) Pick an element or point to dimension ...
+\i (00:03:57) pick grid 290.5843 263.0437
+\t (00:03:57) last pick:  291.0000 263.0000
+\t (00:03:57) Pick location for the dimension value.
+\i (00:03:58) pick grid 288.3700 272.5469
+\t (00:03:58) last pick:  288.0000 273.0000
+\t (00:03:58) Pick an element or point to dimension ...
+\i (00:03:59) pick grid 297.2273 258.7996
+\t (00:03:59) last pick:  297.0000 259.0000
+\t (00:03:59) Pick an element or point to dimension ...
+\t (00:03:59) Pick location for the dimension value.
+\i (00:04:00) pick grid 309.1293 248.4661
+\t (00:04:00) last pick:  309.0000 248.0000
+\t (00:04:00) Pick an element or point to dimension ...
+\i (00:04:00) prepopup 319.7397 249.3887
+\i (00:04:02) done 
+\i (00:04:02) generaledit 
+\i (00:05:12) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:05:17) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext2
+\i (00:05:17) opencd C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd 
+\e (00:05:17) Do you want to save the changes you made to msd_foot_ext2.brd?
+\i (00:05:18) fillin yes 
+\t (00:05:18) Opening existing design...
+\i (00:05:19) trapsize 2677
+\t (00:05:19)     Journal end - Thu Oct 08 20:34:00 2020
