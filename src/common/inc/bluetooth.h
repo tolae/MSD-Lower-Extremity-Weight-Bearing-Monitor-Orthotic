@@ -23,16 +23,7 @@
 #define STOP_BYTE (0x14)
 
 class BluetoothMod
-{
-	private:
-		size_t _rx_packages;
-		size_t _tx_packages;
-
-	protected:
-		Stream* serial_ref;
-		uint8_t rx_buffer[RX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
-		uint8_t tx_buffer[TX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
-	
+{	
 	public:
 		/**
 		 * @brief Serial message package structure.
@@ -85,18 +76,39 @@ class BluetoothMod
 		{
 			OK = 0,
 			BUSY = 1,
-			ERROR = 99
+			ERROR = -1,
 		};
+
+		typedef enum BluetoothStates
+		{
+			IDLE,
+			WORKING,
+			FULL,
+			ERROR,
+		} bluetooth_states_t;
 
 		BluetoothMod(Stream& stream);
 
 		uint8_t receivePackage(blue_package_t& package);
 		uint8_t transmitPackage(blue_package_t& package);
+		uint8_t fullReceive();
+		uint8_t fullTransmit();
 
 	private:
 		void _update(void);
 		void _rx_update(void);
 		void _tx_update(void);
+
+		size_t _rx_packages;
+		size_t _tx_packages;
+		bluetooth_states_t _rx_state;
+		bluetooth_states_t _tx_state;
+
+	protected:
+		Stream* serial_ref;
+		uint8_t rx_buffer[RX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
+		uint8_t tx_buffer[TX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
+		uint8_t emergency_buffer[MAX_PACKAGE_SIZE];
 };
 
 #endif
