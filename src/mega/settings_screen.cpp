@@ -174,7 +174,7 @@ uint8_t btn_callback_function_settings(void* a, GuiElement* element, uint8_t eve
 		}
 		else // Update a label
 		{
-			screen_manager->switch_screen(SCREENS[0]);
+			screen_manager->switch_screen(SCREENS[ScreenIndex::KEYPAD]);
 		}
 	}
 	return 0;
