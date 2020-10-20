@@ -2,6 +2,7 @@
 #define BLUETOOTH_H
 
 #include <Stream.h>
+#include <Queue.h>
 
 #define RX_BUFFER_REGISTERS 8
 #define TX_BUFFER_REGISTERS 2
@@ -11,7 +12,9 @@
  * This includes the STOP byte.
  * 
  */
-#define MAX_PACKAGE_SIZE 10
+#define MAX_PACKAGE_SIZE (sizeof(blue_package_t))
+#define MAX_PACKAGE_SIZE_W_STOP (sizeof(blue_package_t) + 1)
+
 /**
  * @brief The maximum number of bytes that can be found within a single package.
  * 
@@ -152,12 +155,6 @@ class BluetoothMod
 		 */
 		void update(void);
 
-		/**
-		 * @brief Number
-		 * 
-		 */
-		size_t rx_packages;
-		size_t tx_packages;
 		BluetoothStates rx_state;
 		BluetoothStates tx_state;
 
@@ -167,9 +164,8 @@ class BluetoothMod
 
 	protected:
 		Stream* serial_ref;
-		uint8_t rx_buffer[RX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
-		uint8_t tx_buffer[TX_BUFFER_REGISTERS][MAX_PACKAGE_SIZE];
-		uint8_t emergency_buffer[MAX_PACKAGE_SIZE];
+		Queue<blue_package_t> rx_buffer;
+		Queue<blue_package_t> tx_buffer;
 };
 
 #endif
