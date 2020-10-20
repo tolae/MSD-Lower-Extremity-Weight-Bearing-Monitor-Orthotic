@@ -2,6 +2,10 @@
 #include "inc/mega.h"
 #include "inc/home_screen.h"
 #include "inc/settings_screen.h"
+#include "inc/timer.h"
+
+#define YELLOW_UPDATE_FREQ 2 // 2 Hz (500ms)
+#define RED_UPDATE_FREQ 4 // 4 Hz (250ms)
 
 extern HomeScreen* home_screen;
 const char* input1;
@@ -56,7 +60,7 @@ void HomeScreen::load(const BaseLoadData* params)
 	}
 	else
 	{
-	  strcpy(str_val_lbl_text1, "0");
+	  strcpy(str_val_lbl_text1, "Weight");
 	  str_val_Weight->text(str_val_lbl_text1);
 	}
 }
@@ -68,17 +72,6 @@ const BaseLoadData* HomeScreen::unload()
 
 void HomeScreen::update()
 {
-	//for(i=0
-	Serial.println(str_val_lbl_text1);
-	strcpy(str_val_lbl_text1, "AAA");
-	str_val_Percentage->foregroundColour = COLOR_BLACK;
-	str_val_Percentage->text(str_val_lbl_text1);
-	//Serial.println(k);
-	tft.drawCircle(60, 160, 40, COLOR_GREEN);
-	tft.fillCircle(60, 160, 40, COLOR_GREEN);
-	delay(500);
-	str_val_Percentage->foregroundColour = COLOR_DARKGREY;
-	str_val_Percentage->draw();
 	return; // Nothing to do
 }
 
@@ -98,4 +91,14 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event) 
 
 	}
 	return 0;
+}
+
+void circle_on(){
+	tft.drawCircle(60, 160, 40, COLOR_GREEN);
+	tft.fillCircle(60, 160, 40, COLOR_GREEN); 
+}
+
+void circle_off(){
+	tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
+	tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY); 
 }
