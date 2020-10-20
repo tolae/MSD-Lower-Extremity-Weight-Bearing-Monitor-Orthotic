@@ -4,6 +4,9 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
+#define SAVE_BTN 10
+#define BKSP_BTN 11
+
 /**
  * @brief The data to load the keypad with.
  * 
@@ -52,7 +55,7 @@ class KeypadScreen : public Screen
 		 * @param width The width of the screen.
 		 * @param height The height of the screen.
 		 */
-		KeypadScreen(int16_t x, int16_t y, int16_t width, int16_t height);
+		KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height);
 
 		/**
 		 * @brief A pointer to the KeypadLoadData object to load.

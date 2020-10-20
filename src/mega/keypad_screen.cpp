@@ -20,17 +20,29 @@ KeypadScreen::KeypadScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _heig
 	str_val_lbl->textAlignH = TEXT_H_ALIGN_RIGHT;
 	str_val_lbl->fontSize(6);
 	button7 = new GuiButton(60, 80, 120, 60, "7"); //(x,y,width,height,text)
+	button7->value(7);
 	button8 = new GuiButton(180, 80, 120, 60, "8");
+	button8->value(8);
 	button9 = new GuiButton(300, 80, 120, 60, "9");
+	button9->value(9);
 	button4 = new GuiButton(60, 140, 120, 60, "4");
+	button4->value(4);
 	button5 = new GuiButton(180, 140, 120, 60, "5");
+	button5->value(5);
 	button6 = new GuiButton(300, 140, 120, 60, "6");
+	button6->value(6);
 	button1 = new GuiButton(60, 200, 120, 60, "1");
+	button1->value(1);
 	button2 = new GuiButton(180, 200, 120, 60, "2");
+	button2->value(2);
 	button3 = new GuiButton(300, 200, 120, 60, "3");
+	button3->value(3);
 	button0 = new GuiButton(180, 260, 120, 60, "0");
+	button0->value(0);
 	button_save = new GuiButton(60, 260, 120, 60, "Save");
+	button_save->value(SAVE_BTN);
 	button_bksp = new GuiButton(300, 260, 120, 60, "<-");
+	button_bksp->value(BKSP_BTN);
 
 	// hook up the callback function defined above to the button so we can track clicks
 	button7->connectCallback(btn_callback_function, this);
@@ -77,7 +89,7 @@ void KeypadScreen::load(const BaseLoadData* params)
 	{
 		strcpy(str_val_lbl_text, "0");
 		str_val_lbl->text(str_val_lbl_text);
-		str_val_lbl_text_ctr = 1;
+		str_val_lbl_text_ctr = 0;
 		calling_screen = NULL;
 	}
 }
@@ -104,8 +116,8 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
 	{
 		if (str_val_lbl_text_ctr <= 3)
 		{
-			input = ((GuiButton*)element)->text();
-			if (input == "<-") {
+			uint16_t btn_val = element->value();
+			if (btn_val == BKSP_BTN) {
 				if (str_val_lbl_text_ctr <= 0)
 				{
 					str_val_lbl_text_ctr = 0;
@@ -120,22 +132,26 @@ uint8_t btn_callback_function(void *a, GuiElement *element, uint8_t event) {
 					}
 				}
 			}
-			else if (input == "Save")
+			else if (btn_val == SAVE_BTN)
 			{
-				screen_manager->switch_screen(SCREENS[2]);
+				screen_manager->switch_screen(SCREENS[ScreenIndex::SETTINGS]);
 			}
-			else if ((str_val_lbl_text_ctr <=0) & (input == "0"))
+			else if ((str_val_lbl_text_ctr <= 0) && (btn_val == 0))
 			{
 				return 0;
 			}
-			else
+			else if (str_val_lbl_text_ctr < 3)
 			{
-				if (str_val_lbl_text_ctr < 3)
+				if (str_val_lbl_text[0] == '0')
 				{
-					str_val_lbl_text[str_val_lbl_text_ctr++] = input[0];
+					str_val_lbl_text[0] = ((GuiButton*)element)->text()[0];
+					str_val_lbl_text_ctr = 1;
+				}
+				else
+				{
+					str_val_lbl_text[str_val_lbl_text_ctr++] = ((GuiButton*)element)->text()[0];
 				}
 			}
-			Serial.println(str_val_lbl_text);
 			keypad_screen->str_val_lbl->draw();
 		}
 	}
