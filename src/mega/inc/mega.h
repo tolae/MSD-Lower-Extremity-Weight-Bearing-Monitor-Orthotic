@@ -16,4 +16,11 @@ extern ScreenManager* screen_manager;
 /** The global screen array that will contain all the screens. */
 extern const Screen* SCREENS[];
 
+enum ScreenIndex
+{
+    KEYPAD = 0,
+    HOME = 1,
+    SETTINGS = 2,
+};
+
 #endif
