@@ -10,9 +10,13 @@
 extern HomeScreen* home_screen;
 
 uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event);
+void flash_green();
+void flash_yellow();
 
 HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
+	pinMode(LED_BUILTIN, OUTPUT);
+
 	x = _x;
 	y = _y;
 	width = _width;
@@ -65,8 +69,30 @@ const BaseLoadData* HomeScreen::unload()
 	return new SettingsLoadData(str_val_Weight->text());
 }
 
+int state = 0;
 void HomeScreen::update()
 {
+	if (Serial.available())
+	{
+		uint8_t in = Serial.read();
+		Serial.println(in);
+		char temp[6];
+		str_val_Percentage->text(itoa(in, temp, 10));
+		if (in > '7')
+		{
+			configure_timer(TimerModule::TIM_3, flash_yellow, 10, TimerPrescaler::TEN_TWO_FOUR);
+		}
+		else if (in > '5')
+		{
+			configure_timer(TimerModule::TIM_3, flash_green, 2, TimerPrescaler::TEN_TWO_FOUR);
+		}
+		else
+		{
+			disable_timer(TimerModule::TIM_3);
+			tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
+			tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
+		}
+	}
 	return; // Nothing to do
 }
 
@@ -85,12 +111,36 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event) 
 	return 0;
 }
 
-void circle_on(){
-	tft.drawCircle(60, 160, 40, COLOR_GREEN);
-	tft.fillCircle(60, 160, 40, COLOR_GREEN); 
+void flash_green()
+{
+	static int flash_green_flag = 0;
+	if (flash_green_flag == 1)
+	{
+		flash_green_flag = 0;
+		tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
+		tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
+	}
+	else
+	{
+		flash_green_flag = 1;
+		tft.drawCircle(60, 160, 40, COLOR_GREEN);
+		tft.fillCircle(60, 160, 40, COLOR_GREEN);
+	}
 }
 
-void circle_off(){
-	tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
-	tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY); 
+void flash_yellow()
+{
+	static int flash_yellow_flag = 0;
+	if (flash_yellow_flag == 1)
+	{
+		flash_yellow_flag = 0;
+		tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
+		tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
+	}
+	else
+	{
+		flash_yellow_flag = 1;
+		tft.drawCircle(60, 160, 40, COLOR_YELLOW);
+		tft.fillCircle(60, 160, 40, COLOR_YELLOW);
+	}
 }

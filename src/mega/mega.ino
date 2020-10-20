@@ -66,8 +66,8 @@ ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
 	Serial.begin(115200);
-	delay(1000);
-	Serial.println(F("Gui Widgets test!"));
+	while(!Serial);
+	Serial.println("Gui Widgets test!");
 	
 	tft.begin();
 	// in multiples of 90 only
