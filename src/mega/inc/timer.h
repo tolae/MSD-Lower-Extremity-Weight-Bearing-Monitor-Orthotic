@@ -39,12 +39,13 @@ const uint16_t TIMER_PRESCALER_MAP[] = { 1, 1, 8, 64, 256, 1024, 1, 1 };
 typedef enum TimerModule
 {
 	NONE = 0,
-	TIM_1 = 1,
-	TIM_2 = 2,
+	TIM_0 = 1,
+	TIM_1 = 2,
+	TIM_2 = 3,
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
-	TIM_3 = 3,
-	TIM_4 = 4,
-	TIM_5 = 5,
+	TIM_3 = 4,
+	TIM_4 = 5,
+	TIM_5 = 6,
 #endif
 } timer_module_t;
 
@@ -58,6 +59,7 @@ typedef enum TimerModule
  * @param prescaler The prescaler required for the desired frequency.
  */
 void configure_timer(timer_module_t timx, void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+void disable_timer(timer_module_t timx);
 
 class Timer
 {
@@ -67,6 +69,7 @@ class Timer
 		void (*isr_callback)(void);
 };
 
+extern Timer* TIM0;
 extern Timer* TIM1;
 extern Timer* TIM2;
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
