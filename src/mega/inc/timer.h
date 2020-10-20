@@ -49,32 +49,22 @@ typedef enum TimerModule
 } timer_module_t;
 
 /**
- * @brief Configures timer 1 with the desired callback, frequency, and
+ * @brief Configures the desired timer with the desired callback, frequency, and
  * accompanying prescaler.
  * 
+ * @param timx The timer to configure.
  * @param callback The function to call when timer 1 triggers.
  * @param target_freq The desired frequency to call the function.
  * @param prescaler The prescaler required for the desired frequency.
  */
-void configure_timer1(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+void configure_timer(timer_module_t timx, void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
 
 class Timer
 {
 	public:
 		Timer();
-
-		configure_timer(timer_module_t timx, void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
 	
 		void (*isr_callback)(void);
-
-	private:
-		void configure_timer1(uint16_t target_freq, timer_prescaler_t prescaler);
-		void configure_timer2(uint16_t target_freq, timer_prescaler_t prescaler);
-		#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
-		void configure_timer3(uint16_t target_freq, timer_prescaler_t prescaler);
-		void configure_timer4(uint16_t target_freq, timer_prescaler_t prescaler);
-		void configure_timer5(uint16_t target_freq, timer_prescaler_t prescaler);
-		#endif
 };
 
 extern Timer* TIM1;

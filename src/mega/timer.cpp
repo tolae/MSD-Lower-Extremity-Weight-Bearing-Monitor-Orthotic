@@ -3,7 +3,7 @@
 
 void (*registered_callback)(void);
 
-inline void _desired_freq(uint16_t target_freq, uint16_t prescaler);
+inline uint16_t _desired_freq(uint16_t target_freq, uint16_t prescaler);
 
 Timer* TIM1 = new Timer();
 Timer* TIM2 = new Timer();
@@ -13,12 +13,20 @@ Timer* TIM4 = new Timer();
 Timer* TIM5 = new Timer();
 #endif
 
+void configure_timer1(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+void configure_timer2(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
+void configure_timer3(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+void configure_timer4(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+void configure_timer5(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler);
+#endif
+
 Timer::Timer()
 {
 	// Nothing to do
 }
 
-void Timer::configure_timer(timer_module_t timx, void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer(timer_module_t timx, void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	cli();
 
@@ -32,10 +40,13 @@ void Timer::configure_timer(timer_module_t timx, void (*callback)(void), uint16_
 			break;
 		#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
 		case TimerModule::TIM_3:
+			configure_timer3(callback, target_freq, prescaler);
 			break;
 		case TimerModule::TIM_4:
+			configure_timer4(callback, target_freq, prescaler);
 			break;
 		case TimerModule::TIM_5:
+			configure_timer5(callback, target_freq, prescaler);
 			break;
 		#endif
 		default:
@@ -46,7 +57,7 @@ void Timer::configure_timer(timer_module_t timx, void (*callback)(void), uint16_
 	sei();
 }
 
-void Timer::configure_timer1(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer1(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	// Clear any previous configurations
 	TCCR1A = 0;
@@ -64,7 +75,7 @@ void Timer::configure_timer1(void (*callback)(void), uint16_t target_freq, timer
 	TIM1->isr_callback = callback;
 }
 
-void Timer::configure_timer2(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer2(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	// Clear any previous configurations
 	TCCR2A = 0;
@@ -79,11 +90,11 @@ void Timer::configure_timer2(void (*callback)(void), uint16_t target_freq, timer
 	// enable timer compare interrupt
 	TIMSK2 |= (1 << OCIE2A);
 	// Set callback
-	TIM1->isr_callback = callback;
+	TIM2->isr_callback = callback;
 }
 
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
-void Timer::configure_timer3(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer3(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	// Clear any previous configurations
 	TCCR3A = 0;
@@ -98,10 +109,10 @@ void Timer::configure_timer3(void (*callback)(void), uint16_t target_freq, timer
 	// enable timer compare interrupt
 	TIMSK3 |= (1 << OCIE3A);
 	// Set callback
-	TIM1->isr_callback = callback;
+	TIM3->isr_callback = callback;
 }
 
-void Timer::configure_timer4(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer4(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	// Clear any previous configurations
 	TCCR4A = 0;
@@ -116,10 +127,10 @@ void Timer::configure_timer4(void (*callback)(void), uint16_t target_freq, timer
 	// enable timer compare interrupt
 	TIMSK4 |= (1 << OCIE4A);
 	// Set callback
-	TIM1->isr_callback = callback;
+	TIM4->isr_callback = callback;
 }
 
-void Timer::configure_timer5(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
+void configure_timer5(void (*callback)(void), uint16_t target_freq, timer_prescaler_t prescaler)
 {
 	// Clear any previous configurations
 	TCCR5A = 0;
@@ -134,7 +145,7 @@ void Timer::configure_timer5(void (*callback)(void), uint16_t target_freq, timer
 	// enable timer compare interrupt
 	TIMSK5 |= (1 << OCIE5A);
 	// Set callback
-	TIM1->isr_callback = callback;
+	TIM5->isr_callback = callback;
 }
 
 #endif
