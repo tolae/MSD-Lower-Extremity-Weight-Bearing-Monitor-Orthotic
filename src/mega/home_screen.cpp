@@ -66,6 +66,7 @@ void HomeScreen::load(const BaseLoadData* params)
 
 const BaseLoadData* HomeScreen::unload()
 {
+	disable_timer(TimerModule::TIM_3);
 	return new SettingsLoadData(str_val_Weight->text());
 }
 
