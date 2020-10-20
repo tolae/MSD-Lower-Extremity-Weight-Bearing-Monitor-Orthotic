@@ -11,7 +11,12 @@
  * This includes the STOP byte.
  * 
  */
-#define MAX_PACKAGE_SIZE 11
+#define MAX_PACKAGE_SIZE 10
+/**
+ * @brief The maximum number of bytes that can be found within a single package.
+ * 
+ */
+#define MAX_DATA_LEN 7
 
 /**
  * @brief The stop byte for any given package.
@@ -48,6 +53,9 @@ class BluetoothMod
 					/**
 					 * @brief Reserved. Will always be zero.
 					 * 
+					 * Utilized with the STOP_BYTE so it's impossible to confuse
+					 * the beginning and ending of a package.
+					 * 
 					 */
 					uint8_t _reserved: 2;
 					/**
@@ -62,7 +70,7 @@ class BluetoothMod
 			 * 
 			 * Doesn't include the stop byte.
 			 */
-			uint8_t data[MAX_PACKAGE_SIZE-1];
+			uint8_t data[MAX_DATA_LEN];
 			/**
 			 * @brief The Cyclical Redundancy Check
 			 * 
@@ -72,37 +80,90 @@ class BluetoothMod
 			uint8_t crc;
 		} blue_package_t;
 
-		enum BluetoothStatus
+		/**
+		 * @brief The opcodes that are standardized for this communication
+		 * protocol.
+		 * 
+		 */
+		enum BluetoothPackageIDs
 		{
-			OK = 0,
-			BUSY = 1,
-			ERROR = -1,
+			ALIVE = 0x0,
+			WEIGHT = 0x1,
+			STATUS = 0x2,
 		};
 
-		typedef enum BluetoothStates
+		/**
+		 * @brief The status of the module after a transaction.
+		 * 
+		 */
+		enum BluetoothStatus
+		{
+			OK,
+			BUSY,
+			ERROR,
+		};
+
+		/**
+		 * @brief The various status to the internal state machine.
+		 * 
+		 */
+		enum class BluetoothStates
 		{
 			IDLE,
 			WORKING,
 			FULL,
 			ERROR,
-		} bluetooth_states_t;
+		};
 
+		/**
+		 * @brief Construct a new Bluetooth Mod object
+		 * 
+		 * @param stream The stream used to communicate.
+		 */
 		BluetoothMod(Stream& stream);
 
+		/**
+		 * @brief Receives a single package and stores it in the supplied buffer.
+		 * 
+		 * @param package The buffer to store the received data.
+		 * @return uint8_t The bluetooth status.
+		 */
 		uint8_t receivePackage(blue_package_t& package);
+
+		/**
+		 * @brief Transmits a single package.
+		 * 
+		 * This package is copied to an internal buffer so the original package
+		 * can be later modified without worry.
+		 * 
+		 * @param package The package to transmit.
+		 * @return uint8_t The bluetooth status.
+		 */
 		uint8_t transmitPackage(blue_package_t& package);
 		uint8_t fullReceive();
 		uint8_t fullTransmit();
 
+		/**
+		 * @brief The update function for this module.
+		 * 
+		 * This MUST be called for this module to operate. How or when this is
+		 * called does not matter (main loop, timer, etc.).
+		 * 
+		 */
+		void update(void);
+
+		/**
+		 * @brief Number
+		 * 
+		 */
+		size_t rx_packages;
+		size_t tx_packages;
+		BluetoothStates rx_state;
+		BluetoothStates tx_state;
+
 	private:
-		void _update(void);
 		void _rx_update(void);
 		void _tx_update(void);
-
-		size_t _rx_packages;
-		size_t _tx_packages;
-		bluetooth_states_t _rx_state;
-		bluetooth_states_t _tx_state;
 
 	protected:
 		Stream* serial_ref;

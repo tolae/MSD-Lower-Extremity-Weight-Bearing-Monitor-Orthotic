@@ -1,25 +1,24 @@
-#include "inc/bluetooth.h"
+#include "BluetoothCommon.h"
 
  BluetoothMod::BluetoothMod(Stream& stream): serial_ref(&stream)
 {
 	/* Reset internal buffers */
 	memset(rx_buffer, 0, RX_BUFFER_REGISTERS * MAX_PACKAGE_SIZE * sizeof(unsigned char));
 	/* Reset internal counters */
-	_rx_packages = 0;
-	_tx_packages = 0;
-	/* Configure timer2 for 1 MHz checking rate */
-	// TODO: Configure timer
+	rx_packages = 0;
+	tx_packages = 0;
 	/* Reset internal state machines */
-	_rx_state = BluetoothStates::IDLE;
-	_tx_state = BluetoothStates::IDLE;
+	rx_state = BluetoothStates::IDLE;
+	tx_state = BluetoothStates::IDLE;
 }
 
 uint8_t BluetoothMod::receivePackage(blue_package_t& package)
 {
-	if (_rx_packages > 0)
+	if (rx_packages > 0)
 	{
 		/* Copy the buffer into the package (ignoring the stop byte) */
 		memcpy(&package, rx_buffer[0], MAX_PACKAGE_SIZE-1);
+		rx_packages--;
 		// TODO: CRC Checking
 		if (package.crc != 0xAE)
 		{
@@ -34,13 +33,15 @@ uint8_t BluetoothMod::receivePackage(blue_package_t& package)
 
 uint8_t BluetoothMod::transmitPackage(blue_package_t& package)
 {
-	if (_tx_packages < TX_BUFFER_REGISTERS)
+	if (tx_packages < TX_BUFFER_REGISTERS)
 	{
 		// TODO: CRC Creation
 		package.crc = 0xAE;
+		/* Ensure reserved bits are set to 0 */
+		package._reserved = 0;
 		/* Copy the package into the buffer (ignoring the stop byte) */
-		memcpy(tx_buffer[_tx_packages], &package, MAX_PACKAGE_SIZE-1);
-		tx_buffer[_tx_packages++][MAX_PACKAGE_SIZE-1] = STOP_BYTE;
+		memcpy(tx_buffer[tx_packages], &package, MAX_PACKAGE_SIZE-1);
+		tx_buffer[tx_packages++][MAX_PACKAGE_SIZE-1] = STOP_BYTE;
 		return BluetoothStatus::OK;
 	}
 
@@ -50,15 +51,15 @@ uint8_t BluetoothMod::transmitPackage(blue_package_t& package)
 
 uint8_t BluetoothMod::fullReceive()
 {
-	return _rx_state == BluetoothStates::FULL;
+	return rx_state == BluetoothStates::FULL;
 }
 
 uint8_t BluetoothMod::fullTransmit()
 {
-	return _tx_state == BluetoothStates::FULL;
+	return tx_state == BluetoothStates::FULL;
 }
 
-void BluetoothMod::_update(void)
+void BluetoothMod::update(void)
 {
 	_rx_update();
 	_tx_update();
@@ -68,37 +69,37 @@ void BluetoothMod::_rx_update(void)
 {
 	static size_t len_read;
 	uint8_t in_byte;
-	switch (_rx_state)
+	switch (rx_state)
 	{
 		case BluetoothStates::IDLE:
 			/* Do nothing in idle */
-			if (serial_ref->available() > MAX_PACKAGE_SIZE && _rx_packages < RX_BUFFER_REGISTERS)
+			if (serial_ref->available() >= MAX_PACKAGE_SIZE && rx_packages < RX_BUFFER_REGISTERS)
 			{
-				_rx_state = BluetoothStates::WORKING;
+				rx_state = BluetoothStates::WORKING;
 			}
 			break;
 		case BluetoothStates::WORKING:
-			len_read = serial_ref->readBytes(rx_buffer[_rx_packages++], MAX_PACKAGE_SIZE);
+			len_read = serial_ref->readBytes(rx_buffer[rx_packages++], MAX_PACKAGE_SIZE);
 			if (len_read < MAX_PACKAGE_SIZE)
 			{
-				memcpy(emergency_buffer, rx_buffer[--_rx_packages], len_read);
-				memset(rx_buffer[_rx_packages], 0, MAX_PACKAGE_SIZE);
-				_rx_state = BluetoothStates::ERROR;
+				memcpy(emergency_buffer, rx_buffer[--rx_packages], len_read);
+				memset(rx_buffer[rx_packages], 0, MAX_PACKAGE_SIZE);
+				rx_state = BluetoothStates::ERROR;
 			}
-			else if (_rx_packages >= RX_BUFFER_REGISTERS)
+			else if (rx_packages >= RX_BUFFER_REGISTERS)
 			{
-				_rx_state = BluetoothStates::FULL;
+				rx_state = BluetoothStates::FULL;
 			}
 			else
 			{
-				_rx_state = BluetoothStates::IDLE;
+				rx_state = BluetoothStates::IDLE;
 			}
 			break;
 		case BluetoothStates::FULL:
 			/* Wait for user to read. Ignore any incoming messages. */
-			if (_rx_packages < RX_BUFFER_REGISTERS)
+			if (rx_packages < RX_BUFFER_REGISTERS)
 			{
-				_rx_state = BluetoothStates::IDLE;
+				rx_state = BluetoothStates::IDLE;
 			}
 			break;
 		case BluetoothStates::ERROR:
@@ -111,8 +112,8 @@ void BluetoothMod::_rx_update(void)
 				if (in_byte == STOP_BYTE)
 				{
 					/* Stop byte found, successfully rebuilt partial package. */
-					memcpy(rx_buffer[_rx_packages++], emergency_buffer, MAX_PACKAGE_SIZE);
-					_rx_state = BluetoothStates::IDLE;
+					memcpy(rx_buffer[rx_packages++], emergency_buffer, MAX_PACKAGE_SIZE);
+					rx_state = BluetoothStates::IDLE;
 				}
 				/* Stop byte was missed or corrupted. Reading new package (BAD) */
 				else if (len_read >= MAX_PACKAGE_SIZE)
@@ -130,36 +131,28 @@ void BluetoothMod::_rx_update(void)
 void BluetoothMod::_tx_update(void)
 {
 	static size_t len_write;
-	switch (_tx_state)
+	switch (tx_state)
 	{
 		case BluetoothStates::IDLE:
-			if (serial_ref->availableForWrite() > MAX_PACKAGE_SIZE && _tx_packages > 0)
+			if (tx_packages > 0)
 			{
-				_tx_state = BluetoothStates::WORKING;
-			}
-			else if (_tx_packages >= TX_BUFFER_REGISTERS)
-			{
-				_tx_state = BluetoothStates::FULL;
+				tx_state = BluetoothStates::WORKING;
 			}
 			break;
 		case BluetoothStates::WORKING:
 			len_write = serial_ref->write(tx_buffer[0], MAX_PACKAGE_SIZE);
 			if (len_write < MAX_PACKAGE_SIZE)
 			{
-				_tx_state = BluetoothStates::ERROR;
+				tx_state = BluetoothStates::ERROR;
 			}
 			else
 			{
-				_tx_state = BluetoothStates::IDLE;
+				tx_packages--;
+				tx_state = BluetoothStates::IDLE;
 			}
-			
 			break;
 		case BluetoothStates::FULL:
-			/* Same as IDLE. Let's internal logic know the tx_buffers are full */
-			if (serial_ref->availableForWrite() > MAX_PACKAGE_SIZE && _tx_packages > 0)
-			{
-				_tx_state = BluetoothStates::WORKING;
-			}
+			/* Useless state for TX */
 			break;
 		case BluetoothStates::ERROR:
 			/* Sent a partial package. Send the rest pronto! Block if necessary. */
@@ -169,7 +162,8 @@ void BluetoothMod::_tx_update(void)
 			) + len_write;
 			if (len_write >= MAX_PACKAGE_SIZE)
 			{
-				_tx_state = BluetoothStates::IDLE;
+				tx_packages--;
+				tx_state = BluetoothStates::IDLE;
 			}
 			break;
 	}

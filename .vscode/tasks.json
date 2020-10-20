@@ -7,7 +7,7 @@
       "label": "Compile to Arduino Nano",
       "type": "shell",
       "group": "build",
-      "command": "arduino-cli.exe compile --fqbn arduino:avr:nano:cpu=atmega328old ${fileDirname}",
+      "command": "arduino-cli.exe compile --fqbn arduino:avr:nano:cpu=atmega328old --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
       "presentation": {
         "reveal": "always",
         "panel": "new"
@@ -29,7 +29,7 @@
       "label": "Compile & Upload to Arduino Nano",
       "type": "shell",
       "group": "build",
-      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:nano:cpu=atmega328old ${fileDirname}",
+      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:nano:cpu=atmega328old --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
       "presentation": {
         "reveal": "always",
         "panel": "new"
@@ -40,7 +40,7 @@
       "label": "Compile to Arduino Mega 2560 Rev3",
       "type": "shell",
       "group": "build",
-      "command": "arduino-cli.exe compile --fqbn arduino:avr:mega:cpu=atmega2560 ${fileDirname}",
+      "command": "arduino-cli.exe compile --fqbn arduino:avr:mega:cpu=atmega2560 --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
       "presentation": {
         "reveal": "always",
         "panel": "new"
@@ -62,7 +62,7 @@
       "label": "Compile & Upload to Arduino Mega 2560 Rev3",
       "type": "shell",
       "group": "build",
-      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:mega:cpu=atmega2560 ${fileDirname}",
+      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:mega:cpu=atmega2560 --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
       "presentation": {
         "reveal": "always",
         "panel": "new"
