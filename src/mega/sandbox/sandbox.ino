@@ -1,62 +1,54 @@
-#include <Arduino.h>
-#include <BluetoothCommon.h>
-#include <Queue.h>
-
-BluetoothMod::blue_package_t stuff;
+#include "inc/timer.h"
 
 void setup()
 {
-	Serial.begin(9600);
-	while (!Serial);
-	Queue<BluetoothMod::blue_package_t> q(3);
-	Serial.print("Size: ");
-	Serial.println(q.size);
-	Serial.print("Empty?: ");
-	Serial.println(q.empty());
-	stuff.id = 0xFF;
-	stuff.crc = 0xAE;
-	q.push(stuff);
-	stuff.id = 0xBB;
-	stuff.crc = 0xAE;
-	q.push(stuff);
-	stuff.id = 0xAA;
-	stuff.crc = 0xAE;
-	q.push(stuff);
-	Serial.print("Count: ");
-	Serial.println(q.count);
-	Serial.print("Full?: ");
-	Serial.println(q.full());
-	stuff = q.pop();
-	Serial.print("Package: ");
-	Serial.println(stuff.id);
-	Serial.print("Count: ");
-	Serial.println(q.count);
-	stuff.id = 0xEE;
-	stuff.crc = 0xAE;
-	q.push(stuff);
-	stuff = q.pop();
-	Serial.print("Package: ");
-	Serial.println(stuff.id);
-	Serial.print("Count: ");
-	Serial.println(q.count);
-	stuff = q.pop();
-	Serial.print("Package: ");
-	Serial.println(stuff.id);
-	Serial.print("Count: ");
-	Serial.println(q.count);
-	stuff = q.pop();
-	Serial.print("Package: ");
-	Serial.println(stuff.id);
-	Serial.print("Count: ");
-	Serial.println(q.count);
-	stuff = q.pop();
-	Serial.print("Package: ");
-	Serial.println(stuff.id);
-	Serial.print("Count: ");
-	Serial.println(q.count);
+	pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
+	configure_timer(TIM_3, test, 8, TimerPrescaler::TEN_TWO_FOUR);
 
+	delay(5000);
+
+	disable_timer(TIM_3);
+	digitalWrite(LED_BUILTIN, 0);
+
+	delay(1000);
+
+	configure_timer(TIM_3, test2, 2, TimerPrescaler::TEN_TWO_FOUR);
+
+	delay(10000);
+}
+
+void test()
+{
+	digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
+}
+
+int fade = 0;
+int dir = 0;
+void test2()
+{
+	if (fade >= 255)
+	{
+		dir = 1;
+		fade = 255;
+	}
+	else if (fade <= 0)
+	{
+		dir = 0;
+		fade = 0;
+	}
+
+	if (dir == 0)
+	{
+		fade += 5;
+	}
+	else
+	{
+		fade -= 5;
+	}
+
+	analogWrite(9, fade);
 }
