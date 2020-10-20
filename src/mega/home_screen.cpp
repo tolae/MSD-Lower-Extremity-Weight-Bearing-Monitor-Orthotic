@@ -57,10 +57,13 @@ void HomeScreen::load(const BaseLoadData* params)
 		HomeLoadData* data = (HomeLoadData*)params;
 		str_val_Weight->text(data->weight);
 		str_val_Tolerance->text(data->tolerance);
+		str_val_Percentage->text("");
 	}
 	else
 	{
 	  str_val_Weight->text("Weight");
+	  str_val_Tolerance->text("Toler");
+	  str_val_Percentage->text("");
 	}
 }
 
