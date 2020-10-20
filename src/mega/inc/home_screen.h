@@ -4,6 +4,8 @@
 #include <GuiLibrary.h>
 #include "screen.h"
 
+#define SETTINGS_BTN_VAL 1
+
 /**
  * @brief The data to load the home screen with.
  * 
@@ -54,7 +56,7 @@ public:
      * @param width
      * @param height
      */
-    HomeScreen(int16_t x, int16_t y, int16_t width, int16_t height);
+    HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height);
 
         /**
          * @brief WIP.

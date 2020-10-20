@@ -8,9 +8,6 @@
 #define RED_UPDATE_FREQ 4 // 4 Hz (250ms)
 
 extern HomeScreen* home_screen;
-const char* input1;
-char str_val_lbl_text1[4] = "\0\0\0";
-int str_val_lbl_text1_ctr = 0;
 
 uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event);
 
@@ -20,7 +17,7 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 	y = _y;
 	width = _width;
 	height = _height;
-	
+
 	str_val_TS = new GuiLabel(240, 10, 60, 60, "TS 100%");
 	str_val_TS->textAlignH = TEXT_H_ALIGN_CENTRE;
 	str_val_TS->fontSize(3);
@@ -36,7 +33,8 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 	str_val_Tolerance = new GuiLabel(300, 260, 60, 60, "Toler");
 	str_val_Tolerance->textAlignH = TEXT_H_ALIGN_CENTRE;
 	str_val_Tolerance->fontSize(4);
-	buttonSettings = new GuiButton(20, 20, 120, 60, "Settings"); //(x,y,width,height,text)
+	buttonSettings = new GuiButton(20, 20, 120, 60, "Settings");
+	buttonSettings->value(SETTINGS_BTN_VAL);
 
 	buttonSettings->connectCallback(btn_callback_function_home, this);
 	
@@ -46,7 +44,6 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 	GuiElement::addChild((GuiElement *)str_val_Weight);
 	GuiElement::addChild((GuiElement *)str_val_Tolerance);
 	GuiElement::addChild((GuiElement *)buttonSettings);
-
 }
 
 void HomeScreen::load(const BaseLoadData* params)
@@ -54,14 +51,12 @@ void HomeScreen::load(const BaseLoadData* params)
 	if (params != (void *)NULL)
 	{
 		HomeLoadData* data = (HomeLoadData*)params;
-		strcpy(str_val_lbl_text1, (const char*)(data->weight));
 		str_val_Weight->text(data->weight);
 		str_val_Tolerance->text(data->tolerance);
 	}
 	else
 	{
-	  strcpy(str_val_lbl_text1, "Weight");
-	  str_val_Weight->text(str_val_lbl_text1);
+	  str_val_Weight->text("Weight");
 	}
 }
 
@@ -79,16 +74,13 @@ void HomeScreen::update()
 uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event) {
 	if (event == GUI_EVENT_PRESS)
 	{
-		input1 = ((GuiButton*)element)->text();
-		
 	}
 	else if (event == GUI_EVENT_RELEASE)
 	{
-		if (input1 == "Settings")
+		if (element->value() == SETTINGS_BTN_VAL)
 		{
-			screen_manager->switch_screen(SCREENS[2]);
+			screen_manager->switch_screen(SCREENS[ScreenIndex::SETTINGS]);
 		}
-
 	}
 	return 0;
 }
