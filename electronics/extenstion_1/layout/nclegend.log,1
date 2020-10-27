@@ -3,13 +3,13 @@
 (    DRILL LEGEND                                                     )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
-(    Software Version : 17.2S071                                      )
-(    Date/Time        : Mon Oct 26 21:11:10 2020                      )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Thu Oct 08 21:01:53 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Begin processing of drill legend template file 'c:/cadence/spb_17.2/share/pcb/text/nclegend/default-mil.dlt' ...
+Begin processing of drill legend template file 'C:/Cadence/SPB_17.2/share/pcb/text/nclegend/default-mm.dlt' ...
 WARNING(SPMHSK-47): Column type 'HoleSize' does not exist.
 WARNING(SPMHSK-47): Column type 'PlateStatus' does not exist.
 End of drill legend template file processing.

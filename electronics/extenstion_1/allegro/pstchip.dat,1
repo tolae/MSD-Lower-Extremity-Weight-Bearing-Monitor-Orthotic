@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Oct-02-2020 at 21:52:08}
+{ Using PSTWRITER 17.2.0 d001Oct-26-2020 at 19:18:06}
 primitive 'CAP NP_0402-CAP_47PF';
   pin
     '1':
@@ -28,6 +28,21 @@ primitive 'CAP NP_0402-CAP_0.1UF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='0402-CAP';
     VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0402-CAP_470P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0402-CAP';
+    VALUE='470p';
   end_body;
 end_primitive;
 primitive 'EXT1_MAIN_CONNECTOR_EXT1_MAIN_C';
@@ -123,7 +138,7 @@ primitive 'R_0402-RES_1K';
     VALUE='1k';
   end_body;
 end_primitive;
-primitive 'R_0402-RES_6.8K';
+primitive 'R_0402-RES_1M';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -135,7 +150,52 @@ primitive 'R_0402-RES_6.8K';
   body
     PART_NAME='R';
     JEDEC_TYPE='0402-RES';
-    VALUE='6.8k';
+    VALUE='1M';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_100K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='100k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_120K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='120k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_20K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='20k';
   end_body;
 end_primitive;
 primitive 'R_0402-RES_5K';
@@ -241,6 +301,39 @@ primitive 'MCP6001UT-EOT_SOT-23-5_MC_MCH_M';
     PART_NAME='MCP6001UT-EOT';
     JEDEC_TYPE='SOT-23-5_MC_MCH';
     VALUE='MCP6001UT-EOT';
+  end_body;
+end_primitive;
+primitive 'MCP6002-IMS_MSOP8_MC_MCH_MCP600';
+  pin
+    'VOUTA':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    'VINA-':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'VINA+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'VSS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VINB+':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'VINB-':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'VOUTB':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(*)';
+    'VDD':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MCP6002-IMS';
+    JEDEC_TYPE='MSOP8_MC_MCH';
+    VALUE='MCP6002-IMS';
   end_body;
 end_primitive;
 END.

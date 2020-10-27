@@ -1,0 +1,67 @@
+\t (00:00:05) allegro 17.2 S071 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Mon Oct 26 19:13:45 2020
+\t (00:00:05)         Host=DESKTOP-JV3CNMF User=Ethan Pid=16412 CPUs=16
+\t (00:00:05) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:05) Starting new design...
+\i (00:00:06) trapsize 29310
+\i (00:00:07) generaledit 
+\i (00:00:09) trapsize 908
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:11) done 
+\i (00:00:11) place manual 
+\i (00:00:12) FORM plc_manual placement_list 
+\i (00:00:12) FORM plc_manual categories Components by refdes 
+\i (00:00:12) trapsize 908
+\i (00:00:13) setwindow form.plc_manual
+\i (00:00:13) FORM plc_manual advanced_settings  
+\i (00:00:15) FORM plc_manual library YES 
+\i (00:00:15) FORM plc_manual placement_list  
+\i (00:00:15) FORM plc_manual advanced_settings  
+\i (00:00:16) FORM plc_manual placement_list  
+\i (00:00:21) FORM plc_manual categories Package symbols 
+\i (00:00:39) FORM plc_manual alpha_filter CP 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) xname_flush 
+\i (00:01:19) setwindow form.plc_manual
+\i (00:01:19) FORM plc_manual alpha_filter MSOP8_MC_MCH 
+\i (00:01:20) FORM plc_manual cancel  
+\i (00:01:20) setwindow pcb
+\i (00:01:20) generaledit 
+\i (00:02:20) enved 
+\i (00:02:22) generaledit 
+\i (00:02:25) setwindow form.prfedit
+\i (00:02:25) FORM prfedit treelist  File_management 
+\i (00:02:31) FORM prfedit treelist  Paths 
+\i (00:02:32) FORM prfedit treelist  Library Paths 
+\i (00:02:38) FORM prfedit padpath  
+\i (00:03:08) FORM prfedit psmpath  
+\i (00:03:10) FORM prfedit padpath  
+\i (00:03:18) fillin "menu_cancel"
+\i (00:03:31) fillin "C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts"
+\i (00:03:36) FORM prfedit psmpath  
+\i (00:03:46) FORM prfedit apply  
+\i (00:03:48) FORM prfedit done  
+\i (00:03:58) setwindow pcb
+\i (00:03:58) done 
+\i (00:03:58) place manual 
+\i (00:03:58) FORM plc_manual placement_list 
+\i (00:03:58) FORM plc_manual categories Components by refdes 
+\i (00:03:58) setwindow form.plc_manual
+\i (00:03:58) FORM plc_manual categories Components by refdes 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) trapsize 908
+\i (00:03:59) setwindow form.plc_manual
+\i (00:03:59) FORM plc_manual advanced_settings  
+\i (00:04:00) FORM plc_manual library YES 
+\i (00:04:01) FORM plc_manual placement_list  
+\i (00:04:03) FORM plc_manual categories Package symbols 
+\i (00:04:06) FORM plc_manual alpha_filter MSOP8_MC_MCH 
+\i (00:04:11) FORM plc_manual cancel  
+\i (00:04:11) setwindow pcb
+\i (00:04:11) generaledit 
+\i (00:04:13) exit 
+\e (00:04:13) Do you want to save the changes you made to unnamed.brd?
+\i (00:04:15) fillin no 
+\t (00:04:15)     Journal end - Mon Oct 26 19:17:55 2020

@@ -1,10 +1,13 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
 G04 Layout Name:  msd_foot_ext1.brd*
-G04 Film Name:    OUTLINE*
+G04 Film Name:    SILKSCREEN_BOT*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 17.2-S071*
 G04 Origin Date:  Mon Oct 26 21:15:35 2020*
 G04 *
+G04 Layer:  REF DES/SILKSCREEN_BOTTOM*
+G04 Layer:  PACKAGE GEOMETRY/SILKSCREEN_BOTTOM*
+G04 Layer:  BOARD GEOMETRY/SILKSCREEN_BOTTOM*
 G04 Layer:  BOARD GEOMETRY/DESIGN_OUTLINE*
 G04 *
 G04 Offset:    (0.00 0.00)*

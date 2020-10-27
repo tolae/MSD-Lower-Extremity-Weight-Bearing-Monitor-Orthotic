@@ -1,19 +1,12 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    Via Structure Replacement Logfile                                )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Oct 13 15:53:06 2020                      )
+(    Date/Time        : Mon Oct 26 21:05:07 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-
-ERROR: in SYMBOL DEFINITION name = DATUM_DIMENSION
-  ERROR(SPMHDB-224): Symbol definition has no instances.
-
-ERROR: in SYMBOL DEFINITION name = ANGULAR_DIMENSION
-  ERROR(SPMHDB-224): Symbol definition has no instances.
-
-0 warnings, 2 errors detected, 2 errors could be fixed.
+Mon Oct 26 21:05:14 2020

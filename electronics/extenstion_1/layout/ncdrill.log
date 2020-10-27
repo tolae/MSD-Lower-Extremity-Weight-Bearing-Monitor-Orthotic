@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Oct 13 15:57:39 2020                      )
+(    Date/Time        : Mon Oct 26 21:16:18 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -35,7 +35,8 @@
  ENHANCED_EXCELLON	YES
  SCALE			1.000000
 
- WARNING(SPMHMF-363): Units system is being switched when generating drill output file data.
+ WARNING(SPMHMF-360): Design precision is greater than that of the drill output file data.
+ WARNING(SPMHMF-361): Data rounding errors are very possible.
  WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
  WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
 
@@ -44,7 +45,7 @@
 
            Size  Plating  Tool        + Tolerance  - Tolerance
 
-         0.3302  P        T01            0.000000     0.000000
+          13.00  P        T01            0.000000     0.000000
 
 
  Drill files being output to directory 'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/artwork' ...
@@ -56,9 +57,9 @@
 
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
-     T01    1.  13.0000    0.0000/  0.0000      PLATED         26
+     T01    1.  13.0000    0.0000/  0.0000      PLATED         34
 
-     ---- Total holes:                                         26
+     ---- Total holes:                                         34
 
-     ---- Total head travel:              0.56 feet (0.17 meters)
+     ---- Total head travel:              0.67 feet (0.20 meters)
 

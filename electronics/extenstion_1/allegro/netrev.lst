@@ -3,8 +3,8 @@
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
-(    Software Version : 17.2S067                                      )
-(    Date/Time        : Sat Oct 03 11:18:19 2020                      )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Mon Oct 26 20:03:15 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight
 Old design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd'
 New design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\EXTENSTION_1\allegro C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\EXTENSTION_1\allegro C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd
 
 ------ Preparing to read pst files ------
 
@@ -48,6 +48,9 @@ PSMPATH =  .
            C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
            C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts/ 
 
 PADPATH =  . 
            symbols 
@@ -57,14 +60,17 @@ PADPATH =  .
            C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
            C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Oct 3 11:18:19 2020
+netrev run on Oct 26 20:03:15 2020
    DESIGN NAME : 'MSD_FOOT_EXT1'
-   PACKAGING ON Apr 26 2020 05:36:08
+   PACKAGING ON Sep 27 2020 03:58:55
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -87,6 +93,6 @@ netrev run on Oct 3 11:18:19 2020
  No oversight detected
  No warning detected
 
-cpu time      0:00:55
+cpu time      0:00:34
 elapsed time  0:00:00
 
