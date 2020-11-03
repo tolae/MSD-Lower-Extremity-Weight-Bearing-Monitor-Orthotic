@@ -17,7 +17,8 @@
                 "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/Adafruit_TFTLCD_Library",
                 "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/Adafruit_TouchScreen",
                 "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/AltSoftSerial",
-                "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/GuiLibrary"
+                "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/GuiLibrary",
+                "C:/Users/${env:USERNAME}/Documents/Arduino/libraries/Volume/src"
             ],
             "defines": [
                 "_DEBUG",
