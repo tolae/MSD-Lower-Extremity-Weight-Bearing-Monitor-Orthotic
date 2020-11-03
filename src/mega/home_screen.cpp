@@ -52,6 +52,7 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 
 void HomeScreen::load(const BaseLoadData* params)
 {
+	speaker_vol.begin();
 	if (params != (void *)NULL)
 	{
 		HomeLoadData* data = (HomeLoadData*)params;
@@ -69,6 +70,7 @@ void HomeScreen::load(const BaseLoadData* params)
 
 const BaseLoadData* HomeScreen::unload()
 {
+	speaker_vol.end();
 	disable_timer(TimerModule::TIM_3);
 	return new SettingsLoadData(str_val_Weight->text());
 }
@@ -79,9 +81,6 @@ void HomeScreen::update()
 	if (Serial.available())
 	{
 		uint8_t in = Serial.read();
-		Serial.println(in);
-		char temp[6];
-		str_val_Percentage->text(itoa(in, temp, 10));
 		if (in > '7')
 		{
 			configure_timer(TimerModule::TIM_3, flash_yellow, 10, TimerPrescaler::TEN_TWO_FOUR);
@@ -93,9 +92,13 @@ void HomeScreen::update()
 		else
 		{
 			disable_timer(TimerModule::TIM_3);
+			speaker_vol.noTone();
 			tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
 			tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
 		}
+		char temp[6];
+		str_val_Percentage->clear(3);
+		str_val_Percentage->text(itoa(in, temp, 10));
 	}
 	return; // Nothing to do
 }
@@ -121,8 +124,8 @@ void flash_green()
 	if (flash_green_flag == 1)
 	{
 		flash_green_flag = 0;
-		tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
-		tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
+		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
+		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
 	}
 	else
 	{
@@ -138,12 +141,14 @@ void flash_yellow()
 	if (flash_yellow_flag == 1)
 	{
 		flash_yellow_flag = 0;
-		tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
-		tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
+		speaker_vol.tone(100, 0);
+		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
+		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
 	}
 	else
 	{
 		flash_yellow_flag = 1;
+		speaker_vol.tone(100, 255);
 		tft.drawCircle(60, 160, 40, COLOR_YELLOW);
 		tft.fillCircle(60, 160, 40, COLOR_YELLOW);
 	}

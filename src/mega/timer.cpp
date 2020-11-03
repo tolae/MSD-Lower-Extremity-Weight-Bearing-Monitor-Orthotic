@@ -262,15 +262,17 @@ ISR(TIMER0_COMPA_vect)
 	TIM0->isr_callback();
 }
 
-ISR(TIMER1_COMPA_vect)
-{
-	TIM1->isr_callback();
-}
+/* Used by Volume Library */
+// ISR(TIMER1_COMPA_vect)
+// {
+// 	TIM1->isr_callback();
+// }
 
-ISR(TIMER2_COMPA_vect)
-{
-	TIM2->isr_callback();
-}
+/* Used by Volume Library */
+// ISR(TIMER2_COMPA_vect)
+// {
+// 	TIM2->isr_callback();
+// }
 
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
 ISR(TIMER3_COMPA_vect)

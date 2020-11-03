@@ -84,6 +84,7 @@ void SettingsScreen::load(const BaseLoadData* params)
 		else if (update_label == Label::VOLUME)
 		{
 			strcpy(button_volume_str, data->init_str_val_lbl_txt);
+			speaker_vol.setMasterVolume(atoi(data->init_str_val_lbl_txt) / 100.0f);
 		}
 		else if (update_label == Label::VIBRATION)
 		{

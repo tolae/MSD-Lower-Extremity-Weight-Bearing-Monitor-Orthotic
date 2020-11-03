@@ -5,6 +5,7 @@
 #include <Adafruit_HX8357.h>
 #include "screen.h"
 #include "screen_manager.h"
+#include "Volume.h"
 
 /** The global gui from the GuiLibrary. */
 extern Gui gui;
@@ -15,6 +16,8 @@ extern ScreenManager* screen_manager;
 
 /** The global screen array that will contain all the screens. */
 extern const Screen* SCREENS[];
+
+extern Volume speaker_vol;
 
 enum ScreenIndex
 {

@@ -36,12 +36,12 @@
 #include <SPI.h>
 #include <Adafruit_HX8357.h>
 #include <TouchScreen.h>
+#include "inc/mega.h"
 #include "inc/screen_manager.h"
 #include "inc/keypad_screen.h"
 #include "inc/home_screen.h"
 #include "inc/settings_screen.h"
 #include "inc/timer.h"
-
 
 // Use hardware SPI (on Uno, #13, #12, #11) and the above for CS/DC
 Adafruit_HX8357 tft = Adafruit_HX8357(TFT_CS, TFT_DC, TFT_RST);
@@ -62,9 +62,12 @@ const Screen* SCREENS[] =
   new SettingsScreen(0, 0, TS_MAXX - TS_MINX, TS_MAXY - TS_MINY)
 };
 
+Volume speaker_vol;
+
 ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
+	speaker_vol.setMasterVolume(1);
 	Serial.begin(115200);
 	while(!Serial);
 	Serial.println("Gui Widgets test!");
