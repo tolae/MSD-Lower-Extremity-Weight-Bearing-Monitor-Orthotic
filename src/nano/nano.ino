@@ -1,8 +1,8 @@
 #include <AltSoftSerial.h>
 #include <BluetoothCommon.h>
-#include "inc/convolution.h"
 #include "inc/state_machine.h"
 #include "inc/led_state_machine.h"
+#include "inc/weighting.h"
 
 AltSoftSerial BTserial;
 BluetoothMod* mod;
