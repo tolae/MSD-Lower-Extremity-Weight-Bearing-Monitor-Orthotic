@@ -4,7 +4,13 @@
 #include "inc/led_state_machine.h"
 #include "inc/weighting.h"
 
+#define DEBUG_WITH_ALTSOFT
+
+#define BLUETOOTH_MOD_CONNECTION_PIN 8
+
+#ifdef DEBUG_WITH_ALTSOFT
 AltSoftSerial BTserial;
+#endif
 BluetoothMod* mod;
 BluetoothMod::blue_package_t in_package;
 BluetoothMod::blue_package_t out_package;
@@ -16,10 +22,21 @@ uint16_t curr_weight;
 uint16_t prev_weight;
 
 void setup() {
+    /* Connect to bluetooth module */
+    Serial.begin(9600)
+
+    while (!Serial);
+
+    #ifdef DEBUG_WITH_ALTSOFT
 	BTserial.begin(9600);
 
     mod = new BluetoothMod(BTserial);
-    delay(1000);
+    #else
+    mod = new BluetoothMod(Serial);
+    #endif
+
+    /* Wait for bluetooth module to establish connection */
+    poll_for_bluetooth();
 }
 
 void loop() {
@@ -56,6 +73,19 @@ void loop() {
 	update_state_machine({.distance = curr_weight});
 	/* Get measure new weight values */
     curr_weight = update_weights();
+    /** Check to see if bluetooth connection is still valid. This will block if
+     * connection was broken.
+     */
+    poll_for_bluetooth();
 	/* Delay for 50ms */
 	delay(50);
+}
+
+void poll_for_bluetooth()
+{
+    while (!digitalRead(BLUETOOTH_MOD_CONNECTION_PIN))
+    {
+        /* If not connected, wait for 500 ms */
+        delay(500);
+    }
 }
