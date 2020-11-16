@@ -152,6 +152,7 @@ void _update_sensor(uint8_t sensor)
         mux_sel = sensor / 2; // Sensors come in pairs
         digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
         digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+        delay(1); // Allow muxs to stabilize the signal
 
         if (sensor % 2)
         {
@@ -171,6 +172,7 @@ void _update_sensor(uint8_t sensor)
         mux_sel = sensor % SENSORS_PER_EXT;
         digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
         digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+        delay(1); // Allow muxs to stabilize the signal
 
         if (sensor < ONE_EXT_SENSOR_ID_MAX)
         {
