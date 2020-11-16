@@ -65,7 +65,10 @@ void _check_connection();
 /* Updates the particular sensor */
 void _update_sensor(uint8_t sensor);
 
-/* Computes a single reading and returns a weight calculation */
+/** Computes a single reading and returns a weight calculation.
+ * 
+ * Needs to be ran SENSOR_HISTORY times before valid/useful values come out.
+*/
 uint16_t update_weights()
 {
     uint8_t i;

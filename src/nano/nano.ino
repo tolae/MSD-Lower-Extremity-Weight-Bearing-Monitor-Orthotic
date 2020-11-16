@@ -55,7 +55,7 @@ void loop() {
 	/* Update LED State Machine */
 	update_state_machine({.distance = curr_weight});
 	/* Get measure new weight values */
-
+    curr_weight = update_weights();
 	/* Delay for 50ms */
 	delay(50);
 }
