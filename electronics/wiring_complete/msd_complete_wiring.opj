@@ -2,7 +2,11 @@
   (ProjectVersion "19981106")
   (SoftwareVersion "17.4-2019 P001 (3823098) [11/20/2019]-[04/23/20]")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "..\custom_parts\library\adafruitpowerboost1000crevb.olb"
+        (Type "Schematic Library"))
+      (File "..\custom_parts\library\mylib.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
@@ -34,6 +38,34 @@
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Touchscreen
+      (FullPartName "Touchscreen.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("Arduino Mega"
+      (FullPartName "Arduino Mega.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (RGB_LED
+      (FullPartName "RGB_LED.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (SW_TC_SPST
       (FullPartName "SW_TC_SPST.Normal")
@@ -102,9 +134,6 @@
       (LibraryName
          "C:\USERS\ETHAN\DOWNLOADS\MSD_PRELINMINARY_DESIGN-2020-08-28T19-40\LIBRARY\MYLIB.OLB")
       (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (OPAMP
       (FullPartName "OPAMP.Normal")
       (LibraryName
@@ -114,43 +143,22 @@
       (FullPartName "PARAM.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("OPAMP DUAL SUPPLY"
-      (FullPartName "OPAMP DUAL SUPPLY.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
-      (DeviceIndex "0"))
-    ("OPAMP SINGLE SUPPLY"
-      (FullPartName "OPAMP SINGLE SUPPLY.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Ethan")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\msd_complete_wiring.dsn")
-      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Main")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Nano")
+      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Mega")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\msd_complete_wiring.dsn" "Nano"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 234 1465 234 809")
-        (Scroll "-68 -9")
-        (Zoom "113")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\WIRING_COMPLETE\MSD_COMPLETE_WIRING.DSN")
-      (Schematic "Main")
-      (Page "PAGE1")))
+      (Tab 0)))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.4\tools\capture\library\pspice")
   (ISPCBBASICLICENSE "false"))
