@@ -1,20 +1,45 @@
 #include "inc/weighting.h"
 #include "inc/convolution.h"
 
-#define CONNECTIONS_READING_ANALOG_PIN
-#define EXT_ANALOG_PER_CONNECTION 205
+/** Defines **/
 
+/* Defines for extender board connection logic */
+#define CONNECTIONS_READING_ANALOG_PIN A0
+#define EXT_ANALOG_PER_CONNECTION 205
+/***********************************************/
+
+/* Defines for sensor ids and sensor count logic */
 #define BASE_SENSOR_ID_MAX 8
 #define ONE_EXT_SENSOR_ID_MAX 12
 #define TWO_EXT_SENSOR_ID_MAX 16
-#define THREE_SENSOR_ID_MAX 20
+#define THREE_EXT_SENSOR_ID_MAX 20
 
 #define SENSOR_MAX 20
 #define SENSOR_HISTORY 16
 #define SENSORS_PER_EXT 4
+/*************************************************/
 
+/* Defines for sensor pin locations */
+/* Analog Pins */
+#define MUXA_OPA_ANALOG_PIN A7
+#define MUXA_OPB_ANALOG_PIN A6
+#define EXT1_ANALOG_PIN A5
+#define EXT2_ANALOG_PIN A4
+#define EXT3_ANALOG_PIN A3
+
+/* Digital Pins */
+#define MUXA_SELECT0 2
+#define MUXA_SELECT1 3
+
+#define MUXA_SELECT0_MASK 0x01
+#define MUXA_SELECT1_MASK 0x02
+/*************************************************/
+
+/* Defines for sensor data logic */
 #define MAX_AVERAGE_CNT 4
+/*********************************/
 
+/* Enumeration for how many connector boards are attached (and supported) */
 typedef enum CONNECTED_SENSORS
 {
     NO_EXT = 0,
@@ -73,7 +98,7 @@ uint16_t update_weights()
             }
         }
     }
-    sensor_weights_curr_index++;
+    sensor_weights_curr_index = (++sensor_weights_curr_index) % SENSOR_HISTORY;
 
     /* Compute the final average */
     average = 0;
@@ -113,6 +138,7 @@ void _check_connections()
 
 void _update_sensor(uint8_t sensor)
 {
+    uint8_t mux_sel;
     if (sensor < BASE_SENSOR_ID_MAX)
     {
         /** The base pad reads two sensors at a time. The pairs of sensors will
@@ -120,6 +146,18 @@ void _update_sensor(uint8_t sensor)
          * 
          * Set the mux for the given pair of sensors and read them.
          */
+        mux_sel = sensor / 2; // Sensors come in pairs
+        digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
+        digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+
+        if (sensor % 2)
+        {
+            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPA_ANALOG_PIN);
+        }
+        else
+        {
+            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPB_ANALOG_PIN);
+        }
     }
     else
     {
@@ -127,5 +165,21 @@ void _update_sensor(uint8_t sensor)
          * 
          * Set the mux for the given sensor and read them.
          */
+        mux_sel = sensor % SENSORS_PER_EXT;
+        digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
+        digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+
+        if (sensor < ONE_EXT_SENSOR_ID_MAX)
+        {
+            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT1_ANALOG_PIN);
+        }
+        else if (sensor < TWO_EXT_SENSOR_ID_MAX)
+        {
+            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT2_ANALOG_PIN);
+        }
+        else if (sensor < THREE_EXT_SENSOR_ID_MAX)
+        {
+            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT3_ANALOG_PIN);
+        }
     }
 }
