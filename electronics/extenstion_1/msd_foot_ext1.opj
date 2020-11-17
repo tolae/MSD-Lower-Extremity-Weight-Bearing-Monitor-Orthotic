@@ -86,22 +86,20 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn")
-      (Path "Design Resources"
-         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
-         "SCHEMATIC1"))
+      (Path "Design Resources" ".\msd_foot_ext1.dsn")
+      (Path "Design Resources" ".\msd_foot_ext1.dsn" "SCHEMATIC1")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-184 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1287 52 631")
+        (Scroll "-16 0")
         (Zoom "119")
         (Occurrence "/"))
       (Path
@@ -122,8 +120,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1391 104 577")
-        (Scroll "-134 0")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1391 104 577")
+        (Scroll "-259 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
