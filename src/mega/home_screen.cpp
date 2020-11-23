@@ -16,6 +16,7 @@ void flash_yellow();
 HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
 	pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(3, OUTPUT);
 
 	x = _x;
 	y = _y;
@@ -93,6 +94,7 @@ void HomeScreen::update()
 		{
 			disable_timer(TimerModule::TIM_3);
 			speaker_vol.noTone();
+            analogWrite(3, 0);
 			tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
 			tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
 		}
@@ -142,6 +144,7 @@ void flash_yellow()
 	{
 		flash_yellow_flag = 0;
 		speaker_vol.tone(100, 0);
+        analogWrite(3, 0);
 		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
 		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
 	}
@@ -149,6 +152,7 @@ void flash_yellow()
 	{
 		flash_yellow_flag = 1;
 		speaker_vol.tone(100, 255);
+        analogWrite(3, 255);
 		tft.drawCircle(60, 160, 40, COLOR_YELLOW);
 		tft.fillCircle(60, 160, 40, COLOR_YELLOW);
 	}
