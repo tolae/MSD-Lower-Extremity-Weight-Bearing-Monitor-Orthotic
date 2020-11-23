@@ -35,12 +35,24 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (2N2222
+      (FullPartName "2N2222.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (2N3838
+      (FullPartName "2N3838.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("NPN DIAC"
+      (FullPartName "NPN DIAC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (Touchscreen
       (FullPartName "Touchscreen.Normal")
@@ -128,37 +140,59 @@
     ("Arduino NANO"
       (FullPartName "Arduino NANO.Normal")
       (LibraryName "C:\USERS\ETHAN\PROJECTS\CIRCUITS\MSD\LIBRARY\MYLIB.OLB")
-      (DeviceIndex "0"))
-    (Battery
-      (FullPartName "Battery.Normal")
-      (LibraryName
-         "C:\USERS\ETHAN\DOWNLOADS\MSD_PRELINMINARY_DESIGN-2020-08-28T19-40\LIBRARY\MYLIB.OLB")
-      (DeviceIndex "0"))
-    (OPAMP
-      (FullPartName "OPAMP.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (PARAM
-      (FullPartName "PARAM.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Ethan")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\msd_complete_wiring.dsn")
-      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Nano")
-      (Path "Design Resources" ".\msd_complete_wiring.dsn" "Mega")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\wiring_complete\msd_complete_wiring.dsn")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\wiring_complete\msd_complete_wiring.dsn"
+         "Nano")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\wiring_complete\msd_complete_wiring.dsn"
+         "Mega")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\msd_complete_wiring.dsn" "Nano"))
+      (Path "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb")
+      (Select "Design Resources" "Library"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\custom_parts\library\mylib.olb"
+         "Battery"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0)))
-  (LastUsedLibraryBrowseDirectory
-     "C:\Cadence\SPB_17.4\tools\capture\library\pspice")
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1335 52 521")
+        (Scroll "-132 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\WIRING_COMPLETE\MSD_COMPLETE_WIRING.DSN")
+      (Schematic "Mega")
+      (Page "Mega"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1365 78 551")
+        (Scroll "-259 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\WIRING_COMPLETE\MSD_COMPLETE_WIRING.DSN")
+      (Schematic "Nano")
+      (Page "Nano"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1648 104 577"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (Package "BATTERY")
+      (PartType "1")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (ISPCBBASICLICENSE "false"))

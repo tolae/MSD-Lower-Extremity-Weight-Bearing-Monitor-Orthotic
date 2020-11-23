@@ -86,8 +86,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn")
-      (Path "Design Resources" ".\msd_foot_ext1.dsn" "SCHEMATIC1")
       (Select "Design Resources"))
     (HierarchyView)
     (Doc
@@ -98,8 +96,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-16 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
+        (Scroll "-167 0")
         (Zoom "119")
         (Occurrence "/"))
       (Path
@@ -120,12 +118,20 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1391 104 577")
-        (Scroll "-259 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1391 104 577")
+        (Scroll "-134 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\EXTENSTION_1\MSD_FOOT_EXT1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE3")))
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1674 130 603"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (Package "RGB_LED")
+      (PartType "1")))
   (MPSSessionName "Ethan"))
