@@ -13,7 +13,7 @@
 
 
 // These are the four touchscreen analog pins
-#define YP A0  // must be an analog pin, use "An" notation!
+#define YP A2  // must be an analog pin, use "An" notation!
 #define XM A1  // must be an analog pin, use "An" notation!
 #define YM 6   // can be a digital pin
 #define XP 5   // can be a digital pin

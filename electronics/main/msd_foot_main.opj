@@ -42,13 +42,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources"))
+      (Path "Design Resources"
+         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn")
+      (Path "Design Resources"
+         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1439 156 625"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
+      (Package "RGB_LED")
+      (PartType "1")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\iec"))
