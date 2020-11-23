@@ -107,7 +107,4 @@ public:
         GuiButton* buttonSettings;
 };
 
-void circle_on();
-void circle_off();
-
 #endif

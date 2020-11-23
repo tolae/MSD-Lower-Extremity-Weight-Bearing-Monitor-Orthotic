@@ -14,9 +14,6 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event);
 
 HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
-	pinMode(LED_BUILTIN, OUTPUT);
-	pinMode(3, OUTPUT);
-
 	x = _x;
 	y = _y;
 	width = _width;
@@ -81,6 +78,7 @@ void HomeScreen::load(const BaseLoadData* params)
 const BaseLoadData* HomeScreen::unload()
 {
 	speaker_vol.end();
+    vib_motor.disable();
 	disable_timer(TimerModule::TIM_3);
 	return new SettingsLoadData(str_val_Weight->text());
 }

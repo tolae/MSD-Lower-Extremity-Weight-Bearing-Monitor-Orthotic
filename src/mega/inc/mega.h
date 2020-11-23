@@ -6,6 +6,7 @@
 #include "screen.h"
 #include "screen_manager.h"
 #include "Volume.h"
+#include "vibrator_motor.h"
 
 /** The global gui from the GuiLibrary. */
 extern Gui gui;
@@ -18,6 +19,8 @@ extern ScreenManager* screen_manager;
 extern const Screen* SCREENS[];
 
 extern Volume speaker_vol;
+
+extern VibratorMotor vib_motor;
 
 enum ScreenIndex
 {

@@ -22,7 +22,7 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 	buttonWeight = new GuiButton(140, 20, 100, 60, button_weight_str);
 	buttonWeight->value(Label::WEIGHT);
 	str_val_volume = new GuiLabel(250, 20, 60, 60, "Volume");
-	strcpy(button_volume_str, "0");
+	strcpy(button_volume_str, "100");
 	buttonVolume = new GuiButton(360, 20, 100, 60, button_volume_str);
 	buttonVolume->value(Label::VOLUME);
 
@@ -31,7 +31,7 @@ SettingsScreen::SettingsScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _
 	buttonTolerance = new GuiButton(140, 90, 100, 60, button_tolerance_str);
 	buttonTolerance->value(Label::TOLERANCE);
 	str_val_vibration = new GuiLabel(250, 90, 60, 60, "Vibration");
-	strcpy(button_vibration_str, "0");
+	strcpy(button_vibration_str, "100");
 	buttonVibration = new GuiButton(360, 90, 100, 60, button_vibration_str);
 	buttonVibration->value(Label::VIBRATION);
 
@@ -89,6 +89,7 @@ void SettingsScreen::load(const BaseLoadData* params)
 		else if (update_label == Label::VIBRATION)
 		{
 			strcpy(button_vibration_str, data->init_str_val_lbl_txt);
+            vib_motor.strength = atoi(data->init_str_val_lbl_txt) / 100.0f;
 		}
 	}
 }

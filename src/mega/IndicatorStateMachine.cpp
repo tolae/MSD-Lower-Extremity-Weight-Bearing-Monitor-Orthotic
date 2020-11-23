@@ -15,7 +15,7 @@ void into_no_func()
 {
 	disable_timer(TimerModule::TIM_3);
 	speaker_vol.noTone();
-	analogWrite(3, 0);
+	vib_motor.disable();
 	tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
 	tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
 }
@@ -37,7 +37,7 @@ void into_high_func()
 {
 	disable_timer(TimerModule::TIM_3);
 	speaker_vol.tone(100, 255);
-	analogWrite(3, 255);
+    vib_motor.enable();
 	tft.drawCircle(60, 160, 40, COLOR_RED);
 	tft.fillCircle(60, 160, 40, COLOR_RED);
 }
@@ -66,7 +66,7 @@ void _flash_yellow()
 	{
 		flash_yellow_flag = 0;
 		speaker_vol.tone(100, 0);
-		analogWrite(3, 0);
+		vib_motor.disable();
 		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
 		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
 	}
@@ -74,7 +74,7 @@ void _flash_yellow()
 	{
 		flash_yellow_flag = 1;
 		speaker_vol.tone(100, 255);
-		analogWrite(3, 255);
+        vib_motor.enable();
 		tft.drawCircle(60, 160, 40, COLOR_YELLOW);
 		tft.fillCircle(60, 160, 40, COLOR_YELLOW);
 	}

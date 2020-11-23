@@ -30,6 +30,8 @@
 #define TFT_DC 41
 #define TFT_RST 39 // RST can be set to -1 if you tie it to Arduino's reset
 
+#define VIRBATOR_PWM_PIN 3
+
 #define GUICONFIG_H_
 
 #include <Adafruit_GFX.h>    // Core graphics library
@@ -63,10 +65,12 @@ const Screen* SCREENS[] =
 };
 
 Volume speaker_vol;
+VibratorMotor vib_motor(VIRBATOR_PWM_PIN, 1);
 
 ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
+    /* Initialize hardware */
 	speaker_vol.setMasterVolume(1);
 	Serial.begin(115200);
 	while(!Serial);
