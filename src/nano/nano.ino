@@ -50,12 +50,7 @@ void loop() {
 			set_weight = (((uint16_t)in_package.data[1]) << 8) | in_package.data[0];
 			set_threshold = (((uint16_t)in_package.data[3]) << 8) | in_package.data[2];
 			/* Update state machine transition parameters */
-			no_alert_state.transitions[0].threshold.distance = NO_TO_LOW_BOUNDARY(set_weight, set_threshold);
-			low_alert_state.transitions[0].threshold.distance = NO_TO_LOW_BOUNDARY(set_weight, set_threshold);
-			low_alert_state.transitions[1].threshold.distance = LOW_TO_MEDIUM_BOUNDARY(set_weight, set_threshold);
-			medium_alert_state.transitions[0].threshold.distance = LOW_TO_MEDIUM_BOUNDARY(set_weight, set_threshold);
-			medium_alert_state.transitions[1].threshold.distance = MEDIUM_TO_HIGH_BOUNDARY(set_weight, set_threshold);
-			high_alert_state.transitions[0].threshold.distance = MEDIUM_TO_HIGH_BOUNDARY(set_weight, set_threshold);
+			update_indicator_state_boundaries(set_weight, set_threshold);
 			/* Re-initialize the state machine */
 			initialize_state_machine(my_state_machine_config);
 		}

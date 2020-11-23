@@ -13,7 +13,7 @@
  * the state machine.
 */
 #define BOUNDARY_FUNC(weight, threshold, percentage) \
-    ((((float)weight) / ((float)threshold)) * percentage)
+	((((float)weight) / ((float)threshold)) * percentage)
 #define NO_TO_LOW_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.75f)
 #define LOW_TO_MEDIUM_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.85f)
 #define MEDIUM_TO_HIGH_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.95f)
@@ -112,5 +112,16 @@ static state_machine_config_t my_state_machine_config =
 
 /* State Machine Function Implementation */
 /* These are specific to the device and should be implemented there. */
+
+/* Custom Public Function */
+static void update_indicator_state_boundaries(uint16_t weight, uint16_t threshold)
+{
+	no_alert_state.transitions[0].threshold.distance = NO_TO_LOW_BOUNDARY(weight, threshold);
+	low_alert_state.transitions[0].threshold.distance = NO_TO_LOW_BOUNDARY(weight, threshold);
+	low_alert_state.transitions[1].threshold.distance = LOW_TO_MEDIUM_BOUNDARY(weight, threshold);
+	medium_alert_state.transitions[0].threshold.distance = LOW_TO_MEDIUM_BOUNDARY(weight, threshold);
+	medium_alert_state.transitions[1].threshold.distance = MEDIUM_TO_HIGH_BOUNDARY(weight, threshold);
+	high_alert_state.transitions[0].threshold.distance = MEDIUM_TO_HIGH_BOUNDARY(weight, threshold);
+}
 
 #endif
