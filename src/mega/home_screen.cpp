@@ -85,7 +85,6 @@ const BaseLoadData* HomeScreen::unload()
 	return new SettingsLoadData(str_val_Weight->text());
 }
 
-int state = 0;
 void HomeScreen::update()
 {
 	static uint8_t in = 0;
