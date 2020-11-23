@@ -22,28 +22,28 @@ uint16_t curr_weight;
 uint16_t prev_weight;
 
 void setup() {
-    /* Connect to bluetooth module */
-    Serial.begin(9600);
+	/* Connect to bluetooth module */
+	Serial.begin(9600);
 
-    while (!Serial);
+	while (!Serial);
 
-    #ifdef DEBUG_WITH_ALTSOFT
+	#ifdef DEBUG_WITH_ALTSOFT
 	BTserial.begin(9600);
 
-    mod = new BluetoothMod(BTserial);
-    #else
-    mod = new BluetoothMod(Serial);
-    #endif
+	mod = new BluetoothMod(BTserial);
+	#else
+	mod = new BluetoothMod(Serial);
+	#endif
 
-    /* Wait for bluetooth module to establish connection */
-    poll_for_bluetooth();
+	/* Wait for bluetooth module to establish connection */
+	poll_for_bluetooth();
 }
 
 void loop() {
 	mod->update();
 	/* Check for input from mega */
 	if (mod->receivePackage(in_package) != BluetoothMod::BluetoothStatus::BUSY)
-    {
+	{
 		if (in_package.opcode == BluetoothMod::STATUS)
 		{
 			/* First 2 bytes are the weight, Second 2 bytes are the threshold */
@@ -54,7 +54,7 @@ void loop() {
 			/* Re-initialize the state machine */
 			initialize_state_machine(my_state_machine_config);
 		}
-    }
+	}
 	/* Check for change in weight */
 	if (curr_weight != prev_weight)
 	{
@@ -67,20 +67,20 @@ void loop() {
 	/* Update LED State Machine */
 	update_state_machine({.distance = curr_weight});
 	/* Get measure new weight values */
-    curr_weight = update_weights();
-    /** Check to see if bluetooth connection is still valid. This will block if
-     * connection was broken.
-     */
-    poll_for_bluetooth();
+	curr_weight = update_weights();
+	/** Check to see if bluetooth connection is still valid. This will block if
+	 * connection was broken.
+	 */
+	poll_for_bluetooth();
 	/* Delay for 50ms */
 	delay(50);
 }
 
 void poll_for_bluetooth()
 {
-    while (!digitalRead(BLUETOOTH_MOD_CONNECTION_PIN))
-    {
-        /* If not connected, wait for 500 ms */
-        delay(500);
-    }
+	while (!digitalRead(BLUETOOTH_MOD_CONNECTION_PIN))
+	{
+		/* If not connected, wait for 500 ms */
+		delay(500);
+	}
 }
