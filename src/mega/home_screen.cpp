@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <IndicatorStateMachine.h>
 #include "inc/mega.h"
 #include "inc/home_screen.h"
 #include "inc/settings_screen.h"
@@ -10,13 +11,11 @@
 extern HomeScreen* home_screen;
 
 uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event);
-void flash_green();
-void flash_yellow();
 
 HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 {
 	pinMode(LED_BUILTIN, OUTPUT);
-    pinMode(3, OUTPUT);
+	pinMode(3, OUTPUT);
 
 	x = _x;
 	y = _y;
@@ -49,6 +48,16 @@ HomeScreen::HomeScreen(int16_t _x, int16_t _y, int16_t _width, int16_t _height)
 	GuiElement::addChild((GuiElement *)str_val_Weight);
 	GuiElement::addChild((GuiElement *)str_val_Tolerance);
 	GuiElement::addChild((GuiElement *)buttonSettings);
+
+	/* Configure State Machine */
+	no_alert_state.transitions[0].threshold.distance = '3';
+	low_alert_state.transitions[0].threshold.distance = '3';
+	low_alert_state.transitions[1].threshold.distance = '5';
+	medium_alert_state.transitions[0].threshold.distance = '5';
+	medium_alert_state.transitions[1].threshold.distance = '7';
+	high_alert_state.transitions[0].threshold.distance = '7';
+
+	initialize_state_machine(my_state_machine_config);
 }
 
 void HomeScreen::load(const BaseLoadData* params)
@@ -79,29 +88,12 @@ const BaseLoadData* HomeScreen::unload()
 int state = 0;
 void HomeScreen::update()
 {
+	static uint8_t in = 0;
 	if (Serial.available())
 	{
-		uint8_t in = Serial.read();
-		if (in > '7')
-		{
-			configure_timer(TimerModule::TIM_3, flash_yellow, 10, TimerPrescaler::TEN_TWO_FOUR);
-		}
-		else if (in > '5')
-		{
-			configure_timer(TimerModule::TIM_3, flash_green, 2, TimerPrescaler::TEN_TWO_FOUR);
-		}
-		else
-		{
-			disable_timer(TimerModule::TIM_3);
-			speaker_vol.noTone();
-            analogWrite(3, 0);
-			tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
-			tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
-		}
-		char temp[6];
-		str_val_Percentage->clear(3);
-		str_val_Percentage->text(itoa(in, temp, 10));
+		in = Serial.read();
 	}
+	update_state_machine({.distance = in});
 	return; // Nothing to do
 }
 
@@ -118,42 +110,4 @@ uint8_t btn_callback_function_home(void* a, GuiElement* element, uint8_t event) 
 		}
 	}
 	return 0;
-}
-
-void flash_green()
-{
-	static int flash_green_flag = 0;
-	if (flash_green_flag == 1)
-	{
-		flash_green_flag = 0;
-		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
-		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
-	}
-	else
-	{
-		flash_green_flag = 1;
-		tft.drawCircle(60, 160, 40, COLOR_GREEN);
-		tft.fillCircle(60, 160, 40, COLOR_GREEN);
-	}
-}
-
-void flash_yellow()
-{
-	static int flash_yellow_flag = 0;
-	if (flash_yellow_flag == 1)
-	{
-		flash_yellow_flag = 0;
-		speaker_vol.tone(100, 0);
-        analogWrite(3, 0);
-		tft.drawCircle(60, 160, 40, COLOR_DARKGREY);
-		tft.fillCircle(60, 160, 40, COLOR_DARKGREY);
-	}
-	else
-	{
-		flash_yellow_flag = 1;
-		speaker_vol.tone(100, 255);
-        analogWrite(3, 255);
-		tft.drawCircle(60, 160, 40, COLOR_YELLOW);
-		tft.fillCircle(60, 160, 40, COLOR_YELLOW);
-	}
 }

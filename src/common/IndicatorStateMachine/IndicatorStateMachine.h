@@ -1,7 +1,7 @@
 #ifndef _STATE_MACHINE_IMPL_H
 #define _STATE_MACHINE_IMPL_H
 
-#include "state_machine.h"
+#include <StateMachine.h>
 
 /* Hysteresis for this state machine in cm */
 #define HYSTERESIS 0
@@ -36,62 +36,63 @@ typedef enum
 } state_t;
 
 /* State Machine Functions */
-void no_alert_func();
-void low_alert_func();
-void medium_alert_func();
-void high_alert_func();
+// Nothing to do here...
 
 /* Transfer Functions */
+void into_no_func();
+void into_low_func();
+void into_med_func();
+void into_high_func();
 
 /* States */
-state_machine_state_t no_alert_state =
+static state_machine_state_t no_alert_state =
 {
 	.state = NO_ALERT,
-	.state_execution = no_alert_func,
+	.state_execution = STATE_MACHINE_NO_FUNC,
 	.transitions =
 	{
-		{{0}, LT_EQUALS, LOW_ALERT, STATE_MACHINE_NO_FUNC},
+		{{0}, GT_EQUALS, LOW_ALERT, into_low_func},
 		STATE_MACHINE_TRANSITION_TERMINATOR_DECL
 	}
 };
 
-state_machine_state_t low_alert_state =
+static state_machine_state_t low_alert_state =
 {
 	.state = LOW_ALERT,
-	.state_execution = low_alert_func,
+	.state_execution = STATE_MACHINE_NO_FUNC,
 	.transitions =
 	{
-		{{0}, GREATER_THAN, NO_ALERT, STATE_MACHINE_NO_FUNC},
-		{{0}, LT_EQUALS, MEDIUM_ALERT, STATE_MACHINE_NO_FUNC},
+		{{0}, LESS_THAN, NO_ALERT, into_no_func},
+		{{0}, GT_EQUALS, MEDIUM_ALERT, into_med_func},
 		STATE_MACHINE_TRANSITION_TERMINATOR_DECL
 	}
 };
 
-state_machine_state_t medium_alert_state =
+static state_machine_state_t medium_alert_state =
 {
 	.state = MEDIUM_ALERT,
-	.state_execution = medium_alert_func,
+	.state_execution = STATE_MACHINE_NO_FUNC,
 	.transitions =
 	{
-		{{0}, GREATER_THAN, LOW_ALERT, STATE_MACHINE_NO_FUNC},
-		{{0}, LT_EQUALS, HIGH_ALERT, STATE_MACHINE_NO_FUNC},
+		{{0}, LESS_THAN, LOW_ALERT, into_low_func},
+		{{0}, GT_EQUALS, HIGH_ALERT, into_high_func},
 		STATE_MACHINE_TRANSITION_TERMINATOR_DECL
 	}
 };
 
-state_machine_state_t high_alert_state =
+static state_machine_state_t high_alert_state =
 {
 	.state = HIGH_ALERT,
-	.state_execution = high_alert_func,
+	.state_execution = STATE_MACHINE_NO_FUNC,
 	.transitions =
 	{
-		{{0}, GREATER_THAN, MEDIUM_ALERT, STATE_MACHINE_NO_FUNC},
+		{{0}, LESS_THAN, MEDIUM_ALERT, into_med_func},
 		STATE_MACHINE_TRANSITION_TERMINATOR_DECL
 	}
 };
 
 /* State Machine State Pointer-Array */
-state_machine_state_t* my_states[END_STATE] =
+static state_machine_state_t* my_states[END_STATE] =
 {
 	&no_alert_state,
 	&low_alert_state,
@@ -103,27 +104,13 @@ state_machine_state_t* my_states[END_STATE] =
  *
  * This is passed into the state machine init function.
  */
-state_machine_config_t my_state_machine_config =
+static state_machine_config_t my_state_machine_config =
 {
 	.hysteresis = HYSTERESIS,
 	.state_machine = my_states,
 };
 
 /* State Machine Function Implementation */
-void no_alert_func()
-{
-}
-
-void low_alert_func()
-{
-}
-
-void medium_alert_func()
-{
-}
-
-void high_alert_func()
-{
-}
+/* These are specific to the device and should be implemented there. */
 
 #endif

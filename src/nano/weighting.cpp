@@ -60,7 +60,7 @@ uint8_t sensor_weights_curr_index = 0;
 connections_t connections = NO_EXT;
 
 /* Updates the connections variable with the current number of attached exts */
-void _check_connection();
+void _check_connections();
 
 /* Updates the particular sensor */
 void _update_sensor(uint8_t sensor);
@@ -76,7 +76,7 @@ uint16_t update_weights()
     uint8_t k;
     uint32_t average;
     uint32_t max_averages[MAX_AVERAGE_CNT] = {0};
-    _check_connection();
+    _check_connections();
 
     /** The base pad has 8 connections (read at twice the speed), with each ext
      * adding 4 sensors.

@@ -1,7 +1,7 @@
 #include <AltSoftSerial.h>
 #include <BluetoothCommon.h>
-#include "inc/state_machine.h"
-#include "inc/led_state_machine.h"
+#include <StateMachine.h>
+#include <IndicatorStateMachine.h>
 #include "inc/weighting.h"
 
 #define DEBUG_WITH_ALTSOFT
@@ -23,7 +23,7 @@ uint16_t prev_weight;
 
 void setup() {
     /* Connect to bluetooth module */
-    Serial.begin(9600)
+    Serial.begin(9600);
 
     while (!Serial);
 

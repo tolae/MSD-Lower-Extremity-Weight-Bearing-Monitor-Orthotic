@@ -1,4 +1,4 @@
-#include "inc/state_machine.h"
+#include "StateMachine.h"
 
 /* Constants */
 const state_machine_transition_t STATE_MACHINE_TRANSITION_TERMINATOR =
@@ -86,7 +86,7 @@ state_machine_state_enum_t initialize_state_machine(state_machine_config_t confi
 	previous_state = state_machine[INITIAL_STATE];
 	hysteresis_config.hysteresis = config.hysteresis;
 	hysteresis_config.returning_state = INVALID_STATE;
-	current_state->state_execution();
+    current_state->state_execution();
 	return current_state->state;
 }
 
