@@ -11,10 +11,19 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (RootChangedForceReNetlist "x"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TMUX1109RSVR
+      (FullPartName "TMUX1109RSVR.Normal")
+      (LibraryName
+         "C:\USERS\ETHAN\APPDATA\LOCAL\TEMP\EMA_ULBOMSYMBOLS\1569330977\1569330977\ORCADCAPTUREXML\2020-11-24_01-37-37.OLB")
+      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -42,14 +51,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn")
-      (Path "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources"
-         "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\msd_foot_main.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources" ".\msd_foot_main.dsn")
+      (Path "Design Resources" ".\msd_foot_main.dsn" "SCHEMATIC2")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\msd_foot_main.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -57,12 +62,59 @@
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 906"))
       (Tab 0))
     (Doc
-      (Type "COrPrmBrowserDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1439 156 625"))
+        (Placement "44 0 1 -1 -1 -8 -31 26 1056 26 499")
+        (Scroll "-6 0")
+        (Zoom "100")
+        (Occurrence "/"))
       (Path
-         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\CUSTOM_PARTS\LIBRARY\MYLIB.OLB")
-      (Package "RGB_LED")
-      (PartType "1")))
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 182 1212 182 655")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1238 208 681")
+        (Scroll "-6 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 1264 234 707")
+        (Scroll "568 180")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "PAGE4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 763 26 499")
+        (Scroll "21 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "PAGE5")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\iec"))

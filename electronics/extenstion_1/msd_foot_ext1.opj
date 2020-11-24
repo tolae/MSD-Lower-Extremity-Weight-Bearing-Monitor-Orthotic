@@ -91,9 +91,7 @@
       (Path "Design Resources"
          "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
          "SCHEMATIC1")
-      (Select "Design Resources"
-         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
-         "SCHEMATIC1" "PAGE4"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -114,8 +112,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1365 78 551")
-        (Scroll "-152 -6")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1365 78 551")
+        (Scroll "-173 0")
         (Zoom "92")
         (Occurrence "/"))
       (Path
@@ -137,7 +135,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1443 156 629")
-        (Scroll "-134 35")
+        (Scroll "-134 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
