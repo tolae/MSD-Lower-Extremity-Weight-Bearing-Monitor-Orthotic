@@ -87,8 +87,10 @@
          "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\main\msd_foot_main.dsn")
       (Path "Design Resources"
          "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\main\msd_foot_main.dsn"
-         "SCHEMATIC2")
-      (Path "Design Resources" "Library"))
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\main\msd_foot_main.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -98,13 +100,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1056 26 499")
-        (Scroll "-113 0")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1056 26 499")
+        (Scroll "-6 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
-      (Schematic "SCHEMATIC2")
+      (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
       (Type "COrSchematicDoc")
@@ -115,7 +117,7 @@
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
-      (Schematic "SCHEMATIC2")
+      (Schematic "SCHEMATIC1")
       (Page "PAGE2"))
     (Doc
       (Type "COrSchematicDoc")
@@ -126,7 +128,7 @@
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
-      (Schematic "SCHEMATIC2")
+      (Schematic "SCHEMATIC1")
       (Page "PAGE3"))
     (Doc
       (Type "COrSchematicDoc")
@@ -137,7 +139,7 @@
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
-      (Schematic "SCHEMATIC2")
+      (Schematic "SCHEMATIC1")
       (Page "PAGE4"))
     (Doc
       (Type "COrSchematicDoc")
@@ -148,7 +150,7 @@
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\MSD_FOOT_MAIN.DSN")
-      (Schematic "SCHEMATIC2")
+      (Schematic "SCHEMATIC1")
       (Page "PAGE5")))
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_17.2\tools\capture\library\iec")
