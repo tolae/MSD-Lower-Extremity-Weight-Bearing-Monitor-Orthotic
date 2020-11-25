@@ -3,17 +3,21 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../electronics/extenstion_1/layout/msd_foot_ext1.brd                     |
-|                                                    Mon Oct 26 19:30:34 2020  |
+|                                                    Tue Nov 24 19:33:59 2020  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  TMUX_OUT_32580 pins MOVED FROM this net (to net name listed on right)
-                                 U2.3            10230.0 6521.60
-                                                                       TMUX_OUT
+  SC2_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U3.9            10911.9 7917.78
+                                                                      SC3_VOUT1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC3_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U3.4            10737.6 7878.42
+                                                                      SC2_VOUT1
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       1                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

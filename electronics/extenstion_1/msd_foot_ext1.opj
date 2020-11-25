@@ -47,6 +47,10 @@
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\IEC\DEVICE.OLB")
@@ -56,10 +60,6 @@
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (EXT1_EXT2_CONNECTOR
@@ -91,7 +91,9 @@
       (Path "Design Resources"
          "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\extenstion_1\msd_foot_ext1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -101,8 +103,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1287 52 631")
-        (Scroll "-16 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1287 52 631")
+        (Scroll "-21 12")
         (Zoom "119")
         (Occurrence "/"))
       (Path
@@ -113,7 +115,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1365 78 551")
-        (Scroll "-173 0")
+        (Scroll "-173 27")
         (Zoom "92")
         (Occurrence "/"))
       (Path
@@ -124,8 +126,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1391 104 577")
-        (Scroll "-134 0")
-        (Zoom "100")
+        (Scroll "284 118")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\EXTENSTION_1\MSD_FOOT_EXT1.DSN")

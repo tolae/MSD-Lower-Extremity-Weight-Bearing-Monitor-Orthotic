@@ -1,13 +1,13 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    Add Via Structure                                                )
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Nov 24 21:01:33 2020                      )
+(    Date/Time        : Tue Nov 24 20:09:08 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-
-0 warnings, 0 errors detected, 0 errors could be fixed.
+The via structure add command was cancelled.
+Tue Nov 24 20:09:15 2020

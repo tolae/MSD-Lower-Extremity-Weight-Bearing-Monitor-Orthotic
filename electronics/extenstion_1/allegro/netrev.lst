@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Mon Oct 26 20:03:15 2020                      )
+(    Date/Time        : Tue Nov 24 19:34:54 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -68,7 +68,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Oct 26 20:03:15 2020
+netrev run on Nov 24 19:34:54 2020
    DESIGN NAME : 'MSD_FOOT_EXT1'
    PACKAGING ON Sep 27 2020 03:58:55
 
@@ -93,6 +93,6 @@ netrev run on Oct 26 20:03:15 2020
  No oversight detected
  No warning detected
 
-cpu time      0:00:34
+cpu time      0:00:30
 elapsed time  0:00:00
 

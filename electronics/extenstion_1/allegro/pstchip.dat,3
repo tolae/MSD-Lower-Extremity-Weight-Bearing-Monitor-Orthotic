@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Oct-26-2020 at 19:30:34}
+{ Using PSTWRITER 17.2.0 d001Nov-24-2020 at 19:33:58}
 primitive 'CAP NP_0402-CAP_47PF';
   pin
     '1':
@@ -13,21 +13,6 @@ primitive 'CAP NP_0402-CAP_47PF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='0402-CAP';
     VALUE='47pF';
-  end_body;
-end_primitive;
-primitive 'CAP NP_0402-CAP_0.1UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='0402-CAP';
-    VALUE='0.1uF';
   end_body;
 end_primitive;
 primitive 'CAP NP_0402-CAP_470P';
@@ -45,7 +30,37 @@ primitive 'CAP NP_0402-CAP_470P';
     VALUE='470p';
   end_body;
 end_primitive;
-primitive 'EXT1_MAIN_CONNECTOR_EXT1_MAIN_C';
+primitive 'CAP NP_0402-CAP_0.1U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0402-CAP';
+    VALUE='0.1u';
+  end_body;
+end_primitive;
+primitive 'CAP NP_0402-CAP_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='0402-CAP';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'EXT1_MAIN_CONNECTOR_0_EXT1_MAIN';
   pin
     'VDD':
       PIN_NUMBER='(1)';
@@ -62,7 +77,7 @@ primitive 'EXT1_MAIN_CONNECTOR_EXT1_MAIN_C';
     'A3':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
-    'CNC':
+    'SENSE':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
     'SEL0':
@@ -73,12 +88,12 @@ primitive 'EXT1_MAIN_CONNECTOR_EXT1_MAIN_C';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='EXT1_MAIN_CONNECTOR';
+    PART_NAME='EXT1_MAIN_CONNECTOR_0';
     JEDEC_TYPE='ext1_main_connector';
     VALUE='EXT1_MAIN_CONNECTOR';
   end_body;
 end_primitive;
-primitive 'EXT1_EXT2_CONNECTOR_EXT1_EXT2_C';
+primitive 'EXT1_EXT2_CONNECTOR_0_EXT1_EXT2';
   pin
     'A2':
       PIN_NUMBER='(3)';
@@ -86,7 +101,7 @@ primitive 'EXT1_EXT2_CONNECTOR_EXT1_EXT2_C';
     'A3':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
-    'CNC':
+    'SENSE':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
     'GND':
@@ -103,7 +118,7 @@ primitive 'EXT1_EXT2_CONNECTOR_EXT1_EXT2_C';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='EXT1_EXT2_CONNECTOR';
+    PART_NAME='EXT1_EXT2_CONNECTOR_0';
     JEDEC_TYPE='ext1_ext2_connector';
     VALUE='EXT1_EXT2_CONNECTOR';
   end_body;
@@ -121,51 +136,6 @@ primitive 'R_0402-RES_10K';
     PART_NAME='R';
     JEDEC_TYPE='0402-RES';
     VALUE='10k';
-  end_body;
-end_primitive;
-primitive 'R_0402-RES_1K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0402-RES';
-    VALUE='1k';
-  end_body;
-end_primitive;
-primitive 'R_0402-RES_1M';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0402-RES';
-    VALUE='1M';
-  end_body;
-end_primitive;
-primitive 'R_0402-RES_100K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0402-RES';
-    VALUE='100k';
   end_body;
 end_primitive;
 primitive 'R_0402-RES_120K';
@@ -198,6 +168,36 @@ primitive 'R_0402-RES_20K';
     VALUE='20k';
   end_body;
 end_primitive;
+primitive 'R_0402-RES_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'R_0402-RES_100K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0402-RES';
+    VALUE='100k';
+  end_body;
+end_primitive;
 primitive 'R_0402-RES_5K';
   pin
     '1':
@@ -226,6 +226,39 @@ primitive 'STRAIN CELL_STRAIN_CELL_STRAIN';
     PART_NAME='Strain Cell';
     JEDEC_TYPE='strain_cell';
     VALUE='Strain Cell';
+  end_body;
+end_primitive;
+primitive 'MCP6002-IMS_MSOP8_MC_MCH_MCP600';
+  pin
+    'VOUTA':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    'VINA-':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'VINA+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'VSS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VINB+':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'VINB-':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'VOUTB':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(*)';
+    'VDD':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MCP6002-IMS';
+    JEDEC_TYPE='MSOP8_MC_MCH';
+    VALUE='MCP6002-IMS';
   end_body;
 end_primitive;
 primitive 'TMUX1104DGSR_DGS10_TEX_TMUX1104';
@@ -277,63 +310,6 @@ primitive 'TMUX1104DGSR_DGS10_TEX_TMUX1104';
     PART_NAME='TMUX1104DGSR';
     JEDEC_TYPE='DGS10_TEX';
     VALUE='TMUX1104DGSR';
-  end_body;
-end_primitive;
-primitive 'MCP6001UT-EOT_SOT-23-5_MC_MCH_M';
-  pin
-    'VIN+':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(*)';
-    'VSS':
-      PIN_NUMBER='(2)';
-      PINUSE='POWER';
-    'VIN-':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(*)';
-    'VOUT':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(*)';
-    'VDD':
-      PIN_NUMBER='(5)';
-      PINUSE='POWER';
-  end_pin;
-  body
-    PART_NAME='MCP6001UT-EOT';
-    JEDEC_TYPE='SOT-23-5_MC_MCH';
-    VALUE='MCP6001UT-EOT';
-  end_body;
-end_primitive;
-primitive 'MCP6002-IMS_MSOP8_MC_MCH_MCP600';
-  pin
-    'VOUTA':
-      PIN_NUMBER='(1)';
-      OUTPUT_LOAD='(*)';
-    'VINA-':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-    'VINA+':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(*)';
-    'VSS':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VINB+':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(*)';
-    'VINB-':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(*)';
-    'VOUTB':
-      PIN_NUMBER='(7)';
-      OUTPUT_LOAD='(*)';
-    'VDD':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MCP6002-IMS';
-    JEDEC_TYPE='MSOP8_MC_MCH';
-    VALUE='MCP6002-IMS';
   end_body;
 end_primitive;
 END.

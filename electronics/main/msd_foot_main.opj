@@ -53,8 +53,7 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\msd_foot_main.dsn")
       (Path "Design Resources" ".\msd_foot_main.dsn" "SCHEMATIC2")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\msd_foot_main.dsn"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -75,8 +74,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 182 1212 182 655")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 182 1212 182 655")
+        (Scroll "-6 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -98,7 +97,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 234 1264 234 707")
-        (Scroll "568 180")
+        (Scroll "442 180")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -108,8 +107,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 763 26 499")
-        (Scroll "21 0")
+        (Placement "44 2 3 -1 -1 -8 -31 26 763 26 499")
+        (Scroll "-259 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path

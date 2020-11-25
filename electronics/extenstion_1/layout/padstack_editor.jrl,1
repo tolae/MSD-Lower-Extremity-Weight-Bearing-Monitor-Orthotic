@@ -1,0 +1,50 @@
+\t (00:00:00) padstack_editor 17.2 S071 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Oct 13 15:39:31 2020
+\t (00:00:00)         Host=DESKTOP-JV3CNMF User=Ethan Pid=12304 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession Ethan -file C:/Users/Ethan/AppData/Local/Temp/#Taaaabk12764.tmp -pname VIA -data C:/Users/Ethan/AppData/Local/Temp/#Taaaabm12764.tmp
+\t (00:00:00) 
+\d (00:00:08) QtFillin Yes
+\w (00:00:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:15) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:17) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:22) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
+\d (00:00:23) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
+\d (00:00:25) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:25) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:27) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Keep Out"
+\d (00:00:27) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Keep Out" 0 5
+\d (00:00:27) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:27) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:28) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:28) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:29) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:29) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:30) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:30) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:31) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:31) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:31) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:31) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:32) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:32) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:32) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:32) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:33) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:33) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:00:34) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:34) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:35) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:00:35) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:01:05) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777251 134217728 false +
+\d (00:01:05) QtSignal 1
+\d (00:02:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:02:19) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:02:20) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d 

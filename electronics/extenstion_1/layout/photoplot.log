@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Mon Oct 26 21:15:35 2020                      )
+(    Date/Time        : Tue Nov 24 21:07:37 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -13,17 +13,23 @@
 
 
 
-Results from parameter file ...
-    DEVICE-TYPE           GERBER_RS274X
-    OUTPUT-UNITS          INCHES
-    FILM-SIZE             2400000 1600000
-    FORMAT                2.5
-    ABORT-ON-ERROR        NO
-    SCALE                 1
-    SUPPRESS-LEAD-ZEROES  YES
-    SUPPRESS-TRAIL-ZEROES NO
-    SUPPRESS-EQUAL        YES
-    UNDEF-APT-CONT        NO
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
 
 
 
@@ -43,6 +49,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (15).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED (UNIT = IN):
@@ -50,17 +59,18 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.01200                                  DARK 
-  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
   CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
   SQUARE     0.07874                     0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
-  RECTANGLE  0.05156     x 0.02000       0.000 NO     DARK 
   RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
   RECTANGLE  0.06000     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.01800      90.000 NO     DARK 
   RECTANGLE  0.09843     x 0.03937       0.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
@@ -85,11 +95,11 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.01200                                  DARK 
-  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
   CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
 
-     BOTTOM created.
+     BOTTOM created with warnings
 
 
 ================================================================
@@ -116,7 +126,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
 
-     OUTLINE created.
+     OUTLINE created with warnings
 
 
 ================================================================
@@ -135,13 +145,16 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (12.94 239.72) in MIL
+    WARNING: text composed 0 width line found at (10469.60 7292.00) in MIL
+           ... using undefined line width of 0.13 MIL
+
+    WARNING: 0 width line found at (10539.57 7266.23) in MIL
+           ... using undefined line width of 0.13 MIL
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
            ... using undefined line width of 0.13 MIL
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.13 MIL
-
-    WARNING: text composed 0 width line found at (396.00 397.00) in MIL
            ... using undefined line width of 0.13 MIL
 
 
@@ -182,7 +195,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
 
-     PASTEMASK_BOT created.
+     PASTEMASK_BOT created with warnings
 
 
 ================================================================
@@ -208,8 +221,9 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
+  CIRCLE     0.04400                                  DARK 
 
-     SOLDERMASK_BOT created.
+     SOLDERMASK_BOT created with warnings
 
 
 ================================================================
@@ -237,11 +251,11 @@ Results from parameter file ...
   CIRCLE     0.00013                                  DARK 
   RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
-  RECTANGLE  0.05156     x 0.02000       0.000 NO     DARK 
   RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
   RECTANGLE  0.06000     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.01800      90.000 NO     DARK 
 
-     PASTEMASK_TOP created.
+     PASTEMASK_TOP created with warnings
 
 
 ================================================================
@@ -267,15 +281,16 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
+  CIRCLE     0.04400                                  DARK 
   SQUARE     0.08661                     0.000 NO     DARK 
   RECTANGLE  0.03556     x 0.04343       0.000 NO     DARK 
   RECTANGLE  0.03556     x 0.04343      90.000 NO     DARK 
-  RECTANGLE  0.05156     x 0.02000       0.000 NO     DARK 
   RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
   RECTANGLE  0.06000     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.01800      90.000 NO     DARK 
   RECTANGLE  0.10236     x 0.04724       0.000 NO     DARK 
 
-     SOLDERMASK_TOP created.
+     SOLDERMASK_TOP created with warnings
 
 
 ================================================================
@@ -302,7 +317,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
 
-     SILKSCREEN_BOT created.
+     SILKSCREEN_BOT created with warnings
 
 
 ================================================================
@@ -321,9 +336,6 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.13 MIL
-
 
 
   APERTURES USED (UNIT = IN):
@@ -335,9 +347,9 @@ Results from parameter file ...
   SQUARE     0.07874                     0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03543      90.000 NO     DARK 
-  RECTANGLE  0.05156     x 0.02000       0.000 NO     DARK 
   RECTANGLE  0.05228     x 0.01100       0.000 NO     DARK 
   RECTANGLE  0.06000     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.06000     x 0.01800      90.000 NO     DARK 
   RECTANGLE  0.09843     x 0.03937       0.000 NO     DARK 
 
      ASSEMBLY created with warnings
@@ -367,21 +379,21 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00013                                  DARK 
 
-     FAB created.
+     FAB created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
-        BOTTOM created.
-        OUTLINE created.
+        TOP created with warnings
+        BOTTOM created with warnings
+        OUTLINE created with warnings
         SILKSCREEN_TOP created with warnings
-        PASTEMASK_BOT created.
-        SOLDERMASK_BOT created.
-        PASTEMASK_TOP created.
-        SOLDERMASK_TOP created.
-        SILKSCREEN_BOT created.
+        PASTEMASK_BOT created with warnings
+        SOLDERMASK_BOT created with warnings
+        PASTEMASK_TOP created with warnings
+        SOLDERMASK_TOP created with warnings
+        SILKSCREEN_BOT created with warnings
         ASSEMBLY created with warnings
-        FAB created.
+        FAB created with warnings
 
  ARTWORK had warnings

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Mon Oct 26 20:54:39 2020                      )
+(    Date/Time        : Tue Nov 24 21:01:21 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  15
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
