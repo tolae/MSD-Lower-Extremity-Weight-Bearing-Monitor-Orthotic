@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : msd_foot_ext1.brd                             )
 (    Software Version : 17.2S071                                      )
-(    Date/Time        : Tue Nov 24 21:07:37 2020                      )
+(    Date/Time        : Wed Nov 25 01:55:09 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -145,10 +145,10 @@
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text composed 0 width line found at (10469.60 7292.00) in MIL
+    WARNING: text composed 0 width line found at (13.50 117.20) in MIL
            ... using undefined line width of 0.13 MIL
 
-    WARNING: 0 width line found at (10539.57 7266.23) in MIL
+    WARNING: 0 width line found at (83.47 91.43) in MIL
            ... using undefined line width of 0.13 MIL
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.

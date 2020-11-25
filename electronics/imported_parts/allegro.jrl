@@ -1,50 +1,24 @@
-\t (00:00:03) allegro 17.2 S071 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Mon Nov 23 20:39:00 2020
-\t (00:00:03)         Host=DESKTOP-JV3CNMF User=Ethan Pid=5412 CPUs=16
-\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\imported_parts\RSV16_TEX.dra
-\t (00:00:03) 
-   (00:00:04) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged RSV16_TEX
-\d (00:00:04) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts/RSV16_TEX.dra
-\i (00:00:05) trapsize 1516
-\i (00:00:05) trapsize 1558
-\i (00:00:05) trapsize 1516
-\i (00:00:05) trapsize 1602
+\t (00:00:02) allegro 17.2 S071 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Nov 24 21:31:23 2020
+\t (00:00:02)         Host=DESKTOP-JV3CNMF User=Ethan Pid=1992 CPUs=16
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\imported_parts\SOT-23-5_MC_MCH.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SOT-23-5_MC_MCH
+\d (00:00:05) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts/SOT-23-5_MC_MCH.dra
+\i (00:00:05) trapsize 1604
+\i (00:00:06) trapsize 1651
+\i (00:00:06) trapsize 1604
+\i (00:00:06) trapsize 1604
 \i (00:00:06) generaledit 
 \i (00:00:07) zoom out 1 
 \i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 10.414 44.114
-\i (00:00:07) trapsize 3204
+\i (00:00:07) zoom out 45.805 31.325
+\i (00:00:07) trapsize 3208
 \i (00:00:07) zoom out 1 
 \i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 10.414 44.114
-\i (00:00:07) trapsize 6408
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 10.415 49.242
-\i (00:00:07) trapsize 12817
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 0.162 85.074
-\i (00:00:07) trapsize 6408
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 0.162 85.074
-\i (00:00:07) trapsize 3204
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 4.648 -33.483
-\i (00:00:08) trapsize 1602
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 4.328 -29.638
-\i (00:00:08) trapsize 801
-\i (00:00:09) zoom out 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom out 5.930 -23.549
-\i (00:00:09) trapsize 1602
-\i (00:00:11) exit 
-\e (00:00:11) Do you want to save the changes you made to RSV16_TEX.dra?
-\i (00:00:12) fillin no 
-\t (00:00:13)     Journal end - Mon Nov 23 20:39:09 2020
+\i (00:00:07) zoom out 45.806 30.683
+\i (00:00:07) trapsize 6417
+\i (00:00:08) exit 
+\t (00:00:09)     Journal end - Tue Nov 24 21:31:29 2020

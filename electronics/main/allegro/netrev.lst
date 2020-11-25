@@ -1,0 +1,98 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : msd_foot_main.brd                             )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Tue Nov 24 23:56:23 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\allegro'
+Design Directory:            'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/main/layout'
+Old design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/main/layout/msd_foot_main.brd'
+New design name:             'C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/main/layout/msd_foot_main.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\ETHAN\PROJECTS\MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC\ELECTRONICS\MAIN\allegro C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\layout\msd_foot_main.brd C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\layout\msd_foot_main.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstchip.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstchip.dat (00:00:00.02)
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstxprt.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstxnet.dat 
+   Finished reading C:/USERS/ETHAN/PROJECTS/MSD-LOWER-EXTREMITY-WEIGHT-BEARING-MONITOR-ORTHOTIC/ELECTRONICS/MAIN/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/custom_parts/layout 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/custom/ 
+           C:/Users/Ethan/Projects/Embedded/BikeAddon/Hardware/imported/ 
+           C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/imported_parts 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 24 23:56:23 2020
+   DESIGN NAME : 'MSD_FOOT_MAIN'
+   PACKAGING ON Sep 27 2020 03:58:55
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:35
+elapsed time  0:00:01
+

@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : msd_foot_main.brd                             )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Wed Nov 25 01:00:31 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (9899.44 10167.08)  Net: GND

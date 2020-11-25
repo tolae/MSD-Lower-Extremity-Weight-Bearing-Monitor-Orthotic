@@ -1,261 +1,455 @@
-\t (00:00:02) allegro 17.2 S071 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Tue Nov 24 21:04:49 2020
-\t (00:00:02)         Host=DESKTOP-JV3CNMF User=Ethan Pid=14056 CPUs=16
-\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext1
-\d (00:00:05) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd
-\i (00:00:05) trapsize 566
-\i (00:00:05) trapsize 583
-\i (00:00:05) trapsize 566
-\i (00:00:05) trapsize 566
-\i (00:00:06) generaledit 
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 10812.88 7977.11
-\i (00:00:07) trapsize 283
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 10812.88 7977.11
-\i (00:00:07) trapsize 142
-\i (00:00:12) zoom out 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom out 10800.70 7993.53
-\i (00:00:12) trapsize 283
-\i (00:00:17) drag_start grid 10812.60 8007.13
-\i (00:00:17) slide 
-\t (00:00:17) last pick:  10811.40 8009.90
-\t (00:00:17) Waiting for the destination pick.
-\t (00:00:17) New cline would result in DRC error(s); retaining old cline.
-\i (00:00:21) drag_stop grid 10878.31 7961.82
-\t (00:00:21) No DRC errors detected.
-\i (00:00:21) generaledit 
-\i (00:00:26) pick grid 10861.32 7978.81
-\t (00:00:26) last pick:  10861.30 7978.80
-\i (00:00:27) delete 
-\i (00:00:28) generaledit 
-\i (00:00:28) pick grid 10851.12 7978.81
-\t (00:00:28) last pick:  10851.10 7978.80
-\i (00:00:28) delete 
-\i (00:00:29) generaledit 
-\i (00:00:29) drag_start grid 10879.44 7965.79
-\i (00:00:29) slide 
-\t (00:00:30) last pick:  10878.90 7962.40
-\t (00:00:30) Waiting for the destination pick.
-\t (00:00:30) New cline would result in DRC error(s); retaining old cline.
-\i (00:00:35) drag_stop grid 10848.29 8004.30
-\t (00:00:36) No DRC errors detected.
-\i (00:00:36) generaledit 
-\i (00:00:37) pick grid 10858.48 7990.71
-\t (00:00:37) last pick:  10858.50 7990.70
-\i (00:00:37) prepopup 10858.48 7990.71
-\i (00:00:43) pop dyn_option_select '@:@Assign net to via' 
-\i (00:00:43) via assign net 
-\t (00:00:44) Select net to assign to via(s)
-\i (00:00:45) setwindow form.mini
-\i (00:00:45) FORM mini netname_list  
-\i (00:00:52) fillin "Vout1"
-\t (00:00:52) Updated nets of 1 of 1 via(s)
-\t (00:00:52) Assigning selected via(s) to net: VOUT1
-\i (00:00:55) setwindow pcb
-\i (00:00:55) prepopup 10854.52 7992.41
-\i (00:00:55) done 
-\i (00:00:55) generaledit 
-\i (00:00:58) add connect 
-\t (00:00:58) Pick first element.
-\t (00:00:58) last pick:  10848.30 7997.03
-\i (00:00:58) mouse_pos 10854.52 8015.63
-\i (00:00:58) pick grid 10853.39 8022.43
-\t (00:00:58) last pick:  10853.40 8022.40
-\t (00:00:58) No DRC errors detected.
-\t (00:00:58) Pick first element.
+\t (00:00:03) allegro 17.2 S071 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Nov 25 01:51:56 2020
+\t (00:00:03)         Host=DESKTOP-JV3CNMF User=Ethan Pid=1072 CPUs=16
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\extenstion_1\layout\msd_foot_ext1.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged msd_foot_ext1
+\d (00:00:06) Design opened: C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd
+\i (00:00:06) trapsize 566
+\i (00:00:06) trapsize 583
+\i (00:00:06) trapsize 566
+\i (00:00:06) trapsize 566
+\i (00:00:07) generaledit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 10921.92 7815.12
+\i (00:00:08) trapsize 1133
+\i (00:00:10) color192 
+\i (00:00:10) generaledit 
+\i (00:00:12) QtSignal CVDNetContainer CVDClearAllNets clicked
+\i (00:00:14) QtFillin Yes
+\i (00:00:14) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
+\i (00:00:15) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:00:16) prepopup 11332.02 7751.68
+\i (00:00:21) roam start
+\i (00:00:21) roam x 32
+\i (00:00:21) roam y 64
+\i (00:00:21) roam x 80
+\i (00:00:21) roam y 64
+\i (00:00:21) roam y 16
+\i (00:00:21) roam x 16
+\i (00:00:21) roam y 16
+\i (00:00:21) roam x 32
+\i (00:00:21) roam y 32
+\i (00:00:21) roam y -16
+\i (00:00:21) roam x -16
+\i (00:00:21) roam y -32
+\i (00:00:21) roam x -32
+\i (00:00:21) roam y -16
+\i (00:00:22) roam end
+\i (00:00:26) chg origin 
+\t (00:00:26) Pick new location for drawing origin.
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10456.05 7152.71
+\i (00:00:28) trapsize 566
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10456.05 7152.71
+\i (00:00:28) trapsize 283
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10456.05 7152.71
+\i (00:00:28) trapsize 142
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10456.06 7152.71
+\i (00:00:28) trapsize 71
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10456.20 7166.02
+\i (00:00:28) trapsize 35
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 10455.56 7167.79
+\i (00:00:28) trapsize 18
+\i (00:00:29) prepopup 10456.16 7174.87
+\i (00:00:31) pop dyn_option_select 'Snap pick to@:@Segment Vertex' 
+\t (00:00:31) last pick:  10456.10 7174.80
+\i (00:00:31) trapsize 18
+\t (00:00:31) Pick point (10456.10 7174.80) changed to origin (0.00, 0.00)
+\i (00:00:31) generaledit 
+\i (00:00:32) prepopup 2.08 -2.83
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 6.72 5.95
+\i (00:00:33) trapsize 35
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 6.93 5.88
+\i (00:00:33) trapsize 71
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 7.21 5.89
+\i (00:00:33) trapsize 142
+\i (00:00:34) roam start
+\i (00:00:34) roam x 16
+\i (00:00:34) roam x 128
+\i (00:00:34) roam y -64
+\i (00:00:34) roam x 112
+\i (00:00:34) roam y -64
+\i (00:00:34) roam x 128
+\i (00:00:34) roam y -80
+\i (00:00:34) roam x 80
+\i (00:00:34) roam y -64
+\i (00:00:34) roam x 32
+\i (00:00:34) roam y -48
+\i (00:00:34) roam x 48
+\i (00:00:34) roam y -48
+\i (00:00:34) roam end
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 180.88 111.84
+\i (00:00:34) trapsize 283
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 180.88 111.83
+\i (00:00:34) trapsize 566
+\i (00:00:35) roam start
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 80
+\i (00:00:35) roam y -64
+\i (00:00:35) roam x 112
+\i (00:00:35) roam y -96
+\i (00:00:35) roam x 64
+\i (00:00:35) roam y -80
+\i (00:00:35) roam x 32
+\i (00:00:35) roam y -80
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -32
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x -16
+\i (00:00:35) roam y -48
+\i (00:00:36) roam x -48
+\i (00:00:36) roam y -32
+\i (00:00:36) roam x -128
+\i (00:00:36) roam y -48
+\i (00:00:36) roam x -48
+\i (00:00:36) roam y -32
+\i (00:00:36) roam x -32
+\i (00:00:36) roam y -16
+\i (00:00:36) roam end
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 351.09 774.25
+\i (00:00:36) trapsize 1133
+\i (00:00:37) roam start
+\i (00:00:37) roam x 16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 48
+\i (00:00:37) roam y -32
+\i (00:00:37) roam x 32
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 32
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 48
+\i (00:00:37) roam y -16
+\i (00:00:37) roam x 32
+\i (00:00:37) roam end
+\i (00:00:38) done 
+\i (00:00:38) place manual 
+\i (00:00:39) FORM plc_manual placement_list 
+\i (00:00:39) FORM plc_manual categories Components by refdes 
+\i (00:00:39) trapsize 1133
+\i (00:00:40) setwindow form.plc_manual
+\i (00:00:40) FORM plc_manual advanced_settings  
+\i (00:00:41) FORM plc_manual library YES 
+\i (00:00:42) FORM plc_manual placement_list  
+\i (00:00:46) FORM plc_manual categories Format symbols 
+\i (00:00:47) FORM plc_manual tree 'MULTISEL YES' ASIZEV 'Format symbols' 
+\i (00:00:47) FORM plc_manual tree  ASIZEV 'Format symbols' 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 33.92 75.33
+\i (00:00:48) trapsize 2266
+\i (00:00:48) zoom out 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom out 33.93 75.33
+\i (00:00:48) trapsize 4531
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out -491.71 -1510.63
+\i (00:00:49) trapsize 9081
+\i (00:00:51) pick grid -1429.39 -5431.21
+\t (00:00:51) last pick:  -1429.40 -5431.20
+\i (00:00:53) setwindow form.plc_manual
+\i (00:00:53) FORM plc_manual done  
+\i (00:00:53) setwindow pcb
+\i (00:00:53) generaledit 
+\i (00:00:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation"
+\i (00:00:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation"
+\i (00:00:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:00:56) QtSignal Documentation
+\i (00:00:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:00:56) QtSignal Documentation
+\i (00:00:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:00:57) QtSignal Documentation "Drill Chart"
+\i (00:00:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:00:57) QtSignal Documentation "Drill Chart"
+\i (00:00:57) ncdrill legend 
+   (00:00:57) Loading mfg.cxt 
+\i (00:00:58) setwindow form.nc_drilllegend
+\i (00:00:58) FORM nc_drilllegend cancel  
+\i (00:00:59) setwindow pcb
 \i (00:00:59) generaledit 
-\i (00:01:00) add connect 
-\t (00:01:01) Pick first element.
-\i (00:01:01) pick grid 10849.99 7923.87
-\t (00:01:01) last pick:  10850.00 7923.90
-\t (00:01:01) last pick:  10849.70 7921.70
-\t (00:01:01) Target Via is defined from TOP to BOTTOM.
-\t (00:01:01) last pick:  10849.70 7921.70
-\i (00:01:02) mouse_pos 10849.99 7973.72
-\i (00:01:03) pick grid 10851.69 7993.54
-\t (00:01:03) last pick:  10851.70 7993.50
-\t (00:01:03) No DRC errors detected.
-\t (00:01:03) Pick first element.
-\i (00:01:04) prepopup 10860.18 7978.25
-\i (00:01:04) done 
-\i (00:01:04) generaledit 
-\i (00:01:11) prepopup 10848.85 7993.54
-\i (00:01:14) drag_start grid 10815.44 7980.51
-\i (00:01:14) move 
-\t (00:01:14) last pick:  10787.90 7961.50
-\t (00:01:14) Pick new location for the element(s).
-\i (00:01:19) drag_stop grid 10768.99 7970.88
-\i (00:01:20) generaledit 
-\i (00:01:20) prepopup 10872.08 7967.48
-\i (00:01:22) save 
-\i (00:01:23) fillin yes 
-\i (00:01:23) generaledit 
-\i (00:01:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities
-\i (00:01:40) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities
-\i (00:01:42) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables"
-\i (00:01:42) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables"
-\i (00:01:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities "Display Status"
-\i (00:01:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities "Display Status"
-\i (00:01:44) status 
-\i (00:01:44) generaledit 
-\i (00:01:47) setwindow form.status
-\i (00:01:47) FORM status drc_update  
-\t (00:01:47) Running DRC, wait...
-\t (00:01:47) Performing DRC...
-\t (00:01:47) Multithreaded DRC update (16 threads).
-\t (00:01:47) DRC done; 15 errors detected.
-\t (00:01:47) DRC done.
-\i (00:01:49) FORM status done  
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 1 
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 11110.54 8003.74
-\i (00:01:53) trapsize 566
-\i (00:01:56) slide 
-\t (00:01:57) Selected item not valid for current operation, ignored: Text "Tp5"
-\t (00:01:57) No valid items selected for the current operation, exiting.
-\i (00:01:57) generaledit 
-\i (00:01:58) pick grid 11135.46 7998.07
-\t (00:01:58) last pick:  11135.50 7998.10
-\i (00:02:01) slide 
-\t (00:02:01) last pick:  11132.90 7998.10
-\t (00:02:01) Waiting for the destination pick.
-\t (00:02:02) New cline would result in DRC error(s); retaining old cline.
-\i (00:02:03) pick grid 11152.45 8083.03
-\t (00:02:03) last pick:  11152.50 8083.00
-\t (00:02:03) No DRC errors detected.
-\i (00:02:04) generaledit 
-\i (00:02:04) pick grid 11287.26 8083.03
-\t (00:02:04) last pick:  11287.30 8083.00
-\i (00:02:06) slide 
-\t (00:02:06) Pick element to slide.
-\i (00:02:07) pick grid 11119.60 7900.64
-\t (00:02:07) last pick:  11119.60 7900.60
-\t (00:02:07) last pick:  11118.78 7901.47
-\t (00:02:07) Waiting for the destination pick.
-\t (00:02:07) Start slide location has pre-existing DRC errors.
-\i (00:02:09) pick grid 11193.23 7823.61
-\t (00:02:09) last pick:  11193.20 7823.60
-\t (00:02:09) No DRC errors detected.
-\t (00:02:09) Pick another element to slide.
-\i (00:02:10) pick grid 11146.79 7948.22
-\t (00:02:10) last pick:  11146.80 7948.20
-\t (00:02:10) last pick:  11152.50 7948.22
-\t (00:02:10) Waiting for the destination pick.
-\i (00:02:12) pick grid 11186.43 7950.49
-\t (00:02:12) last pick:  11186.40 7950.50
-\t (00:02:12) No DRC errors detected.
-\t (00:02:12) Pick another element to slide.
-\i (00:02:13) pick grid 11184.17 7948.22
-\t (00:02:13) last pick:  11184.20 7948.20
-\t (00:02:13) last pick:  11186.40 7948.22
-\t (00:02:13) Waiting for the destination pick.
-\i (00:02:14) pick grid 11178.51 7947.09
-\t (00:02:14) last pick:  11178.50 7947.10
-\t (00:02:14) No DRC errors detected.
-\t (00:02:14) Pick another element to slide.
-\i (00:02:15) pick grid 11178.51 7945.96
-\t (00:02:15) last pick:  11178.50 7946.00
-\t (00:02:15) last pick:  11178.50 7945.96
-\t (00:02:15) Waiting for the destination pick.
-\i (00:02:17) pick grid 11183.04 7945.96
-\t (00:02:17) last pick:  11183.00 7946.00
-\t (00:02:17) No DRC errors detected.
-\t (00:02:17) Pick another element to slide.
-\i (00:02:19) pick grid 11154.72 7807.75
-\t (00:02:19) last pick:  11154.70 7807.80
-\t (00:02:19) last pick:  11152.50 7813.51
-\t (00:02:19) Waiting for the destination pick.
-\i (00:02:20) pick grid 11169.44 7764.70
-\t (00:02:20) last pick:  11169.40 7764.70
-\t (00:02:20) No DRC errors detected.
-\t (00:02:20) Pick another element to slide.
-\i (00:02:21) pick grid 11107.14 7781.70
-\t (00:02:21) last pick:  11107.10 7781.70
-\t (00:02:21) last pick:  11107.14 7783.35
-\t (00:02:21) Waiting for the destination pick.
-\i (00:02:22) prepopup 11118.47 7781.70
-\i (00:02:23) done 
-\i (00:02:23) generaledit 
-\i (00:02:24) pick grid 11104.87 7780.56
-\t (00:02:24) last pick:  11104.90 7780.60
-\i (00:02:25) delete 
-\i (00:02:25) generaledit 
-\i (00:02:25) pick grid 11144.52 7797.56
-\t (00:02:25) last pick:  11144.50 7797.60
-\i (00:02:26) delete 
-\i (00:02:26) generaledit 
-\i (00:02:26) zoom in 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom in 11169.44 7785.09
-\i (00:02:26) trapsize 283
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out 11168.87 7787.93
-\i (00:02:27) trapsize 566
-\i (00:02:27) add connect 
-\t (00:02:28) Pick first element.
-\i (00:02:28) pick grid 11182.47 7841.17
-\t (00:02:28) last pick:  11182.50 7841.20
-\t (00:02:28) last pick:  11183.00 7843.85
-\t (00:02:28) Target Symbol Pin is defined on TOP.
-\t (00:02:28) last pick:  11183.00 7843.85
-\i (00:02:29) mouse_pos 11151.89 7743.75
-\i (00:02:29) mouse_pos 11142.82 7735.82
-\i (00:02:30) pick grid 11133.76 7727.89
-\t (00:02:30) last pick:  11133.80 7727.90
-\t (00:02:30) No DRC errors detected.
-\t (00:02:30) Pick first element.
-\i (00:02:30) prepopup 11155.29 7735.82
-\i (00:02:31) done 
-\i (00:02:31) generaledit 
-\i (00:02:43) prepopup 10983.10 7786.80
-\i (00:02:45) save 
-\i (00:02:47) fillin yes 
-\i (00:02:47) generaledit 
-\i (00:02:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables" +
-\i (00:02:48) QtSignal "Artwork (Gerber)"
-\i (00:02:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables" +
-\i (00:02:48) QtSignal "Artwork (Gerber)"
-\i (00:02:48) artwork 
-\i (00:02:50) setwindow form.film_control
-\i (00:02:50) FORM film_control select_all  
-\i (00:02:50) FORM film_control create  
-\t (00:02:50) Checking db records
-\t (00:02:50)     checking for orphans...
-\t (00:02:50)     Checked 100 percent
-\t (00:02:50) Done dbdoctor.
-\t (00:02:50) Starting Create artwork films...
-\w (00:02:51) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:02:52) Artwork generated with warnings.
-\i (00:02:53) setwindow pcb
-\i (00:02:53) setwindow text
-\i (00:02:53) close
-\i (00:02:53) setwindow form.film_control
-\i (00:02:53) FORM film_control cancel  
-\i (00:02:53) setwindow pcb
-\i (00:02:53) generaledit 
-\i (00:02:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables" +
-\i (00:02:54) QtSignal NCDrill
-\i (00:02:54) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables" +
-\i (00:02:54) QtSignal NCDrill
-\i (00:02:54) nctape_full 
-\i (00:02:56) setwindow form.nc_drill
-\i (00:02:56) FORM nc_drill execute  
-\t (00:02:56) Starting Generating NC Drill...
-\i (00:03:00) FORM nc_drill close  
-\i (00:03:00) setwindow pcb
-\i (00:03:00) generaledit 
-\i (00:04:28) exit 
-\e (00:04:28) Do you want to save the changes you made to C:/Users/Ethan/Projects/MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic/electronics/extenstion_1/layout/msd_foot_ext1.brd?
-\i (00:04:29) fillin yes 
-   (00:04:29) Loading signal.cxt 
-\t (00:04:29)     Journal end - Tue Nov 24 21:09:16 2020
+\i (00:01:21) xsection 
+\i (00:01:22) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged Info
+\i (00:01:26) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged "Embedded layers setup"
+\i (00:01:27) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged "Unused pads suppression"
+\i (00:01:27) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged "Refresh materials"
+\i (00:01:28) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged "Embedded layers setup"
+\i (00:01:28) QtSignal CCMQtXSectionDlg m_dialogsTab currentChanged Info
+\i (00:01:30) QtSignal CCMQtXSectionDlg m_CancelBtn clicked
+\i (00:01:30) generaledit 
+\i (00:01:49) ncdrill customization 
+\i (00:01:49) generaledit 
+\i (00:01:51) setwindow form.nc_drillcustomization
+\i (00:01:51) FORM nc_drillcustomization validate  
+\i (00:01:54) FORM nc_drillcustomization auto_symbols  
+\i (00:01:55) fillin yes 
+\i (00:01:56) FORM nc_drillcustomization done  
+\i (00:01:57) fillin yes 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:01:58) QtSignal Documentation "Drill Chart"
+\i (00:01:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:01:58) QtSignal Documentation "Drill Chart"
+\i (00:01:58) ncdrill legend 
+   (00:01:59) Loading consmgr.cxt 
+   (00:01:59) Loading acns_formula.cxt 
+\i (00:02:00) setwindow form.nc_drilllegend
+\i (00:02:00) FORM nc_drilllegend done  
+\i (00:02:02) setwindow pcb
+\i (00:02:02) pick grid 1349.46 -2125.65
+\t (00:02:02) last pick:  1349.50 -2125.60
+\t (00:02:02) NC Drill Legend generation successful
+\i (00:02:02) generaledit 
+\i (00:02:04) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:02:04) QtSignal Documentation "Cross Section Detail"
+\i (00:02:04) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:02:04) QtSignal Documentation "Cross Section Detail"
+\i (00:02:04) xsection_chart 
+\i (00:02:06) setwindow form.xsectionChart
+\i (00:02:06) FORM xsectionChart xsectionchart_ok  
+\i (00:02:07) setwindow pcb
+\i (00:02:07) prepopup 3565.27 -1435.48
+\i (00:02:08) cancel 
+\i (00:02:09) generaledit 
+\i (00:02:09) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:02:09) QtSignal Documentation "Cross Section Detail"
+\i (00:02:09) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:02:09) QtSignal Documentation "Cross Section Detail"
+\i (00:02:09) xsection_chart 
+\i (00:02:11) setwindow form.xsectionChart
+\i (00:02:11) FORM xsectionChart xsectionchart_ok  
+\i (00:02:13) setwindow pcb
+\i (00:02:13) pick grid 3002.23 -1217.54
+\t (00:02:13) last pick:  3002.20 -1217.50
+\i (00:02:13) generaledit 
+\i (00:02:15) dimension edit 
+\i (00:02:17) prepopup -3100.33 8571.99
+\i (00:02:18) pop dyn_option_select '@:@Linear dimension' 
+\t (00:02:18) Pick an element or point to dimension ...
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 641.12 -109.63
+\i (00:02:19) trapsize 4541
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 622.96 -27.90
+\i (00:02:19) trapsize 2270
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 622.96 31.14
+\i (00:02:19) trapsize 1135
+\i (00:02:20) roam start
+\i (00:02:20) roam y -16
+\i (00:02:20) roam y -16
+\i (00:02:20) roam y -16
+\i (00:02:20) roam y -16
+\i (00:02:20) roam y -48
+\i (00:02:20) roam y -32
+\i (00:02:20) roam y -16
+\i (00:02:20) roam end
+\i (00:02:21) pick grid 754.64 927.89
+\t (00:02:21) last pick:  754.60 927.90
+\t (00:02:21) Pick location for the dimension value.
+\i (00:02:25) pick grid 1151.94 621.40
+\t (00:02:25) last pick:  1151.90 621.40
+\t (00:02:25) Pick an element or point to dimension ...
+\i (00:02:25) roam start
+\i (00:02:25) roam y -64
+\i (00:02:26) roam y -96
+\i (00:02:26) roam y -80
+\i (00:02:26) roam y -16
+\i (00:02:26) roam y -48
+\i (00:02:26) roam y -32
+\i (00:02:26) roam end
+\i (00:02:28) pick grid 246.09 1248.00
+\t (00:02:28) last pick:  246.10 1248.00
+\t (00:02:28) Pick an element or point to dimension ...
+\t (00:02:28) Pick location for the dimension value.
+\i (00:02:30) pick grid 325.55 1504.55
+\t (00:02:30) last pick:  325.60 1504.60
+\t (00:02:30) Pick an element or point to dimension ...
+\i (00:02:30) prepopup 341.44 1484.12
+\i (00:02:32) done 
+\i (00:02:32) generaledit 
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 693.34 503.35
+\i (00:02:33) trapsize 2270
+\i (00:02:33) roam start
+\i (00:02:33) roam x 32
+\i (00:02:33) roam y 48
+\i (00:02:33) roam x 48
+\i (00:02:33) roam y 48
+\i (00:02:33) roam x 80
+\i (00:02:33) roam y 48
+\i (00:02:33) roam x 112
+\i (00:02:33) roam y 32
+\i (00:02:33) roam x 96
+\i (00:02:33) roam y 48
+\i (00:02:33) roam x 48
+\i (00:02:33) roam y 16
+\i (00:02:33) roam x 16
+\i (00:02:33) roam y 32
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y 32
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y 48
+\i (00:02:34) roam y 16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y 32
+\i (00:02:34) roam end
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out 2757.04 -1058.61
+\i (00:02:34) trapsize 4541
+\i (00:02:36) roam start
+\i (00:02:36) roam x -16
+\i (00:02:36) roam y 64
+\i (00:02:36) roam x -32
+\i (00:02:36) roam y 80
+\i (00:02:36) roam y 64
+\i (00:02:36) roam y 64
+\i (00:02:36) roam y 48
+\i (00:02:36) roam y 64
+\i (00:02:36) roam x 16
+\i (00:02:36) roam y 16
+\i (00:02:37) roam y 16
+\i (00:02:37) roam y -48
+\i (00:02:37) roam x 16
+\i (00:02:37) roam y -32
+\i (00:02:37) roam y -16
+\i (00:02:37) roam end
+\i (00:02:37) prepopup 3646.99 -3533.24
+\i (00:02:42) pick grid 4682.25 -4105.35
+\t (00:02:42) last pick:  4682.30 -4105.30
+\i (00:02:42) pick grid 3883.10 -3569.56
+\t (00:02:42) last pick:  3883.10 -3569.60
+\i (00:02:42) prepopup 3883.10 -3569.56
+\i (00:02:45) pop dyn_option_select '@:@Text edit' 
+\i (00:02:45) text edit 
+\i (00:02:50) setwindow form.textedit
+\i (00:02:50) FORM textedit str 'P20016 RIT MSD' 
+\i (00:02:50) FORM textedit done  
+\i (00:02:50) setwindow pcb
+\i (00:02:50) pick 0.00 0.00
+\t (00:02:50) Pick text to edit.
+\i (00:02:50) setwindow pcb
+\i (00:02:50) generaledit 
+\i (00:02:57) save 
+\i (00:02:59) fillin yes 
+\i (00:02:59) generaledit 
+\i (00:03:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:03:01) QtSignal "Artwork (Film Records) Setup"
+\i (00:03:01) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:03:01) QtSignal "Artwork (Film Records) Setup"
+\i (00:03:01) artwork 
+\i (00:03:04) setwindow form.film_control
+\i (00:03:04) FORM film_control select_all  
+\i (00:03:08) FORM film_control cancel  
+\i (00:03:08) setwindow pcb
+\i (00:03:08) generaledit 
+\i (00:03:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Preparation" +
+\i (00:03:12) QtSignal "Artwork (Film Records) Setup"
+\i (00:03:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Preparation" +
+\i (00:03:12) QtSignal "Artwork (Film Records) Setup"
+\i (00:03:12) artwork 
+\i (00:03:13) setwindow form.film_control
+\i (00:03:13) FORM film_control select_all  
+\i (00:03:16) FORM film_control create  
+\t (00:03:16) Checking db records
+\t (00:03:16)     checking for orphans...
+\t (00:03:16)     Checked 100 percent
+\t (00:03:16) Done dbdoctor.
+\t (00:03:16) Starting Create artwork films...
+\w (00:03:16) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:03:17) Artwork generated with warnings.
+\i (00:03:18) setwindow pcb
+\i (00:03:18) setwindow text
+\i (00:03:18) close
+\i (00:03:19) setwindow form.film_control
+\i (00:03:19) FORM film_control ok  
+\i (00:03:20) setwindow pcb
+\i (00:03:20) generaledit 
+\i (00:03:22) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities
+\i (00:03:22) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities
+\i (00:03:22) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities
+\i (00:03:22) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities
+\i (00:03:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables"
+\i (00:03:23) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables"
+\i (00:03:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables" +
+\i (00:03:24) QtSignal "Artwork (Gerber)"
+\i (00:03:24) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables" +
+\i (00:03:24) QtSignal "Artwork (Gerber)"
+\i (00:03:24) artwork 
+\i (00:03:25) setwindow form.film_control
+\i (00:03:25) FORM film_control cancel  
+\i (00:03:25) setwindow pcb
+\i (00:03:25) generaledit 
+\i (00:03:26) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Manufacturing Deliverables" +
+\i (00:03:26) QtSignal NCDrill
+\i (00:03:26) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Manufacturing Deliverables" +
+\i (00:03:26) QtSignal NCDrill
+\i (00:03:26) nctape_full 
+\i (00:03:28) setwindow form.nc_drill
+\i (00:03:28) FORM nc_drill auto_tool_select YES 
+\i (00:03:30) FORM nc_drill execute  
+\t (00:03:30) Starting Generating NC Drill...
+\i (00:03:32) FORM nc_drill parameters  
+\i (00:03:34) setwindow form.nc_parameters
+\i (00:03:34) FORM nc_parameters enhanced_format YES 
+\i (00:03:34) FORM nc_parameters suppress_lead_zeroes YES 
+\i (00:03:36) FORM nc_parameters done  
+\i (00:03:37) setwindow form.nc_drill
+\i (00:03:37) FORM nc_drill parameters  
+\i (00:03:41) setwindow form.nc_parameters
+\i (00:03:41) FORM nc_parameters done  
+\i (00:03:43) setwindow form.nc_drill
+\i (00:03:43) FORM nc_drill execute  
+\t (00:03:43) Starting Generating NC Drill...
+\i (00:03:55) FORM nc_drill parameters  
+\i (00:03:57) setwindow form.nc_parameters
+\i (00:03:57) FORM nc_parameters done  
+\i (00:03:58) setwindow form.nc_drill
+\i (00:03:58) FORM nc_drill execute  
+\t (00:03:58) Starting Generating NC Drill...
+\i (00:04:01) FORM nc_drill cancel  
+\i (00:04:02) setwindow pcb
+\i (00:04:02) generaledit 
+\i (00:04:04) save 
+\i (00:04:05) fillin yes 
+   (00:04:05) Loading signal.cxt 
+\i (00:04:06) generaledit 
+\i (00:04:06) exit 
+\t (00:04:07)     Journal end - Wed Nov 25 01:55:59 2020

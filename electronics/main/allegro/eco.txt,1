@@ -1,0 +1,31 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../electronics/main/layout/msd_foot_main.brd                             |
+|                                                    Tue Nov 24 23:05:57 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SC5_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U6.11           9676.74 10272.8
+                                                                      SC6_VOUT1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC6_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U6.10           9665.61 10261.7
+                                                                      SC5_VOUT1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC7_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U6.9            9654.47 10250.6
+                                                                      SC8_VOUT1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC8_VOUT1    pins MOVED FROM this net (to net name listed on right)
+                                 U6.8            9633.59 10239.4
+                                                                      SC7_VOUT1
+|------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
+|                                                                              |
+|   Total ECO changes reported:       4                                        |
+|------------------------------------------------------------------------------|

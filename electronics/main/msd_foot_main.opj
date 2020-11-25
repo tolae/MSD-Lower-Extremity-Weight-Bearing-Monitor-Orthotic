@@ -12,10 +12,42 @@
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (RootChangedForceReNetlist "x"))
-  (Folder "Outputs")
+    (RootChangedForceReNetlist "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\layout\msd_foot_main.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\Ethan\Projects\MSD-Lower-Extremity-Weight-Bearing-Monitor-Orthotic\electronics\main\layout\msd_foot_main.brd"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -51,8 +83,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\msd_foot_main.dsn")
-      (Path "Design Resources" ".\msd_foot_main.dsn" "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\main\msd_foot_main.dsn")
+      (Path "Design Resources"
+         "c:\users\ethan\projects\msd-lower-extremity-weight-bearing-monitor-orthotic\electronics\main\msd_foot_main.dsn"
+         "SCHEMATIC2")
       (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
@@ -63,8 +98,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1056 26 499")
-        (Scroll "-6 0")
+        (Placement "44 2 3 -1 -1 -8 -31 26 1056 26 499")
+        (Scroll "-113 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -97,7 +132,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 234 1264 234 707")
-        (Scroll "442 180")
+        (Scroll "442 200")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -107,8 +142,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 763 26 499")
-        (Scroll "-259 0")
+        (Placement "44 0 1 -1 -1 -8 -31 26 763 26 499")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -116,4 +151,5 @@
       (Schematic "SCHEMATIC2")
       (Page "PAGE5")))
   (LastUsedLibraryBrowseDirectory
-     "C:\Cadence\SPB_17.2\tools\capture\library\iec"))
+     "C:\Cadence\SPB_17.2\tools\capture\library\iec")
+  (ISPCBBASICLICENSE "false"))
