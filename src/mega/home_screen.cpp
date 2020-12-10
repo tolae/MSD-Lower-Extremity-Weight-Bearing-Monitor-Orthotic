@@ -77,9 +77,7 @@ void HomeScreen::load(const BaseLoadData* params)
 
 const BaseLoadData* HomeScreen::unload()
 {
-	speaker_vol.end();
-    vib_motor.disable();
-	disable_timer(TimerModule::TIM_3);
+	reset_state_machine();
 	return new SettingsLoadData(str_val_Weight->text());
 }
 

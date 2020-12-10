@@ -26,9 +26,9 @@
 
 
 // The display uses hardware SPI, plus #9 & #10
-#define TFT_CS 40
-#define TFT_DC 41
-#define TFT_RST 39 // RST can be set to -1 if you tie it to Arduino's reset
+#define TFT_CS 10
+#define TFT_DC 9
+#define TFT_RST 8 // RST can be set to -1 if you tie it to Arduino's reset
 
 #define VIRBATOR_PWM_PIN 3
 
@@ -70,11 +70,11 @@ VibratorMotor vib_motor(VIRBATOR_PWM_PIN, 1);
 ScreenManager* screen_manager = new ScreenManager();
 
 void setup(void) {
-    /* Initialize hardware */
-	speaker_vol.setMasterVolume(1);
 	Serial.begin(115200);
 	while(!Serial);
 	Serial.println("Gui Widgets test!");
+    /* Initialize hardware */
+	speaker_vol.setMasterVolume(1);
 	
 	tft.begin();
 	// in multiples of 90 only

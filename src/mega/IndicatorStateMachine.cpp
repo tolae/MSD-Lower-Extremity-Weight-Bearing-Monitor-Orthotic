@@ -2,6 +2,8 @@
 #include "inc/mega.h"
 #include "inc/timer.h"
 
+const timer_module_t TIMER_BEING_USED = TimerModule::TIM_2;
+
 void _flash_green();
 void _flash_yellow();
 
@@ -10,36 +12,37 @@ void _flash_yellow();
 
 /* Transfer Functions */
 
-/* Turn everything off */
 void into_no_func()
 {
-	disable_timer(TimerModule::TIM_3);
+	disable_timer(TIMER_BEING_USED);
 	speaker_vol.noTone();
 	vib_motor.disable();
 	tft.drawCircle(60, 160, 40, COLOR_LIGHTGREY);
 	tft.fillCircle(60, 160, 40, COLOR_LIGHTGREY);
 }
 
-/* Start low level indication to user */
 void into_low_func()
 {
-	configure_timer(TimerModule::TIM_3, _flash_green, 2, TimerPrescaler::TEN_TWO_FOUR);
+	configure_timer(TIMER_BEING_USED, _flash_green, 2, TimerPrescaler::TEN_TWO_FOUR);
 }
 
-/* Start medium level indication to user */
 void into_med_func()
 {
-	configure_timer(TimerModule::TIM_3, _flash_yellow, 10, TimerPrescaler::TEN_TWO_FOUR);
+	configure_timer(TIMER_BEING_USED, _flash_yellow, 10, TimerPrescaler::TEN_TWO_FOUR);
 }
 
-/* Start high level indication to user */
 void into_high_func()
 {
-	disable_timer(TimerModule::TIM_3);
+	disable_timer(TIMER_BEING_USED);
 	speaker_vol.tone(100, 255);
     vib_motor.enable();
 	tft.drawCircle(60, 160, 40, COLOR_RED);
 	tft.fillCircle(60, 160, 40, COLOR_RED);
+}
+
+void ext_reset_state_machine(void)
+{
+    into_no_func();
 }
 
 void _flash_green()

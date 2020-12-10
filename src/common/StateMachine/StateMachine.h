@@ -131,4 +131,15 @@ state_machine_state_enum_t initialize_state_machine(state_machine_config_t confi
  */
 state_machine_state_enum_t update_state_machine(state_machine_params_t params);
 
+/** Manually resets the state machine to its initial state.
+ * 
+ * This is the base reset command. The user should use ext_reset_state_machine()
+ * function to implement any additional reset functionality.
+ * 
+ * @returns The initial state machine state.
+ */
+state_machine_state_enum_t reset_state_machine(void);
+
+void ext_reset_state_machine();
+
 #endif

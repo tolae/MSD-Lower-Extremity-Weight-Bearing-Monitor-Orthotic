@@ -28,6 +28,7 @@ typedef struct
 } state_machine_hysteresis_config_t;
 
 /* Private Variables */
+
 state_machine_state_t* previous_state = NULL;
 state_machine_state_t* current_state = NULL;
 state_machine_hysteresis_config_t hysteresis_config =
@@ -81,13 +82,9 @@ uint8_t check_transition(
 state_machine_state_enum_t initialize_state_machine(state_machine_config_t config)
 {
 	state_machine = config.state_machine;
+    hysteresis_config.hysteresis = config.hysteresis;
 
-	current_state = state_machine[INITIAL_STATE];
-	previous_state = state_machine[INITIAL_STATE];
-	hysteresis_config.hysteresis = config.hysteresis;
-	hysteresis_config.returning_state = INVALID_STATE;
-    current_state->state_execution();
-	return current_state->state;
+	return reset_state_machine();
 }
 
 state_machine_state_enum_t update_state_machine(state_machine_params_t params)
@@ -116,6 +113,19 @@ state_machine_state_enum_t update_state_machine(state_machine_params_t params)
 	/* Update the state machine */
 	current_state = transition.next_state;
 	return current_state->state;
+}
+
+state_machine_state_enum_t reset_state_machine(void)
+{
+    /* Initialize each state and hystersis configuration */
+    current_state = state_machine[INITIAL_STATE];
+	previous_state = state_machine[INITIAL_STATE];
+	hysteresis_config.returning_state = INVALID_STATE;
+    /* Execute the current state */
+    current_state->state_execution();
+    /* Execute any user configurations */
+    ext_reset_state_machine();
+    return current_state->state;
 }
 
 /* Private Function Implementations */
