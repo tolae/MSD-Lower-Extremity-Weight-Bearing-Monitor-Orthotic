@@ -59,10 +59,17 @@ void loop() {
 	if (curr_weight != prev_weight)
 	{
 		prev_weight = curr_weight;
+		#ifdef DEBUG_WITH_ALTSOFT
+		/* Print out to serial terminal */
+		Serial.print("Weight: ");
+		Serial.println(curr_weight);
+		#else
+		/* Transmit the package over bluetooth */
 		memcpy(out_package.data, &curr_weight, 2);
 		out_package.opcode = BluetoothMod::WEIGHT;
 		out_package.len = 2;
 		mod->transmitPackage(out_package);
+		#endif
 	}
 	/* Update LED State Machine */
 	update_state_machine({.distance = curr_weight});
