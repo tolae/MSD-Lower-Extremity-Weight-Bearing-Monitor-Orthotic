@@ -68,6 +68,39 @@
         "panel": "new"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Compile to Arduino UNO Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile --fqbn arduino:avr:uno --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Upload to Arduino UNO Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe upload -p ${input:port} --fqbn arduino:avr:uno ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile & Upload to Arduino UNO Rev3",
+      "type": "shell",
+      "group": "build",
+      "command": "arduino-cli.exe compile -p ${input:port} -u -t --fqbn arduino:avr:uno --libraries ${workspaceFolder}\\src\\common ${fileDirname}",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [
