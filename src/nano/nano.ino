@@ -2,11 +2,8 @@
 #include <BluetoothCommon.h>
 #include <StateMachine.h>
 #include <IndicatorStateMachine.h>
+#include "inc/nano.h"
 #include "inc/weighting.h"
-
-#define DEBUG_WITH_ALTSOFT
-
-#define BLUETOOTH_MOD_CONNECTION_PIN 8
 
 #ifdef DEBUG_WITH_ALTSOFT
 AltSoftSerial BTserial;
