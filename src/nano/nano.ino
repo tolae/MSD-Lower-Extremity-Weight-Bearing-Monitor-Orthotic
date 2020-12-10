@@ -18,6 +18,13 @@ uint16_t set_threshold;
 uint16_t curr_weight;
 uint16_t prev_weight;
 
+/** Polls for bluetooth communication.
+ * 
+ * Checks to see if the digital pin is still high for bluetooth connection.
+ * Checks every 500ms if bluetooth communication is not established.
+ */
+void poll_for_bluetooth(void);
+
 void setup() {
 	/* Connect to bluetooth module */
 	Serial.begin(9600);
