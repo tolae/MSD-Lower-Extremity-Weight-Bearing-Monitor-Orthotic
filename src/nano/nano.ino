@@ -40,7 +40,17 @@ void setup() {
 	#endif
 
 	/* Wait for bluetooth module to establish connection */
-	poll_for_bluetooth();
+	// Disabled for testing
+	// poll_for_bluetooth();
+
+	no_alert_state.transitions[0].threshold.distance = 400;
+	low_alert_state.transitions[0].threshold.distance = 400;
+	low_alert_state.transitions[1].threshold.distance = 500;
+	medium_alert_state.transitions[0].threshold.distance = 500;
+	medium_alert_state.transitions[1].threshold.distance = 700;
+	high_alert_state.transitions[0].threshold.distance = 700;
+
+	initialize_state_machine(my_state_machine_config);
 }
 
 void loop() {
@@ -54,9 +64,9 @@ void loop() {
 			set_weight = (((uint16_t)in_package.data[1]) << 8) | in_package.data[0];
 			set_threshold = (((uint16_t)in_package.data[3]) << 8) | in_package.data[2];
 			/* Update state machine transition parameters */
-			update_indicator_state_boundaries(set_weight, set_threshold);
+			// Fixed for now
+			// update_indicator_state_boundaries(set_weight, set_threshold);
 			/* Re-initialize the state machine */
-			initialize_state_machine(my_state_machine_config);
 		}
 	}
 	/* Check for change in weight */
@@ -82,7 +92,8 @@ void loop() {
 	/** Check to see if bluetooth connection is still valid. This will block if
 	 * connection was broken.
 	 */
-	poll_for_bluetooth();
+	// Disabled for testing
+	// poll_for_bluetooth();
 	/* Delay for 50ms */
 	delay(50);
 }
