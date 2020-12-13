@@ -13,7 +13,7 @@
  * the state machine.
 */
 #define BOUNDARY_FUNC(weight, threshold, percentage) \
-	((((float)weight) / ((float)threshold)) * percentage)
+	((((float)weight) * ((float)threshold) / 100) * percentage)
 #define NO_TO_LOW_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.75f)
 #define LOW_TO_MEDIUM_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.85f)
 #define MEDIUM_TO_HIGH_BOUNDARY(weight, threshold) BOUNDARY_FUNC(weight, threshold, 0.95f)
