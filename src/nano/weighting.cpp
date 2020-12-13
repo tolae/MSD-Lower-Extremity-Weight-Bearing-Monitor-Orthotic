@@ -42,10 +42,10 @@
 /* Enumeration for how many connector boards are attached (and supported) */
 typedef enum CONNECTED_SENSORS
 {
-    NO_EXT = 0,
-    ONE_EXT,
-    TWO_EXT,
-    THREE_EXT
+	NO_EXT = 0,
+	ONE_EXT,
+	TWO_EXT,
+	THREE_EXT
 } connections_t;
 
 /** Array of sensor readings
@@ -71,124 +71,124 @@ void _update_sensor(uint8_t sensor);
 */
 uint16_t update_weights()
 {
-    uint8_t i;
-    uint8_t j;
-    uint8_t k;
-    uint32_t average;
-    uint32_t max_averages[MAX_AVERAGE_CNT] = {0};
-    /* Current unused for demo purposes */
-    // _check_connections();
+	uint8_t i;
+	uint8_t j;
+	uint8_t k;
+	uint32_t average;
+	uint32_t max_averages[MAX_AVERAGE_CNT] = {0};
+	/* Current unused for demo purposes */
+	// _check_connections();
 
-    /** The base pad has 8 connections (read at twice the speed), with each ext
-     * adding 4 sensors.
-     */
-    for (i = 0; i < BASE_SENSOR_ID_MAX + connections * SENSORS_PER_EXT; i++)
-    {
-        _update_sensor(i);
+	/** The base pad has 8 connections (read at twice the speed), with each ext
+	 * adding 4 sensors.
+	 */
+	for (i = 0; i < BASE_SENSOR_ID_MAX + connections * SENSORS_PER_EXT; i++)
+	{
+		_update_sensor(i);
 
-        /* With the updated sensor, average out the last 16 readings. */
-        for (j = 0; j < SENSOR_HISTORY; j++)
-        {
-            average += sensor_weights[i][j];
-        }
-        average /= SENSOR_HISTORY;
-        
-        /* Store all the max averages */
-        for (k = 0; k < MAX_AVERAGE_CNT; k++)
-        {
-            if (max_averages[k] < average)
-            {
-                max_averages[k] = average;
-            }
-        }
-    }
-    sensor_weights_curr_index = (++sensor_weights_curr_index) % SENSOR_HISTORY;
+		/* With the updated sensor, average out the last 16 readings. */
+		for (j = 0; j < SENSOR_HISTORY; j++)
+		{
+			average += sensor_weights[i][j];
+		}
+		average /= SENSOR_HISTORY;
+		
+		/* Store all the max averages */
+		for (k = 0; k < MAX_AVERAGE_CNT; k++)
+		{
+			if (max_averages[k] < average)
+			{
+				max_averages[k] = average;
+			}
+		}
+	}
+	sensor_weights_curr_index = (++sensor_weights_curr_index) % SENSOR_HISTORY;
 
-    /* Compute the final average */
-    average = 0;
-    for (k = 0; k < MAX_AVERAGE_CNT; k++)
-    {
-        average += max_averages[k];
-    }
-    average /= MAX_AVERAGE_CNT;
+	/* Compute the final average */
+	average = 0;
+	for (k = 0; k < MAX_AVERAGE_CNT; k++)
+	{
+		average += max_averages[k];
+	}
+	average /= MAX_AVERAGE_CNT;
 
-    return average;
+	return average;
 }
 
 void _check_connections()
 {
-    uint16_t divider = analogRead(CONNECTIONS_READING_ANALOG_PIN);
-    if (divider > EXT_ANALOG_PER_CONNECTION*4)
-    {
-        /* 4 extentions */
-    }
-    else if (divider > EXT_ANALOG_PER_CONNECTION*3)
-    {
-        connections = THREE_EXT;
-    }
-    else if (divider > EXT_ANALOG_PER_CONNECTION*2)
-    {
-        connections = TWO_EXT;
-    }
-    else if (divider > EXT_ANALOG_PER_CONNECTION)
-    {
-        connections = ONE_EXT;
-    }
-    else
-    {
-        connections = NO_EXT;
-    }
+	uint16_t divider = analogRead(CONNECTIONS_READING_ANALOG_PIN);
+	if (divider > EXT_ANALOG_PER_CONNECTION*4)
+	{
+		/* 4 extentions */
+	}
+	else if (divider > EXT_ANALOG_PER_CONNECTION*3)
+	{
+		connections = THREE_EXT;
+	}
+	else if (divider > EXT_ANALOG_PER_CONNECTION*2)
+	{
+		connections = TWO_EXT;
+	}
+	else if (divider > EXT_ANALOG_PER_CONNECTION)
+	{
+		connections = ONE_EXT;
+	}
+	else
+	{
+		connections = NO_EXT;
+	}
 }
 
 void _update_sensor(uint8_t sensor)
 {
-    uint8_t mux_sel;
-    if (sensor < BASE_SENSOR_ID_MAX)
-    {
-        /** The base pad reads two sensors at a time. The pairs of sensors will
-         * be next to each other in the array.
-         * 
-         * Set the mux for the given pair of sensors and read them.
-         */
-        /** No longer used as demo circuit doesn't have multiplexers **/
-        /* Sensors come in pairs */
-        // mux_sel = sensor / 2;
-        // digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
-        // digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
-        /* Allow muxs to stabilize the signal */
-        // delay(1);
+	uint8_t mux_sel;
+	if (sensor < BASE_SENSOR_ID_MAX)
+	{
+		/** The base pad reads two sensors at a time. The pairs of sensors will
+		 * be next to each other in the array.
+		 * 
+		 * Set the mux for the given pair of sensors and read them.
+		 */
+		/** No longer used as demo circuit doesn't have multiplexers **/
+		/* Sensors come in pairs */
+		// mux_sel = sensor / 2;
+		// digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
+		// digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+		/* Allow muxs to stabilize the signal */
+		// delay(1);
 
-        if (sensor % 2)
-        {
-            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPA_ANALOG_PIN);
-        }
-        else
-        {
-            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPB_ANALOG_PIN);
-        }
-    }
-    else
-    {
-        /** The extention pads are read one at a time.
-         * 
-         * Set the mux for the given sensor and read them.
-         */
-        mux_sel = sensor % SENSORS_PER_EXT;
-        digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
-        digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
-        delay(1); // Allow muxs to stabilize the signal
+		if (sensor % 2)
+		{
+			sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPA_ANALOG_PIN);
+		}
+		else
+		{
+			sensor_weights[sensor][sensor_weights_curr_index] = analogRead(MUXA_OPB_ANALOG_PIN);
+		}
+	}
+	else
+	{
+		/** The extention pads are read one at a time.
+		 * 
+		 * Set the mux for the given sensor and read them.
+		 */
+		mux_sel = sensor % SENSORS_PER_EXT;
+		digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
+		digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+		delay(1); // Allow muxs to stabilize the signal
 
-        if (sensor < ONE_EXT_SENSOR_ID_MAX)
-        {
-            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT1_ANALOG_PIN);
-        }
-        else if (sensor < TWO_EXT_SENSOR_ID_MAX)
-        {
-            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT2_ANALOG_PIN);
-        }
-        else if (sensor < THREE_EXT_SENSOR_ID_MAX)
-        {
-            sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT3_ANALOG_PIN);
-        }
-    }
+		if (sensor < ONE_EXT_SENSOR_ID_MAX)
+		{
+			sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT1_ANALOG_PIN);
+		}
+		else if (sensor < TWO_EXT_SENSOR_ID_MAX)
+		{
+			sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT2_ANALOG_PIN);
+		}
+		else if (sensor < THREE_EXT_SENSOR_ID_MAX)
+		{
+			sensor_weights[sensor][sensor_weights_curr_index] = analogRead(EXT3_ANALOG_PIN);
+		}
+	}
 }
