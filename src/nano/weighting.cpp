@@ -9,7 +9,7 @@
 /***********************************************/
 
 /* Defines for sensor ids and sensor count logic */
-#define BASE_SENSOR_ID_MAX 8
+#define BASE_SENSOR_ID_MAX 2 // Modified from 8 as we only have 2 sensors for demo.
 #define ONE_EXT_SENSOR_ID_MAX 12
 #define TWO_EXT_SENSOR_ID_MAX 16
 #define THREE_EXT_SENSOR_ID_MAX 20
@@ -36,7 +36,7 @@
 /*************************************************/
 
 /* Defines for sensor data logic */
-#define MAX_AVERAGE_CNT 4
+#define MAX_AVERAGE_CNT 1 // Modified from 4 as we only have 2 sensors for demo.
 /*********************************/
 
 /* Enumeration for how many connector boards are attached (and supported) */
@@ -76,7 +76,8 @@ uint16_t update_weights()
     uint8_t k;
     uint32_t average;
     uint32_t max_averages[MAX_AVERAGE_CNT] = {0};
-    _check_connections();
+    /* Current unused for demo purposes */
+    // _check_connections();
 
     /** The base pad has 8 connections (read at twice the speed), with each ext
      * adding 4 sensors.
@@ -90,7 +91,7 @@ uint16_t update_weights()
         {
             average += sensor_weights[i][j];
         }
-        average = average >> 4; // div by 16
+        average /= SENSOR_HISTORY;
         
         /* Store all the max averages */
         for (k = 0; k < MAX_AVERAGE_CNT; k++)
@@ -109,7 +110,7 @@ uint16_t update_weights()
     {
         average += max_averages[k];
     }
-    average = average >> 2; // div by 4
+    average /= MAX_AVERAGE_CNT;
 
     return average;
 }
@@ -149,10 +150,13 @@ void _update_sensor(uint8_t sensor)
          * 
          * Set the mux for the given pair of sensors and read them.
          */
-        mux_sel = sensor / 2; // Sensors come in pairs
-        digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
-        digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
-        delay(1); // Allow muxs to stabilize the signal
+        /** No longer used as demo circuit doesn't have multiplexers **/
+        /* Sensors come in pairs */
+        // mux_sel = sensor / 2;
+        // digitalWrite(MUXA_SELECT0, mux_sel & MUXA_SELECT0_MASK);
+        // digitalWrite(MUXA_SELECT1, mux_sel & MUXA_SELECT1_MASK);
+        /* Allow muxs to stabilize the signal */
+        // delay(1);
 
         if (sensor % 2)
         {
