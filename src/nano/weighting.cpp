@@ -74,7 +74,7 @@ uint16_t update_weights()
 	uint8_t i;
 	uint8_t j;
 	uint8_t k;
-	uint32_t average;
+	uint32_t average = 0;
 	uint32_t max_averages[MAX_AVERAGE_CNT] = {0};
 	/* Current unused for demo purposes */
 	// _check_connections();
