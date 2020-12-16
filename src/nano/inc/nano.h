@@ -9,4 +9,6 @@
 #define LED_G_PIN 10
 #define LED_B_PIN 9
 
+const uint32_t LOOP_TIME_DELAY_MS = 50;
+
 #endif

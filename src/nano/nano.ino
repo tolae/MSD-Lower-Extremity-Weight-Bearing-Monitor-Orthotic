@@ -18,6 +18,9 @@ uint16_t set_threshold;
 uint16_t curr_weight;
 uint16_t prev_weight;
 
+uint32_t curr_time_ms;
+uint32_t diff_time_ms;
+
 /** Polls for bluetooth communication.
  * 
  * Checks to see if the digital pin is still high for bluetooth connection.
@@ -53,6 +56,7 @@ void setup() {
 }
 
 void loop() {
+	curr_time_ms = millis();
 	mod->update();
 	/* Check for input from mega */
 	if (mod->receivePackage(in_package) != BluetoothMod::BluetoothStatus::BUSY)
@@ -92,8 +96,21 @@ void loop() {
 	 * connection was broken.
 	 */
 	poll_for_bluetooth();
-	/* Delay for 50ms */
-	delay(50);
+	/* Delay for at most 50ms */
+	diff_time_ms = millis() - curr_time_ms;
+	#ifdef DEBUG_WITH_ALTSOFT
+	if (diff_time_ms > LOOP_TIME_DELAY_MS)
+	{
+		Serial.println("Timing slipped.");
+		delay(LOOP_TIME_DELAY_MS);
+	}
+	else
+	{
+		delay(LOOP_TIME_DELAY_MS - diff_time_ms);
+	}
+	#else
+	delay(LOOP_TIME_DELAY_MS - diff_time_ms);
+	#endif
 }
 
 void poll_for_bluetooth()
