@@ -76,7 +76,7 @@ void loop() {
 		/* Print out to serial terminal */
 		Serial.print("Weight: ");
 		Serial.println(curr_weight);
-		#else
+		// #else
 		/* Transmit the package over bluetooth */
 		memcpy(out_package.data, &curr_weight, 2);
 		out_package.opcode = BluetoothMod::WEIGHT;
