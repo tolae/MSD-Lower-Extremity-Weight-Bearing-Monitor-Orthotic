@@ -40,8 +40,7 @@ void setup() {
 	#endif
 
 	/* Wait for bluetooth module to establish connection */
-	// Disabled for testing
-	// poll_for_bluetooth();
+	poll_for_bluetooth();
 
 	no_alert_state.transitions[0].threshold.distance = 400;
 	low_alert_state.transitions[0].threshold.distance = 400;
@@ -92,8 +91,7 @@ void loop() {
 	/** Check to see if bluetooth connection is still valid. This will block if
 	 * connection was broken.
 	 */
-	// Disabled for testing
-	// poll_for_bluetooth();
+	poll_for_bluetooth();
 	/* Delay for 50ms */
 	delay(50);
 }
